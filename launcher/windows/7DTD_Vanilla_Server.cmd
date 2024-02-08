@@ -1,0 +1,17 @@
+@ECHO OFF && TITLE 7 Days To Die Public Vanilla Server Launcher
+ECHO Receiving 7 Days To Die Public Vanilla Server information
+CURL "https://raw.githubusercontent.com/publicdomain-nocopyright/ip-records/main/7dtd-public-vanilla-server.txt" > "%TEMP%\7dtd-public-vanilla-server.txt"
+SET /P Server_IP= < "%TEMP%\7dtd-public-vanilla-server.txt"
+
+IF NOT "%Server_IP%" == "" (
+	ECHO 7 Days To Die Public Vanilla Server IP: %Server_IP%
+	ECHO You are about to try to connect to Vanilla Server
+	REM EXPLORER steam://run/251570//+connect 51.178.20.227:62550 
+	pause
+	EXPLORER "steam://connect/%Server_IP%"
+	REM TIMEOUT /t 15
+) ELSE (
+	CLS
+	ECHO Failed to retrieve Public Vanilla Server IP.
+	PAUSE
+)
