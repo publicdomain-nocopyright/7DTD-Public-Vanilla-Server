@@ -7,7 +7,6 @@ IF NOT "%Server_IP%" == "" (
 	ECHO 7 Days To Die Public Vanilla Server IP: %Server_IP%
 	ECHO You are about to try to connect to Vanilla Server
 	REM EXPLORER steam://run/251570//+connect 51.178.20.227:62550 
-	pause
 	EXPLORER "steam://connect/%Server_IP%"
 	REM TIMEOUT /t 15
 ) ELSE (
