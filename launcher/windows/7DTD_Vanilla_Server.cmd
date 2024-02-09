@@ -4,7 +4,7 @@ CURL "https://raw.githubusercontent.com/publicdomain-nocopyright/ip-records/main
 SET /P Server_IP= < "%TEMP%\7dtd-public-vanilla-server.txt"
 
 :reconnect
-curl -s 51.178.20.227:62550  
+curl -s %Server_IP%  
 IF ERRORLEVEL 7 (
 	
 	ECHO 7DTD Vanilla Server is offline. 
