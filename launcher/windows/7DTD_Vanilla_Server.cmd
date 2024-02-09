@@ -25,14 +25,14 @@ ECHO.
 ECHO 3. Checking if Vanilla Server is alive before trying to connect.
 curl -s %Server_IP%  
 IF ERRORLEVEL 7 (
-	COLOR 0A
+	COLOR COLOR 0c
 	ECHO [curl] 7DTD Vanilla Server is offline. 
 	ECHO Trying to reconnect in...
 	TIMEOUT /t 3
 	CLS
 	GOTO :reconnect
 )
-IF ERRORLEVEL 0 ECHO Vanilla Server is Online. && 
+IF ERRORLEVEL 0 ECHO Vanilla Server is Online. && COLOR 0A
 ECHO.
 
 IF NOT "%Server_IP%" == "" (
