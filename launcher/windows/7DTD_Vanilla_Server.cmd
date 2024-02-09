@@ -1,5 +1,12 @@
 @ECHO OFF && TITLE 7 Days To Die Public Vanilla Server Launcher
 
+ECHO __      __         _ _ _          _____                          
+ECHO ^\ ^\    / /        ^(_^) ^| ^|        / ____^|                         
+ECHO  ^\ ^\  / /_ _ _ __  _^| ^| ^| __ _  ^| ^(___   ___ _ ____   _____ _ __ 
+ECHO   ^\ ^\/ / _` ^| '_ ^\^| ^| ^| ^|/ _` ^|  ^\___ ^\ / _ ^\ '__^\ ^\ / / _ ^\ '__^|
+ECHO    ^\  / ^(_^| ^| ^| ^| ^| ^| ^| ^| ^(_^| ^|  ____^) ^|  __/ ^|   ^\ V /  __/ ^|   
+ECHO     ^\/ ^\__,_^|_^| ^|_^|_^|_^|_^|^\__,_^| ^|_____/ ^\___^|_^|    ^\_/ ^\___^|_^|
+
 ECHO 1. Checking if your Windows Operating System have curl preinstalled. 
 ECHO    (It's available starting with Windows 10)
 WHERE curl >nul 2>nul
