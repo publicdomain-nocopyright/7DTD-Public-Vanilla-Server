@@ -1,6 +1,6 @@
 @ECHO OFF && TITLE 7 Days To Die Public Vanilla Server Launcher
 
-WHERE curl
+WHERE curl >nul 2>nul
 IF %ERRORLEVEL% NEQ 0 ECHO You need to download curl program for this launcher to work. && PAUSE && EXIT 
 
 ECHO Receiving 7 Days To Die Public Vanilla Server information
