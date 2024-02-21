@@ -1,1 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+   <h2>Using JavaScript to redirect a webpage after 4 seconds </h2>
+   <p id = "result"></p>
+   <button onclick = "redirect()">Click to Redirect to Tutorials Point</button>
+   <script>
+      function redirect () {
+         setTimeout(myURL, 4000);
+         var result = document.getElementById("result");
+         result.innerHTML = "<b> The page will redirect after delay of 4 seconds";
+      }
 
+      function myURL() {
+         document.location.href = 'https://dub.sh/7dtd-vanilla-server-donate';
+      }
+   </script>
+</body>
+</html>
