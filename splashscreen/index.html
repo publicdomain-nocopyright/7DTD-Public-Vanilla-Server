@@ -17,9 +17,13 @@
    </noscript>
 
    <script>
-
-	   
-		// Open Collective
+   
+		// Check for in-game donation
+	   	// https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/index.html?in-game=true
+		let urlParamsIngame = new URLSearchParams(window.location.search);
+		let IsInGameDonation = urlParamsIngame.get('in-game');
+	   	console.log("Is ingame donation: " + IsInGameDonation);
+		
 		let IsOpenCollectivePlatform = false;
 		
 		let urlParams = new URLSearchParams(window.location.search);
@@ -73,10 +77,17 @@
 					clearInterval(timeinterval);
 					
 					if (IsOpenCollectivePlatform){
-						document.location.href = 'https://revolut.me/boqsc/' + donation_amount_converted_to_revolut_currency_format + '/7 days to die vanilla public server donation, as <anonymous> from Open Collective with reference: '+ reference +'/';
+						document.location.href = 'https://revolut.me/boqsc/' + donation_amount_converted_to_revolut_currency_format + '/7 days to die vanilla public server donation, as Open Collective with reference: '+ reference +'/';
 					
-					} else {
-						document.location.href = 'https://revolut.me/boqsc/1eur/7 days to die vanilla public server donation, as <anonymous> from in-game/';
+					} 
+					
+					if (IsInGameDonation){
+						document.location.href = 'https://revolut.me/boqsc/1eur/7 days to die vanilla public server donation, as <anonymous> in-game./';
+					
+					} 
+					
+					else {
+						document.location.href = 'https://revolut.me/boqsc/1eur/7 days to die vanilla public server donation, as <anonymous>/';
 					}
 					// do redirect or something ~ window.location = '//google.de';
 				}
