@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <body>
+
+<script>
+	
+</script>
+
 	<img src="./website_logo_Vanilla Server Recreation logoxcf.png">
    <h2>7 Days To Die Vanilla Public Server Donation</h2>
    <img height="100px" src="./output-onlinegiftools.gif">
@@ -12,6 +17,50 @@
    </noscript>
 
    <script>
+		
+		let IsOpenCollectivePlatform = false;
+		
+		let urlParams = new URLSearchParams(window.location.search);
+		
+		// Full example: ?amount=$5&reference=76400
+		
+		// Example: ?amount=$5
+		let amount = urlParams.get('amount');
+		
+		// Example: ?reference=76400
+		let reference = urlParams.get('reference');
+		
+		console.log("Open Collective Amount: " + amount);
+		console.log("Open Collective Reference: " + reference);
+		
+
+		
+		
+		function convertCurrency(input) {
+		  const currencyMap = {
+			'$': 'usd',
+			'€': 'eur',
+		  };
+
+		  const symbol = input[0];
+		  const amount = input.slice(1);
+
+		  if (currencyMap[symbol]) {
+			return amount + currencyMap[symbol];
+		  } else {
+			return input; // Return unchanged if the symbol is not found in the map
+		  }
+		}
+
+		if (amount !== null && reference !== null) {
+			console.log("Open Collective enabled.");
+
+			IsOpenCollectivePlatform = true;
+			var donation_amount_converted_to_revolut_currency_format = convertCurrency(amount);  // Output: 1234dol or 1234eur for revolut platform link structure.
+			console.log(donation_amount_converted_to_revolut_currency_format);
+		} else {console.log("Open Collective disabled.");}
+		
+
    
 		var el = document.getElementById('seconds'),
 			total = el.innerHTML,
@@ -20,8 +69,13 @@
 				el.textContent = total;
 				if (total <= 0) {
 					clearInterval(timeinterval);
-					         document.location.href = 'https://dub.sh/7dtd-vanilla-server-donate';
-
+					
+					if (IsOpenCollectivePlatform){
+						document.location.href = 'https://revolut.me/boqsc/' + donation_amount_converted_to_revolut_currency_format + '/7 days to die vanilla public server donation, as Open Collective with reference: '+ reference +'/';
+					
+					} else {
+						document.location.href = 'https://revolut.me/boqsc/1eur/7 days to die vanilla public server donation, as <anonymous>/';
+					}
 					// do redirect or something ~ window.location = '//google.de';
 				}
 			}, 1000);
