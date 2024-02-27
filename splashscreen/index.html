@@ -17,7 +17,13 @@
    </noscript>
 
    <script>
-		
+		// Check for in-game donation
+	   	// https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/index.html?in-game=true
+		let urlParamsIngame = new URLSearchParams(window.location.search);
+		let IsInGameDonation = urlParams.get('in-game');
+	   	console.log(IsInGameDonation);
+	   
+		// Open Collective
 		let IsOpenCollectivePlatform = false;
 		
 		let urlParams = new URLSearchParams(window.location.search);
