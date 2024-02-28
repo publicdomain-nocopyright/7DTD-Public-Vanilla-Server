@@ -4,3 +4,9 @@ https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscre
 https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/index.html?in-game=true  
 
 https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/index.html
+
+
+----
+```
+steam://openurl_external/https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated/contribute/say-thank-you-70666/checkout?interval=oneTime&amount=1&contributeAs=me
+```
