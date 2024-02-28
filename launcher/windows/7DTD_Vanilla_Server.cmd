@@ -14,7 +14,7 @@ IF %ERRORLEVEL% NEQ 0 (COLOR 0c && ECHO You need to download curl program for th
 ECHO.
 
 ECHO 2. Receiving 7 Days To Die Public Vanilla Server information
-CURL "https://raw.githubusercontent.com/publicdomain-nocopyright/ip-records/main/7dtd-public-vanilla-server.txt" > "%TEMP%\7dtd-public-vanilla-server.txt"
+CURL -H 'Cache-Control: no-cache, no-store' "https://raw.githubusercontent.com/publicdomain-nocopyright/ip-records/main/7dtd-public-vanilla-server.txt" > "%TEMP%\7dtd-public-vanilla-server.txt"
 SET /P Server_IP= < "%TEMP%\7dtd-public-vanilla-server.txt"
 
 IF "%Server_IP%" == "" (
