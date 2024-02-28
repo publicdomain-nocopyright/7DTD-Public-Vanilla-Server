@@ -10,3 +10,10 @@ https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscre
 ```
 steam://openurl_external/https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated/contribute/say-thank-you-70666/checkout?interval=oneTime&amount=1&contributeAs=me
 ```
+
+
+in-game buttons
+```
+steam://openurl_external/https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated
+steam://openurl_external/https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated/contribute/say-thank-you-70666/checkout?interval=oneTime&amount=1&contributeAs=me
+```
