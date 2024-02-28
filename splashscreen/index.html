@@ -82,7 +82,8 @@
 
 					
 					if (IsOpenCollectivePlatform){
-						if (IsInGameDonation){ var InGameDonationNotice = " By using in-game Donation Button";}
+						let InGameDonationNotice = ""; 
+						if (IsInGameDonation){ InGameDonationNotice = " By using in-game Donation Button";}
 						document.location.href = 'https://revolut.me/boqsc/' + donation_amount_converted_to_revolut_currency_format + '/7 days to die vanilla public server donation, as Open Collective with reference: '+ reference + InGameDonationNotice +'/';
 					
 					} 
