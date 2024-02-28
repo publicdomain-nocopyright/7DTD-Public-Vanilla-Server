@@ -17,18 +17,22 @@
    </noscript>
 
    <script>
-   
+		// Donations link information extraction
+		// Full example: 
+	        // https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/index.html?amount=$5&reference=76400&in-game=true
+	   
 		// Check for in-game donation
-	   	// https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/index.html?in-game=true
+	   	// Example:  https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/index.html?in-game=true
 		let urlParamsIngame = new URLSearchParams(window.location.search);
 		let IsInGameDonation = urlParamsIngame.get('in-game');
 	   	console.log("Is ingame donation: " + IsInGameDonation);
-		
+
+	   	// Check if Open Collective Donation
+	   	// Example: https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/index.html?amount=$5&reference=76400
 		let IsOpenCollectivePlatform = false;
 		
 		let urlParams = new URLSearchParams(window.location.search);
 		
-		// Full example: ?amount=$5&reference=76400
 		
 		// Example: ?amount=$5
 		let amount = urlParams.get('amount');
