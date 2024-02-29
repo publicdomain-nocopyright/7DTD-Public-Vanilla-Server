@@ -1,37 +1,23 @@
-<html>
-<header>
-    <script>
-        let newWebWindow;
-		
-            newWebWindow = window.open("", "window", "width=200,height=100");
-            newWebWindow.document.write(`<a href="javascript:window.close();"class="video-close">Close this window</a>`);
-			setTimeout (function closeTab(){
+<!DOCTYPE html>
+  <html>
+    <head>
+  		<title>Old Page</title>
+  			<meta charset="UTF-8" />
+  			<meta http-equiv="refresh" content="3; URL=javascript:window.open('http://google.com','_blank');">
+  	</head>
+  	<body>
+      <script>
+      var closeWindow= window.open("https://www.facebook.com");
 
-			newWebWindow.close();
+      setTimeout (function closeTab(){
 
-			},2000);
-		
-		
-        function openPageView() {
-            newWebWindow = window.open("", "window", "width=200,height=100");
-            newWebWindow.document.write(`<a href="javascript:window.close();"class="video-close">Close this window</a>`);
-			setTimeout (function closeTab(){
+      closeWindow.close();
 
-			newWebWindow.close();
+      },5000);
 
-			},2000);
-        }
-
-        function closePageView() {
-            newWebWindow.close();
-        }
-    </script>
-</header>
-
-<body>
-    <h3 style="color:brown"> Close Window Example </h3>
-    <button onclick="openPageView()">Open Page</button>
-    <button onclick="closePageView()">Close Page</button>
-</body>
-
-</html>
+      </script>      
+  		<script>
+       // window.close();
+      </script>
+  	</body>
+  </html>
