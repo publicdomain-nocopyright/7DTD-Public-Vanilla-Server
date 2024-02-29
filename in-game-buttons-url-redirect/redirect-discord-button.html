@@ -6,6 +6,16 @@
   			<meta http-equiv="refresh" content="3; URL=javascript:window.open('http://google.com','_blank');">
   	</head>
   	<body>
+      <script>
+      var closeWindow= window.open("https://www.google.com");
+      
+      setTimeout (function closeTab(){
+      
+      closeWindow.close();
+      
+      },5000);
+      
+      </script>      
   		<script>
        // window.close();
       </script>
