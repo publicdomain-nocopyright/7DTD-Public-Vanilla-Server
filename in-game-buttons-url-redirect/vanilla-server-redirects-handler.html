@@ -14,16 +14,18 @@
           console.log("Question mark is not present in the URL");
       }
 
-      if (queryString.includes('?open-collective')) {
-          var closeWindow= window.open("steam://openurl_external/https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated");
-      } else {
- 
-      }
+
         
       if (queryString.includes('?open-collective-donate')) {
           var closeWindow= window.open("steam://openurl_external/https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated/contribute/say-thank-you-70666/checkout?interval=oneTime&amount=1");
       } else {
- 
+
+        if (queryString.includes('?open-collective')) {
+            var closeWindow= window.open("steam://openurl_external/https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated");
+        } else {
+   
+        }
+        
       }
 
       if (queryString.includes('?discord')) {
