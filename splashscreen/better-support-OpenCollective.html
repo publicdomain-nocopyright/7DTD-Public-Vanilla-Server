@@ -22,3 +22,44 @@ Response: After user makes donation this page is suggested to be opened:
 https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/tree/main/splashscreen/better-support-OpenCollective.html?callback=&orderId=747403&orderIdV2=mlo94zn7-x08dpo0z-baepewga-3vjbrky5&status=PENDING
 
 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>URL Parameters</title>
+</head>
+<body>
+<div id="parameters"></div>
+
+<script>
+// Function to extract URL parameters
+function getURLParameters(url) {
+    const params = {};
+    const searchParams = new URL(url).searchParams;
+    for (const [key, value] of searchParams.entries()) {
+        params[key] = value;
+    }
+    return params;
+}
+
+// Get the current URL and extract parameters
+const currentURL = window.location.href;
+const parameters = getURLParameters(currentURL);
+
+// Create HTML string to display parameters
+let htmlString = '<ul>';
+for (const key in parameters) {
+    if (parameters.hasOwnProperty(key)) {
+        htmlString += `<li><strong>${key}:</strong> ${parameters[key]}</li>`;
+    }
+}
+htmlString += '</ul>';
+
+// Insert HTML string into the element with id 'parameters'
+document.getElementById('parameters').innerHTML = htmlString;
+</script>
+</body>
+</html>
