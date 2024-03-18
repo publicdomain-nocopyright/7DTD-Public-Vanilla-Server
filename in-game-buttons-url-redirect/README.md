@@ -8,3 +8,7 @@ https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/in-game-bu
 
 
 https://docs.opencollective.com/help/collectives/contribution-flow
+
+```
+&paymentMethod=BANK_TRANSFER
+```
