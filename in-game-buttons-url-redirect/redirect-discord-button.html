@@ -7,6 +7,12 @@
   	</head>
   	<body>
       <script>
+
+      if (queryString.includes('?')) {
+          console.log("Question mark is present in the URL");
+      } else {
+          console.log("Question mark is not present in the URL");
+      }
       var closeWindow= window.open("steam://openurl_external/https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated");
 
       setTimeout (function closeTab(){
