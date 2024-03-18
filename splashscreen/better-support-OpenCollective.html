@@ -62,6 +62,8 @@ htmlString += '</ul>';
 
 // Insert HTML string into the element with id 'parameters'
 document.getElementById('parameters').innerHTML = htmlString;
+
+history.replaceState({}, document.title, window.location.pathname);
 </script>
 </body>
 </html>
