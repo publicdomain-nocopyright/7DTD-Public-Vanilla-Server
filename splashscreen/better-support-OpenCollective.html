@@ -69,12 +69,14 @@ let htmlString = '<ul>';
 for (const key in parameters) {
     if (parameters.hasOwnProperty(key)) {
         htmlString += `<li><strong>${key}:</strong> ${parameters[key]}</li>`;
+        document.body.appendChild(`<li><strong>${key}:</strong> ${parameters[key]}</li>`);
+        
     }
 }
 htmlString += '</ul>';
 
 // Insert HTML string into the element with id 'parameters'
-document.getElementById('parameters').innerHTML = htmlString;
+//document.getElementById('parameters').innerHTML = htmlString;
 
 history.replaceState({}, document.title, window.location.pathname);
 </script>
