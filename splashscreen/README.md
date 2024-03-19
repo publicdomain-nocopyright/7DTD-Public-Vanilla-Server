@@ -1,3 +1,5 @@
+Latest: https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/better-support-OpenCollective.html
+
 #### Personal testing & research notes: https://github.com/publicdomain-nocopyright/testingOpenCollective/
 
 
