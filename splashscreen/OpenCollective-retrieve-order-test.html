@@ -1,0 +1,56 @@
+<!-- https://web.postman.co/workspace/My-Workspace~03ae5e22-f6ff-480d-8dec-ba476f3f979a/request/create?requestId=639f9280-9997-461a-9bd3-3266eae20728 -->
+<!-- https://graphql-docs-v2.opencollective.com/queries/order -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Display Order Information</title>
+</head>
+<body>
+
+<div id="orderInfo">
+  <!-- Order information will be displayed here -->
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+  // Function to make GraphQL query
+  async function getOrderInfo() {
+    try {
+      const response = await axios.post('https://api.opencollective.com/graphql/v2', {
+        query: `
+          {
+            order(order: { id: "k9mbw7y4-8r3zq3on-gvnq0ej5-lavnodgx" }) {
+              id
+              createdAt
+              status
+			  totalAmount{value, currency, valueInCents}
+            }
+          }
+        `
+      });
+
+      const orderData = response.data.data.order;
+
+      // Display order information
+      const orderInfoDiv = document.getElementById('orderInfo');
+      orderInfoDiv.innerHTML = `
+        <h2>Order Information</h2>
+        <p><strong>ID:</strong> ${orderData.id}</p>
+        <p><strong>Created At:</strong> ${orderData.createdAt}</p>
+        <p><strong>Status:</strong> ${orderData.status}</p>
+        <p><strong>Amount:</strong> ${orderData.totalAmount.value} ${orderData.totalAmount.currency} (${orderData.totalAmount.valueInCents})</p>
+      `;
+    } catch (error) {
+      console.error('Error fetching order information:', error);
+    }
+  }
+
+  // Call the function to fetch and display order information
+  getOrderInfo();
+</script>
+
+</body>
+</html>
