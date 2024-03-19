@@ -1,4 +1,5 @@
 Latest: https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/better-support-OpenCollective.html
+https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/OpenCollectiveHandler.html
 
 #### Personal testing & research notes: https://github.com/publicdomain-nocopyright/testingOpenCollective/
 
