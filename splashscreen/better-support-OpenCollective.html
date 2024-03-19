@@ -76,6 +76,7 @@ console.log("Testing");
 console.log("URL Parameters are empty: ");
 console.log(Object.keys(parameters).length === 0);
 
+
   
 // Create HTML string to display parameters
 let htmlString = '<ul>';
@@ -92,6 +93,10 @@ htmlString += '</ul>';
 // Insert HTML string into the element with id 'parameters'
 //document.getElementById('parameters').innerHTML = htmlString;
 
+if (Object.keys(parameters).length === 0) {
+  document.getElementById('parameters').insertAdjacentHTML('beforeend', `<strong>No URL Parameters been detected.:</strong>`);
+}
+  
 history.replaceState({}, document.title, window.location.pathname);
 </script>
 </body>
