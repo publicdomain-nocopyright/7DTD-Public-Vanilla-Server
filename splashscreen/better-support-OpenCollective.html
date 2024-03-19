@@ -78,7 +78,7 @@ for (const key in parameters) {
     if (parameters.hasOwnProperty(key)) {
         htmlString += `<li><strong>${key}:</strong> ${parameters[key]}</li>`;
       
-        document.body.insertAdjacentHTML('beforeend', `<li><strong>${key}:</strong> ${parameters[key]}</li>`);
+        document.getElementById('parameters').insertAdjacentHTML('beforeend', `<li><strong>${key}:</strong> ${parameters[key]}</li>`);
         
     }
 }
