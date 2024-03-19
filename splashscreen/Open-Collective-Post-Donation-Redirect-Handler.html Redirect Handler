@@ -1,0 +1,44 @@
+<img src="./website_logo_Vanilla Server Recreation logoxcf.png">
+<h2>7 Days To Die Vanilla Public Server Donation</h2>
+<img height="100px" src="./output-onlinegiftools.gif">
+
+<script>
+	let params = new URLSearchParams(document.location.search);
+	let order_id = params.get("orderId");
+	let orderIdV2 = params.get("orderIdV2");	
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+	
+  // Function to make GraphQL query
+  async function getOrderInfo() {
+  console.log(orderIdV2);
+    try {
+      const response = await axios.post('https://api.opencollective.com/graphql/v2', {
+        query: `
+          {
+            order(order: { id: "${orderIdV2}" }) {
+              id
+              createdAt
+              status
+			  totalAmount{value, currency, valueInCents}
+            }
+          }
+        `
+      });
+
+      const orderData = response.data.data.order;
+	  
+		document.location.href = 'https://revolut.me/boqsc/' + orderData.totalAmount.value + "eur" + '/7 days to die vanilla public server donation, as Open Collective with reference: '+ order_id + " By using in-game Donation Button" +'/';
+					
+    } catch (error) {
+      console.error('Error fetching order information:', error);
+    }
+  }
+  getOrderInfo();
+</script>
+
+
+
