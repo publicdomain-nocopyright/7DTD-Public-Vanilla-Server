@@ -1,5 +1,9 @@
+
+https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated/contribute/say-thank-you-70666/checkout?redirect=https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/OpenCollectiveHandler.html?callback
+
+
+
 Latest: https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/better-support-OpenCollective.html
-https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/OpenCollectiveHandler.html
 
 #### Personal testing & research notes: https://github.com/publicdomain-nocopyright/testingOpenCollective/
 
