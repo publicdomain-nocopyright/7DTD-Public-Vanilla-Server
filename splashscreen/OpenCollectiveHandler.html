@@ -34,22 +34,22 @@ https://web.postman.co/workspace/My-Workspace~03ae5e22-f6ff-480d-8dec-ba476f3f97
 
 <script>
 	let params = new URLSearchParams(document.location.search);
-	order_id = params.get("orderId");
-	orderIdV2 = params.get("orderIdV2");
-	
-	
-	
+	let order_id = params.get("orderId");
+	let orderIdV2 = params.get("orderIdV2");	
+
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script>
+	
   // Function to make GraphQL query
   async function getOrderInfo() {
+  console.log(orderIdV2);
     try {
       const response = await axios.post('https://api.opencollective.com/graphql/v2', {
         query: `
           {
-            order(order: { id: orderIdV2 }) {
+            order(order: { id: "${orderIdV2}" }) {
               id
               createdAt
               status
@@ -60,6 +60,7 @@ https://web.postman.co/workspace/My-Workspace~03ae5e22-f6ff-480d-8dec-ba476f3f97
       });
 
       const orderData = response.data.data.order;
+	  
 		document.location.href = 'https://revolut.me/boqsc/' + orderData.totalAmount.value + "eur" + '/7 days to die vanilla public server donation, as Open Collective with reference: '+ order_id + "By using in-game Donation Button" +'/';
 					
     } catch (error) {
