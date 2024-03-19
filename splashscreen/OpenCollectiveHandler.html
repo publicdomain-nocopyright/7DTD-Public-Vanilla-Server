@@ -1,0 +1,75 @@
+<!-- Open Collective Handler: simple html page -->
+<h1>Open Collective Post-Donation Redirect Handler</h1>
+The <a href="https://docs.opencollective.com/help/contributing/development/post-donation-redirect"><code>&orderId=747410</code></a> URL parameter is equal to <a href="https://docs.opencollective.com/help/independent-collectives/manage-independent-collective/money-coming-in-contributions#via-bank-transfer">Open Collective Reference Number</a> (<b>Order #747410</b> and <b>Contribution #747410</b>) used to manually identify if donation has reached the bank.
+
+<br><br>
+Ways to look up, check, list and confirm contribution <br>
+
+<a href="https://opencollective.com/dashboard/7-days-to-die-public-dedicated/overview">
+https://opencollective.com/dashboard/7-days-to-die-public-dedicated/overview
+</a> 	<br>
+<a href="https://opencollective.com/7-days-to-die-public-dedicated/contributions/747486">
+https://opencollective.com/7-days-to-die-public-dedicated/contributions/747486</a> <br>
+<a href="https://opencollective.com/dashboard/7-days-to-die-public-dedicated/incoming-contributions">
+https://opencollective.com/dashboard/7-days-to-die-public-dedicated/incoming-contributions</a> <br>
+
+<br>
+Open Collective API - GraphQL API (v2) Documentation/Reference<br>
+<a href="https://graphql-docs-v2.opencollective.com/queries/order">
+https://graphql-docs-v2.opencollective.com/queries/order</a> <br>
+
+<h2>Endpoint</h2>
+The GraphQL API's endpoint is the following: <a href="https://api.opencollective.com/graphql/v2">https://api.opencollective.com/graphql/v2</a><br>
+Link to documentation page: <a href="https://graphql-docs-v2.opencollective.com/access"> https://graphql-docs-v2.opencollective.com/access</a>
+
+<br><br>
+
+GraphQL API (v2) Query Testing tool <br>
+<a href="https://web.postman.co/workspace/My-Workspace~03ae5e22-f6ff-480d-8dec-ba476f3f979a/request/create?requestId=639f9280-9997-461a-9bd3-3266eae20728">
+https://web.postman.co/workspace/My-Workspace~03ae5e22-f6ff-480d-8dec-ba476f3f979a/request/create?requestId=639f9280-9997-461a-9bd3-3266eae20728</a> <br>
+
+
+<h2>URL parameters</h2>
+<h3>URL Query String</h3>
+
+<script>
+	let params = new URLSearchParams(document.location.search);
+	order_id = params.get("orderId");
+	orderIdV2 = params.get("orderIdV2");
+	
+	
+	
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+  // Function to make GraphQL query
+  async function getOrderInfo() {
+    try {
+      const response = await axios.post('https://api.opencollective.com/graphql/v2', {
+        query: `
+          {
+            order(order: { id: orderIdV2 }) {
+              id
+              createdAt
+              status
+			  totalAmount{value, currency, valueInCents}
+            }
+          }
+        `
+      });
+
+      const orderData = response.data.data.order;
+		document.location.href = 'https://revolut.me/boqsc/' + orderData.totalAmount.value + "eur" + '/7 days to die vanilla public server donation, as Open Collective with reference: '+ order_id + "By using in-game Donation Button" +'/';
+					
+    } catch (error) {
+      console.error('Error fetching order information:', error);
+    }
+  }
+  getOrderInfo();
+</script>
+
+
+
+References:  
+https://developer.mozilla.org/en-US/docs/Web/API/Location/search
