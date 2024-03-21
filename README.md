@@ -26,3 +26,10 @@ https://dub.sh/7dtd-launcher-vanilla-server
 [7DTD_Vanilla_Server.cmd](https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases/download/0/7DTD_Vanilla_Server.cmd)
 
 https://shorturl.at/lpyN2
+
+### 💼 Used tools for the project: 
+SSH and Editing small files through sftp.  
+https://github.com/kingToolbox/WindTerm
+
+Downloading and Uploading large amount of files like a Game Server Map  
+https://cyberduck.io/
