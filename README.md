@@ -7,6 +7,8 @@ For the latest map/world backup of the Vanilla Server please visit:
 ### Server Modlets and Server Settings.
 In-progress.
 
+### Server hosted Resources and Art
+https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases
 
 ### Old personal notes (might be removed later)
 [launcher]
