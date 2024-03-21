@@ -28,7 +28,7 @@ https://dub.sh/7dtd-launcher-vanilla-server
 https://shorturl.at/lpyN2
 
 ### 💼 Used tools for the project:   
-SSH and Editing small files through sftp.  
+Telnet, SSH and Editing small files through sftp. Mostly for administration, linux commands for restarting server and small xml fixes in modlets. 
 https://github.com/kingToolbox/WindTerm
 
 Downloading and Uploading large amount of files like a Game Server Map or bunch of Game Modlets safely.  
