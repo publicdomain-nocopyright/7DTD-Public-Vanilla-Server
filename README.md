@@ -2,7 +2,7 @@
 
 ### Latest World Backup
 For the latest map/world backup of the Vanilla Server please visit:  
-https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map
+[https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map](https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map/releases)
 
 ### Server Modlets and Server Settings.
 In-progress.
