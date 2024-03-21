@@ -27,9 +27,12 @@ https://dub.sh/7dtd-launcher-vanilla-server
 
 https://shorturl.at/lpyN2
 
-### 💼 Used tools for the project: 
+### 💼 Used tools for the project:   
 SSH and Editing small files through sftp.  
 https://github.com/kingToolbox/WindTerm
 
 Downloading and Uploading large amount of files like a Game Server Map or bunch of Game Modlets safely.  
 https://cyberduck.io/
+
+For any text files and game source files editing.  
+https://notepad-plus-plus.org/
