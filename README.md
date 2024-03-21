@@ -16,6 +16,8 @@ https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die
 ### ❤️ Public Domain License
 https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/LICENSE
 
+---
+
 ### 📝 Old personal notes (might be removed later)
 [launcher]
 `steam://openurl_external/https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases/download/0/7DTD_Vanilla_Server.cmd`
