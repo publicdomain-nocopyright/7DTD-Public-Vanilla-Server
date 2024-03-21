@@ -31,5 +31,5 @@ https://shorturl.at/lpyN2
 SSH and Editing small files through sftp.  
 https://github.com/kingToolbox/WindTerm
 
-Downloading and Uploading large amount of files like a Game Server Map  
+Downloading and Uploading large amount of files like a Game Server Map or bunch of Game Modlets safely.  
 https://cyberduck.io/
