@@ -10,7 +10,7 @@ In-progress.
 ### 🎨 Server hosted Resources and Art
 https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases
 
-### Old personal notes (might be removed later)
+### 📝 Old personal notes (might be removed later)
 [launcher]
 `steam://openurl_external/https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases/download/0/7DTD_Vanilla_Server.cmd`
 https://dub.sh/7dtd-launcher-vanilla-server
