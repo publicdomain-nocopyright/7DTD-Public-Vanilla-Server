@@ -34,5 +34,5 @@ https://github.com/kingToolbox/WindTerm
 Downloading and Uploading large amount of files like a Game Server Map or bunch of Game Modlets safely.  
 https://cyberduck.io/
 
-For any text files and game source files editing.  
+Main tool for any text files and game source files editing.  
 https://notepad-plus-plus.org/
