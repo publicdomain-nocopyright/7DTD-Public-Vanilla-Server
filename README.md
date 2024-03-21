@@ -11,7 +11,7 @@ In-progress.
 https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases
 
 ### 👤 Server Open Crowdfunding
-[https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases](https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated)
+https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated
 
 ### ❤️ Public Domain License
 https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/LICENSE
