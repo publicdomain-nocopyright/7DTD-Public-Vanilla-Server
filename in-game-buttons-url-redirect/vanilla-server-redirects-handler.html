@@ -34,6 +34,18 @@
  
       }
 
+      if (queryString.includes('?modlets')) {
+          var closeWindow= window.open("steam://openurl_external/https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map/releases");
+      } else {
+ 
+      }
+
+      if (queryString.includes('?mapdownload')) {
+          var closeWindow= window.open("steam://openurl_external/https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server");
+      } else {
+ 
+      }
+
       setTimeout (function closeTab(){
 
       closeWindow.close();
