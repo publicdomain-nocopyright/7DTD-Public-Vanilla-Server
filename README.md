@@ -6,7 +6,7 @@
 * [https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map](https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map/releases)  
 
 #### 🛠️ Server Modlets and Server Settings.
-* 🚧 In-progress.
+* > 🚧 In-progress.
 
 #### 🎨 Server hosted Resources and Art
 * https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases
