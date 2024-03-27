@@ -12,6 +12,7 @@
 > [Explore Here](https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases)
 
 #### 👤 Server Open Crowdfunding
+> Join open crowdfunding efforts to support the 7 Days to Die Public Dedicated Server.
 > [Contribute Now](https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated)
 
 #### ❤️ Public Domain License
