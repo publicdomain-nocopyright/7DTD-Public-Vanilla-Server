@@ -9,6 +9,7 @@
 > [Get Modlets and Settings](https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map/releases)
 
 #### 🎨 Server hosted Resources and Art
+> Discover server-used resources and artwork.  
 > [Explore Here](https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases)
 
 #### 👤 Server Open Crowdfunding
