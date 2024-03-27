@@ -15,6 +15,7 @@
 > [Contribute Now](https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated)
 
 #### ❤️ Public Domain License
+> Review our Public Domain License for the 7 Days to Die Public Vanilla Server.  
 > [License Details](https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/LICENSE)
 
 ---
