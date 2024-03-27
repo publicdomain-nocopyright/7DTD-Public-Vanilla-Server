@@ -2,20 +2,20 @@
 
 #### 🌎 Latest World Backup
 > For the latest map/world backup of the Vanilla Server.  
- [https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map](https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map/releases)  
+ [Download Now](https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map/releases)  
 
 #### 🛠️ Server Modlets and Server Settings.
 > 🚧 The server settings, modlets and server setup are released as part of each Server Map Backup.  
-> [https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map](https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map/releases)
+> [Download Now](https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map/releases)
 
 #### 🎨 Server hosted Resources and Art
-> https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases
+> [Explore Here](https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases)
 
 #### 👤 Server Open Crowdfunding
-> https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated
+> [Contribute Now](https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated)
 
 #### ❤️ Public Domain License
-> https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/LICENSE
+> [License Details](https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/LICENSE)
 
 ---
 
