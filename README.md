@@ -6,7 +6,7 @@
 
 #### 🛠️ Server Modlets and Server Settings.
 > 🚧 The server settings, modlets and server setup are released as part of each Server Map Backup.  
-> [Download Now](https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map/releases)
+> [Get Modlets and Settings](https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map/releases)
 
 #### 🎨 Server hosted Resources and Art
 > [Explore Here](https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases)
