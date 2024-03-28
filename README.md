@@ -1,5 +1,9 @@
 # 7DTD-Public-Vanilla-Server
 
+#### 🎮 Join the Game Server
+> Direct Steam protocol link to join the game server  
+ [Join the Game](#)  
+
 #### 🌎 Latest World Backup
 > For the latest map/world backup of the Vanilla Server.  
  [Download Now](https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map/releases)  
