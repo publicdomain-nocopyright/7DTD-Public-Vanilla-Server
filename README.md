@@ -1,7 +1,7 @@
 # 7DTD-Public-Vanilla-Server
 
 #### 🎮 Join the Game Server
-> Direct Steam protocol link to join the game server  
+> Direct Steam protocol link to join the game server (via Dub.sh HTTP Header Redirect)  
  [Join the Game](https://dub.sh/7-Days-To-Die-Public-Server)  
 
 #### 🌎 Latest World Backup
