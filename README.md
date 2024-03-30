@@ -28,13 +28,10 @@
 ---
 
 ### 📝 Old personal notes (might be removed later)
-[launcher]
-`steam://openurl_external/https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases/download/0/7DTD_Vanilla_Server.cmd`
-https://dub.sh/7dtd-launcher-vanilla-server
-
-[7DTD_Vanilla_Server.cmd](https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases/download/0/7DTD_Vanilla_Server.cmd)
-
-https://shorturl.at/lpyN2
+`steam://openurl_external/https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases/download/0/7DTD_Vanilla_Server.cmd`  
+https://dub.sh/7dtd-launcher-vanilla-server  
+https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases/download/0/7DTD_Vanilla_Server.cmd  
+https://shorturl.at/lpyN2  
 
 ### 💼 Used tools for the project:   
 Telnet, SSH and Editing small files through sftp. Mostly for administration, linux commands for restarting server and small xml fixes in modlets. 
