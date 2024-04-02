@@ -29,6 +29,10 @@
 > Review our Public Domain License for the 7 Days to Die Public Vanilla Server.  
 > [License Details](https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/LICENSE)
 
+#### 👥Chat Guild
+> Discord Guild for players of the 7 Days to Die Public Vanilla Server.  
+> [Join Chat Guild](https://discord.com/invite/uJxahJdzzS)
+
 ---
 
 ### 📝 Old personal notes (might be removed later)
