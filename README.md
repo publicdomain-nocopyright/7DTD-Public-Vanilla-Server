@@ -25,13 +25,14 @@
 > Join open crowdfunding efforts to support the 7 Days to Die Public Dedicated Server.  
 > [Contribute Now](https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated)
 
+#### 🙋🏻‍♂️ Chat Guild
+> Discord Guild for players of the 7 Days to Die Public Vanilla Server.  
+> [Join Chat Guild](https://discord.com/invite/uJxahJdzzS)
+
 #### ❤️ Public Domain License
 > Review our Public Domain License for the 7 Days to Die Public Vanilla Server.  
 > [License Details](https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/LICENSE)
 
-#### 🙋🏻‍♂️ Chat Guild
-> Discord Guild for players of the 7 Days to Die Public Vanilla Server.  
-> [Join Chat Guild](https://discord.com/invite/uJxahJdzzS)
 
 ---
 
