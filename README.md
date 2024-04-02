@@ -27,7 +27,7 @@
 
 #### 🙋🏻‍♂️ Chat Guild
 > Discord Guild for players of the 7 Days to Die Public Vanilla Server.  
-> [Join Chat Guild](https://discord.com/invite/uJxahJdzzS)
+> [Join Chat Guild!](https://discord.com/invite/uJxahJdzzS)
 
 #### ❤️ Public Domain License
 > Review our Public Domain License for the 7 Days to Die Public Vanilla Server.  
