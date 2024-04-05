@@ -9,7 +9,7 @@
  [Join the Game](https://dub.sh/7-Days-To-Die-Public-Server)
 > via Dub.sh HTTP Header Redirect
 
-#### 🎮 IP and Port information
+#### 🕹️ IP and Port information
 > More detailed Game Server join information  
 > [Get IP & Port to Join](https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/get-join-information.html) game server manually.
 #### 🌎 Latest World Backup
