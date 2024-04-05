@@ -26,8 +26,9 @@
 <b>Server Description:</b> Basic Vanilla Public Server. <br>
 Simple Open Public-Server 24/7 PVE with ~16 player slot for everyone.<br>
 <b>Server IP:</b> <code>    <button class="copyBtn" data-text="7daysvanilla.duckdns.org">7daysvanilla.duckdns.org</button></code> <b>Port:</b> <code><button class="copyBtn" data-text="26900">26900</button></code><br>
-<b>Alternative Direct IP:</b> <code>    <button id="result" class="copyBtn" data-text="7daysvanilla.duckdns.org">7daysvanilla.duckdns.org</button></code> <b>Port:</b> <code><button class="copyBtn" data-text="26900">26900</button></code><br>
+<div id="alternativeip"><b>Alternative Direct IP:</b> <code>    <button id="result" class="copyBtn" data-text="7daysvanilla.duckdns.org">7daysvanilla.duckdns.org</button></code> <b>Port:</b> <code><button class="copyBtn" data-text="26900">26900</button></code></div>
 Vanilla default settings. Give suggestions if you need anything or dislike.<br>
+
 <div style="margin: 5px;  
 max-width: fit-content;
 margin-left: auto;
@@ -49,6 +50,17 @@ If you get <b>"Could not retrieve server information"</b>, please try two more t
  <div class="footer"><b>7 Days To Die Vanilla Public Server Project.</b> <br><a href="https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated">https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated</a></div>
 
 </div>
+
+<style>
+#alternativeip {
+	color: #5d5d5d;
+}
+
+#alternativeip > code > button {
+	color: gray;
+}
+</style>
+
 
 
 <body onload="getIPAddress()"></body>
