@@ -11,7 +11,7 @@
 
 #### 🎮 IP and Port information
 > More detailed Game Server join information  
-> [Get IP & Port to Join](https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/get-join-information.html)
+> [Get IP & Port to Join](https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/get-join-information.html) game server manually.
 #### 🌎 Latest World Backup
 > For the latest map/world backup of the Vanilla Server.  
  [Download Now](https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map/releases)  
