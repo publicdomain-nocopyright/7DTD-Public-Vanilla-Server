@@ -26,7 +26,16 @@
 <b>Server Description:</b> Basic Vanilla Public Server. <br>
 Simple Open Public-Server 24/7 PVE with ~16 player slot for everyone.<br>
 <b>Server IP:</b> <code>    <button class="copyBtn" data-text="7daysvanilla.duckdns.org">7daysvanilla.duckdns.org</button></code> <b>Port:</b> <code><button class="copyBtn" data-text="26900">26900</button></code><br>
+<b>Alternative Direct IP:</b> <code>    <button id="result" class="copyBtn" data-text="7daysvanilla.duckdns.org">7daysvanilla.duckdns.org</button></code> <b>Port:</b> <code><button class="copyBtn" data-text="26900">26900</button></code><br>
 Vanilla default settings. Give suggestions if you need anything or dislike.<br>
+<div style="margin: 5px;  
+max-width: fit-content;
+margin-left: auto;
+  margin-right: auto;">
+    <a id="steamLink" href=""> 
+	<img height="90px" id="Vanilla_Server_Join_button" src="https://i.imgur.com/L0oIg03.png">
+	</a>
+</div>
 <!--
 <b>Connect to the server:</b> <br>
                &nbsp;&nbsp &nbsp;&nbsp &nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -35,6 +44,72 @@ Vanilla default settings. Give suggestions if you need anything or dislike.<br>
  <div class="footer"><b>7 Days To Die Vanilla Public Server Project.</b> <br><a href="https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated">https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated</a></div>
 
 </div>
+
+
+<body onload="getIPAddress()"></body>
+
+    <!-- Remove the button -->
+
+
+<style>
+
+#Vanilla_Server_Join_button {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  transition: opacity ease 0.2s;
+  opacity: 1;
+  filter: drop-shadow(16px 10px 4px #808080);
+  
+}
+#Vanilla_Server_Join_button:hover  {
+  top: -2px;
+}
+
+#Vanilla_Server_Join_button:active  {
+  opacity: 0.25;
+}
+
+</style>
+
+
+
+    <script>
+        function getIPAddress() {
+            var domain = "7daysvanilla.duckdns.org";
+            if (!domain) {
+                alert("Please enter a domain name");
+                return;
+            }
+
+            // Using DNS resolution
+            window.fetch(`https://dns.google/resolve?name=${domain}&type=A`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.Status === 0 && data.Answer) {
+                        var ip = data.Answer[0].data;
+                        document.getElementById('result').innerText = `${ip}`;
+                        document.getElementById('result').setAttribute("data-text", `${ip}`);
+			
+                        // Set the href attribute of the anchor tag
+                        document.getElementById('steamLink').href = `steam://connect/${ip}:26900`;
+                    } else {
+                        document.getElementById('result').innerText = "Failed to resolve IP address for the domain.";
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('result').innerText = "An error occurred while fetching IP address.";
+                });
+        }
+    </script>
+
+
+
+
+
+
+
 
     
 <style>
