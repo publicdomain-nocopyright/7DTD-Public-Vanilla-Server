@@ -25,7 +25,7 @@
 <b>Server Name:</b> 7 Days To Die Vanilla Public Server<br>
 <b>Server Description:</b> Basic Vanilla Public Server. <br>
 Simple Open Public-Server 24/7 PVE with ~16 player slot for everyone.<br>
-<b>Server IP:</b> <code>174.89.214.51</code> <b>Port:</b> <code>26900</code><br>
+<b>Server IP:</b> <code>    <button class="copyBtn" data-text="174.89.214.51">174.89.214.51</button></code> <b>Port:</b> <code><button class="copyBtn" data-text="26900">26900</button></code><br>
 Vanilla default settings. Give suggestions if you need anything or dislike.<br>
 <b>Connect to the server:</b> <br>
                &nbsp;&nbsp &nbsp;&nbsp &nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -34,7 +34,7 @@ Vanilla default settings. Give suggestions if you need anything or dislike.<br>
 
 </div>
 
-
+    
 <style>
 .footer { 
 
@@ -74,3 +74,50 @@ body {
 </style>
 
 
+
+
+    <div class="message" id="copyMessage">Text copied!</div>
+<style>
+    .message {
+        position: absolute;
+        background-color: #333;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+</style>
+
+<script>
+    const copyBtns = document.querySelectorAll('.copyBtn');
+    const copyMessage = document.getElementById('copyMessage');
+    let timeoutId;
+
+    copyBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const textToCopy = btn.getAttribute('data-text');
+            navigator.clipboard.writeText(textToCopy);
+
+            // Show message near cursor
+            copyMessage.style.opacity = 1;
+
+            // Clear previous timeout (if any) and set a new one to hide the message after 2 seconds
+            clearTimeout(timeoutId);
+            timeoutId = setTimeout(() => {
+                copyMessage.style.opacity = 0;
+            }, 2000); // 2 seconds
+        });
+    });
+
+    // Move message with mouse movement
+    document.addEventListener('mousemove', moveMessage);
+
+    function moveMessage(event) {
+        const mouseX = event.clientX;
+        const mouseY = event.clientY;
+
+        copyMessage.style.left = 10 + mouseX + 'px';
+        copyMessage.style.top = 10 + mouseY + 'px';
+    }
+</script>
