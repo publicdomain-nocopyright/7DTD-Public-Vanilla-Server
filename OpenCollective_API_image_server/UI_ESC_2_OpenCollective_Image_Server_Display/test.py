@@ -1,21 +1,5 @@
-# http://localhost:8001/image.png
-
 from http.server import HTTPServer, BaseHTTPRequestHandler
-from PIL import Image
-from io import BytesIO
-
-# Importing the PIL library
-from PIL import Image
-from PIL import ImageDraw
-from PIL import ImageFont
- 
- 
-from PIL import ImageFont, ImageDraw, ImageFilter, Image
-import requests
-from http.server import HTTPServer, BaseHTTPRequestHandler
-
- 
-
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import requests
 
 def get_project_info():
@@ -59,7 +43,6 @@ def get_project_info():
         print("Error:", response.status_code)
         return None
 
-
 def draw_text_with_shadow(draw, text, position, font, text_color, shadow_color, shadow_offset):
     # Draw shadow text
     shadow_position = (position[0] + shadow_offset[0], position[1] + shadow_offset[1])
@@ -78,56 +61,34 @@ def draw_text_with_shadow(draw, text, position, font, text_color, shadow_color, 
     draw.text(position, text, fill=text_color, font=font)
 
 def draw_project_info(draw, project_info, font):
-    text_color = (218, 198, 184)  # Default text color
+    text_color = (218, 198, 184)  # Text color
     shadow_color = (0, 0, 0)  # Shadow color
     shadow_offset = (2, 2)  # Offset for the shadow
-    red_color = (232,220,212)  # Red color for specific parts
+    red_color = (255, 0, 0)  # Red color for specific parts
 
     # Draw total amount received
-    total_amount_text = f"Received donations: "
+    total_amount_text = f"Total Amount Received: "
     draw_text_with_shadow(draw, total_amount_text, (28, 36), font, text_color, shadow_color, shadow_offset)
-
-    # Draw total amount received value in red
-    total_amount_received = f"{project_info['total_amount_received']} Eur"
+    total_amount_received = f"{project_info['total_amount_received']}"
     draw_text_with_shadow(draw, total_amount_received, (28 + draw.textsize(total_amount_text, font=font)[0], 36), font, red_color, shadow_color, shadow_offset)
 
     # Draw goal amount
-    goal_amount_text = f"To keep for next year: "
+    goal_amount_text = f"Goal Amount: "
     draw_text_with_shadow(draw, goal_amount_text, (28, 56), font, text_color, shadow_color, shadow_offset)
-
-    # Draw goal amount value in red
-    goal_amount_value = f"{project_info['goal_amount']} Eur"
+    goal_amount_value = f"{project_info['goal_amount']}"
     draw_text_with_shadow(draw, goal_amount_value, (28 + draw.textsize(goal_amount_text, font=font)[0], 56), font, red_color, shadow_color, shadow_offset)
 
     # Draw project name
-    # project_name_text = f"Project Name: "
-    # draw_text_with_shadow(draw, project_name_text, (28, 76), font, text_color, shadow_color, shadow_offset)
+    project_name_text = f"Project Name: "
+    draw_text_with_shadow(draw, project_name_text, (28, 76), font, text_color, shadow_color, shadow_offset)
+    project_name_value = f"{project_info['name']}"
+    draw_text_with_shadow(draw, project_name_value, (28 + draw.textsize(project_name_text, font=font)[0], 76), font, red_color, shadow_color, shadow_offset)
 
-    # Draw project name value in red
-    # project_name_value = f"{project_info['name']}"
-    # draw_text_with_shadow(draw, project_name_value, (28 + draw.textsize(project_name_text, font=font)[0], 76), font, red_color, shadow_color, shadow_offset)
-    
-
-    # Draw progress bar
-    progress_width = 200
-    progress_height = 10
-    progress_x = 28
-    progress_y = 80
-
-    # Calculate progress percentage
-    progress_percentage = min((project_info['total_amount_received'] / project_info['goal_amount']) * 100, 100)
-
-    # Draw progress bar background
-    draw.rectangle([progress_x, progress_y, progress_x + progress_width, progress_y + progress_height], fill=(255, 255, 255), outline=(0, 0, 0))
-
-    # Draw progress bar filled part
-    filled_width = int(progress_width * (progress_percentage / 100))
-    draw.rectangle([progress_x, progress_y, progress_x + filled_width, progress_y + progress_height], fill=(0, 255, 0))
-
-    # Draw progress percentage
-    progress_text = f"{progress_percentage:.2f}%"
-    draw_text_with_shadow(draw, progress_text, (progress_x + progress_width + 10, progress_y), font, (255, 255, 255), shadow_color, shadow_offset)
-
+    # Draw progress bars
+    progress_bar_length = 300
+    total_amount_received_percent = min(100, int(project_info['total_amount_received']) / int(project_info['goal_amount']) * 100)
+    draw.rectangle([28, 100, 28 + progress_bar_length, 110], fill=(200, 200, 200), outline=None)  # Gray background
+    draw.rectangle([28, 100, 28 + int(progress_bar_length * total_amount_received_percent / 100), 110], fill=(0, 255, 0), outline=None)  # Green progress bar
 
 class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -145,23 +106,17 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
                 print("Goal Amount:", project_info['goal_amount'])
                 print("Total Amount Received:", project_info['total_amount_received'])
 
-            # Open an Image
-            img = Image.open('image.png')
-
-            # Call draw Method to add 2D graphics in an image
+            img = Image.new('RGB', (400, 150), color='white')
             draw = ImageDraw.Draw(img)
             font = ImageFont.truetype("Roboto-Medium.ttf", 18)
 
-            # Draw project information
             draw_project_info(draw, project_info, font)
 
-            # Save the edited image
             img.save("image2.png")
 
             self.send_response(200)
             self.send_header('Content-type', 'image/png')
             self.end_headers()
-            # Open the image file
             with open('image2.png', 'rb') as f:
                 img_data = f.read()
             self.wfile.write(img_data)
