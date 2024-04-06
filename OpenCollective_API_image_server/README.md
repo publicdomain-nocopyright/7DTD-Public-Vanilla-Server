@@ -1,2 +1,3 @@
 
-![image](https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/assets/21064622/937abd99-1bd9-4bc1-9c74-55c6ff35c44d)
+![image](https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/assets/21064622/8adcf9d6-9ae2-4e3e-a3b7-36b86447519c)
+
