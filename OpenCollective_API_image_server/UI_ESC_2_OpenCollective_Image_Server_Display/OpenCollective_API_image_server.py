@@ -81,52 +81,63 @@ def draw_project_info(draw, project_info, font):
     text_color = (218, 198, 184)  # Default text color
     shadow_color = (0, 0, 0)  # Shadow color
     shadow_offset = (2, 2)  # Offset for the shadow
-    red_color = (232,220,212)  # Red color for specific parts
+
+    # Define progress bar dimensions
+    progress_bar_width = 200
+    progress_bar_height = 20
+    progress_bar_x = 28
+    progress_bar_y = 80
+
+    # Calculate progress percentage
+    progress_percentage = min(1, project_info['total_amount_received'] / project_info['goal_amount'])
+
+    # Define gradient colors
+    start_color = (255, 0, 0)  # Red
+    end_color = (0, 255, 0)  # Green
+
+    # Interpolate color based on progress
+    current_color = (
+        int(start_color[0] + (end_color[0] - start_color[0]) * progress_percentage),
+        int(start_color[1] + (end_color[1] - start_color[1]) * progress_percentage),
+        int(start_color[2] + (end_color[2] - start_color[2]) * progress_percentage)
+    )
+
+    # Draw progress bar outline
+    draw.rectangle([progress_bar_x, progress_bar_y, progress_bar_x + progress_bar_width, progress_bar_y + progress_bar_height], outline=text_color)
+
+    # Draw progress bar filled with gradient color
+    draw.rectangle([progress_bar_x + 1, progress_bar_y + 1, progress_bar_x + 1 + int(progress_percentage * (progress_bar_width - 2)), progress_bar_y + progress_bar_height - 1], fill=current_color)
+
+    # Draw text showing progress percentage
+    progress_text = f"{int(progress_percentage * 100)}%"
+    text_width, text_height = draw.textsize(progress_text, font=font)
+    text_x = progress_bar_x + (progress_bar_width - text_width) // 2
+    text_y = progress_bar_y + (progress_bar_height - text_height) // 2
+    draw.text((text_x, text_y), progress_text, fill=text_color, font=font)
 
     # Draw total amount received
     total_amount_text = f"Received donations: "
     draw_text_with_shadow(draw, total_amount_text, (28, 36), font, text_color, shadow_color, shadow_offset)
 
-    # Draw total amount received value in red
+    # Draw total amount received value
     total_amount_received = f"{project_info['total_amount_received']} Eur"
-    draw_text_with_shadow(draw, total_amount_received, (28 + draw.textsize(total_amount_text, font=font)[0], 36), font, red_color, shadow_color, shadow_offset)
+    draw_text_with_shadow(draw, total_amount_received, (28 + draw.textsize(total_amount_text, font=font)[0], 36), font, text_color, shadow_color, shadow_offset)
 
     # Draw goal amount
     goal_amount_text = f"To keep for next year: "
     draw_text_with_shadow(draw, goal_amount_text, (28, 56), font, text_color, shadow_color, shadow_offset)
 
-    # Draw goal amount value in red
+    # Draw goal amount value
     goal_amount_value = f"{project_info['goal_amount']} Eur"
-    draw_text_with_shadow(draw, goal_amount_value, (28 + draw.textsize(goal_amount_text, font=font)[0], 56), font, red_color, shadow_color, shadow_offset)
+    draw_text_with_shadow(draw, goal_amount_value, (28 + draw.textsize(goal_amount_text, font=font)[0], 56), font, text_color, shadow_color, shadow_offset)
 
     # Draw project name
     # project_name_text = f"Project Name: "
     # draw_text_with_shadow(draw, project_name_text, (28, 76), font, text_color, shadow_color, shadow_offset)
 
-    # Draw project name value in red
+    # Draw project name value
     # project_name_value = f"{project_info['name']}"
-    # draw_text_with_shadow(draw, project_name_value, (28 + draw.textsize(project_name_text, font=font)[0], 76), font, red_color, shadow_color, shadow_offset)
-    
-
-    # Draw progress bar
-    progress_width = 200
-    progress_height = 10
-    progress_x = 28
-    progress_y = 80
-
-    # Calculate progress percentage
-    progress_percentage = min((project_info['total_amount_received'] / project_info['goal_amount']) * 100, 100)
-
-    # Draw progress bar background
-    draw.rectangle([progress_x, progress_y, progress_x + progress_width, progress_y + progress_height], fill=(255, 255, 255), outline=(0, 0, 0))
-
-    # Draw progress bar filled part
-    filled_width = int(progress_width * (progress_percentage / 100))
-    draw.rectangle([progress_x, progress_y, progress_x + filled_width, progress_y + progress_height], fill=(0, 255, 0))
-
-    # Draw progress percentage
-    progress_text = f"{progress_percentage:.2f}%"
-    draw_text_with_shadow(draw, progress_text, (progress_x + progress_width + 10, progress_y), font, (255, 255, 255), shadow_color, shadow_offset)
+    # draw_text_with_shadow(draw, project_name_value, (28 + draw.textsize(project_name_text, font=font)[0], 76), font, text_color, shadow_color, shadow_offset)
 
 
 class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
