@@ -9,6 +9,12 @@ from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
  
+ 
+from PIL import ImageFont, ImageDraw, ImageFilter, Image
+import requests
+from http.server import HTTPServer, BaseHTTPRequestHandler
+
+ 
 
 import requests
 
@@ -54,6 +60,52 @@ def get_project_info():
         return None
 
 
+def draw_text_with_shadow(draw, text, position, font, text_color, shadow_color, shadow_offset):
+    # Draw shadow text
+    shadow_position = (position[0] + shadow_offset[0], position[1] + shadow_offset[1])
+    draw.text(shadow_position, text, fill=shadow_color, font=font)
+
+    # Apply blur filter to the shadow
+    shadow_img = Image.new('RGBA', draw.im.size, (255, 255, 255, 0))
+    shadow_draw = ImageDraw.Draw(shadow_img)
+    shadow_draw.text(shadow_position, text, fill=shadow_color, font=font)
+    shadow_img_blur = shadow_img.filter(ImageFilter.GaussianBlur(5))
+
+    # Paste the blurred shadow onto the original image
+    draw.bitmap((0, 0), shadow_img_blur, fill=shadow_color)
+
+    # Draw actual text on top of the shadow
+    draw.text(position, text, fill=text_color, font=font)
+
+def draw_project_info(draw, project_info, font):
+    text_color = (218, 198, 184)  # Default text color
+    shadow_color = (0, 0, 0)  # Shadow color
+    shadow_offset = (2, 2)  # Offset for the shadow
+    red_color = (232,220,212)  # Red color for specific parts
+
+    # Draw total amount received
+    total_amount_text = f"Received donations: "
+    draw_text_with_shadow(draw, total_amount_text, (28, 36), font, text_color, shadow_color, shadow_offset)
+
+    # Draw total amount received value in red
+    total_amount_received = f"{project_info['total_amount_received']} Eur"
+    draw_text_with_shadow(draw, total_amount_received, (28 + draw.textsize(total_amount_text, font=font)[0], 36), font, red_color, shadow_color, shadow_offset)
+
+    # Draw goal amount
+    goal_amount_text = f"To keep for next year: "
+    draw_text_with_shadow(draw, goal_amount_text, (28, 56), font, text_color, shadow_color, shadow_offset)
+
+    # Draw goal amount value in red
+    goal_amount_value = f"{project_info['goal_amount']} Eur"
+    draw_text_with_shadow(draw, goal_amount_value, (28 + draw.textsize(goal_amount_text, font=font)[0], 56), font, red_color, shadow_color, shadow_offset)
+
+    # Draw project name
+    # project_name_text = f"Project Name: "
+    # draw_text_with_shadow(draw, project_name_text, (28, 76), font, text_color, shadow_color, shadow_offset)
+
+    # Draw project name value in red
+    # project_name_value = f"{project_info['name']}"
+    # draw_text_with_shadow(draw, project_name_value, (28 + draw.textsize(project_name_text, font=font)[0], 76), font, red_color, shadow_color, shadow_offset)
 
 class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -63,7 +115,6 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(b"Hello, world!")
         elif self.path == '/image.png':
-        
             project_info = get_project_info()
             if project_info:
                 print("Project Name:", project_info['name'])
@@ -72,25 +123,19 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
                 print("Goal Amount:", project_info['goal_amount'])
                 print("Total Amount Received:", project_info['total_amount_received'])
 
-                    
             # Open an Image
             img = Image.open('image.png')
-             
+
             # Call draw Method to add 2D graphics in an image
-            I1 = ImageDraw.Draw(img)
-             
-            # Add Text to an image 
-            I1.text((28, 36),  "Received donations total overall: ", fill=(255, 0, 0), font=ImageFont.truetype("Roboto-Medium.ttf", 18))
-            I1.text((300, 36),  str(project_info['total_amount_received']) + " Eur", fill=(200, 0, 0), font=ImageFont.truetype("Roboto-Medium.ttf", 18))
-            I1.text((28, 56),  "Required to exist for a year: " + str(project_info['goal_amount']) + " Eur", fill=(255, 0, 0), font=ImageFont.truetype("Roboto-Medium.ttf", 18))
-            I1.text((28, 76),  "Required overall for Upgrade: " + "200" + " Eur", fill=(255, 0, 0), font=ImageFont.truetype("Roboto-Medium.ttf", 18))
-             
-            # Display edited image
-            #img.show()
-             
+            draw = ImageDraw.Draw(img)
+            font = ImageFont.truetype("Roboto-Medium.ttf", 18)
+
+            # Draw project information
+            draw_project_info(draw, project_info, font)
+
             # Save the edited image
             img.save("image2.png")
-        
+
             self.send_response(200)
             self.send_header('Content-type', 'image/png')
             self.end_headers()
