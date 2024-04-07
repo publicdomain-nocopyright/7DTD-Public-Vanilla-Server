@@ -83,9 +83,9 @@ def draw_project_info(draw, project_info, font):
     shadow_offset = (2, 2)  # Offset for the shadow
 
     # Define progress bar dimensions
-    progress_bar_width = 200
+    progress_bar_width = 240 # progress_bar_width = 200
     progress_bar_height = 20
-    progress_bar_x = 28
+    progress_bar_x = 28  # progress_bar_x = 45
     progress_bar_y = 80
 
     # Calculate progress percentage
@@ -114,6 +114,11 @@ def draw_project_info(draw, project_info, font):
     text_x = progress_bar_x + (progress_bar_width - text_width) // 2
     text_y = progress_bar_y + (progress_bar_height - text_height) // 2
     draw.text((text_x, text_y), progress_text, fill=text_color, font=font)
+
+    # Draw server health title
+    total_amount_text = f"Vanilla Server Health"
+    draw_text_with_shadow(draw, total_amount_text, (60, 16), font, text_color, shadow_color, shadow_offset)
+
 
     # Draw total amount received
     total_amount_text = f"Received donations: "
