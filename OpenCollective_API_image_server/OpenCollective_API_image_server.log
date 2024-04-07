@@ -1,0 +1,7 @@
+/home/steam/7daystodieserver/UI_ESC_2_OpenCollective_Image_Server_Display/OpenCollective_API_image_server.py:113: DeprecationWarning: textsize is deprecated and will be removed in Pillow 10 (2023-07-01). Use textbbox or textlength instead.
+  text_width, text_height = draw.textsize(progress_text, font=font)
+/home/steam/7daystodieserver/UI_ESC_2_OpenCollective_Image_Server_Display/OpenCollective_API_image_server.py:129: DeprecationWarning: textsize is deprecated and will be removed in Pillow 10 (2023-07-01). Use textbbox or textlength instead.
+  draw_text_with_shadow(draw, total_amount_received, (28 + draw.textsize(total_amount_text, font=font)[0], 36), font, text_color, shadow_color, shadow_offset)
+/home/steam/7daystodieserver/UI_ESC_2_OpenCollective_Image_Server_Display/OpenCollective_API_image_server.py:137: DeprecationWarning: textsize is deprecated and will be removed in Pillow 10 (2023-07-01). Use textbbox or textlength instead.
+  draw_text_with_shadow(draw, goal_amount_value, (28 + draw.textsize(goal_amount_text, font=font)[0], 56), font, text_color, shadow_color, shadow_offset)
+127.0.0.1 - - [07/Apr/2024 13:14:51] "GET /image.png HTTP/1.1" 200 -
