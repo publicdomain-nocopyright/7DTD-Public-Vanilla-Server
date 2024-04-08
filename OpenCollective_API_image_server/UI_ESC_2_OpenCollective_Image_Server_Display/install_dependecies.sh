@@ -9,5 +9,5 @@ python3 -m venv venv
 source venv/bin/activate
 
 # Install dependecies.
-pip install Pillow
+pip install pillow==9.5.0
 pip install requests
