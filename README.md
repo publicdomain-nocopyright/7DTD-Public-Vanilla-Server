@@ -45,6 +45,9 @@ https://dub.sh/7dtd-launcher-vanilla-server
 https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases/download/0/7DTD_Vanilla_Server.cmd  
 https://shorturl.at/lpyN2  
 
+
+[Link to look for mods on 7DTD](https://www.google.com/search?q=7dtd+blood+moon+mods+horde+site%3Ahttps%3A%2F%2Fwww.nexusmods.com%2F7daystodie%2Fmods%2F+OR+site%3Ahttps%3A%2F%2F7daystodiemods.com%2F&sca_esv=c815caab5ae43dfb&sca_upv=1&ei=1CcVZtHcMeOnwPAPtMaKsA0&udm=&ved=0ahUKEwjRlpz4hLWFAxXjExAIHTSjAtYQ4dUDCBA&uact=5&oq=7dtd+blood+moon+mods+horde+site%3Ahttps%3A%2F%2Fwww.nexusmods.com%2F7daystodie%2Fmods%2F+OR+site%3Ahttps%3A%2F%2F7daystodiemods.com%2F&gs_lp=Egxnd3Mtd2l6LXNlcnAibjdkdGQgYmxvb2QgbW9vbiBtb2RzIGhvcmRlIHNpdGU6aHR0cHM6Ly93d3cubmV4dXNtb2RzLmNvbS83ZGF5c3RvZGllL21vZHMvIE9SIHNpdGU6aHR0cHM6Ly83ZGF5c3RvZGllbW9kcy5jb20vSABQAFgAcAB4AJABAJgBAKABAKoBALgBA8gBAPgBAZgCAKACAJgDAJIHAKAHAA&sclient=gws-wiz-serp#ip=1)
+
 ### 💼 Used tools for the project:   
 Telnet, SSH and Editing small files through sftp. Mostly for administration, linux commands for restarting server and small xml fixes in modlets. 
 https://github.com/kingToolbox/WindTerm
