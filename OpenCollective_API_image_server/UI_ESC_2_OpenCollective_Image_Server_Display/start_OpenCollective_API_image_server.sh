@@ -9,7 +9,7 @@ cd $script_dir
 python3 -m venv venv
 source ./venv/bin/activate
 
-wget https://bootstrap.pypa.io/get-pip.py && python get-pip.py
+curl https://bootstrap.pypa.io/get-pip.py -O && python get-pip.py
 pip install pillow==9.5.0
 pip install requests
 pip install --upgrade certifi
