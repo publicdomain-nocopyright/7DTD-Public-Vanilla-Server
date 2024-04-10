@@ -66,7 +66,7 @@ chown -R steam "/home/steam/.local/share/7DaysToDie/Saves"
 The second script of https://github.com/vaido-world/7daystodie-dedicated-server/blob/master/Minimal_setup.zip  
 Can be adjusted for reuse on automated setup of Ubuntu 7 Days To Die Dedicated Server.  
 
-This mod needs to be disabled or 8081 port forwarded to stop throwing ESC errors in-game. ([disable])
+This mod needs to be disabled or 8081 port forwarded to stop throwing ESC errors in-game. (add any word like [disabled] to the filename for it to not match xml files inside 7dtd `data` folder.)  
 `
 /home/steam/.local/share/Steam/steamcmd/7dtd/Mods/UI_ESC_2_OpenCollective_Image_Server_Display/Config/XUi/[disabled]windows.xml
 `
