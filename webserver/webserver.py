@@ -1,5 +1,6 @@
 # TODO: handle connection errors on first connection establishment. `Connecting`
 # TODO: make 6 seconds interval to fetch information from game server once and allow to see that information for every page user
+
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import requests
 
@@ -156,13 +157,13 @@ class RedirectHandler(BaseHTTPRequestHandler):
                                   
                               
                                         console.log("current ticks: ",window.current_ticks);
-
+                                        if (data && data.currentservertime) {{
                                         if (window.previousfetch < data.currentservertime) {{
                                             current_ticks = data.currentservertime;
                                         }}
-           
+                                        
                                         window.previousfetch = data.currentservertime;
-
+                                        }}
 
 
                                         // Initial update
@@ -242,3 +243,4 @@ def run(server_class=HTTPServer, handler_class=RedirectHandler, port=80):
 
 if __name__ == '__main__':
     run()
+
