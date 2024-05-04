@@ -104,9 +104,9 @@ class RedirectHandler(BaseHTTPRequestHandler):
 
 
                     <script>
-(async () => {{
-  console.log('Started');
-  while (true) {{
+                            (async () => {{
+                            console.log('Started');
+                            while (true) {{
   
               
                             fetch('/data')
@@ -123,14 +123,15 @@ class RedirectHandler(BaseHTTPRequestHandler):
                                     document.getElementById('levelName').innerText = data.levelName;
                                     document.getElementById('gameName').innerText = data.gameName;
                                     document.getElementById('currentservertime_formatted').innerText = data.currentservertime_formatted;
+                                    window.current_ticks = data.currentservertime;
                                     }})
                                 .catch(error => console.error('Error fetching data:', error));
 
-    
-    for (let i = 0; i < 5; i++) {{
-      await new Promise((res) => {{
-        setTimeout(() => {{
-        
+                                    
+                                    for (let i = 0; i < 5; i++) {{
+                                    await new Promise((res) => {{
+                                        setTimeout(() => {{
+                                        
 
 
                                     let data = window.dataglobal;
@@ -139,8 +140,8 @@ class RedirectHandler(BaseHTTPRequestHandler):
                                         let ticks_per_day = 24000;
                                         let timeElement = document.getElementById('currentservertime');
 
-                                        let total_days = Math.floor(current_ticks / ticks_per_day);
-                                        let remaining_ticks = current_ticks % ticks_per_day;
+                                        let total_days = Math.floor(window.current_ticks / ticks_per_day);
+                                        let remaining_ticks = window.current_ticks % ticks_per_day;
                                         let hours = Math.floor(remaining_ticks / 1000);
                                         let minutes = Math.floor((remaining_ticks % 1000) / (1000 / 60));
                                         let formatted = 'Day ' + total_days + ', ' + hours.toString().padStart(2, '0') + ':' + minutes.toString().padStart(2, '0');
@@ -148,7 +149,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
                                         console.log("trying to update formatted time");
                                     }}
 
-                                    window.current_ticks = data.currentservertime;
+                                    
                                     
 
                                   
@@ -164,12 +165,12 @@ class RedirectHandler(BaseHTTPRequestHandler):
 
 
                                         // Initial update
-                                        window.current_ticks++; 
+                                        window.current_ticks = parseInt(window.current_ticks) + parseInt(12);
                                         console.log("after ticks: ",window.current_ticks);
                                         updateFormattedTime();
 
-          console.log('Your async func');
-          res();
+                                     console.log('Your async func');
+                                      res();
         }}, 1000);
       }});
     }}
