@@ -1,4 +1,4 @@
-
+# TODO: handle connection errors on first connection establishment. `Connecting`
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import requests
 
