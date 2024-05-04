@@ -127,7 +127,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
                                     }})
                                 .catch(error => console.error('Error fetching data:', error));
 
-                                    
+                                    //Timer counting and recallibration with the server time.
                                     for (let i = 0; i < 5; i++) {{
                                     await new Promise((res) => {{
                                         setTimeout(() => {{
