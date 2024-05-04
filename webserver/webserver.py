@@ -1,4 +1,5 @@
 # TODO: handle connection errors on first connection establishment. `Connecting`
+# TODO: make 6 seconds interval to fetch information from game server once and allow to see that information for every page user
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import requests
 
