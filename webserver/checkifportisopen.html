@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Port Connectivity Checker</title>
+</head>
+<body>
+    <h1>Port Connectivity Checker</h1>
+    <p>Checking connectivity to IP: 93.49.104.86, Port: 26900</p>
+    <button onclick="checkPortConnectivity('93.49.104.86', 26900)">Check Connectivity</button>
+    <p id="result"></p>
+
+    <script>
+        function checkPortConnectivity(ip, port) {
+            var resultDisplay = document.getElementById('result');
+            var timeout = 3000; // 3 seconds timeout for the connection attempt
+
+            var startTime = Date.now();
+            var xhr = new XMLHttpRequest();
+
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4) {
+                    var endTime = Date.now();
+                    var elapsedTime = endTime - startTime;
+
+                    if (xhr.status == 200) {
+                        resultDisplay.textContent = 'Port ' + port + ' is open. Connection time: ' + elapsedTime + ' ms';
+                    } else {
+                        resultDisplay.textContent = 'Port ' + port + ' is closed. Connection time: ' + elapsedTime + ' ms';
+                    }
+                }
+            };
+
+            xhr.open('GET', 'http://' + ip + ':' + port, true);
+            xhr.timeout = timeout;
+            xhr.send();
+        }
+    </script>
+</body>
+</html>
