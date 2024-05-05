@@ -3,6 +3,24 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 import requests
 
 class RedirectHandler(BaseHTTPRequestHandler):
+    def get_system_info(self):
+        import psutil
+        # Get CPU usage as a percentage
+        cpu_percent = psutil.cpu_percent()
+
+        # Get RAM usage in bytes
+        ram_usage = psutil.virtual_memory()
+        total_ram = ram_usage.total
+        available_ram = ram_usage.available
+        ram_percent = (total_ram - available_ram) / total_ram * 100
+
+        return {
+            "cpu_percent": cpu_percent,
+            "ram_percent": ram_percent
+        }
+
+
+
     log_file = open("server_log.txt", "a")  # Open the log file in append mode
 
     def log_message(self, format, *args):
@@ -17,6 +35,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
         import a2s
         import json
         if self.path == '/data':
+
             # Define the server address
             server_address = ("93.49.104.86", 26900)
             rules = a2s.rules(server_address)
@@ -47,6 +66,9 @@ class RedirectHandler(BaseHTTPRequestHandler):
                 "currentservertime_minutesonly": rules.get("CurrentServerTime_minutesonly", ""),
                 "currentservertime_dayonly": rules.get("CurrentServerTime_dayonly", "")
             }
+
+            system_info = self.get_system_info()
+            data.update(system_info)
             self.send_response(200)
             self.send_header('Content-type', 'application/json')
             self.end_headers()
