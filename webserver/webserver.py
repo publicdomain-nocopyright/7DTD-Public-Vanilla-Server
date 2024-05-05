@@ -116,7 +116,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
                             fetch('/data')
                                 .then(response => response.json())
                                 .then(data => {{
-                                    console.log("Fetchdata executed _______________-")
+                                    console.log("Fetching data _______________-")
                                     window.dataglobal = data;
                                     document.getElementById('currentPlayers').innerText = data.currentPlayers;
                                     document.getElementById('maxPlayers').innerText = data.maxPlayers;
@@ -133,6 +133,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
 
                                     //Timer counting and recallibration with the server time.
                                     for (let i = 0; i < 15; i++) {{
+                                    console.log("Simulating time _______________-")
                                     await new Promise((res) => {{
                                         setTimeout(() => {{
                                         
@@ -150,7 +151,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
                                         let minutes = Math.floor((remaining_ticks % 1000) / (1000 / 60));
                                         let formatted = 'Day ' + total_days + ', ' + hours.toString().padStart(2, '0') + ':' + minutes.toString().padStart(2, '0');
                                         timeElement.innerText = formatted;
-                                        console.log("trying to update formatted time");
+                                        console.log(" trying to update formatted time");
                                     }}
 
                                     
@@ -158,7 +159,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
 
                                   
                               
-                                        console.log("current ticks: ",window.current_ticks);
+                                        console.log(" current ticks: ",window.current_ticks);
                                         if (data && data.currentservertime) {{
                                         if (window.previousfetch < data.currentservertime) {{
                                             current_ticks = data.currentservertime;
@@ -170,10 +171,10 @@ class RedirectHandler(BaseHTTPRequestHandler):
 
                                         // Initial update
                                         window.current_ticks = parseInt(window.current_ticks) + parseInt(6);
-                                        console.log("after ticks: ",window.current_ticks);
+                                        console.log(" after ticks: ",window.current_ticks);
                                         updateFormattedTime();
 
-                                     console.log('Your async func');
+                                    
                                       res();
         }}, 2000);
       }});
@@ -245,3 +246,4 @@ def run(server_class=HTTPServer, handler_class=RedirectHandler, port=80):
 
 if __name__ == '__main__':
     run()
+
