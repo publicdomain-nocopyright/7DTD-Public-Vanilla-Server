@@ -130,7 +130,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
                                 .catch(error => console.error('Error fetching data:', error));
 
                                     //Timer counting and recallibration with the server time.
-                                    for (let i = 0; i < 5; i++) {{
+                                    for (let i = 0; i < 15; i++) {{
                                     await new Promise((res) => {{
                                         setTimeout(() => {{
                                         
@@ -167,13 +167,13 @@ class RedirectHandler(BaseHTTPRequestHandler):
 
 
                                         // Initial update
-                                        window.current_ticks = parseInt(window.current_ticks) + parseInt(12);
+                                        window.current_ticks = parseInt(window.current_ticks) + parseInt(6);
                                         console.log("after ticks: ",window.current_ticks);
                                         updateFormattedTime();
 
                                      console.log('Your async func');
                                       res();
-        }}, 1000);
+        }}, 2000);
       }});
     }}
 
@@ -243,4 +243,3 @@ def run(server_class=HTTPServer, handler_class=RedirectHandler, port=80):
 
 if __name__ == '__main__':
     run()
-
