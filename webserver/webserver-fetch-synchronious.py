@@ -32,6 +32,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         self.log_message("GET %s", self.path)  # Log the incoming request
+        
         import a2s
         import json
         if self.path == '/data':
@@ -71,6 +72,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
             data.update(system_info)
             self.send_response(200)
             self.send_header('Content-type', 'application/json')
+            self.send_header('Access-Control-Allow-Origin', '*')  # Allow requests from any origin
             self.end_headers()
             self.wfile.write(json.dumps(data).encode())  # Encode data as JSON
         elif self.path == '/':
