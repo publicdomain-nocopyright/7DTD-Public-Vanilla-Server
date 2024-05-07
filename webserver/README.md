@@ -5,4 +5,4 @@ Note: webserver seems to be blocking multiple connection access and is maybe not
 
 
 Latest: webserver-fetch-rewrite.py  
-Bug/issue: The in-browser time simulation does not work here, as the fetches are very constant and overwrite the ticking.
+Bug/issue: The in-browser time simulation does not work here, as the fetches are very constant and overwrite the ticking. Needs logic: if fetch and nothing new fetched: simulate time.
