@@ -11,13 +11,15 @@ last_check_time = last_fetch_time = fetched_time = 0
 server_info = {}  # Initialize an empty dictionary to store server info
 server_return = None  # Initialize server_return globally
 
+import socket
 # Function to continuously fetch server info
 def fetch_server_info():
     global server_info, last_check_time, last_fetch_time, fetched_time, server_return
+
     while True:
         try:
             current_time = time.time() - start_time  # Calculate current time since program start
-            server_return = a2s.rules(("93.49.104.86", 26900))
+            server_return = a2s.rules(("93.49.104.861", 26900))
             fetched = server_return.get("CurrentServerTime")
 
             if fetched is not None:
@@ -31,8 +33,15 @@ def fetch_server_info():
             server_info['fetched'] = fetched
             server_info['time_difference'] = current_time - last_check_time
             time.sleep(1.1)
+        
         except TimeoutError:
             print("Error: Connection timed out while fetching server rules.")
+        except socket.gaierror as e:
+            print("Error: Failed to resolve the hostname or IP address.")
+            print("  Please check the provided address and ensure it is correct.")
+            print(f"  Details: {e}")
+
+            time.sleep(1)
 
 # HTTP request handler
 class RedirectHandler(BaseHTTPRequestHandler):
