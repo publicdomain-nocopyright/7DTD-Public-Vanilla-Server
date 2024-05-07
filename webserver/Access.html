@@ -36,7 +36,7 @@
     <h2>7 Days To Die Vanilla Public Server</h2>
     <img height="100px" src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/output-onlinegiftools.gif?raw=true">
     <p>Accept request to join the server.</p>
-    <a href="steam://connect/{public_ip}:26900"><p>Click here to join the server</p></a>
+    <a id="join_server" href="steam://connect/{public_ip}:26900"><p>Click here to join the server</p></a>
 
     <script>
         (async () => {
@@ -48,16 +48,19 @@
                         const data = await response.json();
                         console.log("Fetching data _______________-");
                         window.dataglobal = data;
-                        document.getElementById('currentPlayers').innerText = data.currentPlayers;
-                        document.getElementById('maxPlayers').innerText = data.maxPlayers;
-                        document.getElementById('serverVersion').innerText = data.serverVersion;
-                        document.getElementById('gameHost').innerText = data.gameHost;
-                        document.getElementById('ip').innerText = data.ip;
-                        document.getElementById('port').innerText = data.port;
-                        document.getElementById('levelName').innerText = data.levelName;
-                        document.getElementById('gameName').innerText = data.gameName;
-                        document.getElementById('currentservertime_formatted').innerText = data.currentservertime_formatted;
-                        window.current_ticks = data.currentservertime;
+                        document.getElementById('currentPlayers').innerText = data.CurrentPlayers;
+                        document.getElementById('maxPlayers').innerText = data.MaxPlayers;
+                        document.getElementById('serverVersion').innerText = data.ServerVersion;
+                        document.getElementById('gameHost').innerText = data.GameHost;
+                        document.getElementById('ip').innerText = data.IP;
+                        var joinServerLink = document.getElementById('join_server');
+                        joinServerLink.href = "steam://connect/" + data.IP + ":26900";
+                        document.getElementById('port').innerText = data.Port;
+                        document.getElementById('levelName').innerText = data.LevelName;
+                        document.getElementById('gameName').innerText = data.GameName;
+                        document.getElementById('currentservertime_formatted').innerText = data.CurrentServerTime;
+                        window.current_ticks = data.CurrentServerTime;
+
                     } catch (error) {
                         console.error('Error fetching data:', error);
                     }

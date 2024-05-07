@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vanilla Server 7 Days To Die (7DTD)</title>
+    <link rel="icon" type="image/x-icon" href="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases/download/in-game-server-info-background/Vanila_Server_Logo.png">
+    <script>
+        // Function to redirect to Steam
+        function redirectToSteam() {
+            window.location.href = 'steam://connect/{public_ip}:26900';
+            // Redirect to GitHub after a short delay
+        }
+        // setTimeout(redirectToSteam, 500); // 5 seconds delay
+    </script>
+    <style> 
+        body {
+            font-family: "Open Sans", Arial, Helvetica, sans-serif;
+            background-image: url('https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_background_Vanilla Server Recreation logoxcf.png?raw=true');
+            background-attachment: fixed;
+            background-position: center center;
+            background-size: cover; 
+        }
+        p, h2 {   
+            text-align: center;      
+            color: #e8e8e8;
+            text-shadow: #222222 1px 0 10px;
+        }
+        img { 
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head> 
+<body>
+    <img src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_logo_Vanilla%20Server%20Recreation%20logoxcf.png?raw=true">
+    <h2>7 Days To Die Vanilla Public Server</h2>
+    <img height="100px" src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/output-onlinegiftools.gif?raw=true">
+    <p>Accept request to join the server.</p>
+    <a href="steam://connect/{public_ip}:26900"><p>Click here to join the server</p></a>
+
+    <script>
+        (async () => {
+            console.log('Started');
+            while (true) {
+                async function fetchData() {
+                    try {
+                        const response = await fetch('http://localhost/data');
+                        const data = await response.json();
+                        console.log("Fetching data _______________-");
+                        window.dataglobal = data;
+                        document.getElementById('currentPlayers').innerText = data.currentPlayers;
+                        document.getElementById('maxPlayers').innerText = data.maxPlayers;
+                        document.getElementById('serverVersion').innerText = data.serverVersion;
+                        document.getElementById('gameHost').innerText = data.gameHost;
+                        document.getElementById('ip').innerText = data.ip;
+                        document.getElementById('port').innerText = data.port;
+                        document.getElementById('levelName').innerText = data.levelName;
+                        document.getElementById('gameName').innerText = data.gameName;
+                        document.getElementById('currentservertime_formatted').innerText = data.currentservertime_formatted;
+                        window.current_ticks = data.currentservertime;
+                    } catch (error) {
+                        console.error('Error fetching data:', error);
+                    }
+                }
+
+                // Call the function to fetch data
+                await fetchData();
+
+                // Timer counting and recalibration with the server time.
+                for (let i = 0; i < 5; i++) {
+                    console.log("Simulating time _______________-")
+                    await new Promise((res) => {
+                        setTimeout(() => {
+                            let data = window.dataglobal;
+                            function updateFormattedTime() {
+                                let ticks_per_day = 24000;
+                                let timeElement = document.getElementById('currentservertime');
+                                let total_days = Math.floor(window.current_ticks / ticks_per_day);
+                                let remaining_ticks = window.current_ticks % ticks_per_day;
+                                let hours = Math.floor(remaining_ticks / 1000);
+                                let minutes = Math.floor((remaining_ticks % 1000) / (1000 / 60));
+                                let formatted = 'Day ' + total_days + ', ' + hours.toString().padStart(2, '0') + ':' + minutes.toString().padStart(2, '0');
+                                timeElement.innerText = formatted;
+                                console.log(" trying to update formatted time");
+                            }
+                            console.log(" current ticks: ",window.current_ticks);
+                            if (data && data.currentservertime) {
+                                if (window.previousfetch < data.currentservertime) {
+                                    current_ticks = data.currentservertime;
+                                }
+                                window.previousfetch = data.currentservertime;
+                            }
+                            // Initial update
+                            window.current_ticks = parseInt(window.current_ticks) + parseInt(6);
+                            console.log(" after ticks: ",window.current_ticks);
+                            updateFormattedTime();
+                            res();
+                        }, 2000);
+                    });
+                }
+            }
+        })();
+    </script>
+    <p>Current Players: <span id="currentPlayers"></span></p>
+    <p>Max Players: <span id="maxPlayers"></span></p>
+    <p>Server Version: <span id="serverVersion"></span></p>
+    <p>Game Host: <span id="gameHost"></span></p>
+    <p>IP: <span id="ip"></span></p>
+    <p>Port: <span id="port"></span></p>
+    <p>Level Name: <span id="levelName"></span></p>
+    <p>Game Name: <span id="gameName"></span></p>
+    <p>Current Server Time: <span id="currentservertime_formatted"></span></p>
+    <p>Active Server Time: <span id="currentservertime"></span></p>
+</body>
+</html>
