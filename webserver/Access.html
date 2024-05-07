@@ -63,7 +63,7 @@
                     try {
                         console.log("Fetching data _______________");
                         const response = await fetch('http://localhost/data');
-                        console.log("Fetching data _______Await_response________");
+                        console.log("  Fetching data _______Await_response________");
                         const data = await response.json();
 
                         window.dataglobal = data;
@@ -100,7 +100,7 @@
 
                 // Timer counting and recalibration with the server time.
                 for (let i = 0; i < 5; i++) {
-                    console.log("Simulating time _______________-")
+                    console.log(i," Simulating time _______________-")
                     await new Promise((res) => {
                         setTimeout(() => {
                             let data = window.dataglobal;
