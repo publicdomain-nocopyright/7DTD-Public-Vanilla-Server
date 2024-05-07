@@ -73,6 +73,7 @@ This mod needs to be disabled or 8081 port forwarded to stop throwing ESC errors
 /home/steam/.local/share/Steam/steamcmd/7dtd/Mods/UI_ESC_2_OpenCollective_Image_Server_Display/Config/XUi/[disabled]windows.xml
 `
 
+Note: idea of "You've reached 300 level, do you want to continue playing game? If yes, then your character will be resetted so you can continue journey." 
 
 
 
