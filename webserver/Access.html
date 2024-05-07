@@ -18,8 +18,9 @@
             background-attachment: fixed;
             background-position: center center;
             background-size: cover; 
+            text-align: center;
         }
-        p, h2 {   
+        p, h2, span {   
             text-align: center;      
             color: #e8e8e8;
             text-shadow: #222222 1px 0 10px;
@@ -29,6 +30,21 @@
             margin-left: auto;
             margin-right: auto;
         }
+        #join_server_button {
+            text-align: center;
+            border: solid 2px black;
+            background: #a1a1a1;
+            padding: 6px;
+           
+}
+
+    #join_server_link {
+        text-decoration: none;
+
+    }
+}
+
+        }
     </style>
 </head> 
 <body>
@@ -36,24 +52,27 @@
     <h2>7 Days To Die Vanilla Public Server</h2>
     <img height="100px" src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/output-onlinegiftools.gif?raw=true">
     <p>Accept request to join the server.</p>
-    <a id="join_server" href="steam://connect/{public_ip}:26900"><p>Waiting for server response.</p></a>
-
+    <span id="join_server_button">
+    <a id="join_server_link" href="#"><span>Waiting for server response.</span></a>
+    </span>
     <script>
 
                 async function fetchData() {
                     try {
+                        console.log("Fetching data _______________");
                         const response = await fetch('http://localhost/data');
+                        console.log("Fetching data _______Await_response________");
                         const data = await response.json();
-                        console.log("Fetching data _______________-");
+
                         window.dataglobal = data;
                         document.getElementById('currentPlayers').innerText = data.CurrentPlayers;
                         document.getElementById('maxPlayers').innerText = data.MaxPlayers;
                         document.getElementById('serverVersion').innerText = data.ServerVersion;
                         document.getElementById('gameHost').innerText = data.GameHost;
                         document.getElementById('ip').innerText = data.IP;
-                        var joinServerLink = document.getElementById('join_server');
+                        var joinServerLink = document.getElementById('join_server_link');
                         joinServerLink.href = "steam://connect/" + data.IP + ":26900";
-                        var paragraphTag = joinServerLink.querySelector("p");
+                        var paragraphTag = joinServerLink.querySelector("span");
                         paragraphTag.textContent = "Click here to join the server";
 
                         document.getElementById('port').innerText = data.Port;
@@ -67,6 +86,8 @@
                     }
                 }
 
+
+                
         (async () => {
             console.log('Started');
             while (true) {
