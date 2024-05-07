@@ -54,7 +54,14 @@ class RedirectHandler(BaseHTTPRequestHandler):
                 self.wfile.write(json.dumps(server_return).encode())  # Encode data as JSON
             else:
                 self.wfile.write(json.dumps({"error": "Server info not available"}).encode())
-
+        elif self.path == '/':
+            # Serve HTML page
+            self.send_response(200)
+            self.send_header('Content-type', 'text/html')
+            self.end_headers()
+            # Read and send the contents of your HTML file
+            with open('Access.html', 'rb') as f:
+                self.wfile.write(f.read())
 # Function to run the HTTP server
 def run(server_class=HTTPServer, handler_class=RedirectHandler, port=80):
     server_address = ('', port)
