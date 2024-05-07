@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vanilla Server 7 Days To Die (7DTD)</title>
+    <link rel="icon" type="image/x-icon" href="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases/download/in-game-server-info-background/Vanila_Server_Logo.png">
+    <script>
+        // Function to redirect to Steam
+        function redirectToSteam() {
+            window.location.href = 'steam://connect/{public_ip}:26900';
+            // Redirect to GitHub after a short delay
+        }
+        // setTimeout(redirectToSteam, 500); // 5 seconds delay
+    </script>
+    <style> 
+        body {
+            font-family: "Open Sans", Arial, Helvetica, sans-serif;
+            background-image: url('https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_background_Vanilla Server Recreation logoxcf.png?raw=true');
+            background-attachment: fixed;
+            background-position: center center;
+            background-size: cover; 
+            text-align: center;
+        }
+        p, h2, span {   
+            text-align: center;      
+            color: #e8e8e8;
+            text-shadow: #222222 1px 0 10px;
+        }
+        img { 
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #join_server_button {
+            text-align: center;
+            border: solid 2px black;
+            background: #a1a1a1;
+            padding: 6px;
+           
+}
+
+    #join_server_link {
+        text-decoration: none;
+
+    }
+}
+
+        }
+    </style>
+</head> 
+<body>
+    <img src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_logo_Vanilla%20Server%20Recreation%20logoxcf.png?raw=true">
+    <h2>7 Days To Die Vanilla Public Server</h2>
+    <img height="100px" src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/output-onlinegiftools.gif?raw=true">
+    <p>Accept request to join the server.</p>
+    <a id="join_server_link" href="#">
+    <span id="join_server_button">
+    <span>Waiting for server response.</span>
+    </span>
+    </a>
+    <script>
+
+                async function fetchData() {
+                    try {
+                        console.log("Fetching data _______________");
+                        const response = await fetch('http://localhost/data');
+                        console.log("  Fetching data _______Await_response________");
+                        const data = await response.json();
+
+                        window.dataglobal = data;
+                        document.getElementById('currentPlayers').innerText = data.CurrentPlayers;
+                        document.getElementById('maxPlayers').innerText = data.MaxPlayers;
+                        document.getElementById('serverVersion').innerText = data.ServerVersion;
+                        document.getElementById('gameHost').innerText = data.GameHost;
+                        document.getElementById('ip').innerText = data.IP;
+                        var joinServerLink = document.getElementById('join_server_link');
+                        joinServerLink.href = "steam://connect/" + data.IP + ":26900";
+                        var paragraphTag = joinServerLink.querySelector("span");
+                        paragraphTag.textContent = "Click here to join the server";
+
+                        document.getElementById('port').innerText = data.Port;
+                        document.getElementById('levelName').innerText = data.LevelName;
+                        document.getElementById('gameName').innerText = data.GameName;
+                        document.getElementById('currentservertime_formatted').innerText = data.CurrentServerTime;
+                        window.current_ticks = data.CurrentServerTime;
+
+                    } catch (error) {
+                        console.error('Error fetching data:', error);
+                    }
+                }
+
+
+                
+        (async () => {
+            console.log('Started');
+            while (true) {
+    
+
+                // Call the function to fetch data
+                await fetchData();
+
+                // Timer counting and recalibration with the server time.
+                for (let i = 0; i < 10; i++) {
+                    console.log(i," Simulating time _______________-")
+                    await new Promise((res) => {
+                        setTimeout(() => {
+                            let data = window.dataglobal;
+                            function updateFormattedTime() {
+                                let ticks_per_day = 24000;
+                                let timeElement = document.getElementById('currentservertime');
+                                let total_days = Math.floor(window.current_ticks / ticks_per_day);
+                                let remaining_ticks = window.current_ticks % ticks_per_day;
+                                let hours = Math.floor(remaining_ticks / 1000);
+                                let minutes = Math.floor((remaining_ticks % 1000) / (1000 / 60));
+                                let formatted = 'Day ' + total_days + ', ' + hours.toString().padStart(2, '0') + ':' + minutes.toString().padStart(2, '0');
+                                timeElement.innerText = formatted;
+                                console.log(" trying to update formatted time");
+                            }
+                            console.log(" current ticks: ",window.current_ticks);
+                            if (data && data.currentservertime) {
+                                if (window.previousfetch < data.currentservertime) {
+                                    current_ticks = data.currentservertime;
+                                }
+                                window.previousfetch = data.currentservertime;
+                            }
+                            // Initial update
+                            window.current_ticks = parseInt(window.current_ticks) + parseInt(8);
+                            console.log(" after ticks: ",window.current_ticks);
+                            updateFormattedTime();
+                            res();
+                        }, 2000);
+                    });
+                }
+            }
+        })();
+    </script>
+    <p>Current Players: <span id="currentPlayers"></span></p>
+    <p>Max Players: <span id="maxPlayers"></span></p>
+    <p>Server Version: <span id="serverVersion"></span></p>
+    <p>Game Host: <span id="gameHost"></span></p>
+    <p>IP: <span id="ip"></span></p>
+    <p>Port: <span id="port"></span></p>
+    <p>Level Name: <span id="levelName"></span></p>
+    <p>Game Name: <span id="gameName"></span></p>
+    <p>Current Server Time: <span id="currentservertime_formatted"></span></p>
+    <p>Active Server Time: <span id="currentservertime"></span></p>
+</body>
+</html>
