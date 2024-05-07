@@ -1,3 +1,4 @@
+# bug: https://stackoverflow.com/questions/43146298/http-request-from-chrome-hangs-python-webserver
 import a2s
 import time
 from threading import Thread
