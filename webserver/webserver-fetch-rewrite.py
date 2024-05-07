@@ -19,7 +19,7 @@ def fetch_server_info():
     while True:
         try:
             current_time = time.time() - start_time  # Calculate current time since program start
-            server_return = a2s.rules(("93.49.104.861", 26900))
+            server_return = a2s.rules(("93.49.104.86", 26900))
             fetched = server_return.get("CurrentServerTime")
 
             if fetched is not None:
