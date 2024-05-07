@@ -39,9 +39,7 @@
     <a id="join_server" href="steam://connect/{public_ip}:26900"><p>Click here to join the server</p></a>
 
     <script>
-        (async () => {
-            console.log('Started');
-            while (true) {
+
                 async function fetchData() {
                     try {
                         const response = await fetch('http://localhost/data');
@@ -65,6 +63,11 @@
                         console.error('Error fetching data:', error);
                     }
                 }
+
+        (async () => {
+            console.log('Started');
+            while (true) {
+    
 
                 // Call the function to fetch data
                 await fetchData();
