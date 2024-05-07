@@ -82,12 +82,22 @@
                         document.getElementById('gameName').innerText = data.GameName;
                         document.getElementById('currentservertime_formatted').innerText = data.CurrentServerTime;
                         window.current_ticks = data.CurrentServerTime;
+                        console.log("  Fetching data END ", data.CurrentServerTime);
 
                     } catch (error) {
                         console.error('Error fetching data:', error);
                     }
                 }
+                async function startFetching() {
+            console.log('Fetching data every 1 second...');
+            while (true) {
+                await fetchData();
+                await new Promise(resolve => setTimeout(resolve, 1000)); // Wait for 1 second
+            }
+        }
 
+        // Start fetching data
+        startFetching();
 
                 
         (async () => {
@@ -96,7 +106,7 @@
     
 
                 // Call the function to fetch data
-                await fetchData();
+                
 
                 // Timer counting and recalibration with the server time.
                 for (let i = 0; i < 10; i++) {
