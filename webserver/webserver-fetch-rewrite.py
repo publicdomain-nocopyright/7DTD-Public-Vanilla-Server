@@ -57,6 +57,7 @@ def fetch_server_info():
             time.sleep(1)
         except ConnectionResetError:
             print("Error: ConnectionResetError: Game Server closed.")
+            server_return = None
             time.sleep(1)
 
 # HTTP request handler
