@@ -75,6 +75,17 @@ class RedirectHandler(BaseHTTPRequestHandler):
             # Read and send the contents of your HTML file
             with open('Access.html', 'rb') as f:
                 self.wfile.write(f.read())
+        elif self.path == '/loaderio-f25e240fbb90e7ae71cc53fe427cd021.html':
+            # Serve HTML page
+            self.send_response(200)
+            self.send_header('Content-type', 'text/html')
+            self.send_header('Access-Control-Allow-Origin', '*')  # Allow requests from any origin
+            self.end_headers()
+            # Read and send the contents of your HTML file
+            with open('loaderio-f25e240fbb90e7ae71cc53fe427cd021.html', 'rb') as f:
+                self.wfile.write(f.read())
+
+                
 # Function to run the HTTP server
 def run(server_class=HTTPServer, handler_class=RedirectHandler, port=80):
     server_address = ('', port)
