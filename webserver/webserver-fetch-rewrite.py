@@ -59,6 +59,8 @@ class RedirectHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header('Content-type', 'application/json')
             self.send_header('Access-Control-Allow-Origin', '*')  # Allow requests from any origin
+            self.send_header('Access-Control-Allow-Methods', 'GET')
+            self.send_header('Access-Control-Allow-Headers', 'Content-type')
             self.end_headers()
             if server_return is not None:
                 self.wfile.write(json.dumps(server_return).encode())  # Encode data as JSON
@@ -68,6 +70,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
             # Serve HTML page
             self.send_response(200)
             self.send_header('Content-type', 'text/html')
+            self.send_header('Access-Control-Allow-Origin', '*')  # Allow requests from any origin
             self.end_headers()
             # Read and send the contents of your HTML file
             with open('Access.html', 'rb') as f:
