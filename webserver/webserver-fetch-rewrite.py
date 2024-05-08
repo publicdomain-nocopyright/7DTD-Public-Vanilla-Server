@@ -11,6 +11,18 @@ last_check_time = last_fetch_time = fetched_time = 0
 server_info = {}  # Initialize an empty dictionary to store server info
 server_return = None  # Initialize server_return globally
 
+import requests
+
+def get_public_ip():
+    try:
+        response = requests.get('https://api.ipify.org')
+        if response.status_code == 200:
+            return response.text
+        else:
+            return "Failed to retrieve public IP"
+    except Exception as e:
+        return "Error: " + str(e)
+
 import socket
 # Function to continuously fetch server info
 def fetch_server_info():
@@ -18,8 +30,10 @@ def fetch_server_info():
 
     while True:
         try:
+            public_ip = get_public_ip()
+            print(public_ip)
             current_time = time.time() - start_time  # Calculate current time since program start
-            server_return = a2s.rules(("93.49.104.86", 26900))
+            server_return = a2s.rules((public_ip, 26900))
             fetched = server_return.get("CurrentServerTime")
 
             if fetched is not None:
