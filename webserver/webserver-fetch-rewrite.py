@@ -2,7 +2,7 @@
 import a2s
 import time
 from threading import Thread
-from http.server import HTTPServer, BaseHTTPRequestHandler
+from http.server import HTTPServer, BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
 
 start_time = time.time()  # Record the program start time
@@ -87,7 +87,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
 
                 
 # Function to run the HTTP server
-def run(server_class=HTTPServer, handler_class=RedirectHandler, port=80):
+def run(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, port=80):
     server_address = ('', port)
     httpd = server_class(server_address, handler_class)
     print('Server started at localhost:' + str(port))
