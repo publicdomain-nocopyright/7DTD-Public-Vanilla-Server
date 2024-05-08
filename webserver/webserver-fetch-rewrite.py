@@ -54,7 +54,9 @@ def fetch_server_info():
             print("Error: Failed to resolve the hostname or IP address.")
             print("  Please check the provided address and ensure it is correct.")
             print(f"  Details: {e}")
-
+            time.sleep(1)
+        except ConnectionResetError:
+            print("Error: ConnectionResetError: Game Server closed.")
             time.sleep(1)
 
 # HTTP request handler
