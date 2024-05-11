@@ -1,0 +1,4 @@
+# main.py
+
+import Webserver_FindNextHordeNightTime_inside_logs_folder
+print(Webserver_FindNextHordeNightTime_inside_logs_folder.find_last_bloodmoon_setday())
