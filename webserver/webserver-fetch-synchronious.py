@@ -1,4 +1,4 @@
-
+# https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/edit/main/webserver/webserver-fetch-synchronious.py
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import requests
 
