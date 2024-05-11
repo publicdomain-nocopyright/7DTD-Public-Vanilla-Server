@@ -75,6 +75,8 @@ This mod needs to be disabled or 8081 port forwarded to stop throwing ESC errors
 
 Note: idea of "You've reached 300 level, do you want to continue playing game? If yes, then your character will be resetted so you can continue journey." 
 
+Note: By removing `.ttp` file from `Saves\North Nuzaya County\Vanilla Server\Player\` it is possible to reset player.  
+Note: To debug server modlets, this folder shows the xml changes made. `\Saves\North Nuzaya County\Vanilla Server\ConfigsDump`  
 
 
 ### 💼 Used tools for the project:   
