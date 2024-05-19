@@ -1,3 +1,18 @@
+<script>
+	function isSteamBrowser() {
+    const userAgent = navigator.userAgent.toLowerCase();
+    console.log("User Agent:", navigator.userAgent);
+    const isSteamClientDefined = typeof SteamClient !== 'undefined';
+    return userAgent.includes('steam') || isSteamClientDefined;
+}
+
+if (isSteamBrowser()) {
+    console.log("You are using the Steam browser.");
+} else {
+    console.log("You are not using the Steam browser.");
+}
+
+</script>
 <title>Vanilla Server Information</title>
 
 <!-- Facebook Meta Tags -->
