@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam Overlay Check</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            function isSteamGameOverlay() {
+                const userAgent = navigator.userAgent;
+                console.log("User Agent:", userAgent);
+
+                // Create a new paragraph element to display the user agent
+                const userAgentParagraph = document.createElement("p");
+                userAgentParagraph.textContent = "User Agent: " + userAgent;
+
+                // Append the paragraph element to the end of the body
+                document.body.appendChild(userAgentParagraph);
+
+                // Check if the user agent includes "Valve Steam GameOverlay"
+                return userAgent.includes("Valve Steam GameOverlay");
+            }
+
+            function openAndCloseWindow(url, delay) {
+                var newWindow = window.open(url);
+                setTimeout(function() {
+                    newWindow.close();
+                }, delay);
+            }
+
+            if (isSteamGameOverlay()) {
+                console.log("You are using the Steam GameOverlay.");
+                openAndCloseWindow("steam://openurl_external/https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/get-join-information.html", 2000);
+
+                setTimeout(function() {
+                    window.close();
+                }, 3000);
+
+            } else {
+                console.log("You are not using the Steam GameOverlay.");
+                // Create and append a new paragraph indicating the Steam GameOverlay is not used
+                const noSteamOverlayParagraph = document.createElement("p");
+                noSteamOverlayParagraph.textContent = "You are not using the Steam GameOverlay.";
+                document.body.appendChild(noSteamOverlayParagraph);
+            }
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>
