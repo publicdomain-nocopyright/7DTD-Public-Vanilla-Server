@@ -1,26 +1,35 @@
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    function isSteamBrowser() {
-        const userAgent = navigator.userAgent.toLowerCase();
-        console.log("User Agent:", navigator.userAgent);
+    function isSteamGameOverlay() {
+        const userAgent = navigator.userAgent;
+        console.log("User Agent:", userAgent);
 
         // Create a new paragraph element to display the user agent
         const userAgentParagraph = document.createElement("p");
-        userAgentParagraph.textContent = "User Agent: " + navigator.userAgent;
+        userAgentParagraph.textContent = "User Agent: " + userAgent;
 
         // Append the paragraph element to the end of the body
         document.body.appendChild(userAgentParagraph);
 
-        const isSteamClientDefined = typeof SteamClient !== 'undefined';
-        return userAgent.includes('steam') || isSteamClientDefined;
+        // Check if the user agent includes "Valve Steam GameOverlay"
+        return userAgent.includes("Valve Steam GameOverlay");
     }
 
-    if (isSteamBrowser()) {
-        console.log("You are using the Steam browser.");
+    if (isSteamGameOverlay()) {
+        console.log("You are using the Steam GameOverlay.");
+        // Create and append a new paragraph indicating the Steam GameOverlay is used
+        const steamOverlayParagraph = document.createElement("p");
+        steamOverlayParagraph.textContent = "You are using the Steam GameOverlay.";
+        document.body.appendChild(steamOverlayParagraph);
     } else {
-        console.log("You are not using the Steam browser.");
+        console.log("You are not using the Steam GameOverlay.");
+        // Create and append a new paragraph indicating the Steam GameOverlay is not used
+        const noSteamOverlayParagraph = document.createElement("p");
+        noSteamOverlayParagraph.textContent = "You are not using the Steam GameOverlay.";
+        document.body.appendChild(noSteamOverlayParagraph);
     }
 });
+
 
 
 </script>
