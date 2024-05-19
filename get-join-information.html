@@ -1,25 +1,26 @@
 <script>
-function isSteamBrowser() {
-    const userAgent = navigator.userAgent.toLowerCase();
-    console.log("User Agent:", navigator.userAgent);
-    
-    // Create a new paragraph element to display the user agent
-    const userAgentParagraph = document.createElement("p");
-    userAgentParagraph.textContent = "User Agent: " + navigator.userAgent;
-    
-    // Append the paragraph element to the end of the body
-    document.body.appendChild(userAgentParagraph);
-    
-    const isSteamClientDefined = typeof SteamClient !== 'undefined';
-    return userAgent.includes('steam') || isSteamClientDefined;
-}
+document.addEventListener("DOMContentLoaded", function() {
+    function isSteamBrowser() {
+        const userAgent = navigator.userAgent.toLowerCase();
+        console.log("User Agent:", navigator.userAgent);
 
-if (isSteamBrowser()) {
-    console.log("You are using the Steam browser.");
-} else {
-    console.log("You are not using the Steam browser.");
-}
+        // Create a new paragraph element to display the user agent
+        const userAgentParagraph = document.createElement("p");
+        userAgentParagraph.textContent = "User Agent: " + navigator.userAgent;
 
+        // Append the paragraph element to the end of the body
+        document.body.appendChild(userAgentParagraph);
+
+        const isSteamClientDefined = typeof SteamClient !== 'undefined';
+        return userAgent.includes('steam') || isSteamClientDefined;
+    }
+
+    if (isSteamBrowser()) {
+        console.log("You are using the Steam browser.");
+    } else {
+        console.log("You are not using the Steam browser.");
+    }
+});
 
 
 </script>
