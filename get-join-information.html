@@ -1,9 +1,16 @@
 <script>
-	function isSteamBrowser() {
+function isSteamBrowser() {
     const userAgent = navigator.userAgent.toLowerCase();
-    console.log("User Agent:", navigator.userAgent);
     const isSteamClientDefined = typeof SteamClient !== 'undefined';
     return userAgent.includes('steam') || isSteamClientDefined;
+}
+
+function appendUserAgentToPage() {
+    const userAgent = navigator.userAgent;
+    const userAgentElement = document.createElement('div');
+    userAgentElement.id = 'user-agent-info';
+    userAgentElement.textContent = `User Agent: ${userAgent}`;
+    document.body.appendChild(userAgentElement);
 }
 
 if (isSteamBrowser()) {
@@ -11,6 +18,10 @@ if (isSteamBrowser()) {
 } else {
     console.log("You are not using the Steam browser.");
 }
+
+// Append the user agent to the webpage
+appendUserAgentToPage();
+
 
 </script>
 <title>Vanilla Server Information</title>
