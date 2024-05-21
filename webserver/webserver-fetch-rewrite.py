@@ -30,7 +30,8 @@ def fetch_server_info():
 
     while True:
         try:
-            public_ip = get_public_ip()
+            #public_ip = get_public_ip()
+            public_ip = '93.49.104.86'
             print(public_ip)
             current_time = time.time() - start_time  # Calculate current time since program start
             server_return = a2s.rules((public_ip, 26900))
