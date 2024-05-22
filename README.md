@@ -1,7 +1,5 @@
 # 7DTD-Public-Vanilla-Server
-
 ![](https://boqsc.sparda88.site/image.png)
-
 #### 💸 Donate & Contribute
 > Help the Game Server and the project to survive.  
 > [Give to the Vanilla Server](https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated/contribute/say-thank-you-70666/checkout?redirect=https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/Open-Collective-Post-Donation-Redirect-Handler.html?callback&tags=7DTD_in-game_Donate_Button), Thank you!
