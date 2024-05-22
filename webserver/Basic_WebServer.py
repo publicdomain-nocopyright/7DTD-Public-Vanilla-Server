@@ -39,16 +39,17 @@ from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 
 class RedirectHandler(BaseHTTPRequestHandler):
     def do_GET(self):
-        self.send_response(200)
-        self.send_header("Content-type", "text/html")
-        self.end_headers()
-
-        response = (
-            f"<html><head><title>https://pythonbasics.org</title></head>"
-            f"<body><p>Request: {self.path}</p>"
-            f"<p>This is an example web server.</p></body></html>"
-        ).encode("utf-8")
-        self.wfile.write(response)
+        if self.path == '/':
+            self.send_response(200)
+            self.send_header("Content-type", "text/html")
+            self.end_headers()
+            
+            response = (
+                f"<html><head><title>https://pythonbasics.org</title></head>"
+                f"<body><p>Request: {self.path}</p>"
+                f"<p>This is an example web server.</p></body></html>"
+            ).encode("utf-8")
+            self.wfile.write(response)
 
 def start_server():
     address = ('127.0.0.1', 8000)
