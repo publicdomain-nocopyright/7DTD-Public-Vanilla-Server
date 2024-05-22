@@ -1,5 +1,4 @@
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
-from pprint import pprint
 
 class RedirectHandler(BaseHTTPRequestHandler):
     def do_GET(self):
