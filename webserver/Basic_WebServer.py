@@ -1,4 +1,5 @@
-from http.server import HTTPServer, BaseHTTPRequestHandler
+from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
+from pprint import pprint
 
 class RedirectHandler(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -12,4 +13,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
             self.wfile.write(bytes("<p>This is an example web server.</p>", "utf-8"))
             self.wfile.write(bytes("</body></html>", "utf-8"))
 
-HTTPServer(('', 8000), RedirectHandler).serve_forever()
+if __name__ == "__main__":
+    address = ('127.0.0.1', 8000)
+    print("Web Server Started on: " + address[0] + ":" + str(address[1]))
+    ThreadingHTTPServer(address, RedirectHandler).serve_forever()
