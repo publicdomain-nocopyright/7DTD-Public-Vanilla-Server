@@ -15,4 +15,4 @@ class RedirectHandler(BaseHTTPRequestHandler):
 if __name__ == "__main__":
     address = ('127.0.0.1', 8000)
     print("Web Server Started on:", ":".join(map(str, address)))
-    #ThreadingHTTPServer(address, RedirectHandler).serve_forever()
+    ThreadingHTTPServer(address, RedirectHandler).serve_forever()
