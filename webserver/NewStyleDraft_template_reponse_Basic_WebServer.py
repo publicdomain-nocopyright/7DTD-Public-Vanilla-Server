@@ -67,10 +67,8 @@ class RedirectHandler(BaseHTTPRequestHandler):
             </html>""")
             response = response_template.substitute(path=self.path, two=2)
 
-            # Encode the response to bytes
-            encoded_response = response.encode('utf-8')
 
-            # Write the encoded response to the output stream
+            encoded_response = response.encode('utf-8')
             self.wfile.write(encoded_response)
             logging.info(f"Handled request for {self.path}")
 
@@ -92,8 +90,7 @@ def listen_for_enter():
                 server.shutdown()
                 logging.info("Server stopped.")
             stop_event.set()
-            with open('stop_flag.txt', 'w') as f:
-                f.write('stop')
+
             os._exit(0)  # Force exit the program
         elif command == "":
             webbrowser.open('http://127.0.0.1:8000')
@@ -102,13 +99,6 @@ def listen_for_enter():
 
 # Wrapper function to restart the script
 def restart_script():
-    while True:
-        if os.path.exists('stop_flag.txt'):
-            logging.info("Stop flag detected. Exiting restart loop.")
-            input()
-            os.remove('stop_flag.txt')
-            break
-        
         process = subprocess.Popen([sys.executable, __file__], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, bufsize=1)
         # Real-time output handling
         def output_reader(pipe, pipe_name):
