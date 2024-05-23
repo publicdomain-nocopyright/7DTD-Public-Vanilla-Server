@@ -46,12 +46,23 @@ class RedirectHandler(BaseHTTPRequestHandler):
             self.send_header("Content-type", "text/html")
             self.end_headers()
             
-            response = (
-                f"<html><head><title>https://pythonbasics.org</title></head>"
-                f"<body><p>Request: {self.path}</p>"
-                f"<p>This is an example web server.</p></body></html>"
-            ).encode("utf-8")
-            self.wfile.write(response)
+            response = f"""<!DOCTYPE html>
+            <html>
+            <head>
+                <title>https://pythonbasics.org</title>
+            </head>
+            <body>
+                <p>Request: {self.path}</p>
+                <p>This is an example web server.</p>
+                <script>
+                    // Example JavaScript code
+                    console.log("JavaScript is working!");
+                    alert("Welcome to the example web server!");
+                </script>
+            </body>
+            </html>"""
+                        
+            self.wfile.write(response.encode("utf-8"))
             logging.info(f"Handled request for {self.path}")
 
 def start_server():
