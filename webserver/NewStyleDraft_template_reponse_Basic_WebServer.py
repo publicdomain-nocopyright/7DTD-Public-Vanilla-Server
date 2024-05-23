@@ -57,11 +57,12 @@ class RedirectHandler(BaseHTTPRequestHandler):
                 <script>
                     // Example JavaScript code
                     function test() {
+                        document.body.innerHTML += "<div>JavaScript is working!</div>";
+   
                         console.log("JavaScript is working!");
                     }
                     test();
 
-                    alert("Welcome to the example web server!");
                 </script>
             </body>
             </html>""")
