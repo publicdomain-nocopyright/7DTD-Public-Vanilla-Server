@@ -1,36 +1,36 @@
-#___________________Signal_Handler____________________
-import signal
+import os
 import sys
 import time
-import webbrowser
+import subprocess
 import threading
-    import os
+import signal
+import webbrowser
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
+import logging
 
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
+
+# Function to handle signals
 def signal_handler(signal, frame):
-    print("Web Server Shutting Down.")
+    logging.info("Web Server Shutting Down.")
     sys.exit(0)
 
 signal.signal(signal.SIGINT, signal_handler)
 
-#___________________Monitor_Changes____________________
+# Function to monitor script changes
 def monitor_script(script_path):
     last_modified = os.path.getmtime(script_path)
     while True:
         time.sleep(1)
         current_modified = os.path.getmtime(script_path)
         if current_modified != last_modified:
-            print("Script modified! Restarting...")
-            os.execv(sys.executable, ['python'] + sys.argv)
+            logging.info("Script modified! Restarting...")
+            os.execv(sys.executable, [sys.executable] + sys.argv)
             break
         last_modified = current_modified
-        
-script_path = __file__
-monitor_thread = threading.Thread(target=monitor_script, args=(script_path,))
-monitor_thread.daemon = True
-monitor_thread.start()
 
-#____________________HTTP_SERVER_______________________
+# Function to start HTTP server
 class RedirectHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         if self.path == '/':
@@ -41,39 +41,62 @@ class RedirectHandler(BaseHTTPRequestHandler):
             response = (
                 f"<html><head><title>https://pythonbasics.org</title></head>"
                 f"<body><p>Request: {self.path}</p>"
-                f"<p>This is an example web server.</p></body></html>"
+                f"<p>This is oof an example web server.</p></body></html>"
             ).encode("utf-8")
             self.wfile.write(response)
+            logging.info(f"Handled request for {self.path}")
 
 def start_server():
     address = ('127.0.0.1', 8000)
-    print("Web Server Started on: " + address[0] + ":" + str(address[1]))
+    logging.info("Web Server Started on: " + address[0] + ":" + str(address[1]))
     ThreadingHTTPServer(address, RedirectHandler).serve_forever()
 
 def listen_for_enter():
     while True:
-        sys.stdin.read(1)  # Read a single character from stdin
+        input()  # Wait for Enter key press
         webbrowser.open('http://127.0.0.1:8000')
 
-def main():
-    server_thread = threading.Thread(target=start_server)
-    server_thread.daemon = True
-    server_thread.start()
-    
-    input_thread = threading.Thread(target=listen_for_enter)
-    input_thread.daemon = True
-    input_thread.start()
-    
-    # Keep the main thread running, otherwise signals are ignored.
+# Wrapper function to restart the script
+def restart_script():
     while True:
-        time.sleep(1)
+        process = subprocess.Popen([sys.executable, __file__], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, bufsize=1)
+        # Real-time output handling
+        def output_reader(pipe, pipe_name):
+            with pipe:
+                for line in iter(pipe.readline, ''):
+                    print(f"[{pipe_name}] {line}", end='')
+
+        stdout_thread = threading.Thread(target=output_reader, args=(process.stdout, 'STDOUT'))
+        stderr_thread = threading.Thread(target=output_reader, args=(process.stderr, 'STDERR'))
+        stdout_thread.start()
+        stderr_thread.start()
+        
+        stdout_thread.join()
+        stderr_thread.join()
+        
+        process.wait()
+        if process.returncode != 0:
+            logging.error("Script error. Press Enter to restart the script.")
+            input()  # Wait for Enter key press to restart the script
 
 if __name__ == "__main__":
-    while True:
-        try:
-            main()
-        except Exception as e:
-            print(f"Error: {e}")
-            print("Press Enter to restart the script...")
-            sys.stdin.read(1)  # Read a single character from stdin
-            os.execv(sys.executable, ['python'] + sys.argv)
+    if 'WRAPPER_RUN' not in os.environ:
+        os.environ['WRAPPER_RUN'] = '1'
+        restart_script()
+    else:
+        script_path = __file__
+        monitor_thread = threading.Thread(target=monitor_script, args=(script_path,))
+        monitor_thread.daemon = True
+        monitor_thread.start()
+
+        server_thread = threading.Thread(target=start_server)
+        server_thread.daemon = True
+        server_thread.start()
+        
+        input_thread = threading.Thread(target=listen_for_enter)
+        input_thread.daemon = True
+        input_thread.start()
+        
+        # Keep the main thread running, otherwise signals are ignored.
+        while True:
+            time.sleep(1)
