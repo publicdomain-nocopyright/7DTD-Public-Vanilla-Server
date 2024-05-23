@@ -61,6 +61,8 @@ def start_server():
     logging.info("Web Server Started on: " + address[0] + ":" + str(address[1]))
     server.serve_forever()
 
+#_______________Command_Line_Interface_________________
+
 def listen_for_enter():
     while True:
         command = input().strip().lower()  # Wait for Enter key press
