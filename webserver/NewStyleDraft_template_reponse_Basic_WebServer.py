@@ -52,7 +52,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
                 <title>https://pythonbasics.org</title>
             </head>
             <body>
-                <p>Request: $huhed</p>
+                <p>Request: $path</p>
                 <p>This is an example web server.</p>
                 <script>
                     // Example JavaScript code
@@ -65,7 +65,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
                 </script>
             </body>
             </html>""")
-            response = response_template.substitute(huhed=self.path, two=2)
+            response = response_template.substitute(path=self.path, two=2)
 
             # Encode the response to bytes
             encoded_response = response.encode('utf-8')
@@ -105,6 +105,7 @@ def restart_script():
     while True:
         if os.path.exists('stop_flag.txt'):
             logging.info("Stop flag detected. Exiting restart loop.")
+            input()
             os.remove('stop_flag.txt')
             break
         
