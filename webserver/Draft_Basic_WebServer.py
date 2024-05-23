@@ -11,9 +11,15 @@ import logging
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 
+server = None
+stop_event = threading.Event()
+
 # Function to handle signals
 def signal_handler(signal, frame):
     logging.info("Web Server Shutting Down.")
+    if server:
+        server.shutdown()
+    stop_event.set()
     sys.exit(0)
 
 signal.signal(signal.SIGINT, signal_handler)
@@ -21,7 +27,7 @@ signal.signal(signal.SIGINT, signal_handler)
 # Function to monitor script changes
 def monitor_script(script_path):
     last_modified = os.path.getmtime(script_path)
-    while True:
+    while not stop_event.is_set():
         time.sleep(1)
         current_modified = os.path.getmtime(script_path)
         if current_modified != last_modified:
@@ -40,25 +46,44 @@ class RedirectHandler(BaseHTTPRequestHandler):
             
             response = (
                 f"<html><head><title>https://pythonbasics.org</title></head>"
-                f"<body><p>Request: {self.path}</p>"
-                f"<p>This is oof an example web server.</p></body></html>"
+                f"<body><p>TestRequest: {self.path}</p>"
+                f"<p>This is an example web server.</p></body></html>"
             ).encode("utf-8")
             self.wfile.write(response)
             logging.info(f"Handled request for {self.path}")
 
 def start_server():
+    global server
     address = ('127.0.0.1', 8000)
+    server = ThreadingHTTPServer(address, RedirectHandler)
     logging.info("Web Server Started on: " + address[0] + ":" + str(address[1]))
-    ThreadingHTTPServer(address, RedirectHandler).serve_forever()
+    server.serve_forever()
 
 def listen_for_enter():
     while True:
-        input()  # Wait for Enter key press
-        webbrowser.open('http://127.0.0.1:8000')
+        command = input().strip().lower()  # Wait for Enter key press
+        if command == "stop":
+            logging.info("Stopping the server...")
+            if server:
+                server.shutdown()
+                logging.info("Server stopped.")
+            stop_event.set()
+            with open('stop_flag.txt', 'w') as f:
+                f.write('stop')
+            os._exit(0)  # Force exit the program
+        elif command == "":
+            webbrowser.open('http://127.0.0.1:8000')
+        elif command == "open":
+            webbrowser.open('http://127.0.0.1:8000')
 
 # Wrapper function to restart the script
 def restart_script():
     while True:
+        if os.path.exists('stop_flag.txt'):
+            logging.info("Stop flag detected. Exiting restart loop.")
+            os.remove('stop_flag.txt')
+            break
+        
         process = subprocess.Popen([sys.executable, __file__], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, bufsize=1)
         # Real-time output handling
         def output_reader(pipe, pipe_name):
@@ -98,5 +123,5 @@ if __name__ == "__main__":
         input_thread.start()
         
         # Keep the main thread running, otherwise signals are ignored.
-        while True:
+        while not stop_event.is_set():
             time.sleep(1)
