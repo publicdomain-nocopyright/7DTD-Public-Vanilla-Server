@@ -55,11 +55,11 @@ class RedirectHandler(BaseHTTPRequestHandler):
             self.wfile.write(json.dumps(data).encode())  # Encode data as JSON                    
 
 # Function to run the HTTP server
-def run(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, port=80):
-    server_address = ('', port)
+def run(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='', port=80):
+    server_address = (ip, port)
     httpd = server_class(server_address, handler_class)
-    print('Server started at localhost:' + str(port))
     httpd.serve_forever()
+    print('Server started at localhost:' + str(port))
 
 if __name__ == '__main__':
     
