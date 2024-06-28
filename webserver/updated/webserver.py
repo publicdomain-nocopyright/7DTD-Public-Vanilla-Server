@@ -4,7 +4,22 @@ class RedirectHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         if self.path == '/':
 
+            import get_steam_game_server_data
+            game_server = get_steam_game_server_data()
+
+            # # ServerLoginConfirmationText ServerWebsiteURL
             html_content = f"""
+            {game_server["GameHost"]}
+            {game_server["ServerDescription"]}
+            
+            {game_server["IP"]}
+            {game_server["Port"]}
+            {game_server["ServerVersion"]}
+            {game_server["Region"]}
+            {game_server["LevelName"]}
+            {game_server["WorldSize"]}
+            
+            
             test
             """
             self.wfile.write(html_content.encode('utf-8'))
