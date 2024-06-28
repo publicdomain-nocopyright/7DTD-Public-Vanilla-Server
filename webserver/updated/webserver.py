@@ -2,14 +2,14 @@ from http.server import HTTPServer, BaseHTTPRequestHandler, ThreadingHTTPServer
 
 class RedirectHandler(BaseHTTPRequestHandler):
     def do_GET(self):
-        if self.path == '/':
+        if self.path == '/data_test':
 
             import get_steam_game_server_data
             # TODO: 20 seconds delay requirement 
             # TODO: constant fetch on loop as separate thread, to fetch every 20 seconds the server information.
             game_server = get_steam_game_server_data()
 
-            # # ServerLoginConfirmationText ServerWebsiteURL
+            # ServerLoginConfirmationText ServerWebsiteURL
             html_content = f"""
             {game_server["GameHost"]}<br>
             {game_server["ServerDescription"]}<br>
@@ -23,14 +23,13 @@ class RedirectHandler(BaseHTTPRequestHandler):
 
             {game_server["CurrentPlayers"]}<br>
             
-            
-            
             test
             """
 
             self.send_response(200)
             self.send_header('Content-type', 'text/html')
             self.end_headers()
+            
             self.wfile.write(html_content.encode('utf-8'))
               
         if self.path == '/data':
@@ -39,10 +38,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
             # TODO: 20 seconds delay requirement 
             # TODO: constant fetch on loop as separate thread, to fetch every 20 seconds the server information.
             game_server = get_steam_game_server_data()
-            
-            
-
-            
+                    
             data = game_server
             self.send_response(200)
             self.send_header('Content-type', 'application/json')
