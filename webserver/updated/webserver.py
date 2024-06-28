@@ -34,12 +34,25 @@ class RedirectHandler(BaseHTTPRequestHandler):
             self.wfile.write(html_content.encode('utf-8'))
               
         if self.path == '/data':
-                    self.send_response(200)
-                    self.send_header('Content-type', 'application/json')
-                    self.send_header('Access-Control-Allow-Origin', '*')  # Allow requests from any origin
-                    self.send_header('Access-Control-Allow-Methods', 'GET')
-                    self.send_header('Access-Control-Allow-Headers', 'Content-type')
-                    self.end_headers()
+
+            import get_steam_game_server_data
+            # TODO: 20 seconds delay requirement 
+            # TODO: constant fetch on loop as separate thread, to fetch every 20 seconds the server information.
+            game_server = get_steam_game_server_data()
+            
+            
+
+            
+            data = game_server
+            self.send_response(200)
+            self.send_header('Content-type', 'application/json')
+            self.send_header('Access-Control-Allow-Origin', '*')  # Allow requests from any origin
+            self.send_header('Access-Control-Allow-Methods', 'GET')
+            self.send_header('Access-Control-Allow-Headers', 'Content-type')
+            self.end_headers()
+
+            import json
+            self.wfile.write(json.dumps(data).encode())  # Encode data as JSON                    
 
 # Function to run the HTTP server
 def run(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, port=80):
