@@ -6,6 +6,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
 
             import get_steam_game_server_data
             # TODO: 20 seconds delay requirement 
+            # TODO: constant fetch on loop as separate thread, to fetch every 20 seconds the server information.
             game_server = get_steam_game_server_data()
 
             # # ServerLoginConfirmationText ServerWebsiteURL
