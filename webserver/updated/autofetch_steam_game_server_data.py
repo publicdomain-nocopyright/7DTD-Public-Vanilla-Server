@@ -1,0 +1,1 @@
+# Webserver needs to execute steam game server data function every 20 seconds
