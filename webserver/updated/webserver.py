@@ -10,19 +10,26 @@ class RedirectHandler(BaseHTTPRequestHandler):
 
             # # ServerLoginConfirmationText ServerWebsiteURL
             html_content = f"""
-            {game_server["GameHost"]}
-            {game_server["ServerDescription"]}
+            {game_server["GameHost"]}<br>
+            {game_server["ServerDescription"]}<br>
             
-            {game_server["IP"]}
+            {game_server["IP"]}<br>
             {game_server["Port"]}
-            {game_server["ServerVersion"]}
-            {game_server["Region"]}
-            {game_server["LevelName"]}
-            {game_server["WorldSize"]}
+            {game_server["ServerVersion"]}<br>
+            {game_server["Region"]}<br>
+            {game_server["LevelName"]}<br>
+            {game_server["WorldSize"]}<br>
+
+            {game_server["CurrentPlayers"]}<br>
+            
             
             
             test
             """
+
+            self.send_response(200)
+            self.send_header('Content-type', 'text/html')
+            self.end_headers()
             self.wfile.write(html_content.encode('utf-8'))
               
         if self.path == '/data':
