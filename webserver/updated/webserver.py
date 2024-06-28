@@ -5,6 +5,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
         if self.path == '/':
 
             import get_steam_game_server_data
+            # TODO: 20 seconds delay requirement 
             game_server = get_steam_game_server_data()
 
             # # ServerLoginConfirmationText ServerWebsiteURL
