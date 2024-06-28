@@ -1,0 +1,1 @@
+# Parse log file of the server for usernames that joined and left the server. Make dictionary in python to keep track of it.
