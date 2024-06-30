@@ -33,11 +33,11 @@ class RedirectHandler(BaseHTTPRequestHandler):
             
             <script>
             function fetchData() {{
-                fetch('http://localhost/data')
+                fetch('/data')
                     .then(response => response.json())
                     .then(data => {{
                         console.log(data)
-                        
+
                     Object.keys(data).forEach(key => {{
                         let id = 'html' + key;
                         let element = document.getElementById(id);
