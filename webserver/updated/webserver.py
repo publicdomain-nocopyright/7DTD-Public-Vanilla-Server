@@ -30,14 +30,14 @@ class RedirectHandler(BaseHTTPRequestHandler):
 
             {game_server["CurrentPlayers"]}<br>
 
-            <p id="gameHost">Loading data</p>
+            <p id="htmlCurrentPlayers">Loading data</p>
             <script>
             function fetchData() {{
                 fetch('http://localhost/data')
                     .then(response => response.json())
                     .then(data => {{
                         console.log(data)
-                        document.getElementById('gameHost').innerText = data["CurrentPlayers"];
+                        document.getElementById('htmlCurrentPlayers').innerText = data["CurrentPlayers"];
                     }})
                     .catch(error => console.error('Error fetching data:', error))
                     .finally(() => {{
