@@ -16,8 +16,21 @@ class RedirectHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         if self.path == '/data_test':
 
+    
+
             # ServerLoginConfirmationText ServerWebsiteURL
             html_content = f"""
+
+            <style>
+                /* CSS animation for fading in new data */
+                @keyframes fadeIn {{
+                    from {{ opacity: 0; }}
+                    to {{ opacity: 1; }}
+                }}
+                .fade-in {{
+                    animation: fadeIn 0.5s ease-in-out;
+                }}
+            </style>
             {game_server["GameHost"]}<br>
             {game_server["ServerDescription"]}<br>
             
@@ -43,8 +56,14 @@ class RedirectHandler(BaseHTTPRequestHandler):
                         let element = document.getElementById(id);
                         
                         if (element) {{
+                        // Apply fade-in animation
+                        element.classList.add('fade-in');
+                        setTimeout(() => {{
                             element.innerText = data[key];
-                        }}
+                            element.classList.remove('fade-in');
+                        }}, 500); // Adjust delay as needed for animation to complete
+                    }}
+
                     }});
 
                     }})
