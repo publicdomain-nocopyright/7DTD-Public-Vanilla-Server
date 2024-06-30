@@ -1,13 +1,19 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler, ThreadingHTTPServer
+import close_threads
+
+def lookup():
+    import get_steam_game_server_data
+    import time
+    while True:
+        print("Synchronizing data with the server.")
+        global game_server
+        game_server = get_steam_game_server_data()
+        time.sleep(5)
 
 class RedirectHandler(BaseHTTPRequestHandler):
+    global game_server
     def do_GET(self):
         if self.path == '/data_test':
-
-            import get_steam_game_server_data
-            # TODO: 20 seconds delay requirement 
-            # TODO: constant fetch on loop as separate thread, to fetch every 20 seconds the server information.
-            game_server = get_steam_game_server_data()
 
             # ServerLoginConfirmationText ServerWebsiteURL
             html_content = f"""
@@ -32,14 +38,9 @@ class RedirectHandler(BaseHTTPRequestHandler):
             
             self.wfile.write(html_content.encode('utf-8'))
               
-        if self.path == '/data':
-
-            import get_steam_game_server_data
-            # TODO: 20 seconds delay requirement 
-            # TODO: constant fetch on loop as separate thread, to fetch every 20 seconds the server information.
-            game_server = get_steam_game_server_data()
-                    
+        if self.path == '/data':                 
             data = game_server
+            
             self.send_response(200)
             self.send_header('Content-type', 'application/json')
             self.send_header('Access-Control-Allow-Origin', '*')  # Allow requests from any origin
@@ -54,9 +55,15 @@ class RedirectHandler(BaseHTTPRequestHandler):
 def run(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, port=80, ip='',):
     server_address = (ip, port)
     httpd = server_class(server_address, handler_class)
-    httpd.serve_forever()
     print('Server started at localhost:' + str(port))
+    httpd.serve_forever()
 
 if __name__ == '__main__':
-    # Run the HTTP server in the main thread
-    run()
+    import threading
+    lookup_thread = threading.Thread(target=lookup, daemon = True).start()
+    server_thread = threading.Thread(target=run, daemon = True).start()
+
+
+    import time
+    while True:
+        time.sleep(1)
