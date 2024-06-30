@@ -30,7 +30,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
 
             {game_server["CurrentPlayers"]}<br>
 
-            <p id="gameHost">hahah</p>
+            <p id="gameHost">Loading data</p>
             <script>
             function fetchData() {{
                 fetch('http://localhost/data')
