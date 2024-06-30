@@ -7,10 +7,7 @@ def lookup():
     while True:
         print("Synchronizing data with the server.")
         global game_server
-
-        game_server = get_steam_game_server_data()
-        
-        
+        game_server = get_steam_game_server_data()        
         time.sleep(5)
 
 class RedirectHandler(BaseHTTPRequestHandler):
