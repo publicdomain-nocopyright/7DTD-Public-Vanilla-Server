@@ -29,6 +29,8 @@ class RedirectHandler(BaseHTTPRequestHandler):
             {game_server["WorldSize"]}<br>
 
             <p id="htmlCurrentPlayers">{game_server["CurrentPlayers"]}Loading data</p>
+            <p id="htmlCurrentServerTime">{game_server["CurrentPlayers"]}Loading data</p>
+            
             <script>
             function fetchData() {{
                 fetch('http://localhost/data')
