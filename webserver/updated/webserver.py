@@ -27,7 +27,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
             {game_server["Region"]}<br>
             {game_server["LevelName"]}<br>
             {game_server["WorldSize"]}<br>
-            
+
             <p id="htmlCurrentPlayers">{game_server["CurrentPlayers"]}Loading data</p>
             <script>
             function fetchData() {{
@@ -35,7 +35,17 @@ class RedirectHandler(BaseHTTPRequestHandler):
                     .then(response => response.json())
                     .then(data => {{
                         console.log(data)
-                        document.getElementById('htmlCurrentPlayers').innerText = data["CurrentPlayers"];
+
+                        
+                    Object.keys(data).forEach(key => {{
+                        let id = 'html' + key;
+                        let element = document.getElementById(id);
+                        
+                        if (element) {{
+                            element.innerText = data[key];
+                        }}
+                    }});
+
                     }})
                     .catch(error => console.error('Error fetching data:', error))
                     .finally(() => {{
