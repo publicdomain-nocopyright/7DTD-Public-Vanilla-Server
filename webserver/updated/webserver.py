@@ -28,6 +28,29 @@ class RedirectHandler(BaseHTTPRequestHandler):
             {game_server["WorldSize"]}<br>
 
             {game_server["CurrentPlayers"]}<br>
+
+            <p id="gameHost">hahah</p>
+            <script>
+            function fetchData() {{
+                fetch('http://localhost/data')
+                    .then(response => response.json())
+                    .then(data => {{
+                        // Update your UI with the fetched data
+                        console.log(data)
+                        document.getElementById('gameHost').innerText = data["CurrentPlayers"];
+                        //document.getElementById('serverDescription').innerText = "{{server_description}}";
+                        // Update other elements similarly
+                    }})
+                    .catch(error => console.error('Error fetching data:', error))
+                    .finally(() => {{
+                        // Schedule the next fetch after 5 seconds
+                        setTimeout(fetchData, 5000); // 5000 milliseconds = 5 seconds
+                    }});
+            }}
+            
+            // Initial call to start fetching data
+            fetchData();
+            </script>
             
             test
             """
