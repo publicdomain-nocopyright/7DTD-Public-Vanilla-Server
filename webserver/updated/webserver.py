@@ -41,8 +41,8 @@ class RedirectHandler(BaseHTTPRequestHandler):
             {game_server["LevelName"]}<br>
             {game_server["WorldSize"]}<br>
 
-            <p id="htmlCurrentPlayers">{game_server["CurrentPlayers"]}Loading data</p>
-            <p id="htmlCurrentServerTime">{game_server["CurrentServerTime"]}Loading data</p>
+            <p id="htmlCurrentPlayers">{game_server["CurrentPlayers"]}</p>
+            <p id="htmlCurrentServerTime">{game_server["CurrentServerTime"]}</p>
             
             <script>
             function fetchData() {{
