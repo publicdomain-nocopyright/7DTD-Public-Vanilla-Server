@@ -3,10 +3,14 @@ from http.server import HTTPServer, BaseHTTPRequestHandler, ThreadingHTTPServer
 def lookup():
     
     import time
+    import get_steam_game_server_data
     while True:
         print("Synchronizing data with the server.")
         global game_server
-        import get_steam_game_server_data as game_server
+
+        game_server = get_steam_game_server_data()
+        
+        
         time.sleep(5)
 
 class RedirectHandler(BaseHTTPRequestHandler):
