@@ -59,10 +59,9 @@ def run(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, port=80
     httpd.serve_forever()
 
 if __name__ == '__main__':
-
     import threading
     lookup_thread = threading.Thread(target=lookup, daemon = True).start()
     server_thread = threading.Thread(target=run, daemon = True).start()
-    
+
     import close_threads_signaling    
     import keep_main_thread_alive
