@@ -63,8 +63,7 @@ if __name__ == '__main__':
     import threading
     lookup_thread = threading.Thread(target=lookup, daemon = True).start()
     server_thread = threading.Thread(target=run, daemon = True).start()
-
+    
 
     import time
-    while True:
-        time.sleep(1)
+    while True: time.sleep(100000)
