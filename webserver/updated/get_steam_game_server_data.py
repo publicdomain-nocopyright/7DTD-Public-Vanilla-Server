@@ -6,4 +6,4 @@ def get_steam_game_server_data(server_address = ("93.49.104.86", 26900)):
 
 import sys
 # Replace the module with the function
-sys.modules[__name__] = get_steam_game_server_data
+sys.modules[__name__] = get_steam_game_server_data()
