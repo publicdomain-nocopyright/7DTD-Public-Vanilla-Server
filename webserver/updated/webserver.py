@@ -37,7 +37,6 @@ class RedirectHandler(BaseHTTPRequestHandler):
                     .then(response => response.json())
                     .then(data => {{
                         console.log(data)
-
                         
                     Object.keys(data).forEach(key => {{
                         let id = 'html' + key;
