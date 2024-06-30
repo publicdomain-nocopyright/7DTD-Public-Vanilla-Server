@@ -27,6 +27,7 @@ if __name__ == "__main__":
     start_time = time.time()
 
     while True:
+        #print(a2s.players(("93.49.104.86", 26900)))
         new_value = get_value()
         if new_value != current_value:
             end_time = time.time()
@@ -34,5 +35,5 @@ if __name__ == "__main__":
             current_value = new_value
             start_time = end_time
         print(current_value)
-        time.sleep(1)  # Check every second
+        time.sleep(1)  
 
