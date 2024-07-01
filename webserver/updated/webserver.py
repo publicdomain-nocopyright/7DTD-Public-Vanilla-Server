@@ -1,7 +1,6 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler, ThreadingHTTPServer
 
 def lookup():
-    
     import time
     import get_steam_game_server_data
     while True:
@@ -98,9 +97,13 @@ class RedirectHandler(BaseHTTPRequestHandler):
             self.wfile.write(json.dumps(data).encode())  # Encode data as JSON                    
 
 # Function to run the HTTP server
-def run(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, port=80, ip='',):
-    server_address = (ip, port)
+def run(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, port=80, sslport=443, ip='',):
+    server_address = (ip, sslport)
     httpd = server_class(server_address, handler_class)
+
+    import ssl_verification
+    httpd = ssl_verification.enable_ssl(httpd, server_address)
+    
     print('Server started at localhost:' + str(port))
     httpd.serve_forever()
 
