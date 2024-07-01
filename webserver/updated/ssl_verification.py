@@ -11,6 +11,10 @@
 #   Note: 80 port (http://localhost/) is not automatically available. You need to run a separate HTTP Server.
 
 
+# Usage:
+#    import ssl_verification
+#    httpd = ssl_verification.enable_ssl(httpd, server_address)
+
 import ssl
 def enable_ssl(httpd, server_address):
     if server_address[1] == 443:
