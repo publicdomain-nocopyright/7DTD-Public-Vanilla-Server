@@ -98,7 +98,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
 
 # Function to run the HTTP server
 def run(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, port=80, sslport=443, ip='',):
-    server_address = (ip, sslport)
+    server_address = (ip, port)
     httpd = server_class(server_address, handler_class)
 
     import ssl_verification
