@@ -23,6 +23,7 @@ def enable_ssl(httpd, server_address):
         httpd.socket = context.wrap_socket(httpd.socket, server_side=True)
         return httpd
 
+
     # Deprecated Python
     #httpd.socket = ssl.wrap_socket(httpd.socket,
     #                                    server_side=True,

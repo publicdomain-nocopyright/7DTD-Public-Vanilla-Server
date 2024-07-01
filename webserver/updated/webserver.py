@@ -101,8 +101,8 @@ def run(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, port=80
     server_address = (ip, port)
     httpd = server_class(server_address, handler_class)
 
-    import ssl_verification
-    httpd = ssl_verification.enable_ssl(httpd, server_address)
+    #import ssl_verification
+    #httpd = ssl_verification.enable_ssl(httpd, server_address)
     
     print('Server started at localhost:' + str(port))
     httpd.serve_forever()
