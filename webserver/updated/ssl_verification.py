@@ -7,6 +7,9 @@
 # Note: Unable to load config info from /usr/local/ssl/openssl.cnf
 #   Solution: .\openssl-0.9.8h-1-bin\share\openssl.cnf needs to be placed in C:/usr/local/ssl/openssl.cnf
 
+# To access SSLport use HTTPS protocol: https://localhost/ 
+#   Note: 80 port (http://localhost/) is not automatically available. You need to run a separate HTTP Server.
+
 
 import ssl
 def enable_ssl(httpd, server_address):
