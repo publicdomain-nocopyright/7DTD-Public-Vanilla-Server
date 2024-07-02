@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Box Example</title>
+    <style>
+        .hover-container {
+            font-family: Arial, sans-serif;
+            color: black;
+            text-shadow: 0 0 black;
+            position: relative;
+            display: inline-block;
+        }
+
+        .hover-info-box {
+            display: none;
+            position: absolute;
+            top: 25px;
+            left: 0;
+            width: 200px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: opacity 0.3s ease;
+            opacity: 0;
+        }
+
+        .hover-container:hover .hover-info-box {
+            display: block;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover-container">
+        <a href="#">Hover over me</a>
+        <div class="hover-info-box">
+            <p>This is the information box. It remains displayed when hovered over.</p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const containers = document.querySelectorAll('.hover-container');
+            
+            containers.forEach(container => {
+                const infoBox = container.querySelector('.hover-info-box');
+                let timeoutId;
+                let isHovered = false;
+
+                const showInfoBox = () => {
+                    clearTimeout(timeoutId);
+                    isHovered = true;
+                    infoBox.style.display = 'block';
+                    setTimeout(() => {
+                        if (isHovered) {
+                            infoBox.style.opacity = '1';
+                        }
+                    }, 10); // Small delay to trigger CSS transition
+                };
+
+                const hideInfoBox = () => {
+                    isHovered = false;
+                    timeoutId = setTimeout(() => {
+                        infoBox.style.opacity = '0';
+                        setTimeout(() => {
+                            if (!isHovered) {
+                                infoBox.style.display = 'none';
+                            }
+                        }, 300); // Match the transition duration
+                    }, 300); // Delay before hiding the box
+                };
+
+                container.addEventListener('mouseenter', showInfoBox);
+                container.addEventListener('mouseleave', hideInfoBox);
+                infoBox.addEventListener('mouseenter', () => {
+                    clearTimeout(timeoutId);
+                    isHovered = true;
+                });
+                infoBox.addEventListener('mouseleave', () => {
+                    isHovered = false;
+                    hideInfoBox();
+                });
+            });
+        });
+    </script>
+</body>
+</html>
