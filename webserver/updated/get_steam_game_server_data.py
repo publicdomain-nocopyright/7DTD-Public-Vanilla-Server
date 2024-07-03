@@ -10,7 +10,7 @@ def get_steam_game_server_data(server_address = ("93.49.104.86", 26900)):
     return rules
 
 import sys, os
-sys.modules[__name__] = os.path.basename(__file__)[:-3]
+sys.modules[__name__] = get_steam_game_server_data # os.path.basename(__file__)[:-3]()
 
 
 if __name__ == "__main__":
