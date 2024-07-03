@@ -1,5 +1,7 @@
 import a2s
 
+#TODO: Make default argument the public ip of current machine.
+
 def get_steam_game_server_data(server_address = ("93.49.104.86", 26900)):
     try:
         rules = a2s.rules(server_address, timeout=3.0, encoding="utf-8")
