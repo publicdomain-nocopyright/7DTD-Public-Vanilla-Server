@@ -3,8 +3,8 @@ import a2s
 def get_steam_game_server_data(server_address = ("93.49.104.86", 26900)):
     try:
         rules = a2s.rules(server_address, timeout=3.0, encoding="utf-8")
-    except Exception as e:
-        print(e)
+    except Exception as e: # TODO: Add check if internet connection possible. TODO: Make Timeout exception
+        print("[Webserver] [a2s] [Error]", e)
     return rules
 
 import sys

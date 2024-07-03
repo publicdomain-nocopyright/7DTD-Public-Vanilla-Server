@@ -4,7 +4,7 @@ def lookup():
     import time
     import get_steam_game_server_data
     while True:
-        print("Synchronizing data with the server.")
+        print("[Webserver] [a2s] Synchronizing data with the server.")
         global game_server
         game_server = get_steam_game_server_data()        
         time.sleep(5)
@@ -14,8 +14,6 @@ class RedirectHandler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == '/data_test':
-
-    
 
             # ServerLoginConfirmationText ServerWebsiteURL
             html_content = f"""
@@ -104,7 +102,7 @@ def run(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, port=80
     #import ssl_verification
     #httpd = ssl_verification.enable_ssl(httpd, server_address)
     
-    print('Server started at localhost:' + str(port))
+    print('[Webserver] Server started at localhost:' + str(port))
     httpd.serve_forever()
 
 if __name__ == '__main__':
