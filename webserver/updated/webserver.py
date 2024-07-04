@@ -42,34 +42,29 @@ class RedirectHandler(BaseHTTPRequestHandler):
             <p id="htmlCurrentServerTime">{game_server["CurrentServerTime"]}</p>
             
             <script>
-            function fetchData() {{
-                fetch('/data')
-                    .then(response => response.json())
-                    .then(data => {{
-                        console.log(data)
-
-                    Object.keys(data).forEach(key => {{
-                        let id = 'html' + key;
-                        let element = document.getElementById(id);
+                async function fetchData() {{
+                    try {{
+                        const response = await fetch('/data');
+                        const data = await response.json();
                         
-                        if (element) {{
-                        // Apply fade-in animation
-                        element.classList.add('fade-in');
-                        setTimeout(() => {{
-                            element.innerText = data[key];
-                            element.classList.remove('fade-in');
-                        }}, 500); // Adjust delay as needed for animation to complete
+                        for (const [key, value] of Object.entries(data)) {{
+                            let element = document.getElementById(`html${{key}}`);
+                            if (element) {{
+                                element.classList.add('fade-in');
+                                setTimeout(() => {{
+                                    element.innerText = value;
+                                    element.classList.remove('fade-in');
+                                }}, 500);
+                            }}
+                        }}
+                    }} catch (error) {{
+                        console.error('Error fetching data:', error);
+                    }} finally {{
+                        setTimeout(fetchData, 5000);
                     }}
+                }}
 
-                    }});
-
-                    }})
-                    .catch(error => console.error('Error fetching data:', error))
-                    .finally(() => {{
-                        setTimeout(fetchData, 5000); // 5000 milliseconds = 5 seconds
-                    }});
-            }}
-            fetchData();
+                fetchData();
             </script>
             
             test
