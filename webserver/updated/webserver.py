@@ -110,5 +110,5 @@ if __name__ == '__main__':
     lookup_thread = threading.Thread(target=lookup, daemon = True).start()
     server_thread = threading.Thread(target=run, daemon = True).start()
 
-    import close_threads_signaling    
+    import exit_threads_signaling    
     import keep_main_thread_alive
