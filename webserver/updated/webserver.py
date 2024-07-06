@@ -83,9 +83,8 @@ class RedirectHandler(BaseHTTPRequestHandler):
                 data = game_server
             except NameError:
                 pass
+
             self.send_response(200)
-
-
             self.send_header('Content-type', 'application/json')
             self.send_header('Access-Control-Allow-Origin', '*\r\n'
                             'Access-Control-Allow-Methods: GET\r\n'
