@@ -1,13 +1,16 @@
-from http.server import HTTPServer, BaseHTTPRequestHandler, ThreadingHTTPServer
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 def lookup():
     import time
     import get_steam_game_server_data
     while True:
-        print("[Webserver] [a2s] Synchronizing data with the server.")
-        global game_server
-        game_server = get_steam_game_server_data()        
-        time.sleep(5)
+        try:
+            print("[Webserver] [a2s] Synchronizing data with the server.")
+            global game_server
+            game_server = get_steam_game_server_data()        
+            time.sleep(5)
+        except Exception(e):
+            print(e)
 
 class RedirectHandler(BaseHTTPRequestHandler):
     global game_server
@@ -75,7 +78,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
             self.end_headers()
             
             self.wfile.write(html_content.encode('utf-8'))
-              
+        
         if self.path == '/data':                 
             data = game_server
             
@@ -91,14 +94,17 @@ class RedirectHandler(BaseHTTPRequestHandler):
 
 # Function to run the HTTP server
 def run(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, port=80, sslport=443, ip='',):
-    server_address = (ip, port)
-    httpd = server_class(server_address, handler_class)
+    try:
+        server_address = (ip, port)
+        httpd = server_class(server_address, handler_class)
 
-    #import ssl_verification
-    #httpd = ssl_verification.enable_ssl(httpd, server_address)
-    
-    print('[Webserver] Server started at localhost:' + str(port))
-    httpd.serve_forever()
+        #import ssl_verification
+        #httpd = ssl_verification.enable_ssl(httpd, server_address)
+        
+        print('[Webserver] Server started at localhost:' + str(port))
+        httpd.serve_forever()
+    except Exception(e):
+        print(e)
 
 if __name__ == '__main__':
     import threading
