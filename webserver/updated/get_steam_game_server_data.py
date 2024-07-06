@@ -1,12 +1,17 @@
 import a2s
+import socket
 
 #TODO: Make default argument the public ip of current machine.
 
 def get_steam_game_server_data(server_address = ("93.49.104.86", 26900)):
     try:
         rules = a2s.rules(server_address, timeout=3.0, encoding="utf-8")
-    except Exception as e: # TODO: Add check if internet connection possible. TODO: Make Timeout exception
+    except socket.timeout:
+        print("[Webserver] [a2s] [Error] Request timed out")
+        return None
+    except Exception as e:
         print("[Webserver] [a2s] [Error]", e)
+        return None
     return rules
 
 import sys, os
