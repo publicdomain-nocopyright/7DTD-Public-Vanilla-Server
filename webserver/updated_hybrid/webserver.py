@@ -1,4 +1,4 @@
-from http.server import SimpleHTTPRequestHandler, HTTPServer
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 
 class CustomHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
@@ -12,7 +12,7 @@ class CustomHandler(SimpleHTTPRequestHandler):
 
     # Optionally, you can override other methods like do_POST, etc., as needed
 
-def run(server_class=HTTPServer, handler_class=CustomHandler, port=8000):
+def run(server_class=ThreadingHTTPServer, handler_class=CustomHandler, port=8000):
     server_address = ('', port)
     httpd = server_class(server_address, handler_class)
     print(f'Starting httpd on port {port}...')
