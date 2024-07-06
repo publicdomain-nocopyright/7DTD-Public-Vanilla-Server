@@ -85,10 +85,12 @@ class RedirectHandler(BaseHTTPRequestHandler):
             except NameError:
                 pass
             self.send_response(200)
+
+
             self.send_header('Content-type', 'application/json')
-            self.send_header('Access-Control-Allow-Origin', '*')  # Allow requests from any origin
-            self.send_header('Access-Control-Allow-Methods', 'GET')
-            self.send_header('Access-Control-Allow-Headers', 'Content-type')
+            self.send_header('Access-Control-Allow-Origin', '*\r\n'
+                            'Access-Control-Allow-Methods: GET\r\n'
+                            'Access-Control-Allow-Headers: Content-type')
             self.end_headers()
 
             import json
