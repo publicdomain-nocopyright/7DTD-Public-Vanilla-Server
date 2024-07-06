@@ -79,9 +79,11 @@ class RedirectHandler(BaseHTTPRequestHandler):
             
             self.wfile.write(html_content.encode('utf-8'))
         
-        if self.path == '/data':                 
-            data = game_server
-            
+        if self.path == '/data':      
+            try:           
+                data = game_server
+            except NameError:
+                pass
             self.send_response(200)
             self.send_header('Content-type', 'application/json')
             self.send_header('Access-Control-Allow-Origin', '*')  # Allow requests from any origin
