@@ -1,7 +1,8 @@
 # webserver_start.pyw | Process and threads manager.
-# First proccess should be responsible for launcher
-# Second process should be responsible for launching
-# Thrid process should be the program.
+# First proccess should be responsible for launcher, reporting syntax errors in the launcher.
+# Second process should be responsible for launching, reporting syntax errors of the functions and launching functions
+# Thrid and all others processes should be the executed functions for application.
+
 
 try: 
     import os, sys
