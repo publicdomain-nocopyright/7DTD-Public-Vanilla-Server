@@ -9,7 +9,7 @@ if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == 'child':
         # Actual script code goes here
         print("Function is running in a new process with a new console.")
-        print("Test")adsf
+        print("Test")
         input()
     else:
         script_path = __file__
