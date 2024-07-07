@@ -5,7 +5,7 @@ import sys
 def check_syntax(file_path):
     try:
         py_compile.compile(file_path, doraise=True)
-    except py_compile.PyCompileError as e:
+    except Exception as e:
         subprocess.run(['cmd', '/c', 'start', 'cmd', '/k', f'echo Syntax error in file {file_path}: {e}'], creationflags=subprocess.CREATE_NEW_CONSOLE)
         sys.exit(1)
 
