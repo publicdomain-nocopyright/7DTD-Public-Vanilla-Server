@@ -1,6 +1,5 @@
 # webserver_start.pyw | Process and threads manager.
-import os
-import sys
+import os, sys
 import multiprocessing
 import subprocess
 
@@ -10,8 +9,7 @@ def my_function():
     input()
 
 def run_in_new_console():
-    script_path = sys.argv[0]  # Current script
-    subprocess.run(['python', script_path, 'child'], creationflags=subprocess.CREATE_NEW_CONSOLE)
+    subprocess.run(['python', sys.argv[0], 'child'], creationflags=subprocess.CREATE_NEW_CONSOLE)
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == 'child':
