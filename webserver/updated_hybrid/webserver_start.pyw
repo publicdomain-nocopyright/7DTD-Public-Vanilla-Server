@@ -3,6 +3,9 @@
 # Second process should be responsible for launching, reporting syntax errors of the functions and launching functions
 # Thrid and all others processes should be the executed functions for application.
 
+# Launcher Process should be responsible for reporting its own syntax errors and launch other functions as separate processes.
+
+
 
 try: 
     import os, sys
