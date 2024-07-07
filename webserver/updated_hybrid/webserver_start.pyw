@@ -5,32 +5,33 @@
 
 # Launcher Process should be responsible for reporting its own syntax errors and launch other functions as separate processes.
 
+import os
+import sys
+import multiprocessing
+import subprocess
+import py_compile
 
+def my_function():
+    print("Function is running in a new process with a new console.")
+    print("Test")
+    input()
 
-try: 
-    import os, sys
-    import multiprocessing
-    import subprocess
+def run_in_new_console():
+    subprocess.run(['python', sys.argv[0], 'child'], creationflags=subprocess.CREATE_NEW_CONSOLE)
 
-    def my_function():
-        print("Function is running in a new process with a new console.")
-        print("Test")
-        input()
+def check_syntax(file_path):
+    try:
+        py_compile.compile(file_path, doraise=True)
+    except py_compile.PyCompileError as e:
+        print(f"Syntax error in file {file_path}: {e}")
+        subprocess.run(['cmd', '/k', 'echo', f"Syntax error in file {file_path}: {e}"], creationflags=subprocess.CREATE_NEW_CONSOLE)
+        sys.exit(1)
 
-    def run_in_new_console():
-        subprocess.run(['python', sys.argv[0], 'child'], creationflags=subprocess.CREATE_NEW_CONSOLE)
-
-    if __name__ == "__main__":
-        if len(sys.argv) > 1 and sys.argv[1] == 'child':
-            my_function()
-            
-        else:
-            p = multiprocessing.Process(target=run_in_new_console)
-            p.start()
-            p.join()
-
-
-
-except Exception:
-    p = multiprocessing.Process(target=run_in_new_console)
-    
+if __name__ == "__main__":
+    if len(sys.argv) > 1 and sys.argv[1] == 'child':
+        my_function()
+    else:
+        check_syntax(sys.argv[0])
+        p = multiprocessing.Process(target=run_in_new_console)
+        p.start()
+        p.join()
