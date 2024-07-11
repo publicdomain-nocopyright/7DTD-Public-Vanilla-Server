@@ -23,6 +23,9 @@ def get_importing_script_name():
     return script_name, calling_script
 
 if __name__ != "__main__":
+
+
+
     new_process_name = "waffles"
     
     set_process_title(new_process_name)
@@ -36,6 +39,12 @@ if __name__ != "__main__":
         env = os.environ.copy()
         env['SUBPROCESS_EXECUTION'] = '1'
 
+
+        import sys
+        print("THIS IS PYTHON executable")
+        print(sys.executable)
+
+        input()
         # Run the calling script as a subprocess with the new environment
         subprocess.Popen(['webserver', calling_script], env=env)
 

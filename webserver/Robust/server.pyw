@@ -3,8 +3,6 @@ sys.dont_write_bytecode = True
 
 import server_library
 
-
-
 # Define the filename
 filename = "counter.txt"
 
