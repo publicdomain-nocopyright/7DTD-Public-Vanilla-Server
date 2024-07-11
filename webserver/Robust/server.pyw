@@ -2,8 +2,9 @@ import sys
 sys.dont_write_bytecode = True
 
 import server_library
+
 import os
-if not os.environ.get('SUBPROCESS_EXECUTION'):
+if os.environ.get('SUBPROCESS_EXECUTION'):
     # Define the filename
     filename = "counter.txt"
 
