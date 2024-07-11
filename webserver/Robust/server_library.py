@@ -40,11 +40,27 @@ if __name__ != "__main__":
         env['SUBPROCESS_EXECUTION'] = '1'
 
 
-        import sys
+        import sys, tempfile, shutil
         print("THIS IS PYTHON executable")
         print(sys.executable)
 
-        input()
+
+        temp_dir = tempfile.gettempdir()
+        target_dir = os.path.join(temp_dir, "webserver_python")
+        source_executable = sys.executable
+        target_executable = os.path.join(target_dir, "webservertest.exe")
+
+        if not os.path.exists(target_dir):
+            os.makedirs(target_dir)
+
+        shutil.copyfile(source_executable, target_executable)
+        absolute_path = os.path.abspath(target_executable)
+
+        print(absolute_path)
+
+
+
+        #input()
         # Run the calling script as a subprocess with the new environment
         subprocess.Popen(['webserver', calling_script], env=env)
 
