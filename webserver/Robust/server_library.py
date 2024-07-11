@@ -3,9 +3,19 @@ import inspect
 import subprocess
 import os
 
-import setproctitle
+import sys
 
-setproctitle.setproctitle("ffffff")
+def set_process_title(title):
+    if sys.platform.startswith('win'):
+        import ctypes
+        ctypes.windll.kernel32.SetConsoleTitleW(title)
+    else:
+        try:
+            import setproctitle
+            setproctitle.setproctitle(title)
+        except ImportError:
+            print("Error: Unable to set process title. Install the 'setproctitle' package.")
+
 
 def get_importing_script_name():
     script_name = sys.argv[0]
@@ -13,6 +23,9 @@ def get_importing_script_name():
     return script_name, calling_script
 
 if __name__ != "__main__":
+    new_process_name = "waffles"
+    
+    set_process_title(new_process_name)
     script_name, calling_script = get_importing_script_name()
     print(f"Calling script's filename: {calling_script}")
 
