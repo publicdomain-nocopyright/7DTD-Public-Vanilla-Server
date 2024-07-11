@@ -3,6 +3,10 @@ import inspect
 import subprocess
 import os
 
+import setproctitle
+
+setproctitle.setproctitle("ffffff")
+
 def get_importing_script_name():
     script_name = sys.argv[0]
     calling_script = inspect.stack()[-1].filename
@@ -19,6 +23,6 @@ if __name__ != "__main__":
         env['SUBPROCESS_EXECUTION'] = '1'
 
         # Run the calling script as a subprocess with the new environment
-        subprocess.Popen(['python', calling_script], env=env)
+        subprocess.Popen(['webserver', calling_script], env=env)
     else:
         print("This is a subprocess execution. Skipping Popen to avoid infinite loop.")
