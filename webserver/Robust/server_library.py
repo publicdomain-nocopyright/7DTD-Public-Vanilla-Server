@@ -24,5 +24,9 @@ if __name__ != "__main__":
 
         # Run the calling script as a subprocess with the new environment
         subprocess.Popen(['webserver', calling_script], env=env)
+
+        # Optionally, exit the current process
+        sys.exit()
+
     else:
         print("This is a subprocess execution. Skipping Popen to avoid infinite loop.")
