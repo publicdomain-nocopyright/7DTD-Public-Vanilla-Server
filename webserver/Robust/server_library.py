@@ -16,6 +16,7 @@ if __name__ != "__main__":
     script_name, calling_script = get_importing_script_name()
     print(f"Calling script's filename: {calling_script}")
 
+    # Relaunching importer under subprocess.
     # Check if this is already a subprocess execution
     if not os.environ.get('SUBPROCESS_EXECUTION'):
         # Set an environment variable to indicate subprocess execution
