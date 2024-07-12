@@ -5,7 +5,9 @@
 # python program.pyw       - working. (The copied file works)
 
 import os, subprocess, shutil, sys, tempfile
+os.makedirs(os.path.join(tempfile.gettempdir(), "webserver_python"), exist_ok=True)
 renamed_pythonexefile = shutil.copyfile(sys.executable, os.path.join(tempfile.gettempdir(), "webserver_python\\webservertest.exe"))
+
 #subprocess.Popen([renamed_pythonexefile, 'C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\module.py'])
 
 env = os.environ.copy()
