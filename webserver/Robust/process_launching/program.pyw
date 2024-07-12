@@ -1,4 +1,5 @@
-# copyfile under .pyw for some reason corrupts the copied file. While running as .py python.exe is working correctly. 
+# Topic: Pythonw corrupts copied file.
+# copyfile under .pyw for some reason corrupts the copied file. Meanwhile: running as .py python.exe is working correctly. 
 # Workaround: run copyfile operation under python.exe instead of pythonw.exe
 
 # Testcase
@@ -6,7 +7,7 @@
 # python program.pyw       - working. (The copied file works)
 
 import os, subprocess, shutil, sys, tempfile
-os.makedirs(os.path.join(tempfile.gettempdir(), "modifield_python"), exist_ok=True)
+os.makedirs(os.path.join(tempfile.gettempdir(), "somefolder"), exist_ok=True)
 renamed_pythonexefile = shutil.copyfile(sys.executable, os.path.join(tempfile.gettempdir(), "modifield_python\\modified_python.exe"))
 
 #subprocess.Popen([renamed_pythonexefile, 'C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\module.py'])
