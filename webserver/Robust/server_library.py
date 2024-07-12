@@ -5,6 +5,12 @@ import os
 
 import sys
 
+import logging
+
+if not os.environ.get('SUBPROCESS_EXECUTION'):
+    os.remove("logfile.txt")
+logging.basicConfig(filename='logfile.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 def set_process_title(title):
     if sys.platform.startswith('win'):
         import ctypes
@@ -14,7 +20,7 @@ def set_process_title(title):
             import setproctitle
             setproctitle.setproctitle(title)
         except ImportError:
-            print("Error: Unable to set process title. Install the 'setproctitle' package.")
+            logging.info("Error: Unable to set process title. Install the 'setproctitle' package.")
 
 
 def get_importing_script_name():
@@ -22,15 +28,11 @@ def get_importing_script_name():
     calling_script = inspect.stack()[-1].filename
     return script_name, calling_script
 
-if __name__ != "__main__":
+if __name__ != "__main__":    
 
-
-
-    new_process_name = "waffles"
-    
-    set_process_title(new_process_name)
+    set_process_title("waffles")
     script_name, calling_script = get_importing_script_name()
-    print(f"Calling script's filename: {calling_script}")
+    logging.info(f"Calling script's filename: {calling_script}")
 
     # Relaunching importer under subprocess.
     # Check if this is already a subprocess execution
@@ -41,8 +43,8 @@ if __name__ != "__main__":
 
 
         import sys, tempfile, shutil
-        print("THIS IS PYTHON executable")
-        print(sys.executable)
+        logging.info("THIS IS PYTHON executable")
+        logging.info(sys.executable)
 
 
         temp_dir = tempfile.gettempdir()
@@ -54,18 +56,22 @@ if __name__ != "__main__":
             os.makedirs(target_dir)
 
         shutil.copyfile(source_executable, target_executable)
-        absolute_path = os.path.abspath(target_executable)
+        absolute_path_target_executable = os.path.abspath(target_executable)
 
-        print(absolute_path)
+        logging.info("test2")
+        logging.info(absolute_path_target_executable)
+
+        
 
 
 
         #input()
         # Run the calling script as a subprocess with the new environment
-        subprocess.Popen(['webserver', calling_script], env=env)
+        logging.info("test3")
+        subprocess.Popen(['C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\webserver.exe', calling_script], env=env)
 
         # Optionally, exit the current process
         sys.exit()
 
     else:
-        print("This is a subprocess execution. Skipping Popen to avoid infinite loop.")
+        logging.info("This is a subprocess execution. Skipping Popen to avoid infinite loop.")

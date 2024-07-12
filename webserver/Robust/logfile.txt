@@ -1,0 +1,8 @@
+2024-07-12 13:17:31,317 - INFO - Calling script's filename: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Robust\server.pyw
+2024-07-12 13:17:31,327 - INFO - THIS IS PYTHON executable
+2024-07-12 13:17:31,327 - INFO - C:\Users\Windows10\AppData\Local\Programs\Python\Python310\pythonw.exe
+2024-07-12 13:17:31,329 - INFO - test2
+2024-07-12 13:17:31,329 - INFO - C:\Users\WINDOW~1\AppData\Local\Temp\webserver_python\webservertest.exe
+2024-07-12 13:17:31,329 - INFO - test3
+2024-07-12 13:17:31,528 - INFO - Calling script's filename: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Robust\server.pyw
+2024-07-12 13:17:31,528 - INFO - This is a subprocess execution. Skipping Popen to avoid infinite loop.
