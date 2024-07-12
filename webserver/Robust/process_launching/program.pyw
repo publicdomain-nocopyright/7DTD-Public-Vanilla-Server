@@ -1,5 +1,5 @@
 # Topic: shutil.copyfile corrupts copied file when it's running under Pythonw on Windows 10 Home.
-# copyfile under .pyw for some reason corrupts the copied file. Meanwhile: running as .py python.exe copyfile is working correctly. 
+# copyfile under .pyw for some reason corrupts the copied file. Meanwhile: running as .py python.exe shutil.copyfile is producing the file copy correctly. 
 # Workaround: run copyfile operation under python.exe instead of pythonw.exe
 
 # Testcase
