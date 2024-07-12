@@ -1,5 +1,5 @@
 # copyfile under .pyw for some reason corrupts the copied file. While running as .py python.exe is working correctly. 
-# Workaround: run copy operation as a seprate python.exe instead of pythonw.exe
+# Workaround: run copyfile operation under python.exe instead of pythonw.exe
 
 # Testcase
 # pythonw program.pyw      - not working. (The copied file not working)
