@@ -9,7 +9,7 @@ import logging
 
 if not os.environ.get('SUBPROCESS_EXECUTION'):
     os.remove("logfile.txt")
-logging.basicConfig(filename='logfile.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='logfile.txt', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def set_process_title(title):
     if sys.platform.startswith('win'):
@@ -69,7 +69,9 @@ if __name__ != "__main__":
         # Run the calling script as a subprocess with the new environment
         logging.info("test3")
         subprocess.Popen(['C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\webserver.exe', calling_script], env=env)
+        #subprocess.Popen(['C:\\Users\\Windows10\\AppData\\Local\\Temp\\webserver_python\\webservertest.exe', calling_script], env=env)
 
+        
         # Optionally, exit the current process
         sys.exit()
 
