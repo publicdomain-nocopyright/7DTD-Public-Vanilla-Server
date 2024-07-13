@@ -23,7 +23,6 @@ def produce_renamed_python_executable(
 renamed_pythonexefilePath = produce_renamed_python_executable()
 print(renamed_pythonexefilePath)
 subprocess.Popen([renamed_pythonexefilePath, 'C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\module.py'])
-print(sys.exec_prefix)
 
 
 
