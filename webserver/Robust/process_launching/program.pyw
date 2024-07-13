@@ -10,13 +10,17 @@
 
 
 # Used for subprocesses to run process under different name on Windows Operating System.
-# Returns string path to new renamed copy of pythonw.exe or python.exe according to sys.executable. 
+#  targetFolder argument - path where the new copy of python executable will be created. 
+#  Returns string path to new renamed copy of pythonw.exe or python.exe according to sys.executable. 
 import os, subprocess, shutil, sys, tempfile
-def produce_renamed_python_executable(targetFolder=os.path.join(tempfile.gettempdir(), "modifield_python")): 
+def produce_renamed_python_executable(
+        executableName="modified_python.exe", 
+        targetFolder=os.path.join(tempfile.gettempdir(), "modifield_python")
+): 
     os.makedirs(targetFolder, exist_ok=True)
-    return shutil.copy2(sys.executable, os.path.join(targetFolder, "modified_python.exe"))
+    return shutil.copy2(sys.executable, os.path.join(targetFolder, executableName))
 
-produce_renamed_python_executable()
+renamed_pythonexefilePath = produce_renamed_python_executable()
 #subprocess.Popen([renamed_pythonexefile, 'C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\module.py'])
 
 env = os.environ.copy()
