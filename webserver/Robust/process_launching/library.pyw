@@ -1,3 +1,4 @@
+# ProcessLauncher.pyw
 # Used for subprocesses to run process under different name on Windows Operating System.
 #  newExecutableName parameter - the new .exe executable file name. 
 #  targetFolder      parameter - path where the new copy of python executable will be created. 
