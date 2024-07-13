@@ -21,6 +21,7 @@ def produce_renamed_python_executable(
     return shutil.copy2(sys.executable, os.path.join(targetFolder, executableName))
 
 renamed_pythonexefilePath = produce_renamed_python_executable()
+print(renamed_pythonexefilePath)
 #subprocess.Popen([renamed_pythonexefile, 'C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\module.py'])
 
 env = os.environ.copy()
