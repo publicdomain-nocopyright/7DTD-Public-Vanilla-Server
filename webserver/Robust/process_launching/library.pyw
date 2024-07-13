@@ -7,11 +7,10 @@ def produce_renamed_python_executable(
         targetFolder=os.path.join(tempfile.gettempdir(), "python_custom_processes")
     ): 
     os.makedirs(targetFolder, exist_ok=True)
-    return {'renamed_pythonexefilePath': 
-            shutil.copy2(os.path.join(sys.exec_prefix, 'python.exe'), 
-                        os.path.join(targetFolder, newExecutableName))}
+    return shutil.copy2(os.path.join(sys.exec_prefix, 'python.exe'), 
+                        os.path.join(targetFolder, newExecutableName))
 
 
 renamed_pythonexefilePath = produce_renamed_python_executable()
 print(renamed_pythonexefilePath)
-subprocess.Popen([renamed_pythonexefilePath["renamed_pythonexefilePath"], 'C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\Tests\\module.py'])
+subprocess.Popen([renamed_pythonexefilePath, 'C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\Tests\\module.py'])
