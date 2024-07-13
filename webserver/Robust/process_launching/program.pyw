@@ -8,12 +8,13 @@
 # pythonw program.pyw      - not working. (The copied file not working)
 # python program.pyw       - working. (The copied file works)
 
-import sys
-print(sys.executable)
-input()
-import os, subprocess, shutil, sys, tempfile
-os.makedirs(os.path.join(tempfile.gettempdir(), "modifield_python"), exist_ok=True)
-renamed_pythonexefile = shutil.copy2(sys.executable, os.path.join(tempfile.gettempdir(), "modifield_python\\modified_python.exe"))
+
+# Used for subprocesses to run process under different name on Windows Operating System.
+def produce_renamed_python_executable(): 
+    import os, subprocess, shutil, sys, tempfile
+    os.makedirs(os.path.join(tempfile.gettempdir(), "modifield_python"), exist_ok=True)
+    renamed_pythonexefile = shutil.copy2(sys.executable, os.path.join(tempfile.gettempdir(), "modifield_python\\modified_python.exe"))
+
 
 #subprocess.Popen([renamed_pythonexefile, 'C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\module.py'])
 
