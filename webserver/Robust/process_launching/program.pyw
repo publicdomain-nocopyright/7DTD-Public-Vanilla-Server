@@ -24,7 +24,33 @@ renamed_pythonexefilePath = produce_renamed_python_executable()
 print(renamed_pythonexefilePath)
 subprocess.Popen([renamed_pythonexefilePath, 'C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\module.py'])
 print(sys.exec_prefix)
+
+
+
+# variation to copy default executed python executable
+import os, subprocess, shutil, sys, tempfile
+def produce_renamed_python_executable_auto(
+        executableName="python_program.exe", 
+        targetFolder=os.path.join(tempfile.gettempdir(), "python_custom_processes")
+): 
+    os.makedirs(targetFolder, exist_ok=True)
+    return shutil.copy2(sys.executable, os.path.join(targetFolder, executableName))
+
+
+
+
+
+
+
+
+
+
 #subprocess.Popen([renamed_pythonexefile, 'C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\module.py'])
+
+
+
+
+
 
 env = os.environ.copy()
 #C:\Users\Windows10\AppData\Local\Temp\webserver_python\webservertest.exe
