@@ -2,7 +2,7 @@
 #  targetFolder argument - path where the new copy of python executable will be created. 
 #  Returns string path to new renamed copy of pythonw.exe or python.exe according to sys.executable. 
 # TODO: Permission denied when launching consequential subprocess. Try to reuse subprocess if it's the same.
-import os, subprocess, shutil, sys, tempfile
+import os, shutil, sys, tempfile
 def produce_renamed_python_executable(
         newExecutableName="python_program.exe", 
         targetFolder=os.path.join(tempfile.gettempdir(), "python_custom_processes")
@@ -10,7 +10,7 @@ def produce_renamed_python_executable(
     os.makedirs(targetFolder, exist_ok=True)
     return shutil.copy2(os.path.join(sys.exec_prefix, 'python.exe'), 
                         os.path.join(targetFolder, newExecutableName))
-
+import subprocess
 def launch_script_under_different_process_name(
         process_name = "python_new_program.exe",
         scriptToLaunch = 'C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\Tests\\module.py'
