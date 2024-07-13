@@ -1,7 +1,7 @@
 # Used for subprocesses to run process under different name on Windows Operating System.
 #  targetFolder argument - path where the new copy of python executable will be created. 
 #  Returns string path to new renamed copy of pythonw.exe or python.exe according to sys.executable. 
-# TODO: Permission denied when launching consequential subprocess.
+# TODO: Permission denied when launching consequential subprocess. Try to reuse subprocess if it's the same.
 import os, subprocess, shutil, sys, tempfile
 def produce_renamed_python_executable(
         newExecutableName="python_program.exe", 
