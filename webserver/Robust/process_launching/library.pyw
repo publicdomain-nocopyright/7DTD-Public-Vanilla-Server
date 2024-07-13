@@ -7,14 +7,14 @@ def produce_renamed_python_executable(
         targetFolder=os.path.join(tempfile.gettempdir(), "python_custom_processes")
     ): 
     os.makedirs(targetFolder, exist_ok=True)
-    return shutil.copy2(os.path.join(sys.exec_prefix, 'python.exe'), 
+    return shutil.copy2(os.path.join(sys.exec_prefix, 'pythonw.exe'), 
                         os.path.join(targetFolder, newExecutableName))
 
 def launch_script_under_different_process_name(
         process_name = "python_new_program.exe",
         scriptToLaunch = 'C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\Tests\\module.py'
      ):
-    renamed_pythonexefilePath = produce_renamed_python_executable(newExecutableName=process_name)
-    return subprocess.Popen([renamed_pythonexefilePath, scriptToLaunch])
+    path_to_renamed_python_exe = produce_renamed_python_executable(newExecutableName=process_name)
+    return subprocess.Popen([path_to_renamed_python_exe, scriptToLaunch])
 
-launch_script_under_different_process_name(process_name="test.exe")
+launch_script_under_different_process_name(process_name="test.exe", scriptToLaunch='C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\Tests\\module.py')
