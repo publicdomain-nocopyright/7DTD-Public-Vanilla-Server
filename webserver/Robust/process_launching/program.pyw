@@ -14,8 +14,8 @@
 #  Returns string path to new renamed copy of pythonw.exe or python.exe according to sys.executable. 
 import os, subprocess, shutil, sys, tempfile
 def produce_renamed_python_executable(
-        executableName="modified_python.exe", 
-        targetFolder=os.path.join(tempfile.gettempdir(), "modifield_python")
+        executableName="program_python.exe", 
+        targetFolder=os.path.join(tempfile.gettempdir(), "custom_python_processes")
 ): 
     os.makedirs(targetFolder, exist_ok=True)
     return shutil.copy2(sys.executable, os.path.join(targetFolder, executableName))
