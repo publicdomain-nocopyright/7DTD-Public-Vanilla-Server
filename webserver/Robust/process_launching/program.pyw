@@ -12,7 +12,6 @@
 # Used for subprocesses to run process under different name on Windows Operating System.
 import os, subprocess, shutil, sys, tempfile
 def produce_renamed_python_executable(targetFolder=os.path.join(tempfile.gettempdir(), "modifield_python")): 
-    print(targetFolder)
     os.makedirs(targetFolder, exist_ok=True)
     renamed_pythonexefile = shutil.copy2(sys.executable, os.path.join(targetFolder, "modified_python.exe"))
 
