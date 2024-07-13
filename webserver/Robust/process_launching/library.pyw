@@ -10,7 +10,7 @@ def produce_renamed_python_executable(
         targetFolder=os.path.join(tempfile.gettempdir(), "python_custom_processes")
     ): 
     os.makedirs(targetFolder, exist_ok=True)
-    return shutil.copy2(os.path.join(sys.exec_prefix, 'python.exe'),  #change to pythonw to launch as pythonw 
+    return shutil.copy2(os.path.join(sys.exec_prefix, 'python.exe'),  #change to pythonw to create a pythonw executable.
                         os.path.join(targetFolder, newExecutableName))
 import subprocess
 def launch_script_under_different_process_name(
