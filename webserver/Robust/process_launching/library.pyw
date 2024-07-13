@@ -10,10 +10,9 @@ def produce_renamed_python_executable(
     return shutil.copy2(os.path.join(sys.exec_prefix, 'python.exe'), 
                         os.path.join(targetFolder, newExecutableName))
 
-
 def launch_script_under_different_process_name(
-        scriptToLaunch = 'C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\Tests\\module.py', 
-        process_name = "python_new_program.exe"
+        process_name = "python_new_program.exe",
+        scriptToLaunch = 'C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\Tests\\module.py'
      ):
     renamed_pythonexefilePath = produce_renamed_python_executable(newExecutableName=process_name)
     return subprocess.Popen([renamed_pythonexefilePath, scriptToLaunch])
