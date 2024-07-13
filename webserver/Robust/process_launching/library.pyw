@@ -13,7 +13,7 @@ def produce_renamed_python_executable(
 
 def launch_script_under_different_process_name(
         scriptToLaunch = 'C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\Tests\\module.py', 
-        process_name = ""
+        process_name = "python_new_program.exe"
      ):
     renamed_pythonexefilePath = produce_renamed_python_executable(newExecutableName=process_name)
     return subprocess.Popen([renamed_pythonexefilePath, scriptToLaunch])
