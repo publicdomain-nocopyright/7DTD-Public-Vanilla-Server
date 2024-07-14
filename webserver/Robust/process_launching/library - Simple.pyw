@@ -6,19 +6,21 @@
 # TODO: Permission denied when launching consequential subprocess. Try to reuse subprocess if it's the same.
 # TODO: Check if copied custom executable with the name exists. If it already exists, simply reuse it for the next subprocess launch.
 
-try: 
-    import shutil, sys, tempfile
-    def produce_renamed_python_executable(
-            newExecutableName="python_program.exe", 
-            targetFolder=tempfile.gettempdir() + "/python_custom_processes"
-        ): 
-        return shutil.copy2(sys.exec_prefix + 'python.exe',  #change to pythonw to create a pythonw executable.
-                            targetFolder + '/' + newExecutableName)
-except Exception as e:
-    import os
-    #os.makedirs(targetFolder, exist_ok=True)
-    print("error occured")
-    pass
+
+import shutil, sys, tempfile
+def produce_renamed_python_executable(
+        newExecutableName="python_program.exe", 
+        targetFolder=tempfile.gettempdir() + "/python_custom_processes"
+    ): 
+    while True:
+        try:
+            return shutil.copy2(sys.exec_prefix + 'python.exe',  #change to pythonw to create a pythonw executable.
+                                targetFolder + '/' + newExecutableName)
+        except Exception as e:
+            import os
+            os.makedirs(targetFolder, exist_ok=True)
+            print("error occured")
+            pass
 
 import os, subprocess
 def launch_script_under_different_process_name(
