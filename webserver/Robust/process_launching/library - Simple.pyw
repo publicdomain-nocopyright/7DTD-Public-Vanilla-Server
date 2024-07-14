@@ -13,7 +13,7 @@ def produce_renamed_python_executable(
         targetFolder=tempfile.gettempdir() + "/python_custom_processens"
     ): 
 
-    while True: #Needs to repeat the whole until resolves the exception.
+    while True: #Needs to repeat the whole until resolves the exception. # Better solution is to handle by if conditions before exception happens.
         try:
             return shutil.copy2(sys.exec_prefix + '/python.exe',  #change to pythonw to create a pythonw executable.
                                 targetFolder + '/' + newExecutableName)
