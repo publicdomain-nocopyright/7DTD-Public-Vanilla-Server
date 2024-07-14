@@ -18,7 +18,16 @@ def launch_script_under_different_process_name(
         process_name = "python_new_program.exe",
         scriptToLaunch = 'C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\Tests\\module.py'
      ):
-    path_to_renamed_python_exe = produce_renamed_python_executable(newExecutableName=process_name)
-    return subprocess.Popen([path_to_renamed_python_exe, scriptToLaunch])
+    
+    if os.path.isfile(tempfile.gettempdir() + "\\python_custom_processes\\" + process_name):
+        print("File exists.")
+        return subprocess.Popen([tempfile.gettempdir() + "\\python_custom_processes\\" + process_name , scriptToLaunch])
+    else:
+        path_to_renamed_python_exe = produce_renamed_python_executable(newExecutableName=process_name)
+        print("File does not exist.")
+        return subprocess.Popen([path_to_renamed_python_exe, scriptToLaunch])
+
+
+    
 
 launch_script_under_different_process_name(process_name="test.exe", scriptToLaunch='C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Robust\\process_launching\\Tests\\module.py')
