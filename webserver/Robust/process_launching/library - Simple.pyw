@@ -10,18 +10,21 @@
 import shutil, sys, tempfile
 def produce_renamed_python_executable(
         newExecutableName="python_program.exe", 
-        targetFolder=tempfile.gettempdir() + "/python_custom_processes"
+        targetFolder=tempfile.gettempdir() + "/python_custom_processens"
     ): 
-    while True:
+
+    while True: #Needs to repeat the whole until resolves the exception.
         try:
-            return shutil.copy2(sys.exec_prefix + 'python.exe',  #change to pythonw to create a pythonw executable.
+            return shutil.copy2(sys.exec_prefix + '/python.exe',  #change to pythonw to create a pythonw executable.
                                 targetFolder + '/' + newExecutableName)
         except Exception as e:
             import os
             os.makedirs(targetFolder, exist_ok=True)
-            print("error occured")
+            print("error occured", e)
             pass
 
+produce_renamed_python_executable()
+input()
 import os, subprocess
 def launch_script_under_different_process_name(
         process_name = "python_new_program.exe",
