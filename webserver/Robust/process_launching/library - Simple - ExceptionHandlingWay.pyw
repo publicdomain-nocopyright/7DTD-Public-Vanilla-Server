@@ -7,14 +7,21 @@
 # TODO: Check if copied custom executable with the name exists. If it already exists, simply reuse it for the next subprocess launch.
 
 
-import os, shutil, sys, tempfile
+import shutil, sys, tempfile
 def produce_renamed_python_executable(
         newExecutableName="python_program.exe", 
         targetFolder=tempfile.gettempdir() + "/python_custom_processens"
     ): 
-        return shutil.copy2(sys.exec_prefix + '/python.exe',  #change to pythonw to create a pythonw executable.
-                                targetFolder + '/' + newExecutableName)
 
+    while True: #Needs to repeat the whole until resolves the exception. # Better solution is to handle by if conditions before exception happens.
+        try:
+            return shutil.copy2(sys.exec_prefix + '/python.exe',  #change to pythonw to create a pythonw executable.
+                                targetFolder + '/' + newExecutableName)
+        except Exception as e:
+            import os
+            os.makedirs(targetFolder, exist_ok=True)
+            print("error occured", e)
+            pass
 
 produce_renamed_python_executable()
 input()
