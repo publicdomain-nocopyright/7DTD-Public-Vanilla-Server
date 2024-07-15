@@ -6,20 +6,23 @@
 # TODO: Permission denied when launching consequential subprocess. Try to reuse subprocess if it's the same.
 # TODO: Check if copied custom executable with the name exists. If it already exists, simply reuse it for the next subprocess launch.
 
+# produce_renamed_python_executable to launch Python scripts under different process name.
 # Windows determine the process name by executable name. 
 # This function produces a new renamed python.exe executable file.
 # For later use, to launch scripts under new process name.
 from os import path, makedirs; 
 from shutil import copy2; 
 import sys, tempfile
-def produce_renamed_python_executable(new_executable_name : str = None, target_folder : str = None): 
-    if new_executable_name is None: new_executable_name = "python_program.exe"
-    if target_folder       is None:    target_folder    = path.join(tempfile.gettempdir(), "python_custom_processes")
+def produce_renamed_python_executable(new_executable_name : str = "python_program.exe", target_folder : str = None): 
+    if target_folder is None: 
+        target_folder = path.join(tempfile.gettempdir(), "python_custom_processes")
 
     makedirs(target_folder, exist_ok=True)
     return copy2(path.join(sys.exec_prefix, 'python.exe'),  #change to pythonw to create a pythonw executable.
                  path.join(target_folder, new_executable_name))
 
+produce_renamed_python_executable()
+input()
 
 import subprocess
 def launch_script_under_different_process_name(
