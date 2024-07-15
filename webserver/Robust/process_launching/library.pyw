@@ -16,7 +16,7 @@ import sys, tempfile
 from pathlib import Path
 def produce_renamed_python_executable(new_executable_name : str = "python_program.exe", target_folder : str = None): 
     if target_folder is None: 
-        target_folder = Path(tempfile.gettempdir()).joinpath("python_custom_processes")
+        target_folder = Path(tempfile.gettempdir()).joinpath("python_custom_processes/")
 
     makedirs(target_folder, exist_ok=True)
     return copy2(path.join(sys.exec_prefix, 'python.exe'),  #change to pythonw to create a pythonw executable.
