@@ -13,7 +13,7 @@
 from os import path, makedirs; 
 from shutil import copy2;
 from pathlib import Path 
-import sys, tempfile
+import sys
 
 def produce_renamed_python_executable(new_executable_path : str): 
     old_python_executable = Path(sys.exec_prefix, 'python.exe') #change to pythonw to create a pythonw executable.
@@ -22,6 +22,7 @@ def produce_renamed_python_executable(new_executable_path : str):
     return str(copy2(old_python_executable, new_python_executable))  
 
 if __name__ == "__main__":
+    import tempfile
     new_python_exe_path = Path(tempfile.gettempdir(), 'python_custom_processes/python_program.exe')
     new_python_exe_path = produce_renamed_python_executable(new_executable_path=new_python_exe_path)
     print('New Python Executable created at Path: ' + new_python_exe_path)
