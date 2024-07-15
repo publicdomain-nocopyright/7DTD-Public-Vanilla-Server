@@ -16,10 +16,10 @@ from pathlib import Path
 import sys
 
 def produce_renamed_python_executable(new_executable_path : str): 
-    old_python_executable = Path(sys.exec_prefix, 'python.exe') #change to pythonw to create a pythonw executable.
+    installed_python_executable = Path(sys.exec_prefix, 'python.exe') #change to pythonw to create a pythonw executable.
     new_python_executable = Path(new_executable_path)
     makedirs(path.dirname(new_executable_path), exist_ok=True)
-    return str(copy2(old_python_executable, new_python_executable))  
+    return str(copy2(installed_python_executable, new_python_executable))  
 
 if __name__ == "__main__":
     import tempfile
