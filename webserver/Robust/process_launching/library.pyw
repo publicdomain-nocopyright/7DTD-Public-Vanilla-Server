@@ -21,10 +21,9 @@ def produce_renamed_python_executable(new_executable_name : str = "python_progra
     return copy2(path.join(sys.exec_prefix, 'python.exe'),  #change to pythonw to create a pythonw executable.
                  path.join(target_folder, new_executable_name))
 
-
-print('path: ' + produce_renamed_python_executable())
-input()
-
+if __name__ == "__main__":
+    print('path: ' + produce_renamed_python_executable())
+    
 import subprocess
 def launch_script_under_different_process_name(
         process_name = "python_new_program.exe",
