@@ -17,11 +17,11 @@ import sys, tempfile
 
 def produce_renamed_python_executable(new_executable_name : str = "python_program.exe", target_folder : str = None): 
     if target_folder is None: 
-        target_folder = Path(tempfile.gettempdir(), "python_custom_processes")
+        target_folder = Path(tempfile.gettempdir(), 'python_custom_processes')
 
     makedirs(target_folder, exist_ok=True)
-    return copy2(path.join(sys.exec_prefix, 'python.exe'),  #change to pythonw to create a pythonw executable.
-                 path.join(target_folder, new_executable_name))
+    return str(copy2(Path(sys.exec_prefix, 'python.exe'),  #change to pythonw to create a pythonw executable.
+                 Path(target_folder, new_executable_name)))
 
 if __name__ == "__main__":
     print('path: ' + produce_renamed_python_executable())
