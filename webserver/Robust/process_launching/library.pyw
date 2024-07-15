@@ -22,7 +22,9 @@ def produce_renamed_python_executable(new_executable_path : str):
     return str(copy2(old_python_executable, new_python_executable))  
 
 if __name__ == "__main__":
-    print('New Python Executable created at Path: ' + produce_renamed_python_executable(new_executable_path=Path(tempfile.gettempdir(), 'python_custom_processes/python_program.exe')))
+    new_python_exe_path = Path(tempfile.gettempdir(), 'python_custom_processes/python_program.exe')
+    new_python_exe_path = produce_renamed_python_executable(new_executable_path=new_python_exe_path)
+    print('New Python Executable created at Path: ' + new_python_exe_path)
     
 import subprocess
 def launch_script_under_different_process_name(
