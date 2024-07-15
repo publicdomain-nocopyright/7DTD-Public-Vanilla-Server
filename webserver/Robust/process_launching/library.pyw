@@ -21,10 +21,12 @@ def produce_renamed_python_executable(new_executable_path : str):
     makedirs(path.dirname(new_executable_path), exist_ok=True)
     return str(copy2(installed_python_executable, new_python_executable))  
 
+import tempfile
+def produce_renamed_python_executable_in_temp_directory(new_executable_path : str): 
+    return produce_renamed_python_executable(Path(tempfile.gettempdir(), new_executable_path))
+
 if __name__ == "__main__":
-    import tempfile
-    new_python_exe_path = Path(tempfile.gettempdir(), 'python_custom_processes/python_program.exe')
-    new_python_exe_path = produce_renamed_python_executable(new_executable_path=new_python_exe_path)
+    new_python_exe_path = produce_renamed_python_executable_in_temp_directory('python_custom_processes/python_program.exe')
     print('New Python Executable created at Path: ' + new_python_exe_path)
     
 import subprocess
