@@ -19,9 +19,11 @@ def produce_renamed_python_executable(new_executable_name : str = "python_progra
     if target_folder is None: 
         target_folder = Path(tempfile.gettempdir(), 'python_custom_processes')
 
+    old_python_executable = Path(sys.exec_prefix, 'python.exe') #change to pythonw to create a pythonw executable.
+    new_python_executable = Path(target_folder, new_executable_name)
     makedirs(target_folder, exist_ok=True)
-    return str(copy2(Path(sys.exec_prefix, 'python.exe'),  #change to pythonw to create a pythonw executable.
-                 Path(target_folder, new_executable_name)))
+    
+    return str(copy2(old_python_executable, new_python_executable))  
 
 if __name__ == "__main__":
     print('path: ' + produce_renamed_python_executable())
