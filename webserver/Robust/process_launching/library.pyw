@@ -26,6 +26,18 @@ def produce_renamed_python_executable_in_temp_directory(new_executable_path : st
     return produce_renamed_python_executable(Path(tempfile.gettempdir(), new_executable_path))
 
 if __name__ == "__main__":
+    import sys, os
+    if len(sys.argv) > 0:
+        example_path = os.path.dirname(os.path.abspath(__file__))
+        print(example_path)
+        raise Exception(f"Please provide a path to produce a new renamed Python executable. \n Example: python {os.path.basename(__file__)} \'{example_path}\' \ Yours:", )
+    
+    if len(sys.argv) > 1:
+        print(sys.argv[1])
+        if sys.argv[1] == "tempdir":
+            print("custom")
+    print("here")
+    input()
     new_python_exe_path = produce_renamed_python_executable_in_temp_directory('python_custom_processes/python_program.exe')
     print('New Python Executable created at Path: ' + new_python_exe_path)
     
