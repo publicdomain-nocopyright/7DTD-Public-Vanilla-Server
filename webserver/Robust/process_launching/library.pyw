@@ -29,7 +29,6 @@ if __name__ == "__main__":
     import sys, os
     if len(sys.argv) > 0:
         example_path = os.path.dirname(os.path.abspath(__file__))
-        print(example_path)
         exceptioninfo = f"Please provide a path to produce a new renamed Python executable. \n Example: python {os.path.basename(__file__)} \'{example_path}\' \n Yours:"
         raise Exception(exceptioninfo)
     
