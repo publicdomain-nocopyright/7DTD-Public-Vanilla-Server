@@ -30,7 +30,9 @@ if __name__ == "__main__":
     if len(sys.argv) > 0:
         example_path = os.path.dirname(os.path.abspath(__file__))
         example_path = example_path.replace('\\', '/')
-        exceptioninfo = f"Please provide a path to produce a new renamed Python executable. \n  Example: \n    python {os.path.basename(__file__)}  \'{example_path}/new_python.exe\' \n  Yours: \n    python {os.path.basename(__file__)}  \'\'"
+        exceptioninfo = f"Please provide a path to produce a new renamed Python executable. \n  
+        Example: \n    python {os.path.basename(__file__)}  \'{example_path}/new_python.exe\' \n  
+        Yours: \n    python {os.path.basename(__file__)}  \'\'"
         raise Exception(exceptioninfo)
     
     if len(sys.argv) > 1:
