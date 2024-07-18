@@ -44,10 +44,12 @@ if __name__ == "__main__":
 
     if len(sys.argv) >= 2:
         if sys.argv[1] == "Temporary_Directory": 
-            if len(sys.argv) < 3: print("Error: Syntax: library.pyw Temporary_Directory")
+            if len(sys.argv) < 3: print("Error: Syntax: library.pyw Temporary_Directory Windows: C:/users/yourusername/Desktop/YourFileName.exe or Linux: /home/yourusername/Desktop/YourFileName.exe")
             input()
             sys.exit()
             #else: produce_renamed_python_executable_in_temp_directory(sys.argv[2])
+        if sys.argv[1] == "At_Directory": 
+            if len(sys.argv) < 3: print("Error: Syntax: library.pyw At_Directory")
 
 
     sys.exit()
