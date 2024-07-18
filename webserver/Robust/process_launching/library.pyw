@@ -26,25 +26,31 @@ def produce_renamed_python_executable_in_temp_directory(new_executable_path : st
     return produce_renamed_python_executable(Path(tempfile.gettempdir(), new_executable_path))
 
 if __name__ == "__main__":
-    import sys, os
+
+    import sys
     if len(sys.argv) == 0:
-        example_path = os.path.dirname(os.path.abspath(__file__))
-        example_path = example_path.replace('\\', '/')
-        exceptioninfo = f"""
-        Please provide a path to produce a new renamed Python executable. \n  
-        Example:   python {os.path.basename(__file__)}  \'{example_path}/new_python.exe\'  
-        Yours:     python {os.path.basename(__file__)}  \'\'
-        """
-        raise Exception(exceptioninfo)
+        print("Creating a new executable at Temporary Folder.")
+        new_python_exe_path = produce_renamed_python_executable_in_temp_directory('python_custom_processes/python_program.exe')
+        print('New Python Executable created at Path: ' + new_python_exe_path)
+        
+    #import sys, os
+    #if len(sys.argv) == 0:
+    #    example_path = os.path.dirname(os.path.abspath(__file__))
+    #    example_path = example_path.replace('\\', '/')
+    #    exceptioninfo = f"""
+    #    Please provide a path to produce a new renamed Python executable. \n  
+    #    Example:   python {os.path.basename(__file__)}  \'{example_path}/new_python.exe\'  
+    #    Yours:     python {os.path.basename(__file__)}  \'\'
+    #    """
+    #    raise Exception(exceptioninfo)
     
-    if len(sys.argv) > 1:
-        print(sys.argv[1])
-        if sys.argv[1] == "tempdir":
-            print("custom")
-    print("here")
-    input()
-    new_python_exe_path = produce_renamed_python_executable_in_temp_directory('python_custom_processes/python_program.exe')
-    print('New Python Executable created at Path: ' + new_python_exe_path)
+    #if len(sys.argv) > 1:
+    #    print(sys.argv[1])
+    #    if sys.argv[1] == "tempdir":
+    #        print("custom")
+   # print("here")
+    #input()
+
     
 import subprocess
 def launch_script_under_different_process_name(
