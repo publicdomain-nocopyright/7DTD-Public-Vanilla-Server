@@ -10,6 +10,9 @@
 # Windows determine the process name by executable name. 
 # This function produces a new renamed python.exe executable file.
 # For later use, to launch scripts under new process name.
+
+#GENERAL NOTE: Always write programs with initial feedback that can be later aligned to make something meaningful.
+
 from os      import path, makedirs; 
 from shutil  import copy2;
 from pathlib import Path 
