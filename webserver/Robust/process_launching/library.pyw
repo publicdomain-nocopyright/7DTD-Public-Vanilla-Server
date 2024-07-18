@@ -24,6 +24,9 @@ def produce_renamed_python_executable(new_executable_path : str):
     makedirs(path.dirname(new_executable_path), exist_ok=True)
     return str(copy2(python_executable_installed_, python_executable_new))  
 
+def produce_renamed_python_executable_in_temp_directory_with_debug_information():
+    pass
+
 import tempfile
 def produce_renamed_python_executable_in_temp_directory(new_executable_path : str): 
     return produce_renamed_python_executable(Path(tempfile.gettempdir(), new_executable_path))
