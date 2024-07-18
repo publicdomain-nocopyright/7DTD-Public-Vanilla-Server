@@ -10,13 +10,13 @@
 # Windows determine the process name by executable name. 
 # This function produces a new renamed python.exe executable file.
 # For later use, to launch scripts under new process name.
-from os import path, makedirs; 
-from shutil import copy2;
+from os      import path, makedirs; 
+from shutil  import copy2;
 from pathlib import Path 
-import sys
+from sys     import exec_prefix
 
 def produce_renamed_python_executable(new_executable_path : str): 
-    python_executable_installed_ = Path(sys.exec_prefix, 'python.exe') #change to pythonw to create a pythonw executable.
+    python_executable_installed_ = Path(exec_prefix, 'python.exe') #change to pythonw to create a pythonw executable.
     python_executable_new = Path(new_executable_path)
     makedirs(path.dirname(new_executable_path), exist_ok=True)
     return str(copy2(python_executable_installed_, python_executable_new))  
@@ -27,12 +27,14 @@ def produce_renamed_python_executable_in_temp_directory(new_executable_path : st
 
 if __name__ == "__main__":
     import sys, os
-    if len(sys.argv) > 0:
+    if len(sys.argv) == 0:
         example_path = os.path.dirname(os.path.abspath(__file__))
         example_path = example_path.replace('\\', '/')
-        exceptioninfo = f"Please provide a path to produce a new renamed Python executable. \n  
-        Example: \n    python {os.path.basename(__file__)}  \'{example_path}/new_python.exe\' \n  
-        Yours: \n    python {os.path.basename(__file__)}  \'\'"
+        exceptioninfo = f"""
+        Please provide a path to produce a new renamed Python executable. \n  
+        Example:   python {os.path.basename(__file__)}  \'{example_path}/new_python.exe\'  
+        Yours:     python {os.path.basename(__file__)}  \'\'
+        """
         raise Exception(exceptioninfo)
     
     if len(sys.argv) > 1:
