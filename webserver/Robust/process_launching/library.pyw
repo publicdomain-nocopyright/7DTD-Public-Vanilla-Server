@@ -24,15 +24,33 @@ def produce_renamed_python_executable(new_executable_path : str):
 import tempfile
 def produce_renamed_python_executable_in_temp_directory(new_executable_path : str): 
     return produce_renamed_python_executable(Path(tempfile.gettempdir(), new_executable_path))
-
+i = 0
 if __name__ == "__main__":
 
+
     import sys
-    if len(sys.argv) == 0:
+    print(sys.argv[1])
+
+    print(len(sys.argv))
+
+    for arg in sys.argv:
+        print(i, arg)
+        i=i+1
+
+    if len(sys.argv) == 1:
         print("Creating a new executable at Temporary Folder.")
         new_python_exe_path = produce_renamed_python_executable_in_temp_directory('python_custom_processes/python_program.exe')
         print('New Python Executable created at Path: ' + new_python_exe_path)
-        
+
+    if len(sys.argv) >= 2:
+        if sys.argv[1] == "Temporary_Directory": 
+            if len(sys.argv) < 3: print("Error: Syntax: library.pyw Temporary_Directory")
+            input()
+            sys.exit()
+            #else: produce_renamed_python_executable_in_temp_directory(sys.argv[2])
+
+
+    sys.exit()
     #import sys, os
     #if len(sys.argv) == 0:
     #    example_path = os.path.dirname(os.path.abspath(__file__))
