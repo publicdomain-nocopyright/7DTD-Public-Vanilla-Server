@@ -1,30 +1,31 @@
 import inspect
+import sys
 
-def debug_function(func):
-    def wrapper(*args, **kwargs):
-        frame = inspect.currentframe()
-        try:
-            # Get local variables of the called function
-            local_vars = inspect.getargvalues(frame).locals
-            print(f"Function: {func.__name__}")
-            print("Arguments:")
-            for name, value in local_vars.items():
-                if name != 'frame':
-                    print(f"  {name} = {value}")
-            
-            # Call the original function
-            result = func(*args, **kwargs)
-            
-            print(f"Return value: {result}")
-            return result
-        finally:
-            del frame  # Avoid reference cycles
+def debug_function(func, *args, **kwargs):
+    frame_container = {'frame': None}
+    
+    def tracer(frame, event, arg):
+        if event == 'call':
+            frame_container['frame'] = frame
+        return tracer
+    
+    sys.settrace(tracer)
+    try:
+        result = func(*args, **kwargs)
+    finally:
+        sys.settrace(None)
+    
+    frame = frame_container['frame']
+    if frame is not None:
+        variables = frame.f_locals
+        return variables, result
+    else:
+        return None, None
 
-    return wrapper
+def sample_function(x, y):
+    z = x + y
+    return z
 
-@debug_function
-def example_function(a, b, c=3):
-    return a + b + c
-
-# Test the decorated function
-example_function(1, 2, c=4)
+variables, result = debug_function(sample_function, 3, 4)
+print("Internal Variables:", variables)
+print("Function Result:", result)
