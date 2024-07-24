@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>2D Platformer</title>
+  <style>
+    /* Add some basic styling to our game */
+    canvas {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas" width="640" height="480"></canvas>
+  <script>
+    // Get the canvas element
+    var canvas = document.getElementById('gameCanvas');
+    var ctx = canvas.getContext('2d');
+
+    // Set the canvas dimensions
+    canvas.width = 640;
+    canvas.height = 480;
+
+    // Define some constants
+    var GRAVITY = 0.2;
+    var JUMP_HEIGHT = -10; // Increased the jump height
+    var PLAYER_SIZE = 30;
+    var PLAYER_SPEED = 3;
+
+    // Define the player object
+    var player = {
+      x: canvas.width / 2,
+      y: canvas.height / 2,
+      vx: 0,
+      vy: 0,
+      onGround: false,
+      size: PLAYER_SIZE
+    };
+
+    // Define the platforms
+    var platforms = [
+      { x: 0, y: canvas.height - 20, width: canvas.width, height: 20 },
+      { x: 200, y: canvas.height / 2, width: 200, height: 20 },
+      { x: 400, y: canvas.height / 2, width: 200, height: 20 }
+    ];
+
+    // Main game loop
+    function update() {
+      // Move the player
+      player.x += player.vx;
+      player.y += player.vy;
+
+      // Apply gravity
+      player.vy += GRAVITY;
+
+      // Check for collisions with platforms
+      for (var i = 0; i < platforms.length; i++) {
+        var platform = platforms[i];
+        if (checkCollision(player, platform)) {
+          // Move the player to the top of the platform
+          player.y = platform.y - player.size;
+          player.vy = 0;
+          player.onGround = true;
+        }
+      }
+
+      // Check if the player is on the ground
+      if (player.y + player.size > canvas.height - 20) {
+        player.y = canvas.height - 20 - player.size;
+        player.vy = 0;
+        player.onGround = true;
+      } else {
+        player.onGround = false;
+      }
+
+      // Draw everything
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = 'blue';
+      ctx.fillRect(player.x, player.y, player.size, player.size);
+      ctx.fillStyle = 'green';
+      for (var i = 0; i < platforms.length; i++) {
+        var platform = platforms[i];
+        ctx.fillRect(platform.x, platform.y, platform.width, platform.height);
+      }
+
+      // Handle input
+      if (keysPressed['ArrowUp'] && player.onGround) {
+        player.vy = JUMP_HEIGHT;
+        player.onGround = false;
+      }
+      if (keysPressed['ArrowLeft']) {
+        player.vx = -PLAYER_SPEED;
+      } else if (keysPressed['ArrowRight']) {
+        player.vx = PLAYER_SPEED;
+      } else {
+        player.vx = 0;
+      }
+    }
+
+    // Check for collisions between two rectangles
+    function checkCollision(rect1, rect2) {
+      if (rect1.x + rect1.size > rect2.x &&
+          rect1.x < rect2.x + rect2.width &&
+          rect1.y + rect1.size > rect2.y &&
+          rect1.y < rect2.y + rect2.height) {
+        return true;
+      }
+      return false;
+    }
+
+    // Handle key presses
+    var keysPressed = {};
+    document.addEventListener('keydown', function(event) {
+      keysPressed[event.key] = true;
+    });
+    document.addEventListener('keyup', function(event) {
+      keysPressed[event.key] = false;
+    });
+
+    // Start the game loop
+    setInterval(update, 1000 / 60);
+  </script>
+</body>
+</html>

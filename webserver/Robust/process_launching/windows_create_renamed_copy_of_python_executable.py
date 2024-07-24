@@ -4,3 +4,10 @@ def produce_renamed_python_executable(new_executable_path: str):
     python_executable_new = pathlib.Path(new_executable_path)
     os.makedirs(os.path.dirname(new_executable_path), exist_ok=True)
     return str(shutil.copy2(python_executable_installed, python_executable_new))
+
+if __name__=="__main__": 
+    import argparse
+    parser = argparse.ArgumentParser(description='Produce renamed Python Executable.')
+    parser.add_argument('file_path', type=str, help='Path to the file to be processed')
+    produce_renamed_python_executable(parser.parse_args().file_path)
+    # python library-simplified.py ".\test.exe"
