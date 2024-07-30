@@ -30,8 +30,14 @@ class RedirectHandler(BaseHTTPRequestHandler):
             import urllib.request
             webserver_public_ip = urllib.request.urlopen('https://api.ipify.org').read().decode()
             self.wfile.write(webserver_public_ip.encode('utf-8'))
+
+        if self.path == '/list_paths':
+                self.send_response(200)
+                self.send_header('Content-type', 'text/plain')
+                self.end_headers()
+                self.wfile.write('\n'.join(self.paths).encode('utf-8'))
            
-def server(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='localhost', port=80):
+def start_webserver(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='localhost', port=80):
     from threading import Thread
     
     server_address = (ip, port)
@@ -42,7 +48,7 @@ def server(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='
     return ip, port, Thread(target=serve, daemon=True).start() 
 
 if __name__ == '__main__':
-    ip, port, server_thread = server()
+    ip, port, server_thread = start_webserver()
     print(f"[Webserver] Server started at {ip}:{port}")
     import webserver_Exit_Threads_Signaling
     import webserver_Main_Thread_Keep_Alive
