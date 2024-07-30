@@ -18,12 +18,8 @@ class RedirectHandler(BaseHTTPRequestHandler):
                Rd3d3d3cREREXd3d3cRERERF3d3cRERERERERERERH//wAA+B8AAOAHAADgBwAAwAMAAMADAACAAQAAgAEAAIABAACAAQAAwAMAAMADAADgBwAA8A8AAPgfAAD//wAA
                """)
             
-            import base64
-            # Decode base64 data
-            favicon_data = base64.b64decode(favicon_base64)
-            
-            # Send binary data as .ico file
-            self.wfile.write(favicon_data)
+            import base64        
+            self.wfile.write(base64.b64decode(favicon_base64))
             
 def server(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='localhost', port=80):
     from threading import Thread
