@@ -1,5 +1,5 @@
 # 7DTD-Public-Vanilla-Server
-![](https://boqsc.sparda88.site/image.png)
+<!--![](https://boqsc.sparda88.site/image.png)-->
 #### 🏠 Direct Website & GameServer IP & Domain  
 **Game Server IP:** `vanillaserver.eu:26900`  
 **Webserver:** http://vanillaserver.eu:80
