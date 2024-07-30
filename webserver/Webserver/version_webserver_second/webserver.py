@@ -1,4 +1,3 @@
-# webserver.py          Simple Threaded HTTP Server
 import sys; sys.dont_write_bytecode = True
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
@@ -9,20 +8,12 @@ class RedirectHandler(BaseHTTPRequestHandler):
             self.send_header('Content-type', 'text/html')
             self.end_headers()
 
-def run(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='localhost', port=80):
+def run(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='localhost', port=80, sslport=443):
     server_address = (ip, port)
     httpd = server_class(server_address, handler_class)
-
-    from threading import Thread
-
-    def serve():
-        httpd.serve_forever()
-
-    server_thread = Thread(target=serve).start() #, daemon = True
-
-    return ip, port, server_thread
+    print(f"[Webserver] Server started at {ip}:{port}")
+    httpd.serve_forever()
 
 if __name__ == '__main__':
-    ip, port, server_thread = run()
-    print(f"[Webserver] Server started at {ip}:{port}")
-    
+    import threading
+    server_thread = threading.Thread(target=run).start() #, daemon = True
