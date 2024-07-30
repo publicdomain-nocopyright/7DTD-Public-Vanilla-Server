@@ -19,7 +19,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
                """)
             import base64        
             self.wfile.write(base64.b64decode(favicon_base64))
-        if self.path == '/Get_Public_IP':
+        if self.path == '/Get_WebServer_Public_IP':
             self.send_response(200), self.send_header('Content-type', 'text/plain'), self.end_headers()
             number = '12345'  # Example number as string
             self.wfile.write(number.encode('utf-8'))
