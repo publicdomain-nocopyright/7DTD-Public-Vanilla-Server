@@ -9,20 +9,18 @@ class RedirectHandler(BaseHTTPRequestHandler):
             self.send_header('Content-type', 'text/html')
             self.end_headers()
 
-def run(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='localhost', port=80):
-    server_address = (ip, port)
-    httpd = server_class(server_address, handler_class)
-
+def server(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='localhost', port=80):
     from threading import Thread
+    
+    server_address = (ip, port)
 
-    def serve():
+    def serve(httpd = server_class(server_address, handler_class)): 
         httpd.serve_forever()
 
-    server_thread = Thread(target=serve).start() #, daemon = True
+    return ip, port, Thread(target=serve).start() #, daemon = True
 
-    return ip, port, server_thread
 
 if __name__ == '__main__':
-    ip, port, server_thread = run()
+    ip, port, server_thread = server()
     print(f"[Webserver] Server started at {ip}:{port}")
     
