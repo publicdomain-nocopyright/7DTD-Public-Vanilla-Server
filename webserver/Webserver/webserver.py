@@ -1,4 +1,4 @@
-# webserver.py          Simple Threaded HTTP Server
+# webserver.py          Simple Threading HTTP Server
 import sys; sys.dont_write_bytecode = True
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
