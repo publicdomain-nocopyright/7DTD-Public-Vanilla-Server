@@ -17,10 +17,11 @@ def server(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='
     def serve(httpd = server_class(server_address, handler_class)): 
         httpd.serve_forever()
 
-    return ip, port, Thread(target=serve).start() #, daemon = True
-
+    return ip, port, Thread(target=serve, daemon=True).start() #, daemon = True
 
 if __name__ == '__main__':
     ip, port, server_thread = server()
     print(f"[Webserver] Server started at {ip}:{port}")
+    import webserver_Exit_Threads_Signaling
+    import webserver_Keep_Main_Thread_Alive
     
