@@ -17,7 +17,7 @@ def server(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='
     def serve(httpd = server_class(server_address, handler_class)): 
         httpd.serve_forever()
 
-    return ip, port, Thread(target=serve, daemon=True).start() #, daemon = True
+    return ip, port, Thread(target=serve, daemon=True).start() 
 
 if __name__ == '__main__':
     ip, port, server_thread = server()
