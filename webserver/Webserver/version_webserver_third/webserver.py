@@ -5,9 +5,10 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 class RedirectHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         if self.path == '/':
-            from pathlib import Path
             self.send_response(200), self.send_header('Content-type', 'text/html'), self.end_headers()
+            from pathlib import Path
             self.wfile.write(Path(__file__).parent.joinpath('index.html').read_bytes())
+            #self.wfile.write(open('index.html', 'rb').read())
 
 def server(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='localhost', port=80):
     from threading import Thread
