@@ -20,9 +20,17 @@ class RedirectHandler(BaseHTTPRequestHandler):
             import base64        
             self.wfile.write(base64.b64decode(favicon_base64))
         if self.path == '/Get_WebServer_Public_IP':
+            import http
+            conn = http.client.HTTPSConnection("api.ipify.org")
+            conn.request("GET", "/")
+            response = conn.getresponse()
+            webserver_public_ip = response.read().decode()
+            conn.close()
             self.send_response(200), self.send_header('Content-type', 'text/plain'), self.end_headers()
-            number = '12345'  # Example number as string
-            self.wfile.write(number.encode('utf-8'))
+            self.wfile.write(webserver_public_ip.encode('utf-8'))
+
+
+
             
 def server(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='localhost', port=80):
     from threading import Thread
