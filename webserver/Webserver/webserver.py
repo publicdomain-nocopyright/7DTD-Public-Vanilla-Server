@@ -32,9 +32,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
             self.wfile.write(webserver_public_ip.encode('utf-8'))
 
         if self.path == '/list_paths':
-                self.send_response(200)
-                self.send_header('Content-type', 'text/plain')
-                self.end_headers()
+                self.send_response(200), self.send_header('Content-type', 'text/plain'), self.end_headers()
                 self.wfile.write(get_self_paths_json(RedirectHandler).encode('utf-8'))
            
 def start_webserver(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='localhost', port=80):
