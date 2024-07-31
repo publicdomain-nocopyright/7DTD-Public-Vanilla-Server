@@ -46,8 +46,31 @@ def start_webserver(server_class=ThreadingHTTPServer, handler_class=RedirectHand
         httpd.serve_forever()
 
     return ip, port, Thread(target=serve, daemon=True).start() 
+def inspect_self_paths(handler_class):
+    import inspect
+    import re
+    paths = []
+    for method_name in dir(handler_class):
+        if method_name.startswith('do_'):
+            method = getattr(handler_class, method_name)
+            if callable(method):
+                method_source = inspect.getsource(method)
+                self_path_matches = re.findall(r'self\.path\s*==\s*[\'"]([^\'"]+)[\'"]', method_source)
+                paths.extend(self_path_matches)
+    return sorted(set(paths)) 
+
+def list_all_self_paths():
+    import inspect
+    import re
+
+    paths = inspect_self_paths(RedirectHandler)
+    print("All self.path values:")
+    for path in paths:
+        print(path)
 
 if __name__ == '__main__':
+    list_all_self_paths()
+
     ip, port, server_thread = start_webserver()
     print(f"[Webserver] Server started at {ip}:{port}")
     import webserver_Exit_Threads_Signaling
