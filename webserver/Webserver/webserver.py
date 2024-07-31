@@ -35,7 +35,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
                 self.send_response(200)
                 self.send_header('Content-type', 'text/plain')
                 self.end_headers()
-                self.wfile.write('\n'.join(self.paths).encode('utf-8'))
+                self.wfile.write(get_self_paths_json(RedirectHandler).encode('utf-8'))
            
 def start_webserver(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='localhost', port=80):
     from threading import Thread
@@ -46,6 +46,7 @@ def start_webserver(server_class=ThreadingHTTPServer, handler_class=RedirectHand
         httpd.serve_forever()
 
     return ip, port, Thread(target=serve, daemon=True).start() 
+
 def inspect_self_paths(handler_class):
     import inspect
     import re
@@ -67,6 +68,12 @@ def list_all_self_paths():
     print("All self.path values:")
     for path in paths:
         print(path)
+
+
+def get_self_paths_json(handler_class):
+    import json
+    paths = inspect_self_paths(handler_class)
+    return json.dumps({"paths": paths})
 
 if __name__ == '__main__':
     list_all_self_paths()
