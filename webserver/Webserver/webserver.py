@@ -4,6 +4,14 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 class RedirectHandler(BaseHTTPRequestHandler):
     def do_GET(self):
+        #html_content = """
+        #<head>
+        #    <title>Custom Title</title>
+        #</head>
+        #"""
+        #self.wfile.write(html_content.encode('utf-8'))
+
+
         if self.path == '/':
             self.send_response(200), self.send_header('Content-type', 'text/html'), self.end_headers()
 
