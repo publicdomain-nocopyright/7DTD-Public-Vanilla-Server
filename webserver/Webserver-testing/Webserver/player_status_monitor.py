@@ -53,7 +53,7 @@ def parse_log_line(line):
     
     return None, None
 
-def generate_json(player_status):
+def generate_json(player_status, force_create=False):
     online_players = {player: status for player, status in player_status.items() 
                       if status.startswith("Online") and player != "SERVER"}
     online_count = len(online_players)
@@ -66,9 +66,17 @@ def generate_json(player_status):
     
     script_dir = os.path.dirname(os.path.abspath(__file__))
     json_file = os.path.join(script_dir, "player_status.json")
-    with open(json_file, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
-    print(f"Debug: JSON file updated: {json_file}")
+    
+    if force_create or not os.path.exists(json_file):
+        print(f"Debug: Creating new player_status.json file")
+        with open(json_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+        print(f"Debug: New JSON file created: {json_file}")
+    else:
+        with open(json_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+        print(f"Debug: JSON file updated: {json_file}")
+    
     print(f"Debug: Current player status: {player_status}")
     print(f"Debug: Online count: {online_count}")
     print(f"Debug: JSON data: {json.dumps(data, indent=2)}")
@@ -84,50 +92,73 @@ def follow(file_path):
             else:
                 yield line
 
-def main():
+def initialize_player_status(log_file):
     player_status = defaultdict(lambda: "Offline")
     player_status["SERVER"] = "Online"
-    print("Debug: Starting to monitor log file...")
     
+    print(f"Debug: Initializing player status from log file: {log_file}")
+    with open(log_file, "r", encoding="utf-8", errors='ignore') as file:
+        for line in file:
+            player, status = parse_log_line(line)
+            if player:
+                player_status[player] = status
+    
+    print(f"Debug: Initial player status: {dict(player_status)}")
+    return player_status
+
+def main():
     try:
         current_log_file = get_latest_log_file()
+        player_status = initialize_player_status(current_log_file)
+        
+        # Check if player_status.json exists, create it if it doesn't
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        json_file = os.path.join(script_dir, "player_status.json")
+        if not os.path.exists(json_file):
+            print("Debug: player_status.json not found. Creating new file with refreshed data.")
+            generate_json(player_status, force_create=True)
+        else:
+            print("Debug: player_status.json found. Updating with current data.")
+            generate_json(player_status)
+        
+        print("Debug: Starting to monitor log file in real-time...")
         last_check_time = time.time()
         
-        while True:
-            for line in follow(current_log_file):
-                # Check for new log file every 60 seconds
-                if time.time() - last_check_time > 6:
-                    try:
-                        latest_file = get_latest_log_file()
-                        if latest_file != current_log_file:
-                            print(f"Debug: Switching to newer log file: {latest_file}")
-                            current_log_file = latest_file
-                            break  # Exit the for loop to start following the new file
-                    except FileNotFoundError as e:
-                        print(f"Warning: {e}. Will continue with the current file.")
-                    last_check_time = time.time()
-                
-                if line is None:
-                    continue
-                
-                player, status = parse_log_line(line)
-                if player:
-                    old_status = player_status[player]
-                    player_status[player] = status
-                    if old_status != status:
-                        print(f"Debug: Player/Server '{player}' status changed from {old_status} to {status}")
-                        if player == "SERVER" and status == "Shutdown":
-                            # Set all players to offline when server shuts down
-                            for p in player_status:
-                                if p != "SERVER":
-                                    player_status[p] = "Offline"
+        for line in follow(current_log_file):
+            # Check for new log file every 60 seconds
+            if time.time() - last_check_time > 60:
+                try:
+                    latest_file = get_latest_log_file()
+                    if latest_file != current_log_file:
+                        print(f"Debug: Switching to newer log file: {latest_file}")
+                        current_log_file = latest_file
+                        player_status = initialize_player_status(current_log_file)
                         generate_json(player_status)
-                    else:
-                        print(f"Debug: Player/Server '{player}' status unchanged ({status})")
-                
-                if player_status["SERVER"] == "Shutdown":
-                    print("Debug: Server has shut down. Stopping monitoring.")
-                    return
+                except FileNotFoundError as e:
+                    print(f"Warning: {e}. Will continue with the current file.")
+                last_check_time = time.time()
+            
+            if line is None:
+                continue
+            
+            player, status = parse_log_line(line)
+            if player:
+                old_status = player_status[player]
+                player_status[player] = status
+                if old_status != status:
+                    print(f"Debug: Player/Server '{player}' status changed from {old_status} to {status}")
+                    if player == "SERVER" and status == "Shutdown":
+                        # Set all players to offline when server shuts down
+                        for p in player_status:
+                            if p != "SERVER":
+                                player_status[p] = "Offline"
+                    generate_json(player_status)
+                else:
+                    print(f"Debug: Player/Server '{player}' status unchanged ({status})")
+            
+            if player_status["SERVER"] == "Shutdown":
+                print("Debug: Server has shut down. Stopping monitoring.")
+                return
     
     except KeyboardInterrupt:
         print("Debug: Monitoring stopped by user.")
