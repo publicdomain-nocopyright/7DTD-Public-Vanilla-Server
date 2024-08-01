@@ -2,6 +2,10 @@
 import sys; sys.dont_write_bytecode = True
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
+if sys.stderr is None:
+    import io
+    sys.stderr = io.StringIO()
+
 class RedirectHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         #html_content = """
