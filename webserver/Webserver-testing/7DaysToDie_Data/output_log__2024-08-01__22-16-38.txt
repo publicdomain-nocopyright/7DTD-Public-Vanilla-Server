@@ -1293,3 +1293,29 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 2024-08-01T22:29:17 757.363 INF RequestToEnterGame: EOS_00020585a34f4b93bf8c21b3cf8d3150/boqsc
 2024-08-01T22:29:34 774.663 INF Time: 12.54m FPS: 20.01 Heap: 1119.1MB Max: 1314.2MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 2140.5MB
 2024-08-01T22:30:05 804.793 INF Time: 13.04m FPS: 20.01 Heap: 1067.8MB Max: 1314.2MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 2140.5MB
+2024-08-01T22:30:35 834.843 INF Time: 13.54m FPS: 20.00 Heap: 1068.9MB Max: 1314.2MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 2140.5MB
+2024-08-01T22:31:02 862.643 INF Dymesh: Update items to send for boqsc id: -1  recieved: 0
+2024-08-01T22:31:02 862.644 INF Dymesh: Items to send: 0   Added: 0   chunks: 0
+2024-08-01T22:31:05 864.893 INF Time: 14.04m FPS: 20.00 Heap: 1072.4MB Max: 1314.2MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 2140.5MB
+2024-08-01T22:31:35 894.893 INF Time: 14.54m FPS: 20.00 Heap: 1073.9MB Max: 1314.2MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 2140.5MB
+2024-08-01T22:31:49 909.259 INF RequestToSpawnPlayer: 0, boqsc, 6
+2024-08-01T22:31:49 909.324 WRN Parameter 'IsMale' not found in animator
+2024-08-01T22:31:49 909.328 INF Created player with id=0
+2024-08-01T22:31:54 914.505 INF GMSG: Player 'boqsc' joined the game
+2024-08-01T22:31:54 914.505 INF PlayerSpawnedInWorld (reason: JoinMultiplayer, position: 1095, 75, 469): EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T22:32:01 921.607 INF Player boqsc disconnected after 0.2 minutes
+2024-08-01T22:32:02 922.197 INF DynamicMusic: 0 successfully removed from Bloodmoon state cache
+2024-08-01T22:32:02 922.197 INF Client disconnected from dy mesh: Id: 0 Total: 1
+2024-08-01T22:32:02 922.198 INF Player disconnected: EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T22:32:02 922.198 INF [EOS-ACS] FreeUser: EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T22:32:02 922.199 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:49974 / 0 (RemoteConnectionClose)
+2024-08-01T22:32:02 922.200 INF GMSG: Player 'boqsc' left the game
+2024-08-01T22:32:02 922.200 INF Exited thread NCS_Reader_0_1
+2024-08-01T22:32:02 922.202 INF Exited thread NCS_Writer_0_1
+2024-08-01T22:32:02 922.203 INF Exited thread NCS_Reader_0_0
+2024-08-01T22:32:02 922.204 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:49974 / 0 (RemoteConnectionClose)
+2024-08-01T22:32:02 922.205 INF Exited thread NCS_Writer_0_0
+2024-08-01T22:32:05 925.044 INF [DECO] written 75483, in 24ms
+2024-08-01T22:32:05 925.053 INF [DECO] write thread 7ms
+2024-08-01T22:32:05 925.271 INF Time: 15.04m FPS: 17.75 Heap: 1058.6MB Max: 1314.2MB Chunks: 234 CGO: 0 Ply: 0 Zom: 5 Ent: 0 (14) Items: 0 CO: 0 RSS: 2249.2MB
+2024-08-01T22:32:10 929.922 INF Clearing all pools
