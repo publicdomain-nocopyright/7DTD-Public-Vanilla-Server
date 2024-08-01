@@ -149,6 +149,10 @@ def get_self_paths_json(handler_class):
 if __name__ == '__main__':
     list_all_self_paths()
 
+    from threading import Thread
+    import player_status_monitor
+    Thread(target=player_status_monitor.main, daemon=True).start()
+
     ip, port, server_thread = start_webserver()
     print(f"[Webserver] Server started at {ip}:{port}")
     import webserver_Exit_Threads_Signaling
