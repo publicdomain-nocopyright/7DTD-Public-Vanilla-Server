@@ -1319,3 +1319,50 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 2024-08-01T22:32:05 925.053 INF [DECO] write thread 7ms
 2024-08-01T22:32:05 925.271 INF Time: 15.04m FPS: 17.75 Heap: 1058.6MB Max: 1314.2MB Chunks: 234 CGO: 0 Ply: 0 Zom: 5 Ent: 0 (14) Items: 0 CO: 0 RSS: 2249.2MB
 2024-08-01T22:32:10 929.922 INF Clearing all pools
+2024-08-01T22:34:46 1086.669 INF NET: LiteNetLib: Connect from: 127.0.0.1:56813 / 0
+2024-08-01T22:34:46 1086.677 INF Started thread NCS_Reader_0_0
+2024-08-01T22:34:46 1086.680 INF Started thread NCS_Writer_0_0
+2024-08-01T22:34:46 1086.681 INF Started thread NCS_Reader_0_1
+2024-08-01T22:34:46 1086.682 INF Started thread NCS_Writer_0_1
+2024-08-01T22:34:46 1086.683 INF [NET] PlayerConnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='3'
+2024-08-01T22:34:47 1086.725 INF NPPL.Read
+2024-08-01T22:34:47 1086.742 INF PlayerLogin: boqsc/V 1.0
+2024-08-01T22:34:47 1086.743 INF Client IP: 127.0.0.1
+2024-08-01T22:34:47 1086.744 INF [Auth] PlayerName authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:34:47 1086.744 INF [Auth] ServerState authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:34:47 1086.746 INF [Auth] MpHostAllowed authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:34:47 1086.747 INF [Auth] PlayerId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:34:47 1086.748 INF [Auth] DuplicateUserId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:34:47 1086.749 INF [Auth] VersionCheck authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:34:47 1086.750 INF [Auth] PlayerSlots authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:34:47 1086.751 INF [Auth] LegacyModAuthorizations authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:34:47 1086.755 INF [Steamworks.NET] Auth.AuthenticateUser()
+2024-08-01T22:34:47 1086.756 INF [Steamworks.NET] Authenticating player: boqsc SteamId: 76561198072601792 TicketLen: 1024 Result: k_EBeginAuthSessionResultOK
+2024-08-01T22:34:48 1088.042 INF [Steamworks.NET] Authentication callback. ID: 76561198072601792, owner: 76561198072601792, result: k_EAuthSessionResponseOK
+2024-08-01T22:34:48 1088.043 INF [Auth] PlatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:34:48 1088.043 INF [Auth] SteamFamily authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:34:48 1088.044 INF [Auth] SteamGroups authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:34:48 1088.044 INF [EOS] Verifying token for 00020585a34f4b93bf8c21b3cf8d3150
+2024-08-01T22:34:48 1088.145 INF [EOS] Device=, Platform=steam, AccType=Steam, AccId=76561198072601792, PUID=00020585a34f4b93bf8c21b3cf8d3150
+2024-08-01T22:34:48 1088.691 INF [EOS] Player may have active sanctions
+2024-08-01T22:34:48 1088.692 INF [EOS] SanctionsQuery finished with: 0 sanctions
+2024-08-01T22:34:48 1088.693 INF [Auth] CrossplatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:34:48 1088.693 INF [Auth] BansAndWhitelist authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:34:48 1088.694 INF [Auth] Crossplay authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:34:48 1088.695 INF [EOS-ACS] Registering user: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:34:56 1095.891 INF [Auth] EAC authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:34:56 1095.940 INF [Auth] Finalizer authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:34:56 1095.946 INF Allowing player with id EOS_00020585a34f4b93bf8c21b3cf8d3150
+2024-08-01T22:34:56 1096.091 INF RequestToEnterGame: EOS_00020585a34f4b93bf8c21b3cf8d3150/boqsc
+2024-08-01T22:35:05 1105.543 INF Time: 18.04m FPS: 20.01 Heap: 1140.8MB Max: 1314.2MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (14) Items: 0 CO: 0 RSS: 2243.8MB
+2024-08-01T22:35:35 1135.592 INF Time: 18.54m FPS: 20.01 Heap: 1143.3MB Max: 1314.2MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (14) Items: 0 CO: 0 RSS: 2243.9MB
+2024-08-01T22:35:41 1141.141 INF Dymesh: Update items to send for boqsc id: -1  recieved: 0
+2024-08-01T22:35:41 1141.142 INF Dymesh: Items to send: 0   Added: 0   chunks: 0
+2024-08-01T22:35:45 1145.254 INF RequestToSpawnPlayer: 0, boqsc, 6
+2024-08-01T22:35:45 1145.302 WRN Parameter 'IsMale' not found in animator
+2024-08-01T22:35:45 1145.304 INF Created player with id=0
+2024-08-01T22:35:48 1148.493 INF GMSG: Player 'boqsc' joined the game
+2024-08-01T22:35:48 1148.494 INF PlayerSpawnedInWorld (reason: JoinMultiplayer, position: 1095, 75, 469): EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-01T22:36:05 1165.301 INF [DECO] written 75483, in 23ms
+2024-08-01T22:36:05 1165.311 INF [DECO] write thread 7ms
+2024-08-01T22:36:06 1165.727 INF Time: 19.04m FPS: 20.01 Heap: 1299.9MB Max: 1314.2MB Chunks: 234 CGO: 32 Ply: 1 Zom: 5 Ent: 7 (21) Items: 0 CO: 1 RSS: 2256.1MB
