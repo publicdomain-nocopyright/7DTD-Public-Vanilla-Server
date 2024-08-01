@@ -18,8 +18,10 @@ class RedirectHandler(BaseHTTPRequestHandler):
             from pathlib import Path
             import webserver_Template_Engine
 
+            import Webserver_FindNextHordeNightTime_inside_logs_folder
+            bloodmoon_days = Webserver_FindNextHordeNightTime_inside_logs_folder.find_last_bloodmoon_setday()
             Webserver_IP_ADDRESS = Get_WebServer_Public_IP()
-            
+
             rendered_html = webserver_Template_Engine.render_template('index.html')
             self.wfile.write(bytes(rendered_html, 'utf-8'))
 
