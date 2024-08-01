@@ -50,6 +50,39 @@ class RedirectHandler(BaseHTTPRequestHandler):
                 self.send_response(200), self.send_header('Content-type', 'text/plain'), self.end_headers()
                 self.wfile.write(get_self_paths_json(RedirectHandler).encode('utf-8'))
 
+        if self.path == '/server-log':
+            import Webserver_Get_Latest_Game_Server_Log_File
+            # Assuming Webserver_Get_Latest_Game_Server_Log_File.get_latest_game_server_log_file_name() returns the log file path
+            log_file_path = Webserver_Get_Latest_Game_Server_Log_File.get_latest_game_server_log_file_name()
+            
+            # Call the function and get the result
+            log_content = get_server_log(log_file_path)
+            
+            # Wrap the log content in <pre> tags
+            formatted_log_content = f"""
+            <pre id="log">{log_content}</pre>
+            <script>
+                //TODO: This needs more work, pass the txt file content size and check at javascript front side if loaded.
+                // if it is fully loaded - scroll to the bottom.
+                window.onload = function() {{
+                    var logContent = document.getElementById('log')
+                    logContent.scrollTop = logContent.scrollHeight;
+                    logContent.scrollIntoView(0, logContent.scrollTop)
+                }};
+            </script>
+            """
+            
+            # Send response status code
+            self.send_response(200)
+            
+            # Send headers
+            self.send_header('Content-type', 'text/html')
+            self.end_headers()
+            
+            # Write the content as UTF-8 data
+            self.wfile.write(bytes(formatted_log_content, "utf8"))
+
+
 def Get_WebServer_Public_IP():
         import urllib.request
         webserver_public_ip = urllib.request.urlopen('https://api.ipify.org').read().decode()
