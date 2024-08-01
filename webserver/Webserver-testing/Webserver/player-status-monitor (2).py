@@ -96,7 +96,7 @@ def main():
         while True:
             for line in follow(current_log_file):
                 # Check for new log file every 60 seconds
-                if time.time() - last_check_time > 60:
+                if time.time() - last_check_time > 6:
                     try:
                         latest_file = get_latest_log_file()
                         if latest_file != current_log_file:

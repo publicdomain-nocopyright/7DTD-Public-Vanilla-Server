@@ -93,7 +93,15 @@ class RedirectHandler(BaseHTTPRequestHandler):
             
             # Write the content as UTF-8 data
             self.wfile.write(bytes(formatted_log_content, "utf8"))
-
+            
+        if self.path == '/player_status.json':
+            import os
+            self.send_response(200), self.send_header('Content-type', 'application/json'), self.end_headers()
+            import json
+            file_path = os.path.join(os.path.dirname(__file__), 'player_status.json')
+            with open(file_path, 'r') as file:
+                data = json.load(file)
+            self.wfile.write(json.dumps(data).encode('utf-8'))
 
 def Get_WebServer_Public_IP():
         import urllib.request
