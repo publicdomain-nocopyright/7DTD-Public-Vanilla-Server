@@ -10,7 +10,7 @@ def get_latest_game_server_log_file_name():
 
     # Temporary | Optional | Remove this later
     # Override log directory with default 7DTD Path on Windows.
-    log_directory = "C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data"
+    #log_directory = "C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data"
 
     file_pattern = 'output_log__*.txt'
     log_files = glob.glob(os.path.join(log_directory, file_pattern))

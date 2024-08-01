@@ -14,7 +14,7 @@ def find_last_bloodmoon_setday():
 
     # Temporary | Optional | Remove this later
     # Override log directory with default 7DTD Path on Windows.
-    log_directory = "C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data"
+    #log_directory = "C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data"
 
     # Define the pattern to match files
     file_pattern = 'output_log__*.txt'
