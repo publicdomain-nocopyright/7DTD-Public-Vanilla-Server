@@ -1837,3 +1837,140 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 2024-08-01T23:26:42 2202.473 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:57060 / 1 (RemoteConnectionClose)
 2024-08-01T23:26:50 2210.138 INF Clearing all pools
 2024-08-01T23:27:09 2228.689 INF Time: 36.12m FPS: 20.00 Heap: 1349.8MB Max: 1411.1MB Chunks: 234 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (29) Items: 0 CO: 0 RSS: 1460.1MB
+2024-08-01T23:38:05 2885.478 INF Reloading serveradmin.xml
+2024-08-01T23:38:05 2885.479 INF Loading permissions file at 'C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/serveradmin.xml'
+2024-08-01T23:38:05 2885.480 INF Permissions file unchanged, skipping reloading
+2024-08-01T23:38:48 2927.626 INF NET: LiteNetLib: Connect from: 127.0.0.1:59577 / 0
+2024-08-01T23:38:48 2927.647 INF Started thread NCS_Reader_0_0
+2024-08-01T23:38:48 2927.650 INF Started thread NCS_Writer_0_0
+2024-08-01T23:38:48 2927.655 INF Started thread NCS_Reader_0_1
+2024-08-01T23:38:48 2927.663 INF [NET] PlayerConnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='13'
+2024-08-01T23:38:48 2927.664 INF Started thread NCS_Writer_0_1
+2024-08-01T23:38:48 2927.750 INF NPPL.Read
+2024-08-01T23:38:48 2927.763 INF PlayerLogin: boqsc/V 1.0
+2024-08-01T23:38:48 2927.764 INF Client IP: 127.0.0.1
+2024-08-01T23:38:48 2927.765 INF [Auth] PlayerName authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:38:48 2927.765 INF [Auth] ServerState authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:38:48 2927.767 INF [Auth] MpHostAllowed authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:38:48 2927.768 INF [Auth] PlayerId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:38:48 2927.769 INF [Auth] DuplicateUserId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:38:48 2927.769 INF [Auth] VersionCheck authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:38:48 2927.770 INF [Auth] PlayerSlots authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:38:48 2927.771 INF [Auth] LegacyModAuthorizations authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:38:48 2927.772 INF [Steamworks.NET] Auth.AuthenticateUser()
+2024-08-01T23:38:48 2927.775 INF [Steamworks.NET] Authenticating player: boqsc SteamId: 76561198072601792 TicketLen: 1024 Result: k_EBeginAuthSessionResultOK
+2024-08-01T23:38:49 2929.113 INF [Steamworks.NET] Authentication callback. ID: 76561198072601792, owner: 76561198072601792, result: k_EAuthSessionResponseOK
+2024-08-01T23:38:49 2929.113 INF [Auth] PlatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:38:49 2929.114 INF [Auth] SteamFamily authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:38:49 2929.115 INF [Auth] SteamGroups authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:38:49 2929.117 INF [EOS] Verifying token for 00020585a34f4b93bf8c21b3cf8d3150
+2024-08-01T23:38:49 2929.262 INF [EOS] Device=, Platform=steam, AccType=Steam, AccId=76561198072601792, PUID=00020585a34f4b93bf8c21b3cf8d3150
+2024-08-01T23:38:50 2929.914 INF [EOS] Player may have active sanctions
+2024-08-01T23:38:50 2929.914 INF [EOS] SanctionsQuery finished with: 0 sanctions
+2024-08-01T23:38:50 2929.915 INF [Auth] CrossplatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:38:50 2929.916 INF [Auth] BansAndWhitelist authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:38:50 2929.916 INF [Auth] Crossplay authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:38:50 2929.917 INF [EOS-ACS] Registering user: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:38:57 2936.596 INF [Auth] EAC authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:38:57 2936.646 INF [Auth] Finalizer authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:38:57 2936.651 INF Allowing player with id EOS_00020585a34f4b93bf8c21b3cf8d3150
+2024-08-01T23:38:57 2936.846 INF RequestToEnterGame: EOS_00020585a34f4b93bf8c21b3cf8d3150/boqsc
+2024-08-01T23:39:10 2949.545 INF Time: 48.13m FPS: 20.00 Heap: 1130.1MB Max: 1411.1MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (29) Items: 0 CO: 0 RSS: 1116.1MB
+2024-08-01T23:39:40 2979.546 INF Time: 48.64m FPS: 20.00 Heap: 1136.1MB Max: 1411.1MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (29) Items: 0 CO: 0 RSS: 1076.9MB
+2024-08-01T23:40:07 3006.997 INF Dymesh: Update items to send for boqsc id: -1  recieved: 0
+2024-08-01T23:40:07 3006.998 INF Dymesh: Items to send: 0   Added: 0   chunks: 0
+2024-08-01T23:40:10 3009.801 INF Time: 49.14m FPS: 17.98 Heap: 1101.7MB Max: 1411.1MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (29) Items: 0 CO: 0 RSS: 1038.2MB
+2024-08-01T23:40:40 3039.806 INF Time: 49.64m FPS: 20.00 Heap: 1105.8MB Max: 1411.1MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (29) Items: 0 CO: 0 RSS: 1038.2MB
+2024-08-01T23:41:10 3069.851 INF Time: 50.14m FPS: 20.00 Heap: 1110.6MB Max: 1411.1MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (29) Items: 0 CO: 0 RSS: 1038.3MB
+2024-08-01T23:41:40 3099.885 INF Time: 50.64m FPS: 20.01 Heap: 1115.6MB Max: 1411.1MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (29) Items: 0 CO: 0 RSS: 1038.3MB
+2024-08-01T23:42:10 3130.030 INF Time: 51.14m FPS: 18.43 Heap: 1101.6MB Max: 1411.1MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (29) Items: 0 CO: 0 RSS: 1038.3MB
+2024-08-01T23:42:40 3160.080 INF Time: 51.64m FPS: 20.00 Heap: 1105.7MB Max: 1411.1MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (29) Items: 0 CO: 0 RSS: 1033.8MB
+2024-08-01T23:43:10 3190.080 INF Time: 52.14m FPS: 20.00 Heap: 1110.5MB Max: 1411.1MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (29) Items: 0 CO: 0 RSS: 1033.8MB
+2024-08-01T23:43:40 3220.083 INF Time: 52.64m FPS: 20.00 Heap: 1115.6MB Max: 1411.1MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (29) Items: 0 CO: 0 RSS: 1033.9MB
+2024-08-01T23:44:10 3250.358 INF Time: 53.14m FPS: 20.01 Heap: 1101.6MB Max: 1411.1MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (29) Items: 0 CO: 0 RSS: 1033.1MB
+2024-08-01T23:44:28 3267.844 INF RequestToSpawnPlayer: 0, boqsc, 6
+2024-08-01T23:44:28 3267.908 WRN Parameter 'IsMale' not found in animator
+2024-08-01T23:44:28 3267.910 INF Created player with id=0
+2024-08-01T23:44:33 3273.156 INF GMSG: Player 'boqsc' joined the game
+2024-08-01T23:44:33 3273.157 INF PlayerSpawnedInWorld (reason: JoinMultiplayer, position: 1084, 72, 465): EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:44:40 3280.406 INF Time: 53.64m FPS: 20.00 Heap: 1462.4MB Max: 1462.4MB Chunks: 238 CGO: 37 Ply: 1 Zom: 5 Ent: 7 (36) Items: 0 CO: 1 RSS: 1176.6MB
+2024-08-01T23:44:48 3288.436 INF [DECO] written 75483, in 28ms
+2024-08-01T23:44:48 3288.474 INF [DECO] write thread 4ms
+2024-08-01T23:45:10 3310.459 INF Time: 54.14m FPS: 20.00 Heap: 1479.6MB Max: 1479.6MB Chunks: 238 CGO: 37 Ply: 1 Zom: 5 Ent: 7 (36) Items: 0 CO: 1 RSS: 1181.4MB
+2024-08-01T23:45:40 3340.503 INF Time: 54.64m FPS: 19.86 Heap: 1486.6MB Max: 1486.6MB Chunks: 238 CGO: 33 Ply: 1 Zom: 5 Ent: 7 (36) Items: 0 CO: 1 RSS: 1183.2MB
+2024-08-01T23:46:11 3370.873 INF Time: 55.14m FPS: 19.79 Heap: 1453.6MB Max: 1486.6MB Chunks: 234 CGO: 34 Ply: 1 Zom: 5 Ent: 7 (36) Items: 0 CO: 1 RSS: 1185.0MB
+2024-08-01T23:46:14 3373.840 INF VehicleManager saving 0 (0 + 0)
+2024-08-01T23:46:14 3373.876 INF DroneManager saving 0 (0 + 0)
+2024-08-01T23:46:14 3374.119 INF TurretTracker saving 0 (0 + 0)
+2024-08-01T23:46:14 3374.150 INF DroneManager saved 9 bytes
+2024-08-01T23:46:14 3374.150 INF VehicleManager saved 9 bytes
+2024-08-01T23:46:14 3374.151 INF TurretTracker saved 9 bytes
+2024-08-01T23:46:41 3400.878 INF Time: 55.64m FPS: 19.46 Heap: 1490.3MB Max: 1490.3MB Chunks: 234 CGO: 30 Ply: 1 Zom: 5 Ent: 7 (36) Items: 0 CO: 1 RSS: 1185.3MB
+2024-08-01T23:47:11 3430.938 INF Time: 56.14m FPS: 20.00 Heap: 1497.3MB Max: 1497.3MB Chunks: 234 CGO: 32 Ply: 1 Zom: 5 Ent: 7 (36) Items: 0 CO: 1 RSS: 1186.4MB
+2024-08-01T23:47:41 3460.955 INF Time: 56.64m FPS: 20.01 Heap: 1504.7MB Max: 1504.7MB Chunks: 234 CGO: 26 Ply: 1 Zom: 5 Ent: 7 (36) Items: 0 CO: 1 RSS: 1184.9MB
+2024-08-01T23:48:11 3491.269 INF Time: 57.14m FPS: 19.99 Heap: 1454.1MB Max: 1504.7MB Chunks: 234 CGO: 29 Ply: 1 Zom: 5 Ent: 7 (36) Items: 0 CO: 1 RSS: 1191.5MB
+2024-08-01T23:48:14 3494.127 INF VehicleManager saving 0 (0 + 0)
+2024-08-01T23:48:14 3494.195 INF DroneManager saving 0 (0 + 0)
+2024-08-01T23:48:14 3494.270 INF VehicleManager saved 9 bytes
+2024-08-01T23:48:14 3494.324 INF TurretTracker saving 0 (0 + 0)
+2024-08-01T23:48:14 3494.332 INF TurretTracker saved 9 bytes
+2024-08-01T23:48:14 3494.369 INF DroneManager saved 9 bytes
+2024-08-01T23:48:41 3521.306 INF Time: 57.64m FPS: 19.59 Heap: 1491.8MB Max: 1504.7MB Chunks: 234 CGO: 52 Ply: 1 Zom: 9 Ent: 11 (40) Items: 0 CO: 1 RSS: 1213.6MB
+2024-08-01T23:49:11 3551.348 INF Time: 58.14m FPS: 20.00 Heap: 1498.9MB Max: 1504.7MB Chunks: 234 CGO: 62 Ply: 1 Zom: 10 Ent: 12 (41) Items: 0 CO: 1 RSS: 1215.8MB
+2024-08-01T23:49:41 3581.397 INF Time: 58.65m FPS: 20.00 Heap: 1506.6MB Max: 1506.6MB Chunks: 234 CGO: 62 Ply: 1 Zom: 10 Ent: 12 (41) Items: 0 CO: 1 RSS: 1216.1MB
+2024-08-01T23:50:12 3611.672 INF Time: 59.15m FPS: 19.79 Heap: 1455.2MB Max: 1506.6MB Chunks: 234 CGO: 58 Ply: 1 Zom: 9 Ent: 11 (40) Items: 0 CO: 1 RSS: 1219.4MB
+2024-08-01T23:50:14 3614.454 INF VehicleManager saving 0 (0 + 0)
+2024-08-01T23:50:14 3614.473 INF DroneManager saving 0 (0 + 0)
+2024-08-01T23:50:15 3614.515 INF TurretTracker saving 0 (0 + 0)
+2024-08-01T23:50:15 3614.523 INF VehicleManager saved 9 bytes
+2024-08-01T23:50:15 3614.524 INF DroneManager saved 9 bytes
+2024-08-01T23:50:15 3614.531 INF TurretTracker saved 9 bytes
+2024-08-01T23:50:42 3641.689 INF Time: 59.65m FPS: 19.77 Heap: 1491.6MB Max: 1506.6MB Chunks: 234 CGO: 64 Ply: 1 Zom: 9 Ent: 11 (41) Items: 0 CO: 1 RSS: 1216.7MB
+2024-08-01T23:51:12 3671.690 INF Time: 60.15m FPS: 19.99 Heap: 1498.7MB Max: 1506.6MB Chunks: 234 CGO: 62 Ply: 1 Zom: 9 Ent: 11 (41) Items: 0 CO: 1 RSS: 1216.9MB
+2024-08-01T23:51:42 3701.736 INF Time: 60.65m FPS: 19.97 Heap: 1506.2MB Max: 1506.6MB Chunks: 234 CGO: 61 Ply: 1 Zom: 9 Ent: 11 (41) Items: 0 CO: 1 RSS: 1216.9MB
+2024-08-01T23:52:01 3720.576 WRN [SteamServer] Tick took exceptionally long: 246 ms
+2024-08-01T23:52:12 3732.289 INF Time: 61.15m FPS: 19.65 Heap: 1455.6MB Max: 1506.6MB Chunks: 234 CGO: 54 Ply: 1 Zom: 9 Ent: 11 (41) Items: 0 CO: 1 RSS: 1220.5MB
+2024-08-01T23:52:15 3735.104 INF VehicleManager saving 0 (0 + 0)
+2024-08-01T23:52:15 3735.200 INF DroneManager saving 0 (0 + 0)
+2024-08-01T23:52:15 3735.415 INF TurretTracker saving 0 (0 + 0)
+2024-08-01T23:52:15 3735.431 INF VehicleManager saved 9 bytes
+2024-08-01T23:52:15 3735.439 INF TurretTracker saved 9 bytes
+2024-08-01T23:52:16 3735.542 INF DroneManager saved 9 bytes
+2024-08-01T23:52:42 3762.404 INF Time: 61.65m FPS: 20.01 Heap: 1492.8MB Max: 1506.6MB Chunks: 234 CGO: 56 Ply: 1 Zom: 9 Ent: 11 (41) Items: 0 CO: 1 RSS: 1220.6MB
+2024-08-01T23:53:13 3792.789 INF Time: 62.15m FPS: 18.52 Heap: 1499.8MB Max: 1506.6MB Chunks: 234 CGO: 59 Ply: 1 Zom: 9 Ent: 11 (41) Items: 0 CO: 1 RSS: 1216.0MB
+2024-08-01T23:53:43 3822.829 INF Time: 62.65m FPS: 19.97 Heap: 1507.2MB Max: 1507.2MB Chunks: 234 CGO: 54 Ply: 1 Zom: 9 Ent: 11 (42) Items: 0 CO: 1 RSS: 1216.2MB
+2024-08-01T23:54:13 3853.097 INF Time: 63.15m FPS: 19.87 Heap: 1455.8MB Max: 1507.2MB Chunks: 234 CGO: 53 Ply: 1 Zom: 9 Ent: 11 (41) Items: 0 CO: 1 RSS: 1218.8MB
+2024-08-01T23:54:16 3855.752 INF VehicleManager saving 0 (0 + 0)
+2024-08-01T23:54:16 3855.756 INF DroneManager saving 0 (0 + 0)
+2024-08-01T23:54:16 3855.757 INF TurretTracker saving 0 (0 + 0)
+2024-08-01T23:54:16 3855.763 INF DroneManager saved 9 bytes
+2024-08-01T23:54:16 3855.788 INF VehicleManager saved 9 bytes
+2024-08-01T23:54:16 3855.805 INF TurretTracker saved 9 bytes
+2024-08-01T23:54:43 3883.120 INF Time: 63.65m FPS: 19.92 Heap: 1492.0MB Max: 1507.2MB Chunks: 234 CGO: 57 Ply: 1 Zom: 9 Ent: 11 (41) Items: 0 CO: 1 RSS: 1222.2MB
+2024-08-01T23:55:13 3913.121 INF Time: 64.15m FPS: 20.00 Heap: 1499.1MB Max: 1507.2MB Chunks: 234 CGO: 50 Ply: 1 Zom: 9 Ent: 11 (41) Items: 0 CO: 1 RSS: 1222.3MB
+2024-08-01T23:55:43 3943.130 INF Time: 64.65m FPS: 19.99 Heap: 1506.7MB Max: 1507.2MB Chunks: 234 CGO: 52 Ply: 1 Zom: 9 Ent: 11 (41) Items: 0 CO: 1 RSS: 1223.1MB
+2024-08-01T23:56:13 3973.490 INF Time: 65.15m FPS: 20.00 Heap: 1455.9MB Max: 1507.2MB Chunks: 234 CGO: 55 Ply: 1 Zom: 9 Ent: 11 (41) Items: 0 CO: 1 RSS: 1225.4MB
+2024-08-01T23:56:16 3976.140 INF VehicleManager saving 0 (0 + 0)
+2024-08-01T23:56:16 3976.152 INF DroneManager saving 0 (0 + 0)
+2024-08-01T23:56:16 3976.153 INF TurretTracker saving 0 (0 + 0)
+2024-08-01T23:56:16 3976.225 INF VehicleManager saved 9 bytes
+2024-08-01T23:56:16 3976.326 INF DroneManager saved 9 bytes
+2024-08-01T23:56:16 3976.382 INF TurretTracker saved 9 bytes
+2024-08-01T23:56:44 4003.526 INF Time: 65.65m FPS: 20.00 Heap: 1494.4MB Max: 1507.2MB Chunks: 234 CGO: 57 Ply: 1 Zom: 9 Ent: 11 (41) Items: 0 CO: 1 RSS: 1226.5MB
+2024-08-01T23:57:14 4033.571 INF Time: 66.15m FPS: 19.90 Heap: 1502.0MB Max: 1507.2MB Chunks: 236 CGO: 49 Ply: 1 Zom: 9 Ent: 11 (41) Items: 0 CO: 1 RSS: 1232.7MB
+2024-08-01T23:57:16 4035.768 INF Player boqsc disconnected after 12.8 minutes
+2024-08-01T23:57:16 4036.446 INF DynamicMusic: 0 successfully removed from Bloodmoon state cache
+2024-08-01T23:57:16 4036.447 INF Client disconnected from dy mesh: Id: 0 Total: 1
+2024-08-01T23:57:16 4036.448 INF Player disconnected: EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:57:16 4036.450 INF [EOS-ACS] FreeUser: EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='13'
+2024-08-01T23:57:16 4036.451 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:59577 / 0 (RemoteConnectionClose)
+2024-08-01T23:57:16 4036.452 INF Exited thread NCS_Reader_0_0
+2024-08-01T23:57:16 4036.453 INF Exited thread NCS_Reader_0_1
+2024-08-01T23:57:16 4036.455 INF Exited thread NCS_Writer_0_0
+2024-08-01T23:57:16 4036.457 INF Exited thread NCS_Writer_0_1
+2024-08-01T23:57:17 4036.522 INF GMSG: Player 'boqsc' left the game
+2024-08-01T23:57:17 4036.523 ERR [EOS] [LogEOSAntiCheat - Error] [AntiCheatServer] [ReceiveMessageFromClient-001] ClientHandle 000000000000000D not found.
+2024-08-01T23:57:17 4036.527 ERR [EOS-ACS] Failed handling message: InvalidParameters
+2024-08-01T23:57:17 4036.528 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:59577 / 0 (RemoteConnectionClose)
+2024-08-01T23:57:24 4044.168 INF Clearing all pools
+2024-08-01T23:57:44 4064.072 INF Time: 66.65m FPS: 20.01 Heap: 1541.2MB Max: 1541.2MB Chunks: 236 CGO: 0 Ply: 0 Zom: 9 Ent: 0 (41) Items: 0 CO: 0 RSS: 1248.6MB
