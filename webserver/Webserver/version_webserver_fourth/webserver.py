@@ -16,10 +16,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
             self.send_response(200), self.send_header('Content-type', 'text/html'), self.end_headers()
 
             from pathlib import Path
-            import webserver_Template_Engine
-            Webserver_IP_ADDRESS = Get_WebServer_Public_IP()
-            rendered_html = webserver_Template_Engine.render_template('index.html')
-            self.wfile.write(bytes(rendered_html, 'utf-8'))
+            self.wfile.write(open(Path(__file__).parent / 'index.html', 'rb').read())
 
         if self.path == '/favicon.ico':
             self.send_response(200), self.send_header('Content-type', 'image/x-icon'), self.end_headers()
@@ -38,17 +35,14 @@ class RedirectHandler(BaseHTTPRequestHandler):
             
         if self.path == '/Get_WebServer_Public_IP':
             self.send_response(200), self.send_header('Content-type', 'text/plain'), self.end_headers()
-            self.wfile.write(Get_WebServer_Public_IP().encode('utf-8'))
+            import urllib.request
+            webserver_public_ip = urllib.request.urlopen('https://api.ipify.org').read().decode()
+            self.wfile.write(webserver_public_ip.encode('utf-8'))
 
         if self.path == '/list_paths':
                 self.send_response(200), self.send_header('Content-type', 'text/plain'), self.end_headers()
                 self.wfile.write(get_self_paths_json(RedirectHandler).encode('utf-8'))
-
-def Get_WebServer_Public_IP():
-        import urllib.request
-        webserver_public_ip = urllib.request.urlopen('https://api.ipify.org').read().decode()
-        return webserver_public_ip
-
+           
 def start_webserver(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='localhost', port=80):
     from threading import Thread
     
