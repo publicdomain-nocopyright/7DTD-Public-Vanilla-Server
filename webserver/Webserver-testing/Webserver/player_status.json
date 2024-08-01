@@ -1,5 +1,7 @@
 {
-  "online_count": 0,
-  "players": {},
+  "online_count": 1,
+  "players": {
+    "boqsc": "Online,Joining"
+  },
   "server_status": "Online"
 }

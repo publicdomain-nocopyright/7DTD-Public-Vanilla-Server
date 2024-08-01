@@ -103,6 +103,14 @@ class RedirectHandler(BaseHTTPRequestHandler):
                 data = json.load(file)
             self.wfile.write(json.dumps(data).encode('utf-8'))
 
+        if self.path == '/simple-player-status-component.html':
+            import os
+            self.send_response(200), self.send_header('Content-type', 'text/html'), self.end_headers()
+            file_path = os.path.join(os.path.dirname(__file__), 'simple-player-status-component.html')
+            with open(file_path, 'r') as file:
+                data = file.read()
+            self.wfile.write(data.encode('utf-8'))
+
 def Get_WebServer_Public_IP():
         import urllib.request
         webserver_public_ip = urllib.request.urlopen('https://api.ipify.org').read().decode()

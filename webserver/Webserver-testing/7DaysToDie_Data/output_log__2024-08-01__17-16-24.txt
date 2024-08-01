@@ -1248,3 +1248,41 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 2024-08-01T17:23:20 415.039 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:56192 / 0 (RemoteConnectionClose)
 2024-08-01T17:23:25 419.426 INF Time: 6.70m FPS: 16.98 Heap: 1403.7MB Max: 1403.7MB Chunks: 234 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 2224.4MB
 2024-08-01T17:23:28 422.727 INF Clearing all pools
+2024-08-01T17:45:45 1759.637 INF NET: LiteNetLib: Connect from: 127.0.0.1:58875 / 0
+2024-08-01T17:45:45 1759.643 INF Started thread NCS_Reader_0_0
+2024-08-01T17:45:45 1759.645 INF Started thread NCS_Writer_0_0
+2024-08-01T17:45:45 1759.656 INF Started thread NCS_Reader_0_1
+2024-08-01T17:45:45 1759.665 INF Started thread NCS_Writer_0_1
+2024-08-01T17:45:45 1759.667 INF [NET] PlayerConnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='2'
+2024-08-01T17:45:45 1759.732 INF NPPL.Read
+2024-08-01T17:45:45 1759.741 INF [DECO] written 75483, in 35ms
+2024-08-01T17:45:45 1759.758 INF PlayerLogin: boqsc/V 1.0
+2024-08-01T17:45:45 1759.759 INF Client IP: 127.0.0.1
+2024-08-01T17:45:45 1759.759 INF [Auth] PlayerName authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T17:45:45 1759.760 INF [Auth] ServerState authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T17:45:45 1759.761 INF [Auth] MpHostAllowed authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T17:45:45 1759.762 INF [Auth] PlayerId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T17:45:45 1759.763 INF [Auth] DuplicateUserId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T17:45:45 1759.764 INF [Auth] VersionCheck authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T17:45:45 1759.765 INF [Auth] PlayerSlots authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T17:45:45 1759.766 INF [Auth] LegacyModAuthorizations authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T17:45:45 1759.767 INF [Steamworks.NET] Auth.AuthenticateUser()
+2024-08-01T17:45:45 1759.767 INF [DECO] write thread 15ms
+2024-08-01T17:45:45 1759.769 INF [Steamworks.NET] Authenticating player: boqsc SteamId: 76561198072601792 TicketLen: 1024 Result: k_EBeginAuthSessionResultOK
+2024-08-01T17:45:46 1761.106 INF [Steamworks.NET] Authentication callback. ID: 76561198072601792, owner: 76561198072601792, result: k_EAuthSessionResponseOK
+2024-08-01T17:45:46 1761.107 INF [Auth] PlatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T17:45:46 1761.107 INF [Auth] SteamFamily authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T17:45:46 1761.108 INF [Auth] SteamGroups authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T17:45:46 1761.109 INF [EOS] Verifying token for 00020585a34f4b93bf8c21b3cf8d3150
+2024-08-01T17:45:47 1761.257 INF [EOS] Device=, Platform=steam, AccType=Steam, AccId=76561198072601792, PUID=00020585a34f4b93bf8c21b3cf8d3150
+2024-08-01T17:45:47 1761.706 INF [EOS] Player may have active sanctions
+2024-08-01T17:45:47 1761.707 INF [EOS] SanctionsQuery finished with: 0 sanctions
+2024-08-01T17:45:47 1761.708 INF [Auth] CrossplatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T17:45:47 1761.709 INF [Auth] BansAndWhitelist authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T17:45:47 1761.710 INF [Auth] Crossplay authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T17:45:47 1761.711 INF [EOS-ACS] Registering user: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T17:45:54 1768.556 INF [Auth] EAC authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T17:45:54 1768.606 INF [Auth] Finalizer authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-01T17:45:54 1768.628 INF Allowing player with id EOS_00020585a34f4b93bf8c21b3cf8d3150
+2024-08-01T17:45:54 1768.808 INF RequestToEnterGame: EOS_00020585a34f4b93bf8c21b3cf8d3150/boqsc
+2024-08-01T17:45:57 1772.066 INF Time: 29.22m FPS: 20.00 Heap: 1068.6MB Max: 1403.7MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 796.3MB
