@@ -1254,3 +1254,45 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 2024-08-02T09:38:01 724.592 INF [DECO] write thread 13ms
 2024-08-02T09:38:01 724.648 INF Time: 11.46m FPS: 19.50 Heap: 1444.3MB Max: 1445.3MB Chunks: 234 CGO: 50 Ply: 1 Zom: 9 Ent: 11 (11) Items: 0 CO: 1 RSS: 1852.2MB
 2024-08-02T09:38:02 725.481 WRN [SteamServer] Tick took exceptionally long: 37 ms
+2024-08-02T09:38:31 754.647 INF Time: 11.96m FPS: 20.00 Heap: 1447.0MB Max: 1447.0MB Chunks: 234 CGO: 57 Ply: 1 Zom: 9 Ent: 11 (11) Items: 0 CO: 1 RSS: 1852.8MB
+2024-08-02T09:39:01 784.678 INF Time: 12.46m FPS: 19.99 Heap: 1449.1MB Max: 1449.1MB Chunks: 234 CGO: 51 Ply: 1 Zom: 9 Ent: 11 (11) Items: 0 CO: 1 RSS: 1807.8MB
+2024-08-02T09:39:16 799.227 INF VehicleManager saving 0 (0 + 0)
+2024-08-02T09:39:16 799.230 INF DroneManager saving 0 (0 + 0)
+2024-08-02T09:39:16 799.258 INF VehicleManager saved 9 bytes
+2024-08-02T09:39:16 799.264 INF TurretTracker saving 0 (0 + 0)
+2024-08-02T09:39:16 799.292 INF TurretTracker saved 9 bytes
+2024-08-02T09:39:16 799.294 INF DroneManager saved 9 bytes
+2024-08-02T09:39:31 814.677 INF Time: 12.96m FPS: 20.01 Heap: 1459.0MB Max: 1459.0MB Chunks: 234 CGO: 56 Ply: 1 Zom: 9 Ent: 11 (11) Items: 0 CO: 1 RSS: 1818.3MB
+2024-08-02T09:40:01 844.928 INF Time: 13.46m FPS: 20.00 Heap: 1444.1MB Max: 1459.0MB Chunks: 234 CGO: 49 Ply: 1 Zom: 9 Ent: 11 (11) Items: 0 CO: 1 RSS: 1821.7MB
+2024-08-02T09:40:31 874.954 INF Time: 13.96m FPS: 20.00 Heap: 1445.2MB Max: 1459.0MB Chunks: 234 CGO: 54 Ply: 1 Zom: 9 Ent: 11 (11) Items: 0 CO: 1 RSS: 1821.8MB
+2024-08-02T09:41:02 904.989 INF Time: 14.46m FPS: 20.00 Heap: 1446.7MB Max: 1459.0MB Chunks: 234 CGO: 52 Ply: 1 Zom: 9 Ent: 11 (11) Items: 0 CO: 1 RSS: 1821.8MB
+2024-08-02T09:41:16 919.445 INF VehicleManager saving 0 (0 + 0)
+2024-08-02T09:41:16 919.543 INF DroneManager saving 0 (0 + 0)
+2024-08-02T09:41:16 919.628 INF VehicleManager saved 9 bytes
+2024-08-02T09:41:16 919.645 INF TurretTracker saving 0 (0 + 0)
+2024-08-02T09:41:16 919.648 INF TurretTracker saved 9 bytes
+2024-08-02T09:41:16 919.719 INF DroneManager saved 9 bytes
+2024-08-02T09:41:32 935.034 INF Time: 14.96m FPS: 20.02 Heap: 1456.1MB Max: 1459.0MB Chunks: 234 CGO: 50 Ply: 1 Zom: 9 Ent: 11 (11) Items: 0 CO: 1 RSS: 1822.0MB
+2024-08-02T09:42:02 965.265 INF Time: 15.46m FPS: 19.99 Heap: 1444.4MB Max: 1459.0MB Chunks: 234 CGO: 48 Ply: 1 Zom: 9 Ent: 10 (11) Items: 0 CO: 1 RSS: 1822.0MB
+2024-08-02T09:42:32 995.273 INF Time: 15.96m FPS: 20.00 Heap: 1445.5MB Max: 1459.0MB Chunks: 234 CGO: 48 Ply: 1 Zom: 9 Ent: 10 (11) Items: 0 CO: 1 RSS: 1822.0MB
+2024-08-02T09:43:02 1025.282 INF Time: 16.46m FPS: 20.00 Heap: 1447.0MB Max: 1459.0MB Chunks: 234 CGO: 46 Ply: 1 Zom: 9 Ent: 10 (11) Items: 0 CO: 1 RSS: 1822.0MB
+2024-08-02T09:43:16 1039.672 INF VehicleManager saving 0 (0 + 0)
+2024-08-02T09:43:16 1039.680 INF DroneManager saving 0 (0 + 0)
+2024-08-02T09:43:16 1039.682 INF TurretTracker saving 0 (0 + 0)
+2024-08-02T09:43:16 1039.703 INF VehicleManager saved 9 bytes
+2024-08-02T09:43:16 1039.716 INF DroneManager saved 9 bytes
+2024-08-02T09:43:16 1039.734 INF TurretTracker saved 9 bytes
+2024-08-02T09:43:32 1055.327 INF Time: 16.96m FPS: 20.03 Heap: 1456.3MB Max: 1459.0MB Chunks: 234 CGO: 40 Ply: 1 Zom: 9 Ent: 10 (11) Items: 0 CO: 1 RSS: 1822.1MB
+2024-08-02T09:44:01 1084.037 INF Entity zombieArlene 200 killed
+2024-08-02T09:44:02 1085.498 INF Time: 17.46m FPS: 20.00 Heap: 1444.3MB Max: 1459.0MB Chunks: 234 CGO: 37 Ply: 1 Zom: 9 Ent: 10 (11) Items: 0 CO: 1 RSS: 1814.5MB
+2024-08-02T09:44:32 1115.521 INF Time: 17.96m FPS: 19.96 Heap: 1445.5MB Max: 1459.0MB Chunks: 234 CGO: 41 Ply: 1 Zom: 8 Ent: 9 (11) Items: 0 CO: 1 RSS: 1814.6MB
+2024-08-02T09:45:02 1145.527 INF Time: 18.46m FPS: 20.00 Heap: 1447.0MB Max: 1459.0MB Chunks: 234 CGO: 40 Ply: 1 Zom: 8 Ent: 9 (11) Items: 0 CO: 1 RSS: 1814.6MB
+2024-08-02T09:45:16 1159.857 INF VehicleManager saving 0 (0 + 0)
+2024-08-02T09:45:16 1159.860 INF DroneManager saving 0 (0 + 0)
+2024-08-02T09:45:16 1159.861 INF TurretTracker saving 0 (0 + 0)
+2024-08-02T09:45:16 1159.874 INF DroneManager saved 9 bytes
+2024-08-02T09:45:16 1159.889 INF VehicleManager saved 9 bytes
+2024-08-02T09:45:16 1159.911 INF TurretTracker saved 9 bytes
+2024-08-02T09:45:32 1175.552 INF Time: 18.96m FPS: 20.00 Heap: 1456.1MB Max: 1459.0MB Chunks: 234 CGO: 42 Ply: 1 Zom: 8 Ent: 9 (11) Items: 0 CO: 1 RSS: 1814.6MB
+2024-08-02T09:46:03 1206.144 INF Time: 19.46m FPS: 20.00 Heap: 1444.4MB Max: 1459.0MB Chunks: 234 CGO: 36 Ply: 1 Zom: 8 Ent: 9 (11) Items: 0 CO: 1 RSS: 1814.6MB
+2024-08-02T09:46:33 1236.142 INF Time: 19.96m FPS: 20.00 Heap: 1445.8MB Max: 1459.0MB Chunks: 234 CGO: 39 Ply: 1 Zom: 8 Ent: 9 (11) Items: 0 CO: 1 RSS: 1814.6MB
