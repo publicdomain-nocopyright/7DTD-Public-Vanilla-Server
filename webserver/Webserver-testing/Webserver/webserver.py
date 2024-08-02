@@ -37,12 +37,12 @@ class RedirectHandler(BaseHTTPRequestHandler):
             bloodmoon_days = Webserver_FindNextHordeNightTime_inside_logs_folder.find_last_bloodmoon_setday()
             Webserver_IP_ADDRESS = Get_WebServer_Public_IP()
 
-            import os
-            file_path = os.path.join(os.path.dirname(__file__), 'simple-player-status-component.html')
-            with open(file_path, 'r') as file:
-                simple_player_status_component_loaded = file.read()
+            #import os
+            #file_path = os.path.join(os.path.dirname(__file__), 'simple-player-status-component.html')
+            #with open(file_path, 'r') as file:
+            #    simple_player_status_component_loaded = file.read()
 
-
+            simple_player_status_component_loaded = webserver_Template_Engine.render_template('simple-player-status-component.html')
             rendered_html = webserver_Template_Engine.render_template('index.html')
             self.wfile.write(bytes(rendered_html, 'utf-8'))
 
