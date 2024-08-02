@@ -121,8 +121,8 @@ def Get_WebServer_Public_IP():
         import urllib.request
         webserver_public_ip = urllib.request.urlopen('https://api.ipify.org').read().decode()
         return webserver_public_ip
-
-def start_webserver(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='localhost', port=80):
+# Note: ip='localhost' or ip='127.0.0.1' will disallow local network and internet access to the HTTP server.
+def start_webserver(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='0.0.0.0', port=80):
     from threading import Thread
     
     server_address = (ip, port)
@@ -163,9 +163,13 @@ def get_self_paths_json(handler_class):
 if __name__ == '__main__':
     list_all_self_paths()
 
-    from threading import Thread
-    import player_status_monitor
-    Thread(target=player_status_monitor.main, daemon=True).start()
+    #from threading import Thread
+    #import player_status_monitor
+    #Thread(target=player_status_monitor.main, daemon=True).start()
+
+    #from threading import Thread
+    #import Webserver_UPNP_Portforwarding
+    #Thread(target=Webserver_UPNP_Portforwarding.main, daemon=True).start()
 
     ip, port, server_thread = start_webserver()
     print(f"[Webserver] Server started at {ip}:{port}")

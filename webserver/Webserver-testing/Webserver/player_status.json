@@ -1,10 +1,5 @@
 {
-  "online_count": 1,
-  "players": {
-    "boqsc": {
-      "status": "Online,Spawned",
-      "pltfm_id": "Steam_76561198072601792"
-    }
-  },
-  "server_status": "Online"
+  "online_count": 0,
+  "players": {},
+  "server_status": "Shutdown"
 }
