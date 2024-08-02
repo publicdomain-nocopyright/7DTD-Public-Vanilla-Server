@@ -54,9 +54,13 @@
 
                         for (const [player, status] of Object.entries(data.players)) {
                             const row = document.createElement('tr');
+							const firstStatusElement = Object.values(status)[0];
+							const secondStatusElement = Object.values(status)[1].split('_')[1];
                             row.innerHTML = `
-                                <td>${player}</td>
-                                <td>${status}</td>
+                                <td><a href="https://steamcommunity.com/profiles/${secondStatusElement}" target="_blank">${player}</a></td>
+                                <td>${firstStatusElement}</td>
+
+								
                             `;
                             playerList.appendChild(row);
                         }
