@@ -7,16 +7,11 @@ from collections import defaultdict
 
 def get_latest_log_file():
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    log_dir = os.path.abspath(os.path.join(script_dir, '..', '7DaysToDie_Data'))
+    log_dir = os.path.abspath(os.path.join(script_dir, '..','7DaysToDie_Data'))
     log_files = [f for f in os.listdir(log_dir) if f.startswith("output_log__") and f.endswith(".txt")]
-    
     if not log_files:
         raise FileNotFoundError(f"No log files found in the directory: {log_dir}")
-    
-    # Sort log files based on the timestamp in the filename
-    sorted_log_files = sorted(log_files, key=lambda x: x.split('__')[1], reverse=True)
-    latest_file = os.path.join(log_dir, sorted_log_files[0])
-    
+    latest_file = os.path.join(log_dir, max(log_files, key=lambda x: os.path.getmtime(os.path.join(log_dir, x))))
     print(f"Debug: Latest log file found: {latest_file}")
     return latest_file
 
@@ -25,30 +20,48 @@ def parse_log_line(line):
     pltfm_id_match = re.search(r"PltfmId='(\w+_\d+)'", line)
     pltfm_id = pltfm_id_match.group(1) if pltfm_id_match else None
 
-    # Patterns for player detection
-    patterns = [
-        (r"PlayerLogin: (.+?)/V", "Online,Joining"),
-        (r"PlayerSpawnedInWorld.*PlayerName='(.+?)'", "Online,Spawned"),
-        (r"GMSG: Player '(.+?)' joined the game", "Online,Playing"),
-        (r"GMSG: Player '(.+?)' left the game", "Offline"),
-        (r"Player disconnected: EntityID=.*PlayerName='(.+?)'", "Offline"),
-        (r"\[Auth\].*PlayerName='(.+?)'", None),
-        (r"INF.*PlayerName='(.+?)'", None),  # New pattern to catch more player mentions
-    ]
+    login_match = re.search(r"PlayerLogin: (\w+)/V", line)
+    if login_match:
+        player = login_match.group(1)
+        print(f"Debug: Player '{player}' is logging in")
+        return player, "Online,Joining", pltfm_id
 
-    for pattern, status in patterns:
-        match = re.search(pattern, line)
-        if match:
-            player = match.group(1)
-            print(f"Debug: Player '{player}' detected with status: {status}")
-            return player, status, pltfm_id
+    spawn_match = re.search(r"PlayerSpawnedInWorld.*PlayerName='(\w+)'", line)
+    if spawn_match:
+        player = spawn_match.group(1)
+        print(f"Debug: Player '{player}' has spawned in the world")
+        return player, "Online,Spawned", pltfm_id
 
-    if "Shutdown game from" in line:
+    join_match = re.search(r"GMSG: Player '(\w+)' joined the game", line)
+    if join_match:
+        player = join_match.group(1)
+        print(f"Debug: Player '{player}' has fully joined the game")
+        return player, "Online,Playing", pltfm_id
+
+    leave_match = re.search(r"GMSG: Player '(\w+)' left the game", line)
+    if leave_match:
+        player = leave_match.group(1)
+        print(f"Debug: Player '{player}' left the game")
+        return player, "Offline", pltfm_id
+
+    disconnect_match = re.search(r"Player disconnected: EntityID=.*PlayerName='(\w+)'", line)
+    if disconnect_match:
+        player = disconnect_match.group(1)
+        print(f"Debug: Player '{player}' disconnected")
+        return player, "Offline", pltfm_id
+
+    auth_match = re.search(r"\[Auth\].*PlayerName='(\w+)'", line)
+    if auth_match:
+        player = auth_match.group(1)
+        print(f"Debug: Player '{player}' authentication info found")
+        return player, None, pltfm_id
+
+    shutdown_match = re.search(r"Shutdown game from", line)
+    if shutdown_match:
         print("Debug: Server is shutting down")
         return "SERVER", "Shutdown", None
 
     return None, None, pltfm_id
-
 
 def generate_json(player_status, force_create=False):
     online_players = {player: info for player, info in player_status.items() 
@@ -66,13 +79,15 @@ def generate_json(player_status, force_create=False):
 
     if force_create or not os.path.exists(json_file):
         print(f"Debug: Creating new player_status.json file")
+        with open(json_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+        print(f"Debug: New JSON file created: {json_file}")
     else:
-        print(f"Debug: Updating player_status.json file")
-    
-    with open(json_file, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
-    
-    print(f"Debug: Current player status: {dict(player_status)}")
+        with open(json_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+        print(f"Debug: JSON file updated: {json_file}")
+
+    print(f"Debug: Current player status: {player_status}")
     print(f"Debug: Online count: {online_count}")
     print(f"Debug: JSON data: {json.dumps(data, indent=2)}")
 
@@ -104,12 +119,6 @@ def initialize_player_status(log_file):
     print(f"Debug: Initial player status: {dict(player_status)}")
     return player_status
 
-def print_full_status(player_status):
-    print("\nFull Player Status Report:")
-    for player, info in player_status.items():
-        print(f"  {player}: {info['status']} (PltfmId: {info['pltfm_id']})")
-    print()
-
 def main():
     try:
         current_log_file = get_latest_log_file()
@@ -127,14 +136,8 @@ def main():
 
         print("Debug: Starting to monitor log file in real-time...")
         last_check_time = time.time()
-        line_count = 0
 
         for line in follow(current_log_file):
-            line_count += 1
-            if line_count % 1000 == 0:
-                print(f"Debug: Processed {line_count} lines")
-                print_full_status(player_status)
-
             # Check for new log file every 60 seconds
             if time.time() - last_check_time > 60:
                 try:
@@ -154,9 +157,6 @@ def main():
             player, status, pltfm_id = parse_log_line(line)
             if player:
                 update_needed = False
-                if player not in player_status:
-                    print(f"Debug: New player '{player}' added to tracking")
-                    update_needed = True
                 if status:
                     old_status = player_status[player]["status"]
                     player_status[player]["status"] = status

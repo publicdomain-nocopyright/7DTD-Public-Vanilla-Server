@@ -1,5 +1,14 @@
 {
-  "online_count": 0,
-  "players": {},
-  "server_status": "Shutdown"
+  "online_count": 2,
+  "players": {
+    "Hr3born[LV]": {
+      "status": "Online,Spawned",
+      "pltfm_id": "Steam_76561197995381320"
+    },
+    "boqsc": {
+      "status": "Online,Joining",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
 }
