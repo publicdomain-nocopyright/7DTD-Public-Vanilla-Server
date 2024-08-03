@@ -77,15 +77,45 @@
     
 
     main { display: inline-block;}
-    iframe {display: inlin-block; border-radius: 10px; margin-top: 116px;}
+    
+    
+        /* Container for perspective */
+/* Container for perspective */
+.container {
+    perspective: 2000px; /* Increase perspective for more pronounced 3D effect */
+}
+
+/* iframe styles */
+iframe {
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 116px;
+    align-self: center;
+    transform: rotateX(0deg) rotateY(0deg) translateZ(300px); /* Increased translateZ for more depth */
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.7); /* Strong shadow for depth effect */
+    background-color: #e0e0e0; /* Light gray background to enhance depth visibility */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for depth effect */
+}
+
+
+
+
+
 </style>
+
+
+
 
  
 {{ simple_player_status_component_loaded }}
                 
-</main>        
+</main>  
+<div class="container">
 <iframe src="https://cdn.battlemetrics.com/b/standardVertical/28619414.html?foreground=%23EEEEEE&linkColor=%231185ec&lines=%23333333&background=%23222222&chart=players%3A24H&chartColor=%23FF0700&maxPlayersHeight=300" frameborder=0 style="border:0" name="sczxm"></iframe>        
-                </body></html>
+</div>                
+
+
+</body></html>
 
 
 
