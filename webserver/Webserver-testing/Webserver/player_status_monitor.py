@@ -112,7 +112,11 @@ def print_full_status(player_status):
 
 def main():
     try:
-        current_log_file = get_latest_log_file()
+        
+        import Webserver_Get_Latest_Game_Server_Log_File
+        log_file_path = Webserver_Get_Latest_Game_Server_Log_File.get_latest_game_server_log_file_name()
+        current_log_file = log_file_path
+        #current_log_file = get_latest_log_file()
         player_status = initialize_player_status(current_log_file)
 
         # Check if player_status.json exists, create it if it doesn't
