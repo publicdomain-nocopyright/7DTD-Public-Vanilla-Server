@@ -1,0 +1,8 @@
+       if self.path == '/Get_WebServer_Public_IP':
+            self.send_response(200), self.send_header('Content-type', 'text/plain'), self.end_headers()
+            #import http
+            #conn = http.client.HTTPSConnection("api.ipify.org")
+            #conn.request("GET", "/")
+            #webserver_public_ip = conn.getresponse().read().decode()
+            #conn.close()
+            #self.wfile.write(webserver_public_ip.encode('utf-8'))
