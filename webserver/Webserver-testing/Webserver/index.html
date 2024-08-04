@@ -16,7 +16,16 @@
                     </script>
                 </head> 
                 <body>
-
+					<toolbar style="display: flex; justify-content: space-evenly; height: 20px; width: 100%; background: gray; ">
+					<style>body { padding-top: 0px !important;} toolbar > * { min-width: 130px;}</style>
+					
+					<button>Annonymous Chat</button>
+					<button>Server Information</button>
+					<button>Discord</button> 
+					<button>Donate</button>
+					
+					</toolbar>
+					<div class="flexcontainer">
                     <main>
                     <script type="application/javascript">window.addEventListener('message',function(e){if(e.data.uid&&e.data.type==='sizeUpdate'){var i = document.querySelector('iframe[name="'+e.data.uid+'"]');i.style.width = e.data.payload.width;i.style.height = e.data.payload.height;}});</script>               
     <img width="594" height="110    " src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_logo_Vanilla Server Recreation logoxcf.webp?raw=true">
@@ -84,7 +93,7 @@
     </style>
 
 <style>
-    body { display: flex !important;}
+    .flexcontainer { display: flex !important;}
     
 
     main { display: inline-block;}
@@ -134,7 +143,7 @@ iframe {
 </div>                
 <img height="50px" src="https://media1.tenor.com/m/dqrM4zHbFZAAAAAd/7dtd-7daystodie.gif">
 
-</body></html>
+</div></body></html>
 
 
 
