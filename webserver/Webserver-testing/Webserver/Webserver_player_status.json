@@ -1,14 +1,5 @@
 {
-  "online_count": 2,
-  "players": {
-    "Hr3born[LV]": {
-      "status": "Online,Spawned",
-      "pltfm_id": "Steam_76561197995381320"
-    },
-    "Jax": {
-      "status": "Online,Spawned",
-      "pltfm_id": "Steam_76561199573065811"
-    }
-  },
-  "server_status": "Online"
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
 }
