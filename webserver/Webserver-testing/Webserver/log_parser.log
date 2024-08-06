@@ -181,3 +181,8 @@
   "server_status": "Offline"
 }
 2024-08-06 08:47:33,798 - INFO - Starting to monitor log file in real-time...
+2024-08-06 08:49:24,096 - INFO - Processed 1000 lines
+2024-08-06 08:49:24,096 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
