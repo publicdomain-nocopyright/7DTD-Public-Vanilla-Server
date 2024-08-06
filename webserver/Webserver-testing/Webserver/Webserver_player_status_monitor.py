@@ -7,7 +7,7 @@ from datetime import datetime
 from collections import defaultdict
 
 # Set up logging
-logging.basicConfig(filename='log_parser.log', level=logging.DEBUG,
+logging.basicConfig(filename='Webserver_player_status_monitor_log_parser.log', level=logging.DEBUG,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger()
 
