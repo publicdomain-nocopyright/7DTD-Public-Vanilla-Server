@@ -38,7 +38,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
             Webserver_IP_ADDRESS = Get_WebServer_Public_IP()
 
             import os
-            file_path = os.path.join(os.path.dirname(__file__), 'simple-player-status-component.html')
+            file_path = os.path.join(os.path.dirname(__file__), 'Page_component_simple-player-status.html')
             with open(file_path, 'r') as file:
                 simple_player_status_component_loaded = file.read()
 
@@ -109,10 +109,10 @@ class RedirectHandler(BaseHTTPRequestHandler):
                 data = json.load(file)
             self.wfile.write(json.dumps(data).encode('utf-8'))
 
-        if self.path == '/simple-player-status-component.html':
+        if self.path == '/Page_component_simple-player-status.html':
             import os
             self.send_response(200), self.send_header('Content-type', 'text/html'), self.end_headers()
-            file_path = os.path.join(os.path.dirname(__file__), 'simple-player-status-component.html')
+            file_path = os.path.join(os.path.dirname(__file__), 'Page_component_simple-player-status.html')
             with open(file_path, 'r') as file:
                 data = file.read()
             self.wfile.write(data.encode('utf-8'))
