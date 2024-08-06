@@ -1,0 +1,2 @@
+import Webserver_findNextHordeNightTime_inside_logs_folder
+Webserver_findNextHordeNightTime_inside_logs_folder.find_last_bloodmoon_setday()

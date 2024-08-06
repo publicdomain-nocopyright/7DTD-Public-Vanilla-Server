@@ -31,10 +31,10 @@ class RedirectHandler(BaseHTTPRequestHandler):
             self.send_response(200), self.send_header('Content-type', 'text/html'), self.end_headers()
 
             from pathlib import Path
-            import Webserver_Template_Engine
+            import Webserver_template_engine
 
-            import Webserver_FindNextHordeNightTime_inside_logs_folder
-            bloodmoon_days = Webserver_FindNextHordeNightTime_inside_logs_folder.find_last_bloodmoon_setday()
+            import Webserver_findNextHordeNightTime_inside_logs_folder
+            bloodmoon_days = Webserver_findNextHordeNightTime_inside_logs_folder.find_last_bloodmoon_setday()
             Webserver_IP_ADDRESS = Get_WebServer_Public_IP()
 
             import os
@@ -43,7 +43,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
                 simple_player_status_component_loaded = file.read()
 
 
-            rendered_html = Webserver_Template_Engine.render_template('index.html')
+            rendered_html = Webserver_template_engine.render_template('index.html')
             self.wfile.write(bytes(rendered_html, 'utf-8'))
 
         if self.path == '/favicon.ico':
@@ -72,8 +72,8 @@ class RedirectHandler(BaseHTTPRequestHandler):
         if self.path == '/server-log':
             
             # Assuming Webserver_Get_Latest_Game_Server_Log_File.get_latest_game_server_log_file_name() returns the log file path
-            import Webserver_Get_Latest_Game_Server_Log_File
-            log_file_path = Webserver_Get_Latest_Game_Server_Log_File.get_latest_game_server_log_file_name()
+            import Webserver_get_latest_game_server_log_file
+            log_file_path = Webserver_get_latest_game_server_log_file.get_latest_game_server_log_file_name()
             log_content = read_server_log(log_file_path)
             
             # Wrap the log content in <pre> tags
@@ -173,6 +173,6 @@ if __name__ == '__main__':
 
     ip, port, server_thread = start_webserver()
     print(f"[Webserver] Server started at {ip}:{port}")
-    import Webserver_Exit_Threads_Signaling
-    import Webserver_Main_Thread_Keep_Alive
+    import Webserver_exit_threads_signaling
+    import Webserver_main_thread_keep_alive
     

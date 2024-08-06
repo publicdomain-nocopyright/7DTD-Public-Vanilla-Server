@@ -27,8 +27,8 @@ logger = logging.getLogger()
 #    return latest_file
 
 def get_latest_log_file():
-    import Webserver_Get_Latest_Game_Server_Log_File
-    log_file_path = Webserver_Get_Latest_Game_Server_Log_File.get_latest_game_server_log_file_name()
+    import Webserver_get_latest_game_server_log_file
+    log_file_path = Webserver_get_latest_game_server_log_file.get_latest_game_server_log_file_name()
     return log_file_path
 
 def parse_log_line(line):
@@ -127,8 +127,8 @@ def print_full_status(player_status):
 
 def main():
     try:
-        import Webserver_Get_Latest_Game_Server_Log_File
-        log_file_path = Webserver_Get_Latest_Game_Server_Log_File.get_latest_game_server_log_file_name()
+        import Webserver_get_latest_game_server_log_file
+        log_file_path = Webserver_get_latest_game_server_log_file.get_latest_game_server_log_file_name()
         current_log_file = log_file_path
         player_status = initialize_player_status(current_log_file)
 
