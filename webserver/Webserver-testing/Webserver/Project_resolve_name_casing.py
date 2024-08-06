@@ -1,10 +1,15 @@
+#git rm -r --cached .
+#git add --all .
+# https://stackoverflow.com/questions/17683458/how-do-i-commit-case-sensitive-only-filename-changes-in-git/55541435#55541435
+
 import os
 import re
 import ast
 
 def get_py_files(directory):
     return [f for f in os.listdir(directory) if f.endswith('.py')]
-
+git rm -r --cached .
+git add --all .
 def get_module_names(directory):
     return {os.path.splitext(f)[0] for f in get_py_files(directory)}
 
