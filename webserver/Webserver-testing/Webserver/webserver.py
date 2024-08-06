@@ -41,7 +41,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
             #file_path = os.path.join(os.path.dirname(__file__), 'Page_component_simple-player-status.html')
             #with open(file_path, 'r') as file:
                 #simple_player_status_component_loaded = file.read()
-            simple_player_status_component_loaded = Webserver_template_engine.render_template('Page_component_simple-player-status.html')
+            simple_player_status_component_loaded = Webserver_template_engine.render_template('Page_component_simple_player_status.html')
 
             rendered_html = Webserver_template_engine.render_template('Page_index.html')
             self.wfile.write(bytes(rendered_html, 'utf-8'))
