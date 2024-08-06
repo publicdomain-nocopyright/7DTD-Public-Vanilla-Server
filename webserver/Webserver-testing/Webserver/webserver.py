@@ -43,7 +43,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
                 simple_player_status_component_loaded = file.read()
 
 
-            rendered_html = Webserver_template_engine.render_template('index.html')
+            rendered_html = Webserver_template_engine.render_template('Page_index.html')
             self.wfile.write(bytes(rendered_html, 'utf-8'))
 
         if self.path == '/favicon.ico':
