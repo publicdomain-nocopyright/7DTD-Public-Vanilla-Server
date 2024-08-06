@@ -31,7 +31,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
             self.send_response(200), self.send_header('Content-type', 'text/html'), self.end_headers()
 
             from pathlib import Path
-            import webserver_Template_Engine
+            import Webserver_Template_Engine
 
             import Webserver_FindNextHordeNightTime_inside_logs_folder
             bloodmoon_days = Webserver_FindNextHordeNightTime_inside_logs_folder.find_last_bloodmoon_setday()
@@ -43,7 +43,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
                 simple_player_status_component_loaded = file.read()
 
 
-            rendered_html = webserver_Template_Engine.render_template('index.html')
+            rendered_html = Webserver_Template_Engine.render_template('index.html')
             self.wfile.write(bytes(rendered_html, 'utf-8'))
 
         if self.path == '/favicon.ico':
