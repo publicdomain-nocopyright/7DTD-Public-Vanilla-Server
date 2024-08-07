@@ -90,6 +90,28 @@ class RedirectHandler(SimpleHTTPRequestHandler):
                 data = file.read()
             self.wfile.write(data.encode('utf-8'))
 
+        elif self.path == '/Public_IP_Accessibilty':
+            import json
+            # Webserver Status: Online Offline
+            webserver_portforwarding_status = {
+                "webserver_status": verify_external_port("78.63.42.224", 80)
+            }
+            # Convert JSON object to a string
+            json_response = json.dumps(webserver_portforwarding_status)
+            
+            # Set response headers
+            self.send_response(200)
+            self.send_header('Content-type', 'application/json')
+            self.end_headers()
+            
+            # Write the JSON response
+            self.wfile.write(json_response.encode('utf-8'))
+
+
+
+            pass
+        
+
         # Enables SimpleHTTPRequestHandler to serve files from current directory
         else:
                 # Serve files from the current directory for all other paths
@@ -98,6 +120,52 @@ class RedirectHandler(SimpleHTTPRequestHandler):
                 super().do_GET()
             else:
                 self.send_error(404, "File not found")
+
+
+
+def verify_external_port(external_ip, port, timeout=10):
+            
+    import socket
+    import requests
+    """
+    Verify if a port is open externally using multiple methods.
+
+    :param external_ip: The external IP address to test
+    :param port: The port number to test
+    :param timeout: Timeout for connection attempts (default 10 seconds)
+    :return: True if the port is open, False otherwise
+    """
+    if not external_ip:
+        print("External IP not available. Provide a valid IP address.")
+        return False
+
+    print(f"Verifying if port {port} is open on {external_ip}...")
+
+    # Method 1: Direct socket connection
+    try:
+        with socket.create_connection((external_ip, port), timeout=timeout) as sock:
+            print(f"Successfully connected to {external_ip}:{port}")
+            return True
+    except (socket.timeout, ConnectionRefusedError):
+        print(f"Could not connect directly to {external_ip}:{port}")
+    # Method: Using an external port checking service
+    try:
+        response = requests.get(f"https://www.yougetsignal.com/tools/open-ports/check/?port={port}&host={external_ip}", timeout=timeout)
+        if "open" in response.text.lower():
+            print(f"External service reports {external_ip}:{port} is open")
+            return True
+        else:
+            print(f"External service reports {external_ip}:{port} is closed")
+    except requests.RequestException as e:
+        print(f"Error checking port using external service: {e}")
+
+    # If the method fails, consider the port closed
+    print(f"Port {port} appears to be closed on {external_ip}")
+    return False
+
+# Example usage
+#is_open = verify_external_port("8.8.8.8", 80)
+#print(f"Port 80 open: {is_open}")
 
 def Get_WebServer_Public_IP():     
         import urllib.request
