@@ -1,10 +1,10 @@
 # webserver.py          Simple Threading HTTP Server
 import sys; sys.dont_write_bytecode = True
-from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 
 import Webserver_fix_pythonw_stream_bug
 
-class RedirectHandler(BaseHTTPRequestHandler):
+class RedirectHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
         #html_content = """
         #<head>
