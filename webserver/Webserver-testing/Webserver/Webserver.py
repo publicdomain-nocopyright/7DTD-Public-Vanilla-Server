@@ -90,6 +90,11 @@ class RedirectHandler(SimpleHTTPRequestHandler):
                 data = file.read()
             self.wfile.write(data.encode('utf-8'))
 
+        # Enables SimpleHTTPRequestHandler to serve files from current directory
+        else:
+                # Serve files from the current directory for all other paths
+                super().do_GET()
+
 def Get_WebServer_Public_IP():
         import urllib.request
         webserver_public_ip = urllib.request.urlopen('https://api.ipify.org').read().decode()
