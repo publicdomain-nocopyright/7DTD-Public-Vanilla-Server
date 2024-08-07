@@ -149,19 +149,32 @@ def verify_external_port(external_ip, port, timeout=10):
     except (socket.timeout, ConnectionRefusedError):
         print(f"Could not connect directly to {external_ip}:{port}")
     # Method: Using an external port checking service
-    try:
-        response = requests.get(f"https://www.yougetsignal.com/tools/open-ports/check/?port={port}&host={external_ip}", timeout=timeout)
-        if "open" in response.text.lower():
-            print(f"External service reports {external_ip}:{port} is open")
-            return True
-        else:
-            print(f"External service reports {external_ip}:{port} is closed")
-    except requests.RequestException as e:
-        print(f"Error checking port using external service: {e}")
+    import http.client
+    import socket
 
-    # If the method fails, consider the port closed
-    print(f"Port {port} appears to be closed on {external_ip}")
-    return False
+    def check_port(port, external_ip, timeout=10):
+        conn = None
+        try:
+            conn = http.client.HTTPConnection(external_ip, timeout=timeout)
+            conn.request("GET", f"/tools/open-ports/check/?port={port}&host={external_ip}")
+            response = conn.getresponse()
+            body = response.read().decode()
+
+            if "open" in body.lower():
+                print(f"External service reports {external_ip}:{port} is open")
+                return True
+            else:
+                print(f"External service reports {external_ip}:{port} is closed")
+        except (http.client.HTTPException, socket.error) as e:
+            print(f"Error checking port using external service: {e}")
+        finally:
+            if conn:
+                conn.close()
+
+        # If the method fails, consider the port closed
+        print(f"Port {port} appears to be closed on {external_ip}")
+        return False
+
 
 # Example usage
 #is_open = verify_external_port("8.8.8.8", 80)
