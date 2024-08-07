@@ -72,14 +72,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
             </script>
             """
             
-            # Send response status code
-            self.send_response(200)
-            
-            # Send headers
-            self.send_header('Content-type', 'text/html')
-            self.end_headers()
-            
-            # Write the content as UTF-8 data
+            self.send_response(200); self.send_header('Content-type', 'text/html'); self.end_headers()
             self.wfile.write(bytes(formatted_log_content, "utf8"))
             
         if self.path == '/player_status.json':
