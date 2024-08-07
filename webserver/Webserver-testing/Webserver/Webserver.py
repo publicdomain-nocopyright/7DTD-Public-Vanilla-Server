@@ -27,7 +27,7 @@ class RedirectHandler(SimpleHTTPRequestHandler):
 
             self.wfile.write(bytes(Webserver_template_engine.render_template('Page_index.html'), 'utf-8'))
 
-        if self.path == '/favicon.ico':
+        elif self.path == '/favicon.ico':
             self.send_response(200), self.send_header('Content-type', 'image/x-icon'), self.end_headers()
             favicon_base64 = (
                """AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAA
@@ -42,15 +42,15 @@ class RedirectHandler(SimpleHTTPRequestHandler):
             import base64        
             self.wfile.write(base64.b64decode(favicon_base64))
             
-        if self.path == '/Get_WebServer_Public_IP':
+        elif self.path == '/Get_WebServer_Public_IP':
             self.send_response(200), self.send_header('Content-type', 'text/plain'), self.end_headers()
             self.wfile.write(Get_WebServer_Public_IP().encode('utf-8'))
 
-        if self.path == '/list_paths':
+        elif self.path == '/list_paths':
                 self.send_response(200), self.send_header('Content-type', 'text/plain'), self.end_headers()
                 self.wfile.write(get_self_paths_json(RedirectHandler).encode('utf-8'))
 
-        if self.path == '/server-log':
+        elif self.path == '/server-log':
             
             # Assuming Webserver_Get_Latest_Game_Server_Log_File.get_latest_game_server_log_file_name() returns the log file path
             import Webserver_get_latest_game_server_log_file
@@ -74,7 +74,7 @@ class RedirectHandler(SimpleHTTPRequestHandler):
             self.send_response(200); self.send_header('Content-type', 'text/html'); self.end_headers()
             self.wfile.write(bytes(formatted_log_content, "utf8"))
             
-        if self.path == '/player_status.json':
+        elif self.path == '/player_status.json':
             self.send_response(200), self.send_header('Content-type', 'application/json'), self.end_headers()
             import os, json
             file_path = os.path.join(os.path.dirname(__file__), 'Webserver_player_status.json')
@@ -82,7 +82,7 @@ class RedirectHandler(SimpleHTTPRequestHandler):
                 data = json.load(file)
             self.wfile.write(json.dumps(data).encode('utf-8'))
 
-        if self.path == '/Page_component_simple-player-status.html':
+        elif self.path == '/Page_component_simple-player-status.html':
             import os
             self.send_response(200), self.send_header('Content-type', 'text/html'), self.end_headers()
             file_path = os.path.join(os.path.dirname(__file__), 'Page_component_simple-player-status.html')
