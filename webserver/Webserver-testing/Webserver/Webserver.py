@@ -96,6 +96,7 @@ def Get_WebServer_Public_IP():
         import urllib.request
         webserver_public_ip = urllib.request.urlopen('https://api.ipify.org').read().decode()
         return webserver_public_ip
+
 # Note: ip='localhost' or ip='127.0.0.1' will disallow local network and internet access to the HTTP server.
 def start_webserver(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='0.0.0.0', port=80):
     from threading import Thread
