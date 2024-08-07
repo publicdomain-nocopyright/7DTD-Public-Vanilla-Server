@@ -20,3 +20,8 @@ def render_template(template_file, **kwargs):
     return rendered_content
 
 
+# Old example
+            #import os
+            #file_path = os.path.join(os.path.dirname(__file__), 'Page_component_simple-player-status.html')
+            #with open(file_path, 'r') as file:
+                #simple_player_status_component_loaded = file.read()
