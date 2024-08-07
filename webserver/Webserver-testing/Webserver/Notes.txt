@@ -1,0 +1,1 @@
+CDN - Content Delivery Network is required for quick caching of large resources like images, videos and other data.
