@@ -107,8 +107,7 @@ def start_webserver(server_class=ThreadingHTTPServer, handler_class=RedirectHand
     return ip, port, Thread(target=serve, daemon=True).start() 
 
 def inspect_self_paths(handler_class):
-    import inspect
-    import re
+    import inspect, re
     paths = []
     for method_name in dir(handler_class):
         if method_name.startswith('do_'):
@@ -120,8 +119,7 @@ def inspect_self_paths(handler_class):
     return sorted(set(paths)) 
 
 def list_all_self_paths():
-    import inspect
-    import re
+    import inspect, re
 
     paths = inspect_self_paths(RedirectHandler)
     print("All self.path values:")
