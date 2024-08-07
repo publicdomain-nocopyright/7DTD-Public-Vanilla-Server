@@ -17,7 +17,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
         if self.path == '/':
             self.send_response(200), self.send_header('Content-type', 'text/html'), self.end_headers()
 
-            from pathlib import Path
+            #from pathlib import Path
             import Webserver_template_engine
 
             import Webserver_findNextHordeNightTime_inside_logs_folder
@@ -25,8 +25,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
             Webserver_IP_ADDRESS = Get_WebServer_Public_IP()
             simple_player_status_component_loaded = Webserver_template_engine.render_template('Page_component_simple_player_status.html')
 
-            rendered_html = Webserver_template_engine.render_template('Page_index.html')
-            self.wfile.write(bytes(rendered_html, 'utf-8'))
+            self.wfile.write(bytes(Webserver_template_engine.render_template('Page_index.html'), 'utf-8'))
 
         if self.path == '/favicon.ico':
             self.send_response(200), self.send_header('Content-type', 'image/x-icon'), self.end_headers()
@@ -76,9 +75,8 @@ class RedirectHandler(BaseHTTPRequestHandler):
             self.wfile.write(bytes(formatted_log_content, "utf8"))
             
         if self.path == '/player_status.json':
-            import os
             self.send_response(200), self.send_header('Content-type', 'application/json'), self.end_headers()
-            import json
+            import os, json
             file_path = os.path.join(os.path.dirname(__file__), 'Webserver_player_status.json')
             with open(file_path, 'r') as file:
                 data = json.load(file)
