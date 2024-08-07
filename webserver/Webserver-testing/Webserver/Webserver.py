@@ -23,7 +23,6 @@ class RedirectHandler(BaseHTTPRequestHandler):
             import Webserver_findNextHordeNightTime_inside_logs_folder
             bloodmoon_days = Webserver_findNextHordeNightTime_inside_logs_folder.find_last_bloodmoon_setday()
             Webserver_IP_ADDRESS = Get_WebServer_Public_IP()
-            
             simple_player_status_component_loaded = Webserver_template_engine.render_template('Page_component_simple_player_status.html')
 
             rendered_html = Webserver_template_engine.render_template('Page_index.html')
