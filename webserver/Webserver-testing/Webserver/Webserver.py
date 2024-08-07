@@ -93,9 +93,14 @@ class RedirectHandler(SimpleHTTPRequestHandler):
         # Enables SimpleHTTPRequestHandler to serve files from current directory
         else:
                 # Serve files from the current directory for all other paths
+                # Serve only .html files from the current directory for all other paths
+            if self.path.endswith('.html'):
                 super().do_GET()
+            else:
+                self.send_error(404, "File not found")
 
 def Get_WebServer_Public_IP():
+        
         import urllib.request
         webserver_public_ip = urllib.request.urlopen('https://api.ipify.org').read().decode()
         return webserver_public_ip
