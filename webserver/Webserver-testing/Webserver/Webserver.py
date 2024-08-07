@@ -99,8 +99,7 @@ class RedirectHandler(SimpleHTTPRequestHandler):
             else:
                 self.send_error(404, "File not found")
 
-def Get_WebServer_Public_IP():
-        
+def Get_WebServer_Public_IP():     
         import urllib.request
         webserver_public_ip = urllib.request.urlopen('https://api.ipify.org').read().decode()
         return webserver_public_ip
