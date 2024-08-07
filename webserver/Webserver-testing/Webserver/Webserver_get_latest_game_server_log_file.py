@@ -26,3 +26,14 @@ def get_latest_game_server_log_file_name():
         return latest_file
         
 
+
+# Define the function to read the log file
+def read_server_log(LOG_FILE_PATH):
+    try:
+        with open(LOG_FILE_PATH, 'r') as file:
+            log_content = file.read()
+        return log_content
+    except FileNotFoundError:
+        return "Log file not found."
+    except Exception as e:
+        return f"An error occurred: {e}"

@@ -4,19 +4,6 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 import Webserver_fix_pythonw_stream_bug
 
-# Define the function to read the log file
-def read_server_log(LOG_FILE_PATH):
-    try:
-        with open(LOG_FILE_PATH, 'r') as file:
-            log_content = file.read()
-        return log_content
-    except FileNotFoundError:
-        return "Log file not found."
-    except Exception as e:
-        return f"An error occurred: {e}"
-
-
-
 class RedirectHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         #html_content = """
@@ -74,7 +61,7 @@ class RedirectHandler(BaseHTTPRequestHandler):
             # Assuming Webserver_Get_Latest_Game_Server_Log_File.get_latest_game_server_log_file_name() returns the log file path
             import Webserver_get_latest_game_server_log_file
             log_file_path = Webserver_get_latest_game_server_log_file.get_latest_game_server_log_file_name()
-            log_content = read_server_log(log_file_path)
+            log_content = Webserver_get_latest_game_server_log_file.read_server_log(log_file_path)
             
             # Wrap the log content in <pre> tags
             formatted_log_content = f"""
