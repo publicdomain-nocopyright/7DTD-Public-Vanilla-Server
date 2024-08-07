@@ -110,7 +110,8 @@ def start_webserver(server_class=ThreadingHTTPServer, handler_class=RedirectHand
     from threading import Thread
     
     server_address = (ip, port)
-
+    import os
+    handler_class.directory = os.path.join(os.path.dirname(__file__))
     def serve(httpd = server_class(server_address, handler_class)): 
         httpd.serve_forever()
 
