@@ -11,21 +11,6 @@ logging.basicConfig(filename='Webserver_player_status_monitor_log_parser.log', l
                     format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger()
 
-#def get_latest_log_file():
-#    script_dir = os.path.dirname(os.path.abspath(__file__))
-#    log_dir = os.path.abspath(os.path.join(script_dir, '..', '7DaysToDie_Data'))
-#    log_files = [f for f in os.listdir(log_dir) if f.startswith("output_log__") and f.endswith(".txt")]
-#    
-#    if not log_files:
-#        logger.error(f"No log files found in the directory: {log_dir}")
-#        raise FileNotFoundError(f"No log files found in the directory: {log_dir}")
-#    
-#    sorted_log_files = sorted(log_files, key=lambda x: x.split('__')[1], reverse=True)
-#    latest_file = os.path.join(log_dir, sorted_log_files[0])
-#    
-#    logger.debug(f"Latest log file found: {latest_file}")
-#    return latest_file
-
 def get_latest_log_file():
     import Webserver_get_latest_game_server_log_file
     log_file_path = Webserver_get_latest_game_server_log_file.get_latest_game_server_log_file_name()
@@ -127,8 +112,7 @@ def print_full_status(player_status):
 
 def main():
     try:
-        import Webserver_get_latest_game_server_log_file
-        log_file_path = Webserver_get_latest_game_server_log_file.get_latest_game_server_log_file_name()
+        log_file_path = get_latest_log_file()
         current_log_file = log_file_path
         player_status = initialize_player_status(current_log_file)
 
@@ -193,7 +177,7 @@ def main():
             if player_status["SERVER"]["status"] == "Shutdown":
                 logger.info("Server has shut down. Stopping monitoring.")
                 generate_json(player_status)  # Generate empty JSON on shutdown
-                return
+                
 
     except KeyboardInterrupt:
         logger.info("Monitoring stopped by user.")
@@ -206,4 +190,4 @@ def main():
 if __name__ == "__main__":
     logger.info("Script started.")
     main()
-    logger.info("Script ended.")
+    logger.info("Script ended.")    

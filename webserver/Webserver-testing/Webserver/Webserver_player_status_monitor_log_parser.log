@@ -3441,3 +3441,1051 @@ Full Player Status Report:
 Full Player Status Report:
   SERVER: Shutdown (PltfmId: None)
   boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-08 14:51:47,364 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__08-17-38.txt
+2024-08-08 14:51:47,382 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 14:51:47,382 - DEBUG - Player 'boqsc' detected with status: Online,Joining
+2024-08-08 14:51:47,382 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,382 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,382 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,383 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,383 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,383 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,383 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,383 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,383 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,383 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,383 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,383 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,383 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,383 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,383 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,383 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,384 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,384 - DEBUG - Player 'boqsc' detected with status: Online,Playing
+2024-08-08 14:51:47,384 - DEBUG - Player 'boqsc' detected with status: Online,Spawned
+2024-08-08 14:51:47,385 - INFO - Server is shutting down
+2024-08-08 14:51:47,385 - DEBUG - Player 'boqsc' detected with status: Offline
+2024-08-08 14:51:47,385 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:51:47,386 - DEBUG - Initial player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 14:51:47,387 - INFO - player_status.json found. Updating with current data.
+2024-08-08 14:51:47,387 - INFO - Updating player_status.json file
+2024-08-08 14:51:47,388 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 14:51:47,388 - DEBUG - Online count: 0
+2024-08-08 14:51:47,388 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 14:51:47,388 - INFO - Starting to monitor log file in real-time...
+2024-08-08 14:52:47,607 - INFO - Switching to newer log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__14-52-06.txt
+2024-08-08 14:52:47,607 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__14-52-06.txt
+2024-08-08 14:52:47,704 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 14:52:47,704 - INFO - Updating player_status.json file
+2024-08-08 14:52:47,705 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 14:52:47,705 - DEBUG - Online count: 0
+2024-08-08 14:52:47,705 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Online"
+}
+2024-08-08 14:53:40,015 - INFO - Processed 1000 lines
+2024-08-08 14:53:40,015 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 14:55:34,533 - INFO - Processed 2000 lines
+2024-08-08 14:55:34,538 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 14:57:27,666 - INFO - Processed 3000 lines
+2024-08-08 14:57:27,666 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 14:58:32,612 - INFO - Script started.
+2024-08-08 14:58:32,649 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__14-52-06.txt
+2024-08-08 14:58:32,690 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 14:58:32,691 - DEBUG - Player 'boqsc' detected with status: Online,Joining
+2024-08-08 14:58:32,691 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:58:32,691 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:58:32,691 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:58:32,691 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:58:32,691 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:58:32,692 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:58:32,692 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:58:32,692 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:58:32,692 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:58:32,692 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:58:32,693 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:58:32,693 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:58:32,693 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:58:32,693 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:58:32,693 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:58:32,693 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:58:32,693 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 14:58:32,694 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Joining', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 14:58:32,694 - INFO - player_status.json found. Updating with current data.
+2024-08-08 14:58:32,695 - INFO - Updating player_status.json file
+2024-08-08 14:58:32,696 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Joining', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 14:58:32,696 - DEBUG - Online count: 1
+2024-08-08 14:58:32,697 - DEBUG - JSON data: {
+  "online_count": 1,
+  "players": {
+    "boqsc": {
+      "status": "Online,Joining",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
+}
+2024-08-08 14:58:32,697 - INFO - Starting to monitor log file in real-time...
+2024-08-08 14:59:07,768 - DEBUG - Player 'boqsc' detected with status: Online,Playing
+2024-08-08 14:59:07,768 - INFO - Player/Server 'boqsc' status changed from Online,Joining to Online,Playing
+2024-08-08 14:59:07,768 - INFO - Updating player_status.json file
+2024-08-08 14:59:07,769 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Playing', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 14:59:07,769 - DEBUG - Online count: 1
+2024-08-08 14:59:07,769 - DEBUG - JSON data: {
+  "online_count": 1,
+  "players": {
+    "boqsc": {
+      "status": "Online,Playing",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
+}
+2024-08-08 14:59:07,769 - DEBUG - Player 'boqsc' detected with status: Online,Spawned
+2024-08-08 14:59:07,769 - INFO - Player/Server 'boqsc' status changed from Online,Playing to Online,Spawned
+2024-08-08 14:59:07,770 - INFO - Updating player_status.json file
+2024-08-08 14:59:07,770 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Spawned', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 14:59:07,770 - DEBUG - Online count: 1
+2024-08-08 14:59:07,771 - DEBUG - JSON data: {
+  "online_count": 1,
+  "players": {
+    "boqsc": {
+      "status": "Online,Spawned",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
+}
+2024-08-08 14:59:12,011 - INFO - Server is shutting down
+2024-08-08 14:59:12,011 - INFO - Player/Server 'SERVER' status changed from Online to Shutdown
+2024-08-08 14:59:12,011 - INFO - Updating player_status.json file
+2024-08-08 14:59:12,012 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 14:59:12,013 - DEBUG - Online count: 0
+2024-08-08 14:59:12,013 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 14:59:12,013 - INFO - Server has shut down. Stopping monitoring.
+2024-08-08 14:59:12,013 - INFO - Updating player_status.json file
+2024-08-08 14:59:12,014 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 14:59:12,014 - DEBUG - Online count: 0
+2024-08-08 14:59:12,014 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 14:59:12,015 - INFO - Generating final JSON report.
+2024-08-08 14:59:12,015 - INFO - Updating player_status.json file
+2024-08-08 14:59:12,016 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 14:59:12,016 - DEBUG - Online count: 0
+2024-08-08 14:59:12,016 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 14:59:12,016 - INFO - Script ended.
+2024-08-08 15:00:59,599 - INFO - Script started.
+2024-08-08 15:00:59,619 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__14-59-49.txt
+2024-08-08 15:00:59,640 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 15:00:59,640 - INFO - player_status.json found. Updating with current data.
+2024-08-08 15:00:59,641 - INFO - Updating player_status.json file
+2024-08-08 15:00:59,641 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 15:00:59,642 - DEBUG - Online count: 0
+2024-08-08 15:00:59,642 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Online"
+}
+2024-08-08 15:00:59,642 - INFO - Starting to monitor log file in real-time...
+2024-08-08 15:01:10,029 - INFO - Server is shutting down
+2024-08-08 15:01:10,029 - INFO - Player/Server 'SERVER' status changed from Online to Shutdown
+2024-08-08 15:01:10,030 - INFO - Updating player_status.json file
+2024-08-08 15:01:10,051 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}}
+2024-08-08 15:01:10,051 - DEBUG - Online count: 0
+2024-08-08 15:01:10,051 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:01:10,051 - INFO - Server has shut down. Stopping monitoring.
+2024-08-08 15:01:10,051 - INFO - Updating player_status.json file
+2024-08-08 15:01:10,053 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}}
+2024-08-08 15:01:10,053 - DEBUG - Online count: 0
+2024-08-08 15:01:10,053 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:01:10,053 - INFO - Generating final JSON report.
+2024-08-08 15:01:10,053 - INFO - Updating player_status.json file
+2024-08-08 15:01:10,054 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}}
+2024-08-08 15:01:10,054 - DEBUG - Online count: 0
+2024-08-08 15:01:10,054 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:01:10,055 - INFO - Script ended.
+2024-08-08 15:01:29,357 - INFO - Script started.
+2024-08-08 15:01:29,376 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-01-20.txt
+2024-08-08 15:01:29,398 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 15:01:29,398 - INFO - player_status.json found. Updating with current data.
+2024-08-08 15:01:29,398 - INFO - Updating player_status.json file
+2024-08-08 15:01:29,400 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 15:01:29,400 - DEBUG - Online count: 0
+2024-08-08 15:01:29,401 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Online"
+}
+2024-08-08 15:01:29,401 - INFO - Starting to monitor log file in real-time...
+2024-08-08 15:01:37,341 - INFO - Server is shutting down
+2024-08-08 15:01:37,341 - INFO - Player/Server 'SERVER' status changed from Online to Shutdown
+2024-08-08 15:01:37,341 - INFO - Updating player_status.json file
+2024-08-08 15:01:37,347 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}}
+2024-08-08 15:01:37,347 - DEBUG - Online count: 0
+2024-08-08 15:01:37,347 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:01:37,347 - INFO - Server has shut down. Stopping monitoring.
+2024-08-08 15:01:37,348 - INFO - Updating player_status.json file
+2024-08-08 15:01:37,348 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}}
+2024-08-08 15:01:37,348 - DEBUG - Online count: 0
+2024-08-08 15:01:37,348 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:01:37,348 - INFO - Generating final JSON report.
+2024-08-08 15:01:37,349 - INFO - Updating player_status.json file
+2024-08-08 15:01:37,349 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}}
+2024-08-08 15:01:37,349 - DEBUG - Online count: 0
+2024-08-08 15:01:37,349 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:01:37,350 - INFO - Script ended.
+2024-08-08 15:05:05,757 - INFO - Script started.
+2024-08-08 15:05:05,775 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-01-20.txt
+2024-08-08 15:05:05,780 - INFO - Server is shutting down
+2024-08-08 15:05:05,787 - DEBUG - Initial player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}}
+2024-08-08 15:05:05,788 - INFO - player_status.json found. Updating with current data.
+2024-08-08 15:05:05,789 - INFO - Updating player_status.json file
+2024-08-08 15:05:05,789 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}}
+2024-08-08 15:05:05,790 - DEBUG - Online count: 0
+2024-08-08 15:05:05,790 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:05:05,790 - INFO - Starting to monitor log file in real-time...
+2024-08-08 15:06:06,089 - INFO - Switching to newer log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-05-45.txt
+2024-08-08 15:06:06,089 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-05-45.txt
+2024-08-08 15:06:06,315 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 15:06:06,316 - INFO - Updating player_status.json file
+2024-08-08 15:06:06,319 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 15:06:06,319 - DEBUG - Online count: 0
+2024-08-08 15:06:06,319 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Online"
+}
+2024-08-08 15:07:01,170 - INFO - Processed 1000 lines
+2024-08-08 15:07:01,170 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 15:07:32,226 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-05-45.txt
+2024-08-08 15:07:32,231 - INFO - Server is shutting down
+2024-08-08 15:07:32,237 - DEBUG - Initial player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}}
+2024-08-08 15:07:32,237 - INFO - player_status.json found. Updating with current data.
+2024-08-08 15:07:32,237 - INFO - Updating player_status.json file
+2024-08-08 15:07:32,238 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}}
+2024-08-08 15:07:32,238 - DEBUG - Online count: 0
+2024-08-08 15:07:32,238 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:07:32,238 - INFO - Starting to monitor log file in real-time...
+2024-08-08 15:08:32,265 - INFO - Switching to newer log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-08-00.txt
+2024-08-08 15:08:32,267 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-08-00.txt
+2024-08-08 15:08:32,313 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 15:08:32,313 - INFO - Updating player_status.json file
+2024-08-08 15:08:32,314 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 15:08:32,314 - DEBUG - Online count: 0
+2024-08-08 15:08:32,314 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Online"
+}
+2024-08-08 15:09:25,268 - INFO - Processed 1000 lines
+2024-08-08 15:09:25,268 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 15:11:21,012 - INFO - Processed 2000 lines
+2024-08-08 15:11:21,013 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 15:13:22,812 - INFO - Processed 3000 lines
+2024-08-08 15:13:22,812 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 15:15:23,575 - INFO - Processed 4000 lines
+2024-08-08 15:15:23,577 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 15:16:11,386 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-08-00.txt
+2024-08-08 15:16:11,496 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 15:16:11,497 - DEBUG - Player 'boqsc' detected with status: Online,Joining
+2024-08-08 15:16:11,498 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:11,498 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:11,498 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:11,498 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:11,498 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:11,498 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:11,499 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:11,499 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:11,499 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:11,499 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:11,499 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:11,499 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:11,500 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:11,500 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:11,500 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:11,500 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:11,500 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:11,501 - DEBUG - Player 'boqsc' detected with status: Online,Playing
+2024-08-08 15:16:11,501 - DEBUG - Player 'boqsc' detected with status: Online,Spawned
+2024-08-08 15:16:11,501 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Spawned', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:16:11,502 - INFO - player_status.json found. Updating with current data.
+2024-08-08 15:16:11,503 - INFO - Updating player_status.json file
+2024-08-08 15:16:11,504 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Spawned', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:16:11,504 - DEBUG - Online count: 1
+2024-08-08 15:16:11,504 - DEBUG - JSON data: {
+  "online_count": 1,
+  "players": {
+    "boqsc": {
+      "status": "Online,Spawned",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
+}
+2024-08-08 15:16:11,504 - INFO - Starting to monitor log file in real-time...
+2024-08-08 15:16:25,810 - INFO - Server is shutting down
+2024-08-08 15:16:25,810 - INFO - Player/Server 'SERVER' status changed from Online to Shutdown
+2024-08-08 15:16:25,810 - INFO - Server has shut down. Updating player status and generating final JSON report.
+2024-08-08 15:16:25,812 - INFO - Updating player_status.json file
+2024-08-08 15:16:25,855 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:16:25,855 - DEBUG - Online count: 0
+2024-08-08 15:16:25,855 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:16:26,417 - DEBUG - Player 'boqsc' detected with status: Offline
+2024-08-08 15:16:26,418 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,521 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-08-00.txt
+2024-08-08 15:16:40,541 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 15:16:40,541 - DEBUG - Player 'boqsc' detected with status: Online,Joining
+2024-08-08 15:16:40,542 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,542 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,542 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,542 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,542 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,542 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,542 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,542 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,543 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,543 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,544 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,544 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,544 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,544 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,545 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,545 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,545 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,545 - DEBUG - Player 'boqsc' detected with status: Online,Playing
+2024-08-08 15:16:40,547 - DEBUG - Player 'boqsc' detected with status: Online,Spawned
+2024-08-08 15:16:40,548 - INFO - Server is shutting down
+2024-08-08 15:16:40,548 - DEBUG - Player 'boqsc' detected with status: Offline
+2024-08-08 15:16:40,548 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:16:40,557 - DEBUG - Initial player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:16:40,557 - INFO - player_status.json found. Updating with current data.
+2024-08-08 15:16:40,557 - INFO - Updating player_status.json file
+2024-08-08 15:16:40,574 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:16:40,575 - DEBUG - Online count: 0
+2024-08-08 15:16:40,575 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:16:40,576 - INFO - Starting to monitor log file in real-time...
+2024-08-08 15:17:11,553 - INFO - Switching to newer log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-16-58.txt
+2024-08-08 15:17:11,553 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-16-58.txt
+2024-08-08 15:17:11,574 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 15:17:11,575 - INFO - Updating player_status.json file
+2024-08-08 15:17:11,575 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 15:17:11,576 - DEBUG - Online count: 0
+2024-08-08 15:17:11,576 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Online"
+}
+2024-08-08 15:17:33,155 - INFO - Processed 1000 lines
+2024-08-08 15:17:33,155 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 15:19:26,961 - INFO - Processed 2000 lines
+2024-08-08 15:19:26,963 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 15:21:20,941 - INFO - Processed 3000 lines
+2024-08-08 15:21:20,943 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 15:22:58,848 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-16-58.txt
+2024-08-08 15:22:59,056 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 15:22:59,061 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 15:22:59,061 - DEBUG - Player '', ClientNumber=' detected with status: Offline
+2024-08-08 15:22:59,063 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 15:22:59,064 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 15:22:59,064 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 15:22:59,064 - DEBUG - Player '', ClientNumber=' detected with status: Offline
+2024-08-08 15:22:59,064 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 15:22:59,064 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 15:22:59,066 - DEBUG - Player 'boqsc' detected with status: Online,Joining
+2024-08-08 15:22:59,066 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:22:59,066 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:22:59,066 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:22:59,066 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:22:59,066 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:22:59,066 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:22:59,067 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:22:59,068 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:22:59,068 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:22:59,068 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:22:59,068 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:22:59,069 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:22:59,069 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:22:59,070 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:22:59,070 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:22:59,070 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:22:59,070 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:22:59,071 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, "', ClientNumber=": {'status': 'Offline', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Joining', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:22:59,072 - INFO - player_status.json found. Updating with current data.
+2024-08-08 15:22:59,078 - INFO - Updating player_status.json file
+2024-08-08 15:22:59,105 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, "', ClientNumber=": {'status': 'Offline', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Joining', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:22:59,105 - DEBUG - Online count: 1
+2024-08-08 15:22:59,105 - DEBUG - JSON data: {
+  "online_count": 1,
+  "players": {
+    "boqsc": {
+      "status": "Online,Joining",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
+}
+2024-08-08 15:22:59,105 - INFO - Starting to monitor log file in real-time...
+2024-08-08 15:23:11,195 - INFO - Server is shutting down
+2024-08-08 15:23:11,195 - INFO - Player/Server 'SERVER' status changed from Online to Shutdown
+2024-08-08 15:23:11,196 - INFO - Updating player_status.json file
+2024-08-08 15:23:11,197 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, "', ClientNumber=": {'status': 'Offline', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Joining', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:23:11,197 - DEBUG - Online count: 0
+2024-08-08 15:23:11,198 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:23:11,198 - INFO - Server has shut down. Updating player status and generating final JSON report.
+2024-08-08 15:23:11,198 - INFO - Updating player_status.json file
+2024-08-08 15:23:11,199 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, "', ClientNumber=": {'status': 'Offline', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:23:11,199 - DEBUG - Online count: 0
+2024-08-08 15:23:11,199 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:23:11,788 - INFO - Server has shut down. Updating player status and generating final JSON report.
+2024-08-08 15:23:11,789 - INFO - Updating player_status.json file
+2024-08-08 15:23:11,800 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, "', ClientNumber=": {'status': 'Offline', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:23:11,801 - DEBUG - Online count: 0
+2024-08-08 15:23:11,802 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:23:12,458 - INFO - Server has shut down. Updating player status and generating final JSON report.
+2024-08-08 15:23:12,462 - INFO - Updating player_status.json file
+2024-08-08 15:23:12,534 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, "', ClientNumber=": {'status': 'Offline', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:23:12,534 - DEBUG - Online count: 0
+2024-08-08 15:23:12,534 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:23:13,430 - INFO - Server has shut down. Updating player status and generating final JSON report.
+2024-08-08 15:23:13,430 - INFO - Updating player_status.json file
+2024-08-08 15:23:13,460 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, "', ClientNumber=": {'status': 'Offline', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:23:13,462 - DEBUG - Online count: 0
+2024-08-08 15:23:13,462 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:23:13,717 - INFO - Server has shut down. Updating player status and generating final JSON report.
+2024-08-08 15:23:13,717 - INFO - Updating player_status.json file
+2024-08-08 15:23:13,760 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, "', ClientNumber=": {'status': 'Offline', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:23:13,760 - DEBUG - Online count: 0
+2024-08-08 15:23:13,760 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:23:13,990 - INFO - Server has shut down. Updating player status and generating final JSON report.
+2024-08-08 15:23:13,990 - INFO - Updating player_status.json file
+2024-08-08 15:23:13,992 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, "', ClientNumber=": {'status': 'Offline', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:23:13,992 - DEBUG - Online count: 0
+2024-08-08 15:23:13,992 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:23:14,786 - INFO - Server has shut down. Updating player status and generating final JSON report.
+2024-08-08 15:23:14,786 - INFO - Updating player_status.json file
+2024-08-08 15:23:14,788 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, "', ClientNumber=": {'status': 'Offline', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:23:14,788 - DEBUG - Online count: 0
+2024-08-08 15:23:14,788 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:23:16,426 - INFO - Server has shut down. Updating player status and generating final JSON report.
+2024-08-08 15:23:16,428 - INFO - Updating player_status.json file
+2024-08-08 15:23:16,431 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, "', ClientNumber=": {'status': 'Offline', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:23:16,431 - DEBUG - Online count: 0
+2024-08-08 15:23:16,431 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 15:23:59,110 - INFO - Switching to newer log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-23-24.txt
+2024-08-08 15:23:59,110 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-23-24.txt
+2024-08-08 15:23:59,131 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 15:23:59,131 - INFO - Updating player_status.json file
+2024-08-08 15:23:59,133 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 15:23:59,133 - DEBUG - Online count: 0
+2024-08-08 15:23:59,133 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Online"
+}
+2024-08-08 15:24:50,035 - INFO - Processed 1000 lines
+2024-08-08 15:24:50,036 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 15:26:38,256 - INFO - Processed 2000 lines
+2024-08-08 15:26:38,256 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 15:28:29,044 - INFO - Processed 3000 lines
+2024-08-08 15:28:29,044 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 15:30:19,866 - INFO - Processed 4000 lines
+2024-08-08 15:30:19,866 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 15:31:05,923 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-23-24.txt
+2024-08-08 15:31:05,960 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 15:31:05,960 - DEBUG - Player 'boqsc' detected with status: Online,Joining
+2024-08-08 15:31:05,961 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:05,961 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:05,961 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:05,961 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:05,961 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:05,962 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:05,962 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:05,962 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:05,962 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:05,962 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:05,962 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:05,962 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:05,962 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:05,963 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:05,963 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:05,963 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:05,963 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:05,963 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Joining', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:31:05,963 - INFO - player_status.json found. Updating with current data.
+2024-08-08 15:31:05,964 - INFO - Updating player_status.json file
+2024-08-08 15:31:05,964 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Joining', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:31:05,965 - DEBUG - Online count: 1
+2024-08-08 15:31:05,965 - DEBUG - JSON data: {
+  "online_count": 1,
+  "players": {
+    "boqsc": {
+      "status": "Online,Joining",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
+}
+2024-08-08 15:31:05,965 - INFO - Starting to monitor log file in real-time...
+2024-08-08 15:31:32,282 - DEBUG - Player 'boqsc' detected with status: Online,Playing
+2024-08-08 15:31:32,282 - INFO - Player/Server 'boqsc' status changed from Online,Joining to Online,Playing
+2024-08-08 15:31:32,283 - INFO - Updating player_status.json file
+2024-08-08 15:31:32,284 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Playing', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:31:32,285 - DEBUG - Online count: 1
+2024-08-08 15:31:32,287 - DEBUG - JSON data: {
+  "online_count": 1,
+  "players": {
+    "boqsc": {
+      "status": "Online,Playing",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
+}
+2024-08-08 15:31:32,287 - DEBUG - Player 'boqsc' detected with status: Online,Spawned
+2024-08-08 15:31:32,288 - INFO - Player/Server 'boqsc' status changed from Online,Playing to Online,Spawned
+2024-08-08 15:31:32,289 - INFO - Updating player_status.json file
+2024-08-08 15:31:32,290 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Spawned', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:31:32,290 - DEBUG - Online count: 1
+2024-08-08 15:31:32,291 - DEBUG - JSON data: {
+  "online_count": 1,
+  "players": {
+    "boqsc": {
+      "status": "Online,Spawned",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
+}
+2024-08-08 15:31:40,259 - DEBUG - Player 'boqsc' detected with status: Offline
+2024-08-08 15:31:40,259 - INFO - Player/Server 'boqsc' status changed from Online,Spawned to Offline
+2024-08-08 15:31:40,260 - INFO - Updating player_status.json file
+2024-08-08 15:31:40,266 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:31:40,267 - DEBUG - Online count: 0
+2024-08-08 15:31:40,267 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Online"
+}
+2024-08-08 15:31:40,267 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:31:40,267 - INFO - Player/Server 'boqsc' status changed from Offline to None
+2024-08-08 15:31:40,267 - ERROR - An unexpected error occurred: 'NoneType' object has no attribute 'startswith'
+Traceback (most recent call last):
+  File "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\Webserver_player_status_monitor.py", line 167, in main
+    generate_json(player_status)
+  File "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\Webserver_player_status_monitor.py", line 47, in generate_json
+    online_players = {player: info for player, info in player_status.items()
+  File "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\Webserver_player_status_monitor.py", line 48, in <dictcomp>
+    if info["status"].startswith("Online") and player != "SERVER"}
+AttributeError: 'NoneType' object has no attribute 'startswith'
+2024-08-08 15:31:40,280 - INFO - Generating final JSON report.
+2024-08-08 15:37:22,655 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-32-02.txt
+2024-08-08 15:37:22,690 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 15:37:22,690 - DEBUG - Player 'boqsc' detected with status: Online,Joining
+2024-08-08 15:37:22,690 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,690 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,690 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,690 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,690 - DEBUG - Player 'boqsc' detected with status: Offline
+2024-08-08 15:37:22,691 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 15:37:22,691 - DEBUG - Player 'boqsc' detected with status: Online,Joining
+2024-08-08 15:37:22,691 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,692 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,692 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,692 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,692 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,692 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,692 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,692 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,692 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,692 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,692 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,692 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,693 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,693 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,693 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,693 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,693 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:37:22,693 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Joining', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:37:22,693 - INFO - player_status.json found. Updating with current data.
+2024-08-08 15:37:22,694 - INFO - Updating player_status.json file
+2024-08-08 15:37:22,694 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Joining', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:37:22,694 - DEBUG - Online count: 1
+2024-08-08 15:37:22,695 - DEBUG - JSON data: {
+  "online_count": 1,
+  "players": {
+    "boqsc": {
+      "status": "Online,Joining",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
+}
+2024-08-08 15:37:22,695 - INFO - Starting to monitor log file in real-time...
+2024-08-08 15:37:56,074 - DEBUG - Player 'boqsc' detected with status: Online,Playing
+2024-08-08 15:37:56,074 - INFO - Player/Server 'boqsc' status changed from Online,Joining to Online,Playing
+2024-08-08 15:37:56,074 - INFO - Updating player_status.json file
+2024-08-08 15:37:56,075 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Playing', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:37:56,075 - DEBUG - Online count: 1
+2024-08-08 15:37:56,076 - DEBUG - JSON data: {
+  "online_count": 1,
+  "players": {
+    "boqsc": {
+      "status": "Online,Playing",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
+}
+2024-08-08 15:37:56,076 - DEBUG - Player 'boqsc' detected with status: Online,Spawned
+2024-08-08 15:37:56,076 - INFO - Player/Server 'boqsc' status changed from Online,Playing to Online,Spawned
+2024-08-08 15:37:56,076 - INFO - Updating player_status.json file
+2024-08-08 15:37:56,077 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Spawned', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:37:56,077 - DEBUG - Online count: 1
+2024-08-08 15:37:56,077 - DEBUG - JSON data: {
+  "online_count": 1,
+  "players": {
+    "boqsc": {
+      "status": "Online,Spawned",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
+}
+2024-08-08 15:38:04,785 - DEBUG - Player 'boqsc' detected with status: Offline
+2024-08-08 15:38:04,786 - INFO - Player/Server 'boqsc' status changed from Online,Spawned to Offline
+2024-08-08 15:38:04,788 - INFO - Updating player_status.json file
+2024-08-08 15:38:04,870 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 15:38:04,870 - DEBUG - Online count: 0
+2024-08-08 15:38:04,870 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Online"
+}
+2024-08-08 15:38:04,870 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 15:38:04,870 - INFO - Player/Server 'boqsc' status changed from Offline to None
+2024-08-08 15:38:04,870 - ERROR - An error occurred while processing log file: 'NoneType' object has no attribute 'startswith'
+Traceback (most recent call last):
+  File "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\Webserver_player_status_monitor.py", line 168, in main
+    generate_json(player_status)
+  File "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\Webserver_player_status_monitor.py", line 47, in generate_json
+    online_players = {player: info for player, info in player_status.items()
+  File "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\Webserver_player_status_monitor.py", line 48, in <dictcomp>
+    if info["status"].startswith("Online") and player != "SERVER"}
+AttributeError: 'NoneType' object has no attribute 'startswith'
+2024-08-08 15:38:14,320 - INFO - Server is shutting down
+2024-08-08 15:38:14,322 - INFO - Player/Server 'SERVER' status changed from Online to Shutdown
+2024-08-08 15:38:14,322 - ERROR - An error occurred while processing log file: 'NoneType' object has no attribute 'startswith'
+Traceback (most recent call last):
+  File "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\Webserver_player_status_monitor.py", line 168, in main
+    generate_json(player_status)
+  File "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\Webserver_player_status_monitor.py", line 47, in generate_json
+    online_players = {player: info for player, info in player_status.items()
+  File "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\Webserver_player_status_monitor.py", line 48, in <dictcomp>
+    if info["status"].startswith("Online") and player != "SERVER"}
+AttributeError: 'NoneType' object has no attribute 'startswith'
+2024-08-08 15:39:22,769 - INFO - Switching to newer log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-38-31.txt
+2024-08-08 15:39:22,770 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-38-31.txt
+2024-08-08 15:39:22,890 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 15:39:22,891 - INFO - Updating player_status.json file
+2024-08-08 15:39:22,893 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 15:39:22,893 - DEBUG - Online count: 0
+2024-08-08 15:39:22,894 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Online"
+}
+2024-08-08 15:39:25,881 - INFO - Processed 1000 lines
+2024-08-08 15:39:25,883 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 15:41:21,357 - INFO - Processed 2000 lines
+2024-08-08 15:41:21,357 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 16:13:27,567 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__15-38-31.txt
+2024-08-08 16:13:27,578 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 16:13:27,578 - DEBUG - Player 'boqsc' detected with status: Online,Joining
+2024-08-08 16:13:27,578 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,578 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,578 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,578 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,578 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,578 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,578 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,578 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,579 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,579 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,579 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,579 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,579 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,579 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,579 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,579 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,579 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,579 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,580 - DEBUG - Player 'boqsc' detected with status: Offline
+2024-08-08 16:13:27,580 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:13:27,580 - INFO - Server is shutting down
+2024-08-08 16:13:27,582 - DEBUG - Initial player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 16:13:27,582 - INFO - player_status.json found. Updating with current data.
+2024-08-08 16:13:27,583 - INFO - Updating player_status.json file
+2024-08-08 16:13:27,583 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 16:13:27,583 - DEBUG - Online count: 0
+2024-08-08 16:13:27,583 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Shutdown"
+}
+2024-08-08 16:13:27,584 - INFO - Starting to monitor log file in real-time...
+2024-08-08 16:14:28,074 - INFO - Switching to newer log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__16-13-42.txt
+2024-08-08 16:14:28,074 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__16-13-42.txt
+2024-08-08 16:14:28,280 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 16:14:28,281 - INFO - Updating player_status.json file
+2024-08-08 16:14:28,490 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}}
+2024-08-08 16:14:28,490 - DEBUG - Online count: 0
+2024-08-08 16:14:28,490 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Online"
+}
+2024-08-08 16:15:23,711 - INFO - Processed 1000 lines
+2024-08-08 16:15:23,711 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 16:17:18,209 - INFO - Processed 2000 lines
+2024-08-08 16:17:18,209 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 16:19:10,841 - INFO - Processed 3000 lines
+2024-08-08 16:19:10,842 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+2024-08-08 16:21:00,237 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__16-13-42.txt
+2024-08-08 16:21:00,269 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 16:21:00,269 - DEBUG - Player 'boqsc' detected with status: Online,Joining
+2024-08-08 16:21:00,269 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:21:00,269 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:21:00,269 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:21:00,269 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:21:00,269 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:21:00,269 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:21:00,270 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:21:00,270 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:21:00,270 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:21:00,270 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:21:00,270 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:21:00,271 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:21:00,271 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:21:00,271 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:21:00,271 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:21:00,271 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:21:00,271 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:21:00,271 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Joining', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 16:21:00,272 - INFO - player_status.json found. Updating with current data.
+2024-08-08 16:21:00,272 - INFO - Updating player_status.json file
+2024-08-08 16:21:00,273 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Joining', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 16:21:00,273 - DEBUG - Online count: 1
+2024-08-08 16:21:00,273 - DEBUG - JSON data: {
+  "online_count": 1,
+  "players": {
+    "boqsc": {
+      "status": "Online,Joining",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
+}
+2024-08-08 16:21:00,273 - INFO - Starting to monitor log file in real-time...
+2024-08-08 16:22:50,690 - INFO - Processed 1000 lines
+2024-08-08 16:22:50,691 - INFO - 
+Full Player Status Report:
+  SERVER: Online (PltfmId: None)
+  boqsc: Online,Joining (PltfmId: Steam_76561198072601792)
+2024-08-08 16:23:11,612 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__16-13-42.txt
+2024-08-08 16:23:11,638 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 16:23:11,638 - DEBUG - Player 'boqsc' detected with status: Online,Joining
+2024-08-08 16:23:11,638 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:11,638 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:11,638 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:11,638 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:11,638 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:11,638 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:11,638 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:11,639 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:11,639 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:11,639 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:11,639 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:11,639 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:11,640 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:11,640 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:11,640 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:11,640 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:11,640 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:11,640 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Joining', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 16:23:11,641 - INFO - player_status.json found. Updating with current data.
+2024-08-08 16:23:11,641 - INFO - Updating player_status.json file
+2024-08-08 16:23:11,642 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Joining', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 16:23:11,642 - DEBUG - Online count: 1
+2024-08-08 16:23:11,642 - DEBUG - JSON data: {
+  "online_count": 1,
+  "players": {
+    "boqsc": {
+      "status": "Online,Joining",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
+}
+2024-08-08 16:23:11,642 - INFO - Starting to monitor log file in real-time...
+2024-08-08 16:23:46,870 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__16-13-42.txt
+2024-08-08 16:23:46,895 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 16:23:46,895 - DEBUG - Player 'boqsc' detected with status: Online,Joining
+2024-08-08 16:23:46,895 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:46,895 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:46,896 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:46,896 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:46,896 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:46,896 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:46,896 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:46,896 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:46,896 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:46,896 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:46,896 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:46,897 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:46,897 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:46,897 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:46,897 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:46,897 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:46,897 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:23:46,897 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Joining', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 16:23:46,898 - INFO - player_status.json found. Updating with current data.
+2024-08-08 16:23:46,898 - INFO - Updating player_status.json file
+2024-08-08 16:23:46,899 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Joining', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 16:23:46,899 - DEBUG - Online count: 1
+2024-08-08 16:23:46,899 - DEBUG - JSON data: {
+  "online_count": 1,
+  "players": {
+    "boqsc": {
+      "status": "Online,Joining",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
+}
+2024-08-08 16:23:46,899 - INFO - Starting to monitor log file in real-time...
+2024-08-08 16:24:11,054 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-08__16-13-42.txt
+2024-08-08 16:24:11,082 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-08 16:24:11,082 - DEBUG - Player 'boqsc' detected with status: Online,Joining
+2024-08-08 16:24:11,082 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:24:11,083 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:24:11,084 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:24:11,084 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:24:11,084 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:24:11,084 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:24:11,084 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:24:11,084 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:24:11,084 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:24:11,084 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:24:11,084 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:24:11,084 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:24:11,085 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:24:11,085 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:24:11,085 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:24:11,085 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:24:11,085 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-08 16:24:11,085 - DEBUG - Initial player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Joining', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 16:24:11,085 - INFO - player_status.json found. Updating with current data.
+2024-08-08 16:24:11,086 - INFO - Updating player_status.json file
+2024-08-08 16:24:11,086 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Joining', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 16:24:11,086 - DEBUG - Online count: 1
+2024-08-08 16:24:11,087 - DEBUG - JSON data: {
+  "online_count": 1,
+  "players": {
+    "boqsc": {
+      "status": "Online,Joining",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
+}
+2024-08-08 16:24:11,087 - INFO - Starting to monitor log file in real-time...
+2024-08-08 16:24:43,054 - DEBUG - Player 'boqsc' detected with status: Online,Playing
+2024-08-08 16:24:43,054 - INFO - Player/Server 'boqsc' status changed from Online,Joining to Online,Playing
+2024-08-08 16:24:43,054 - INFO - Updating player_status.json file
+2024-08-08 16:24:43,056 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Playing', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 16:24:43,056 - DEBUG - Online count: 1
+2024-08-08 16:24:43,056 - DEBUG - JSON data: {
+  "online_count": 1,
+  "players": {
+    "boqsc": {
+      "status": "Online,Playing",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
+}
+2024-08-08 16:24:43,056 - DEBUG - Player 'boqsc' detected with status: Online,Spawned
+2024-08-08 16:24:43,056 - INFO - Player/Server 'boqsc' status changed from Online,Playing to Online,Spawned
+2024-08-08 16:24:43,057 - INFO - Updating player_status.json file
+2024-08-08 16:24:43,057 - DEBUG - Current player status: {'SERVER': {'status': 'Online', 'pltfm_id': None}, 'boqsc': {'status': 'Online,Spawned', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 16:24:43,057 - DEBUG - Online count: 1
+2024-08-08 16:24:43,057 - DEBUG - JSON data: {
+  "online_count": 1,
+  "players": {
+    "boqsc": {
+      "status": "Online,Spawned",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  },
+  "server_status": "Online"
+}
+2024-08-08 16:24:54,056 - INFO - Server is shutting down
+2024-08-08 16:24:54,056 - INFO - Player/Server 'SERVER' status changed from Online to Shutdown
+2024-08-08 16:24:54,057 - INFO - Updating player_status.json file
+2024-08-08 16:24:54,064 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 16:24:54,064 - DEBUG - Online count: 0
+2024-08-08 16:24:54,064 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 16:24:54,064 - INFO - Server has shut down. Stopping monitoring.
+2024-08-08 16:24:54,064 - INFO - Updating player_status.json file
+2024-08-08 16:24:54,065 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 16:24:54,065 - DEBUG - Online count: 0
+2024-08-08 16:24:54,065 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-08 16:24:54,066 - INFO - Generating final JSON report.
+2024-08-08 16:24:54,066 - INFO - Updating player_status.json file
+2024-08-08 16:24:54,067 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-08 16:24:54,067 - DEBUG - Online count: 0
+2024-08-08 16:24:54,067 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
