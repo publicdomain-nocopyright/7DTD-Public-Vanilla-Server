@@ -3311,3 +3311,133 @@ Full Player Status Report:
   "server_status": "Offline"
 }
 2024-08-07 22:35:30,133 - INFO - Starting to monitor log file in real-time...
+2024-08-07 22:37:20,261 - INFO - Processed 1000 lines
+2024-08-07 22:37:20,261 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 22:39:10,685 - INFO - Processed 2000 lines
+2024-08-07 22:39:10,685 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 22:41:01,058 - INFO - Processed 3000 lines
+2024-08-07 22:41:01,058 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 22:42:51,315 - INFO - Processed 4000 lines
+2024-08-07 22:42:51,315 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 22:44:41,752 - INFO - Processed 5000 lines
+2024-08-07 22:44:41,752 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 22:46:31,646 - INFO - Processed 6000 lines
+2024-08-07 22:46:31,646 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 22:48:22,114 - INFO - Processed 7000 lines
+2024-08-07 22:48:22,114 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 22:50:12,848 - INFO - Processed 8000 lines
+2024-08-07 22:50:12,848 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 22:52:05,195 - INFO - Processed 9000 lines
+2024-08-07 22:52:05,195 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 22:53:54,630 - INFO - Processed 10000 lines
+2024-08-07 22:53:54,630 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 22:55:44,852 - INFO - Processed 11000 lines
+2024-08-07 22:55:44,852 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 22:57:35,589 - INFO - Processed 12000 lines
+2024-08-07 22:57:35,589 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 22:59:25,700 - INFO - Processed 13000 lines
+2024-08-07 22:59:25,700 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 23:01:16,156 - INFO - Processed 14000 lines
+2024-08-07 23:01:16,156 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 23:03:06,289 - INFO - Processed 15000 lines
+2024-08-07 23:03:06,289 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 23:04:56,636 - INFO - Processed 16000 lines
+2024-08-07 23:04:56,636 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 23:06:47,080 - INFO - Processed 17000 lines
+2024-08-07 23:06:47,080 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 23:08:37,523 - INFO - Processed 18000 lines
+2024-08-07 23:08:37,523 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 23:10:27,880 - INFO - Processed 19000 lines
+2024-08-07 23:10:27,880 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 23:12:18,114 - INFO - Processed 20000 lines
+2024-08-07 23:12:18,114 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 23:14:08,823 - INFO - Processed 21000 lines
+2024-08-07 23:14:08,823 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 23:15:59,154 - INFO - Processed 22000 lines
+2024-08-07 23:15:59,154 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 23:17:49,101 - INFO - Processed 23000 lines
+2024-08-07 23:17:49,101 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 23:19:38,349 - INFO - Processed 24000 lines
+2024-08-07 23:19:38,349 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 23:21:27,467 - INFO - Processed 25000 lines
+2024-08-07 23:21:27,467 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
+2024-08-07 23:23:16,510 - INFO - Processed 26000 lines
+2024-08-07 23:23:16,510 - INFO - 
+Full Player Status Report:
+  SERVER: Shutdown (PltfmId: None)
+  boqsc: Offline (PltfmId: Steam_76561198072601792)
