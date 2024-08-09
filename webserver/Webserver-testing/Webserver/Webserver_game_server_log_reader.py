@@ -42,16 +42,9 @@ def get_latest_game_server_log_file_path(log_directory : str = None) -> str:
     #for file in sorted_filenames:
     #    print(file)
 
-    # Print latest log file
-    print(sorted_filenames[0])
-
-
-
-
-
-
-
-    return str(log_directory)
+    # Return latest log file
+   
+    return str(sorted_filenames[0])
 
    # if relative_path:
         
