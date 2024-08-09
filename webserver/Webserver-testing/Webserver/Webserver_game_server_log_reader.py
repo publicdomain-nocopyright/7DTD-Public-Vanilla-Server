@@ -1,4 +1,4 @@
-def get_latest_game_server_log_file_path(log_directory = None) -> str:
+def get_latest_game_server_log_file_path(log_directory : str = None) -> str:
     
     from pathlib import Path; 
     DEFAULT_LOG_DIRECTORY = r"C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\7DaysToDie_Data"
