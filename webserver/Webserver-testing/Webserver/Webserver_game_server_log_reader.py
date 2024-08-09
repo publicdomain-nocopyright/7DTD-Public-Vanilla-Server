@@ -53,20 +53,23 @@ def get_latest_game_server_log_filepath_debug():
 
 if __name__ == "__main__":
 
+
+     # Monitor log file, polling algorithm, detect if new log file appeared.
     last_file = get_latest_game_server_log_file_path()
     print(f"Starting monitor. Latest file: {last_file}")
-    
+
     import time
     while True:
         time.sleep(5)
         current_file = get_latest_game_server_log_file_path()
+        # Process log file 
         
         if current_file != last_file:
             print(f"New log file detected: {current_file}")
             last_file = current_file
 
 
-    # Monitor log file, polling algorithm, detect if new log file appeared.
-    # Process log file
+   
+    
 
     #print(get_latest_game_server_log_file_path())
