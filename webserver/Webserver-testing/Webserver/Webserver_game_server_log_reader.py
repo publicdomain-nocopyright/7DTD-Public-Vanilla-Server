@@ -18,6 +18,9 @@ def get_latest_game_server_log_file_path(log_directory : str = None) -> str:
     if log_directory is None: 
         log_directory = DEFAULT_LOG_DIRECTORY
 
+    # Sorting directories
+    print(os.listdir(log_directory))
+
     return str(log_directory)
 
    # if relative_path:
