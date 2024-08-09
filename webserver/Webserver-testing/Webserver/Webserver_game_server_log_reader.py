@@ -1,4 +1,4 @@
-def get_latest_game_server_log_filepath(log_directory = None):
+def get_latest_game_server_log_file_path(log_directory = None):
     
     from pathlib import Path; 
     DEFAULT_LOG_DIRECTORY = r"C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\7DaysToDie_Data"
@@ -34,9 +34,9 @@ def get_latest_game_server_log_filepath(log_directory = None):
     pass
 
 def get_latest_game_server_log_filepath_debug():
-    print("FROM_DEFAULT_LOG_DIRECTORY", get_latest_game_server_log_filepath("FROM_DEFAULT_LOG_DIRECTORY"))
+    print("FROM_DEFAULT_LOG_DIRECTORY", get_latest_game_server_log_file_path("FROM_DEFAULT_LOG_DIRECTORY"))
 
 
 
 if __name__ == "__main__":
-    print(get_latest_game_server_log_filepath()['game_server_log_file_path'])
+    print(get_latest_game_server_log_file_path()['game_server_log_file_path'])
