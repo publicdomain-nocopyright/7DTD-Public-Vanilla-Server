@@ -30,7 +30,8 @@ def get_latest_game_server_log_file_path(log_directory = None):
     #    log_directory = os.path.abspath(__file__)
     #
     #
-    return {"game_server_log_file_path": log_directory}
+    return log_directory
+    #return {"game_server_log_file_path": log_directory}
     pass
 
 def get_latest_game_server_log_filepath_debug():
@@ -39,4 +40,4 @@ def get_latest_game_server_log_filepath_debug():
 
 
 if __name__ == "__main__":
-    print(get_latest_game_server_log_file_path()['game_server_log_file_path'])
+    print(get_latest_game_server_log_file_path())
