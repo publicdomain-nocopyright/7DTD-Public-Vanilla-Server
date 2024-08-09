@@ -39,4 +39,4 @@ def get_latest_game_server_log_filepath_debug():
 
 
 if __name__ == "__main__":
-    get_latest_game_server_log_filepath_debug()
+    print(get_latest_game_server_log_filepath()['game_server_log_file_path'])
