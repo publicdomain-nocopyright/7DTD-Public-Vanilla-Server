@@ -57,6 +57,10 @@ if __name__ == "__main__":
         time.sleep(5)
         current_file = get_latest_game_server_log_file_path()
         # Process log file 
+        # Parse log line
+        # Match log line against pattern
+        # Track data and associate with other data
+        # Export as JSON file.
 
         if current_file != last_file:
             print(f"New log file detected: {current_file}")
