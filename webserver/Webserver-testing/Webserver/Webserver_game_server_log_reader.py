@@ -40,6 +40,7 @@ def get_latest_game_server_log_file_path(log_directory : str = None) -> str:
         return str(sorted_files[0][1])
     else:
         return None 
+    
 
 
     #return {"game_server_log_file_path": log_directory}
@@ -51,4 +52,21 @@ def get_latest_game_server_log_filepath_debug():
 
 
 if __name__ == "__main__":
-    print(get_latest_game_server_log_file_path())
+
+    last_file = get_latest_game_server_log_file_path()
+    print(f"Starting monitor. Latest file: {last_file}")
+    
+    import time
+    while True:
+        time.sleep(5)
+        current_file = get_latest_game_server_log_file_path()
+        
+        if current_file != last_file:
+            print(f"New log file detected: {current_file}")
+            last_file = current_file
+
+
+    # Monitor log file, polling algorithm, detect if new log file appeared.
+    # Process log file
+
+    #print(get_latest_game_server_log_file_path())
