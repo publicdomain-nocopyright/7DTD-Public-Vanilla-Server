@@ -36,32 +36,11 @@ def get_latest_game_server_log_file_path(log_directory : str = None) -> str:
 
     sorted_files.sort(reverse=True)
 
-    # Sort the list of tuples and extract just the filenames
     if sorted_files:
-        # Return the full path of the latest log file
         return str(sorted_files[0][1])
     else:
-        return None  # Return None if no valid files were found
+        return None 
 
-    # Print the sorted list of files
-    #for file in sorted_filenames:
-    #    print(file)
-
-    # Return latest log file
-   
-    #return str(sorted_filenames[0])
-
-   # if relative_path:
-        
-    #if not relative_path:
-    #    DEFAULT_LOG_DIRECTORY = r"C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\7DaysToDie_Data"
-    #    
-    #import os 
-    #if log_directory is standard:
-    #    print("yes")
-    #    log_directory = os.path.abspath(__file__)
-    #
-    #
 
     #return {"game_server_log_file_path": log_directory}
     pass
