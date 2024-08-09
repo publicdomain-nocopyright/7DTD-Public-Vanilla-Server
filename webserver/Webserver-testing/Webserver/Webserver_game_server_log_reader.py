@@ -3,6 +3,12 @@ def get_latest_game_server_log_filepath(log_directory = None):
     DEFAULT_LOG_DIRECTORY = r"C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\7DaysToDie_Data"
     RELATIVE_LOG_DIRECTORY = Path(r'..\7DaysToDie_Data').resolve()
 
+    if log_directory == "DEFAULT_LOG_DIRECTORY":
+        log_directory = DEFAULT_LOG_DIRECTORY
+
+    if log_directory == "RELATIVE_LOG_DIRECTORY":
+        log_directory = RELATIVE_LOG_DIRECTORY
+
     if log_directory is None: 
         log_directory = DEFAULT_LOG_DIRECTORY
 
@@ -11,11 +17,6 @@ def get_latest_game_server_log_filepath(log_directory = None):
         if os.path.exists(RELATIVE_LOG_DIRECTORY): 
             log_directory = RELATIVE_LOG_DIRECTORY
 
-    if log_directory == "DEFAULT_LOG_DIRECTORY":
-        log_directory = DEFAULT_LOG_DIRECTORY
-
-    if log_directory == "RELATIVE_LOG_DIRECTORY":
-        log_directory = RELATIVE_LOG_DIRECTORY
 
     print(log_directory)
 
