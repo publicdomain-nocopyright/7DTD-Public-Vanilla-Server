@@ -60,7 +60,7 @@ if __name__ == "__main__":
         # Parse log line
         # Match log line against pattern
         # Track data and associate with other data
-        # Export as JSON file.
+        # Export as JSON file and keep it up to date.
 
         if current_file != last_file:
             print(f"New log file detected: {current_file}")
