@@ -19,7 +19,35 @@ def get_latest_game_server_log_file_path(log_directory : str = None) -> str:
         log_directory = DEFAULT_LOG_DIRECTORY
 
     # Sorting directories
-    print(os.listdir(log_directory))
+    # Sort by date and time these directory before printing
+    # output_log__2024-08-08__15-05-45.txt
+    
+    from datetime import datetime
+    sorted_files = []
+    for file in os.listdir(log_directory):
+        try:
+            date_time_str = file.split('__')[1] + '__' + file.split('__')[2].split('.')[0]
+            file_datetime = datetime.strptime(date_time_str, '%Y-%m-%d__%H-%M-%S')
+            sorted_files.append((file_datetime, file))
+        except (IndexError, ValueError):
+            # If the filename doesn't match the expected format, use a minimum date
+            #sorted_files.append((datetime.min, file))
+            pass
+
+    # Sort the list of tuples and extract just the filenames
+    sorted_files.sort(reverse=True)
+    sorted_filenames = [file for _, file in sorted_files]
+
+    # Print the sorted list of files
+    for file in sorted_filenames:
+        print(file)
+
+
+
+
+
+
+
 
     return str(log_directory)
 
