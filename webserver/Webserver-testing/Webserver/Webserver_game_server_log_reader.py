@@ -39,9 +39,11 @@ def get_latest_game_server_log_file_path(log_directory : str = None) -> str:
     sorted_filenames = [file for _, file in sorted_files]
 
     # Print the sorted list of files
-    for file in sorted_filenames:
-        print(file)
+    #for file in sorted_filenames:
+    #    print(file)
 
+    # Print latest log file
+    print(sorted_filenames[0])
 
 
 
