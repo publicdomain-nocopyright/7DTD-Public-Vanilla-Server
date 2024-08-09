@@ -16,7 +16,7 @@ def get_latest_game_server_log_filepath(log_directory = None):
     if log_directory is None: 
         log_directory = DEFAULT_LOG_DIRECTORY
 
-    print(log_directory)
+   
 
    # if relative_path:
         
@@ -29,9 +29,13 @@ def get_latest_game_server_log_filepath(log_directory = None):
     #    log_directory = os.path.abspath(__file__)
     #
     #
-    return {"game_server_log_file_path": ""}
+    return {"game_server_log_file_path": log_directory}
     pass
+
+def get_latest_game_server_log_filepath_debug():
+    print("FROM_DEFAULT_LOG_DIRECTORY", get_latest_game_server_log_filepath("FROM_DEFAULT_LOG_DIRECTORY"))
+
 
 
 if __name__ == "__main__":
-    get_latest_game_server_log_filepath()
+    get_latest_game_server_log_filepath_debug()
