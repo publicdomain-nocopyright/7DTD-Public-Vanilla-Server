@@ -17,7 +17,7 @@ def get_latest_game_server_log_file_path(log_directory = None) -> str:
     if log_directory is None: 
         log_directory = DEFAULT_LOG_DIRECTORY
 
-   
+    return str(log_directory)
 
    # if relative_path:
         
@@ -30,7 +30,7 @@ def get_latest_game_server_log_file_path(log_directory = None) -> str:
     #    log_directory = os.path.abspath(__file__)
     #
     #
-    return str(log_directory)
+
     #return {"game_server_log_file_path": log_directory}
     pass
 
