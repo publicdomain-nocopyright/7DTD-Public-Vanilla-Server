@@ -24,19 +24,24 @@ def get_latest_game_server_log_file_path(log_directory : str = None) -> str:
     
     from datetime import datetime
     sorted_files = []
-    for file in os.listdir(log_directory):
+    for filename in os.listdir(log_directory):
+        full_path = os.path.abspath(os.path.join(log_directory, filename))
         try:
-            date_time_str = file.split('__')[1] + '__' + file.split('__')[2].split('.')[0]
+            date_time_str = filename.split('__')[1] + '__' + filename.split('__')[2].split('.')[0]
             file_datetime = datetime.strptime(date_time_str, '%Y-%m-%d__%H-%M-%S')
-            sorted_files.append((file_datetime, file))
+            sorted_files.append((file_datetime, full_path))
         except (IndexError, ValueError):
-            # If the filename doesn't match the expected format, use a minimum date
-            #sorted_files.append((datetime.min, file))
+            # If the filename doesn't match the expected format, skip it
             pass
 
-    # Sort the list of tuples and extract just the filenames
     sorted_files.sort(reverse=True)
-    sorted_filenames = [file for _, file in sorted_files]
+
+    # Sort the list of tuples and extract just the filenames
+    if sorted_files:
+        # Return the full path of the latest log file
+        return sorted_files[0][1]
+    else:
+        return None  # Return None if no valid files were found
 
     # Print the sorted list of files
     #for file in sorted_filenames:
@@ -44,7 +49,7 @@ def get_latest_game_server_log_file_path(log_directory : str = None) -> str:
 
     # Return latest log file
    
-    return str(sorted_filenames[0])
+    #return str(sorted_filenames[0])
 
    # if relative_path:
         
