@@ -34,4 +34,4 @@ def get_latest_game_server_log_filepath(log_directory = None):
 
 
 if __name__ == "__main__":
-    get_latest_game_server_log_filepath("FROM_DEFAULT_LOG_DIRECTORY")
+    get_latest_game_server_log_filepath()
