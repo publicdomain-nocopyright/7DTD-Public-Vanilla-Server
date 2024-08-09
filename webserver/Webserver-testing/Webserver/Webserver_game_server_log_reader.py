@@ -39,7 +39,7 @@ def get_latest_game_server_log_file_path(log_directory : str = None) -> str:
     # Sort the list of tuples and extract just the filenames
     if sorted_files:
         # Return the full path of the latest log file
-        return sorted_files[0][1]
+        return str(sorted_files[0][1])
     else:
         return None  # Return None if no valid files were found
 
