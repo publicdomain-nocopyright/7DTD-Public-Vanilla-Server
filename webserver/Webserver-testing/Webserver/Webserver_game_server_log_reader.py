@@ -77,6 +77,7 @@ if __name__ == "__main__":
     while True:
         latest_log_file = get_path_latest_game_server_log_file()
         if previous_log_file != latest_log_file:
+
             print("Loading a log file: ", latest_log_file)
             with open(latest_log_file) as file:
                 content = file.read()
@@ -84,8 +85,17 @@ if __name__ == "__main__":
                 print("Seek position: ", seek_position)          
                    
             previous_log_file = latest_log_file
-        #if content is not None:
 
+        if content is not None:
+                lines = content.splitlines()
+                for i in range(0, len(lines), 2):
+                    if i + 1 < len(lines):
+                        print(f"Line {i+1}: {lines[i]}")
+                        print(f"Line {i+2}: {lines[i+1]}")
+                    else:
+                        print(f"Line {i+1}: {lines[i]}")
+                    time.sleep(1)
+            
 
         time.sleep(2)
 
