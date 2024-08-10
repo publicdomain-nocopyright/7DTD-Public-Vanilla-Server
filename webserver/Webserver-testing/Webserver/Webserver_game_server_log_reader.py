@@ -1,5 +1,5 @@
 # A robust standalone function for log file path
-def get_latest_game_server_log_file_path(log_directory : str = None) -> str:
+def get_path_latest_game_server_log_file(log_directory : str = None) -> str:
     
     from pathlib import Path; 
     DEFAULT_LOG_DIRECTORY = r"C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\7DaysToDie_Data"
@@ -42,20 +42,17 @@ def get_latest_game_server_log_file_path(log_directory : str = None) -> str:
         return None 
 
 def get_latest_game_server_log_filepath_debug():
-    print("FROM_DEFAULT_LOG_DIRECTORY", get_latest_game_server_log_file_path("FROM_DEFAULT_LOG_DIRECTORY"))
+    print("FROM_DEFAULT_LOG_DIRECTORY", get_path_latest_game_server_log_file("FROM_DEFAULT_LOG_DIRECTORY"))
 
-
-
-if __name__ == "__main__":
-
+def previoustest():
      # Monitor log file, polling algorithm, detect if new log file appeared.
-    last_file = get_latest_game_server_log_file_path()
+    last_file = get_path_latest_game_server_log_file()
     print(f"Starting monitor. Latest file: {last_file}")
 
     import time
     while True:
         time.sleep(5)
-        current_file = get_latest_game_server_log_file_path()
+        current_file = get_path_latest_game_server_log_file()
         # Process log file 
         # Parse log line
         # Match log line against pattern
@@ -66,5 +63,50 @@ if __name__ == "__main__":
             print(f"New log file detected: {current_file}")
             last_file = current_file
 
+global last_position 
+last_position : int = 0
+
+if __name__ == "__main__":
+
+
+
+    import time, os
+    
+    previous_log_file, content = None; 
+    while True:
+        latest_log_file = get_path_latest_game_server_log_file()
+        if previous_log_file != latest_log_file:
+            print("Loading a log file: ", latest_log_file)
+            with open(latest_log_file, 'r') as file:
+                content = file.read()
+                position = file.tell()
+                print("Seek position:", position)             
+            previous_log_file = latest_log_file
+        #if content is not None:
+
+
+        time.sleep(2)
 
    
+
+
+        
+        # Process log file 
+        # Process a single log file line
+        # Pattern matching might require two lines of log file, since log line could be split for convenience of human reading log file
+        #with open(current_file, 'r') as file:
+        #    file.readline()
+        #    pass
+
+        # Parse log line
+        # Match log line against pattern
+        # Track data and associate with other data
+        # Export as JSON file and keep it up to date.
+
+        # Read file, seek file and look for new file while seeking.
+
+
+        # Future: Read file content without locking it up (Non-blocking reading)
+
+        # If file content is not completely new
+        # seek file for updates from last seek position
