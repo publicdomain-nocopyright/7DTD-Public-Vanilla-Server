@@ -81,7 +81,8 @@ if __name__ == "__main__":
             with open(latest_log_file, 'r') as file:
                 content = file.read()
                 seek_position = file.tell()
-                print("Seek position: ", seek_position)             
+                print("Seek position: ", seek_position)          
+                   
             previous_log_file = latest_log_file
         #if content is not None:
 
