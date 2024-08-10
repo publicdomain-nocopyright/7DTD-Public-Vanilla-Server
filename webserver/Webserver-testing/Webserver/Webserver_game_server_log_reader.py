@@ -78,7 +78,7 @@ if __name__ == "__main__":
         latest_log_file = get_path_latest_game_server_log_file()
         if previous_log_file != latest_log_file:
             print("Loading a log file: ", latest_log_file)
-            with open(latest_log_file, 'r') as file:
+            with open(latest_log_file) as file:
                 content = file.read()
                 seek_position = file.tell()
                 print("Seek position: ", seek_position)          
