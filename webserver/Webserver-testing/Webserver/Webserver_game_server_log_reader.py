@@ -99,7 +99,7 @@ if __name__ == "__main__":
 
         time.sleep(2)
 
-   
+   # Buffered matching: keep partial matches in the background and search if new lines contain rest of matches part.
 
 
         
