@@ -63,25 +63,25 @@ def previoustest():
             print(f"New log file detected: {current_file}")
             last_file = current_file
 
-global last_position 
-last_position : int = 0
+
+
 
 if __name__ == "__main__":
 
 
 
     import time, os
-    
+    seek_position : int = 0
     previous_log_file = None
-    content = None
+    content = None  
     while True:
         latest_log_file = get_path_latest_game_server_log_file()
         if previous_log_file != latest_log_file:
             print("Loading a log file: ", latest_log_file)
             with open(latest_log_file, 'r') as file:
                 content = file.read()
-                position = file.tell()
-                print("Seek position:", position)             
+                seek_position = file.tell()
+                print("Seek position: ", seek_position)             
             previous_log_file = latest_log_file
         #if content is not None:
 
