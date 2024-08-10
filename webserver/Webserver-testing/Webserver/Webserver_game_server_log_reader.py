@@ -72,7 +72,8 @@ if __name__ == "__main__":
 
     import time, os
     
-    previous_log_file, content = None; 
+    previous_log_file = None
+    content = None
     while True:
         latest_log_file = get_path_latest_game_server_log_file()
         if previous_log_file != latest_log_file:
