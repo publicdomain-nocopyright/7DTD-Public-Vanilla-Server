@@ -101,6 +101,8 @@ if __name__ == "__main__":
 
    # Buffered matching: keep partial matches in the background and search if new lines contain rest of matches part.
 
+   # Read file, keep on processing, return to reading file
+
 
         
         # Process log file 
