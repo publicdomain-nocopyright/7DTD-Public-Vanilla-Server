@@ -1294,3 +1294,48 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 2024-08-15T21:30:01 377.408 INF Time: 5.85m FPS: 19.69 Heap: 1102.9MB Max: 1782.0MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 1822.0MB
 2024-08-15T21:30:25 400.857 INF Dymesh: Update items to send for boqsc id: -1  recieved: 0
 2024-08-15T21:30:25 400.858 INF Dymesh: Items to send: 0   Added: 0   chunks: 0
+2024-08-15T21:30:31 407.458 INF Time: 6.35m FPS: 20.01 Heap: 1106.4MB Max: 1782.0MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 1635.2MB
+2024-08-15T21:30:34 409.616 INF RequestToSpawnPlayer: 0, boqsc, 6
+2024-08-15T21:30:34 409.671 WRN Parameter 'IsMale' not found in animator
+2024-08-15T21:30:34 409.673 INF Created player with id=0
+2024-08-15T21:30:39 414.670 INF GMSG: Player 'boqsc' joined the game
+2024-08-15T21:30:39 414.671 INF PlayerSpawnedInWorld (reason: JoinMultiplayer, position: 1096, 74, 468): EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-15T21:31:02 437.502 INF Time: 6.85m FPS: 20.00 Heap: 1322.0MB Max: 1782.0MB Chunks: 238 CGO: 28 Ply: 1 Zom: 6 Ent: 7 (14) Items: 0 CO: 1 RSS: 1699.2MB
+2024-08-15T21:31:26 461.754 INF Player boqsc disconnected after 0.9 minutes
+2024-08-15T21:31:26 462.275 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:51777 / 0 (RemoteConnectionClose)
+2024-08-15T21:31:26 462.277 INF DynamicMusic: 0 successfully removed from Bloodmoon state cache
+2024-08-15T21:31:26 462.278 INF Client disconnected from dy mesh: Id: 0 Total: 1
+2024-08-15T21:31:26 462.278 INF Player disconnected: EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-15T21:31:27 462.514 INF [EOS-ACS] FreeUser: EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-15T21:31:27 462.524 INF Exited thread NCS_Writer_0_1
+2024-08-15T21:31:27 462.526 INF Exited thread NCS_Writer_0_0
+2024-08-15T21:31:27 462.527 INF Exited thread NCS_Reader_0_0
+2024-08-15T21:31:27 462.580 INF Exited thread NCS_Reader_0_1
+2024-08-15T21:31:27 462.583 INF GMSG: Player 'boqsc' left the game
+2024-08-15T21:31:27 462.583 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:51777 / 0 (RemoteConnectionClose)
+2024-08-15T21:31:32 468.138 INF [DECO] written 75484, in 26ms
+2024-08-15T21:31:32 468.146 INF [DECO] write thread 5ms
+2024-08-15T21:31:32 468.162 INF Time: 7.35m FPS: 16.16 Heap: 1111.3MB Max: 1782.0MB Chunks: 234 CGO: 0 Ply: 0 Zom: 6 Ent: 0 (14) Items: 0 CO: 0 RSS: 1677.7MB
+2024-08-15T21:31:34 470.338 INF Clearing all pools
+2024-08-15T21:31:38 473.602 INF NET: LiteNetLib: Connect from: 127.0.0.1:56707 / 0
+2024-08-15T21:31:38 473.663 INF Started thread NCS_Reader_0_0
+2024-08-15T21:31:38 473.729 INF Started thread NCS_Writer_0_0
+2024-08-15T21:31:38 473.788 INF Started thread NCS_Reader_0_1
+2024-08-15T21:31:38 473.822 INF [NET] PlayerConnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='3'
+2024-08-15T21:31:38 473.823 INF Started thread NCS_Writer_0_1
+2024-08-15T21:32:02 498.195 INF Time: 7.85m FPS: 20.00 Heap: 1123.7MB Max: 1782.0MB Chunks: 234 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (14) Items: 0 CO: 0 RSS: 1667.3MB
+2024-08-15T21:32:32 528.246 INF Time: 8.35m FPS: 20.00 Heap: 1125.6MB Max: 1782.0MB Chunks: 234 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (14) Items: 0 CO: 0 RSS: 1667.3MB
+2024-08-15T21:32:41 536.987 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:56707 / 0 (RemoteConnectionClose)
+2024-08-15T21:32:41 537.000 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:56707 / 0 (RemoteConnectionClose)
+2024-08-15T21:32:41 537.000 INF [NET] PlayerDisconnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='3'
+2024-08-15T21:32:41 537.001 WRN DynamicMusic: -1 was not in Bloodmoon state cache on disconnect
+2024-08-15T21:32:41 537.002 INF Client disconnected from dy mesh: Id: -1 Total: 1
+2024-08-15T21:32:41 537.002 INF Player disconnected: EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='3'
+2024-08-15T21:32:41 537.003 INF [EOS-ACS] FreeUser: EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='3'
+2024-08-15T21:32:41 537.004 INF Exited thread NCS_Reader_0_0
+2024-08-15T21:32:41 537.004 INF Exited thread NCS_Writer_0_0
+2024-08-15T21:32:41 537.005 INF Exited thread NCS_Reader_0_1
+2024-08-15T21:32:41 537.006 INF Exited thread NCS_Writer_0_1
+2024-08-15T21:32:41 537.031 ERR [EOS] [LogEOSAntiCheat - Error] [AntiCheatServer] [UnregisterClient-001] ClientHandle 0000000000000003 not found.
+2024-08-15T21:32:41 537.046 ERR [EOS-ACS] Failed unregistering user: InvalidParameters
+2024-08-15T21:33:02 558.251 INF Time: 8.85m FPS: 20.00 Heap: 1150.8MB Max: 1782.0MB Chunks: 234 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (14) Items: 0 CO: 0 RSS: 1595.1MB
