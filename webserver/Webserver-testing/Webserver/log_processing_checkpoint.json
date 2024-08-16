@@ -1,11 +1,11 @@
 {
   "players": {
     "boqsc": {
-      "status": "Offline",
+      "status": "Online,Joining",
       "pltfm_id": "Steam_76561198072601792"
     }
   },
-  "last_processed_position": 124808,
+  "last_processed_position": 141896,
   "last_processed_file": "C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Webserver-testing\\7DaysToDie_Data\\output_log__2024-08-16__20-51-27.txt",
-  "last_timestamp": "2024-08-16T21:04:48"
+  "last_timestamp": "2024-08-16T21:10:19"
 }

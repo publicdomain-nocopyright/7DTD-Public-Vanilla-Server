@@ -1450,3 +1450,137 @@ IOException: Sharing violation on path C:\Users\WINDOW~1\AppData\Local\Temp\The 
   at LiteNetLib.NetManager.OnMessageReceived (LiteNetLib.NetPacket packet, System.Net.Sockets.SocketError errorCode, System.Net.IPEndPoint remoteEndPoint) [0x0002e] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
 2024-08-16T21:04:41 783.848 INF Clearing all pools
 2024-08-16T21:04:48 791.439 INF Time: 12.36m FPS: 20.00 Heap: 1547.5MB Max: 1547.5MB Chunks: 234 CGO: 0 Ply: 0 Zom: 5 Ent: 0 (7) Items: 0 CO: 0 RSS: 2253.0MB
+2024-08-16T21:05:34 836.872 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:49769 / 0 (RemoteConnectionClose)
+2024-08-16T21:05:34 836.887 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:49769 / 0 (RemoteConnectionClose)
+2024-08-16T21:06:17 880.127 INF NET: LiteNetLib: Connect from: 127.0.0.1:62584 / 0
+[NM] SocketReceiveThread error: System.IO.IOException: Sharing violation on path C:\Users\WINDOW~1\AppData\Local\Temp\The Fun Pimps\7 Days To Die\Player.log
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append) [0x00008] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool)
+  at BacktraceUtils.Backtrace_LogCallbacks (System.String _msg, System.String _trace, UnityEngine.LogType _type) [0x00010] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void_string_string_LogType(string,string,UnityEngine.LogType)
+  at Log.SendToLogListeners (System.String _formattedMessage, System.String _trace, UnityEngine.LogType _type, System.DateTime _timestamp, System.Int64 _uptime, System.String _message) [0x00009] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.masterLogStandalone (System.String _txt, UnityEngine.LogType _logType, System.String _trace) [0x0002a] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.Out (System.String _txt) [0x00030] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at NetworkServerLiteNetLib.<StartServer>b__14_0 (LiteNetLib.NetPeer _peer) [0x0001b] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnPeerConnected (LiteNetLib.NetPeer peer) [0x00008] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00042] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.CreateEvent (LiteNetLib.NetEvent+EType type, LiteNetLib.NetPeer peer, System.Net.IPEndPoint remoteEndPoint, System.Net.Sockets.SocketError errorCode, System.Int32 latency, LiteNetLib.DisconnectReason disconnectReason, LiteNetLib.ConnectionRequest connectionRequest, LiteNetLib.DeliveryMethod deliveryMethod, LiteNetLib.NetPacket readerSource, System.Object userData) [0x000ca] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.OnConnectionSolved (LiteNetLib.ConnectionRequest request, System.Byte[] rejectData, System.Int32 start, System.Int32 length) [0x00131] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.ConnectionRequest.Accept () [0x00011] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at NetworkServerLiteNetLib.ConnectionRequestCheck (LiteNetLib.ConnectionRequest _request) [0x00104] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnConnectionRequest (LiteNetLib.ConnectionRequest request) [0x00008] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00128] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.CreateEvent (LiteNetLib.NetEvent+EType type, LiteNetLib.NetPeer peer, System.Net.IPEndPoint remoteEndPoint, System.Net.Sockets.SocketError errorCode, System.Int32 latency, LiteNetLib.DisconnectReason disconnectReason, LiteNetLib.ConnectionRequest connectionRequest, LiteNetLib.DeliveryMethod deliveryMethod, LiteNetLib.NetPacket readerSource, System.Object userData) [0x000ca] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessConnectRequest (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPeer netPeer, LiteNetLib.NetConnectRequestPacket connRequest) [0x000c0] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.DataReceived (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x001f9] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.OnMessageReceived (LiteNetLib.NetPacket packet, System.Net.Sockets.SocketError errorCode, System.Net.IPEndPoint remoteEndPoint) [0x0002e] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+2024-08-16T21:06:19 881.855 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:62584 / 0 (RemoteConnectionClose)
+2024-08-16T21:06:19 881.861 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:62584 / 0 (RemoteConnectionClose)
+2024-08-16T21:06:29 892.252 INF NET: LiteNetLib: Connect from: 127.0.0.1:57672 / 0
+[NM] SocketReceiveThread error: System.IO.IOException: Sharing violation on path C:\Users\WINDOW~1\AppData\Local\Temp\The Fun Pimps\7 Days To Die\Player.log
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append) [0x00008] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool)
+  at BacktraceUtils.Backtrace_LogCallbacks (System.String _msg, System.String _trace, UnityEngine.LogType _type) [0x00010] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void_string_string_LogType(string,string,UnityEngine.LogType)
+  at Log.SendToLogListeners (System.String _formattedMessage, System.String _trace, UnityEngine.LogType _type, System.DateTime _timestamp, System.Int64 _uptime, System.String _message) [0x00009] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.masterLogStandalone (System.String _txt, UnityEngine.LogType _logType, System.String _trace) [0x0002a] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.Out (System.String _txt) [0x00030] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at NetworkServerLiteNetLib.<StartServer>b__14_0 (LiteNetLib.NetPeer _peer) [0x0001b] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnPeerConnected (LiteNetLib.NetPeer peer) [0x00008] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00042] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.CreateEvent (LiteNetLib.NetEvent+EType type, LiteNetLib.NetPeer peer, System.Net.IPEndPoint remoteEndPoint, System.Net.Sockets.SocketError errorCode, System.Int32 latency, LiteNetLib.DisconnectReason disconnectReason, LiteNetLib.ConnectionRequest connectionRequest, LiteNetLib.DeliveryMethod deliveryMethod, LiteNetLib.NetPacket readerSource, System.Object userData) [0x000ca] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.OnConnectionSolved (LiteNetLib.ConnectionRequest request, System.Byte[] rejectData, System.Int32 start, System.Int32 length) [0x00131] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.ConnectionRequest.Accept () [0x00011] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at NetworkServerLiteNetLib.ConnectionRequestCheck (LiteNetLib.ConnectionRequest _request) [0x00104] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnConnectionRequest (LiteNetLib.ConnectionRequest request) [0x00008] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00128] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.CreateEvent (LiteNetLib.NetEvent+EType type, LiteNetLib.NetPeer peer, System.Net.IPEndPoint remoteEndPoint, System.Net.Sockets.SocketError errorCode, System.Int32 latency, LiteNetLib.DisconnectReason disconnectReason, LiteNetLib.ConnectionRequest connectionRequest, LiteNetLib.DeliveryMethod deliveryMethod, LiteNetLib.NetPacket readerSource, System.Object userData) [0x000ca] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessConnectRequest (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPeer netPeer, LiteNetLib.NetConnectRequestPacket connRequest) [0x000c0] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.DataReceived (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x001f9] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.OnMessageReceived (LiteNetLib.NetPacket packet, System.Net.Sockets.SocketError errorCode, System.Net.IPEndPoint remoteEndPoint) [0x0002e] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+2024-08-16T21:06:31 893.936 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:57672 / 0 (RemoteConnectionClose)
+2024-08-16T21:06:31 893.962 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:57672 / 0 (RemoteConnectionClose)
+2024-08-16T21:07:31 953.807 INF Reloading serveradmin.xml
+2024-08-16T21:07:31 953.809 INF Loading permissions file at 'C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/serveradmin.xml'
+2024-08-16T21:07:31 953.814 INF Permissions file unchanged, skipping reloading
+2024-08-16T21:07:56 978.833 INF NET: LiteNetLib: Connect from: 127.0.0.1:57615 / 0
+2024-08-16T21:07:56 978.837 INF Started thread NCS_Reader_0_0
+2024-08-16T21:07:56 978.843 INF Started thread NCS_Writer_0_01
+2024-08-16T21:07:56 978.853 INF Started thread NCS_Reader_0_11
+2024-08-16T21:07:56 978.855 INF [NET] PlayerConnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='3'
+2024-08-16T21:07:56 978.856 INF Started thread NCS_Writer_0_11
+2024-08-16T21:07:56 978.956 INF NPPL.Read
+2024-08-16T21:07:56 978.958 INF PlayerLogin: boqsc/V 1.1
+2024-08-16T21:07:56 978.959 INF Client IP: 127.0.0.1
+2024-08-16T21:07:56 978.960 INF [Auth] PlayerName authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:07:56 978.961 INF [Auth] ServerState authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:07:56 978.962 INF [Auth] MpHostAllowed authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:07:56 978.963 INF [Auth] PlayerId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:07:56 978.963 INF [Auth] DuplicateUserId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:07:56 978.964 INF [Auth] VersionCheck authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:07:56 978.965 INF [Auth] PlayerSlots authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:07:56 978.968 INF [Auth] LegacyModAuthorizations authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:07:56 978.969 INF [Steamworks.NET] Auth.AuthenticateUser()
+2024-08-16T21:07:56 978.970 INF [Steamworks.NET] Authenticating player: boqsc SteamId: 76561198072601792 TicketLen: 1024 Result: k_EBeginAuthSessionResultOK
+2024-08-16T21:07:57 980.357 INF [Steamworks.NET] Authentication callback. ID: 76561198072601792, owner: 76561198072601792, result: k_EAuthSessionResponseOK
+2024-08-16T21:07:57 980.358 INF [Auth] PlatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:07:57 980.358 INF [Auth] SteamFamily authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:07:57 980.359 INF [Auth] SteamGroups authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:07:57 980.360 INF [EOS] Verifying token for 00020585a34f4b93bf8c21b3cf8d3150
+2024-08-16T21:07:57 980.557 INF [EOS] Device=, Platform=steam, AccType=Steam, AccId=76561198072601792, PUID=00020585a34f4b93bf8c21b3cf8d3150
+2024-08-16T21:07:58 981.157 INF [EOS] Player may have active sanctions
+2024-08-16T21:07:58 981.158 INF [EOS] SanctionsQuery finished with: 0 sanctions
+2024-08-16T21:07:58 981.159 INF [Auth] CrossplatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:07:58 981.159 INF [Auth] BansAndWhitelist authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:07:58 981.160 INF [Auth] Crossplay authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:07:58 981.160 INF [EOS-ACS] Registering user: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:08:04 987.707 INF [Auth] EAC authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:08:04 987.757 INF [Auth] Finalizer authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:08:04 987.762 INF Allowing player with id EOS_00020585a34f4b93bf8c21b3cf8d3150
+2024-08-16T21:08:05 987.956 INF RequestToEnterGame: EOS_00020585a34f4b93bf8c21b3cf8d3150/boqsc
+2024-08-16T21:08:19 1001.956 INF Time: 15.87m FPS: 20.00 Heap: 1184.1MB Max: 1549.8MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 2202.8MB
+2024-08-16T21:08:49 1032.008 INF Time: 16.37m FPS: 20.00 Heap: 1187.3MB Max: 1549.8MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 2197.6MB
+2024-08-16T21:09:17 1060.108 INF Dymesh: Update items to send for boqsc id: -1  recieved: 0
+2024-08-16T21:09:17 1060.108 INF Dymesh: Items to send: 0   Added: 0   chunks: 0
+2024-08-16T21:09:19 1062.011 INF Time: 16.87m FPS: 20.00 Heap: 1196.0MB Max: 1549.8MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 2197.9MB
+2024-08-16T21:09:49 1092.173 INF Time: 17.37m FPS: 19.98 Heap: 1103.2MB Max: 1549.8MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 2197.9MB
+2024-08-16T21:10:19 1122.172 INF Time: 17.87m FPS: 20.00 Heap: 1105.1MB Max: 1549.8MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 2197.9MB
+2024-08-16T21:10:49 1152.174 INF Time: 18.37m FPS: 19.99 Heap: 1107.3MB Max: 1549.8MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 2197.9MB
+2024-08-16T21:11:19 1182.214 INF Time: 18.87m FPS: 20.00 Heap: 1109.8MB Max: 1549.8MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 1929.2MB
+2024-08-16T21:11:49 1212.413 INF Time: 19.37m FPS: 20.00 Heap: 1077.8MB Max: 1549.8MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 1929.2MB
+2024-08-16T21:12:19 1242.414 INF Time: 19.87m FPS: 20.00 Heap: 1079.7MB Max: 1549.8MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (7) Items: 0 CO: 0 RSS: 1929.2MB
+2024-08-16T21:12:35 1257.980 INF RequestToSpawnPlayer: 0, boqsc, 6
+2024-08-16T21:12:35 1258.035 WRN Parameter 'IsMale' not found in animator
+2024-08-16T21:12:35 1258.038 INF Created player with id=0
+2024-08-16T21:12:40 1263.368 INF GMSG: Player 'boqsc' joined the game
+2024-08-16T21:12:40 1263.369 INF PlayerSpawnedInWorld (reason: JoinMultiplayer, position: 1096, 74, 467): EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:12:42 1265.469 INF VehicleManager saving 0 (0 + 0)
+2024-08-16T21:12:42 1265.470 INF DroneManager saving 0 (0 + 0)
+2024-08-16T21:12:42 1265.486 INF TurretTracker saving 0 (0 + 0)
+2024-08-16T21:12:42 1265.490 INF VehicleManager saved 9 bytes
+2024-08-16T21:12:42 1265.491 INF TurretTracker saved 9 bytes
+2024-08-16T21:12:42 1265.502 INF DroneManager saved 9 bytes
+2024-08-16T21:12:49 1272.152 INF [DECO] written 75484, in 31ms
+2024-08-16T21:12:49 1272.158 INF [DECO] write thread 4ms
+2024-08-16T21:12:49 1272.420 INF Time: 20.37m FPS: 20.00 Heap: 1565.1MB Max: 1565.1MB Chunks: 238 CGO: 34 Ply: 1 Zom: 5 Ent: 6 (13) Items: 0 CO: 1 RSS: 1860.7MB
+2024-08-16T21:13:00 1283.233 INF Player boqsc disconnected after 0.4 minutes
+2024-08-16T21:13:01 1283.963 INF DynamicMusic: 0 successfully removed from Bloodmoon state cache
+2024-08-16T21:13:01 1283.965 INF Client disconnected from dy mesh: Id: 0 Total: 1
+2024-08-16T21:13:01 1283.965 INF Player disconnected: EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:13:01 1283.966 INF [EOS-ACS] FreeUser: EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-16T21:13:01 1283.973 INF Exited thread NCS_Writer_0_11
+2024-08-16T21:13:01 1283.975 INF Exited thread NCS_Reader_0_11
+2024-08-16T21:13:01 1283.978 INF Exited thread NCS_Reader_0_0
+2024-08-16T21:13:01 1283.992 INF Exited thread NCS_Writer_0_01
+2024-08-16T21:13:01 1284.004 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:57615 / 0 (RemoteConnectionClose)
+2024-08-16T21:13:01 1284.036 INF GMSG: Player 'boqsc' left the game
+2024-08-16T21:13:01 1284.102 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:57615 / 0 (RemoteConnectionClose)
+2024-08-16T21:13:08 1291.771 INF Clearing all pools

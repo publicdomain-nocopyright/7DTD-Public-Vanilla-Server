@@ -87,31 +87,24 @@ def save_data(data_file, data):
         json.dump(data, f, indent=2, default=datetime_to_string)
 
 def main():
-    checkpoint_file = 'log_processing_checkpoint.json'
-    player_status_file = 'Webserver_player_status.json'
+    data_file = 'Webserver_player_status.json'
     while True:
         latest_log_file = get_path_latest_game_server_log_file.get_path_latest_game_server_log_file()
-        checkpoint = load_data(checkpoint_file)
+        data = load_data(data_file)
         
-        result = process_log_file(latest_log_file, checkpoint)
+        result = process_log_file(latest_log_file, data)
         
         if result['new_lines_processed'] > 0:
             print(json.dumps(result, indent=2, default=datetime_to_string))
             
-            # Save checkpoint data
-            save_data(checkpoint_file, {
-                'players': result['players'],
-                'last_processed_position': result['last_processed_position'],
-                'last_processed_file': result['last_processed_file'],
-                'last_timestamp': result['last_timestamp']
-            })
-            
-            # Save player status data
-            player_status = {
+            # Save all data to Webserver_player_status.json
+            save_data(data_file, {
                 "online_count": result['online_count'],
-                "players": result['players']
-            }
-            save_data(player_status_file, player_status)
+                "players": result['players'],
+                "last_processed_position": result['last_processed_position'],
+                "last_processed_file": result['last_processed_file'],
+                "last_timestamp": result['last_timestamp']
+            })
         else:
             print("No new lines to process.")
         
