@@ -6,7 +6,6 @@ import get_path_latest_game_server_log_file
 
 def process_log_file(file_path):
     players = {}
-    server_status = "Offline"
     last_timestamp = None
 
     patterns = [
@@ -24,7 +23,6 @@ def process_log_file(file_path):
             timestamp_match = re.match(r'(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})', line)
             if timestamp_match:
                 last_timestamp = datetime.strptime(timestamp_match.group(1), '%Y-%m-%dT%H:%M:%S')
-                server_status = "Online"
 
             for pattern, status in patterns:
                 match = re.search(pattern, line)
@@ -46,23 +44,12 @@ def process_log_file(file_path):
 
     online_count = len(players)
 
-    # Check if the server is stale (no updates in the last 5 minutes)
-    if last_timestamp:
-        time_difference = datetime.now() - last_timestamp
-        if time_difference.total_seconds() > 300:  # 5 minutes
-            server_status = "Offline"
-            players = {}
-            online_count = 0
-
     return {
         "online_count": online_count,
-        "players": players,
-        "server_status": server_status
+        "players": players
     }
 
 def main():
-    
-    
     while True:
         latest_log_file = get_path_latest_game_server_log_file.get_path_latest_game_server_log_file()
         result = process_log_file(latest_log_file)
