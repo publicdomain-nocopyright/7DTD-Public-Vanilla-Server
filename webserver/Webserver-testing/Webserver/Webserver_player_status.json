@@ -1,1 +1,9 @@
-{}
+{
+  "online_count": 0,
+  "players": {
+    "boqsc": {
+      "status": "Offline",
+      "pltfm_id": "Steam_76561198072601792"
+    }
+  }
+}

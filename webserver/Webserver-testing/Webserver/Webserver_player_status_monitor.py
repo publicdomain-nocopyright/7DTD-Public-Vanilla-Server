@@ -10,11 +10,11 @@ def datetime_to_string(obj):
         return obj.strftime('%Y-%m-%dT%H:%M:%S')
     raise TypeError(f"Object of type {obj.__class__.__name__} is not JSON serializable")
 
-def process_log_file(file_path, checkpoint):
-    players = checkpoint.get('players', {})
-    last_processed_position = checkpoint.get('last_processed_position', 0)
-    last_processed_file = checkpoint.get('last_processed_file', '')
-    last_timestamp = checkpoint.get('last_timestamp')
+def process_log_file(file_path, data):
+    players = data.get('players', {})
+    last_processed_position = data.get('last_processed_position', 0)
+    last_processed_file = data.get('last_processed_file', '')
+    last_timestamp = data.get('last_timestamp')
 
     patterns = [
         (r"PlayerLogin: (.+?)/V", "Online,Joining"),
@@ -46,7 +46,7 @@ def process_log_file(file_path, checkpoint):
                     player_name = match.group(1)
                     if status:
                         if status.startswith("Online"):
-                            players[player_name] = players.get(player_name, {"name": player_name})
+                            players[player_name] = players.get(player_name, {})
                             players[player_name]["status"] = status
                         elif status == "Offline":
                             if player_name in players:
@@ -73,38 +73,45 @@ def process_log_file(file_path, checkpoint):
         "new_lines_processed": new_lines_processed
     }
 
-def load_checkpoint(checkpoint_file):
-    if os.path.exists(checkpoint_file):
-        with open(checkpoint_file, 'r') as f:
-            checkpoint = json.load(f)
-        if isinstance(checkpoint.get('last_timestamp'), str):
-            checkpoint['last_timestamp'] = datetime.strptime(checkpoint['last_timestamp'], '%Y-%m-%dT%H:%M:%S')
-        return checkpoint
+def load_data(data_file):
+    if os.path.exists(data_file):
+        with open(data_file, 'r') as f:
+            data = json.load(f)
+        if isinstance(data.get('last_timestamp'), str):
+            data['last_timestamp'] = datetime.strptime(data['last_timestamp'], '%Y-%m-%dT%H:%M:%S')
+        return data
     return {}
 
-def save_checkpoint(checkpoint_file, checkpoint):
-    with open(checkpoint_file, 'w') as f:
-        json.dump(checkpoint, f, indent=2, default=datetime_to_string)
+def save_data(data_file, data):
+    with open(data_file, 'w') as f:
+        json.dump(data, f, indent=2, default=datetime_to_string)
 
 def main():
     checkpoint_file = 'log_processing_checkpoint.json'
+    player_status_file = 'Webserver_player_status.json'
     while True:
         latest_log_file = get_path_latest_game_server_log_file.get_path_latest_game_server_log_file()
-        checkpoint = load_checkpoint(checkpoint_file)
+        checkpoint = load_data(checkpoint_file)
         
         result = process_log_file(latest_log_file, checkpoint)
         
         if result['new_lines_processed'] > 0:
             print(json.dumps(result, indent=2, default=datetime_to_string))
-            with open('Webserver_player_status.json', 'w') as json_file:
-                json.dump(result['players'], json_file, indent=2, default=datetime_to_string)
             
-            save_checkpoint(checkpoint_file, {
+            # Save checkpoint data
+            save_data(checkpoint_file, {
                 'players': result['players'],
                 'last_processed_position': result['last_processed_position'],
                 'last_processed_file': result['last_processed_file'],
                 'last_timestamp': result['last_timestamp']
             })
+            
+            # Save player status data
+            player_status = {
+                "online_count": result['online_count'],
+                "players": result['players']
+            }
+            save_data(player_status_file, player_status)
         else:
             print("No new lines to process.")
         

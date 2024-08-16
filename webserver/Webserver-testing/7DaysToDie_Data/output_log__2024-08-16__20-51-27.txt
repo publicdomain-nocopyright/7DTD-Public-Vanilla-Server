@@ -1,0 +1,1452 @@
+Mono path[0] = 'C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/Managed'
+Mono config path = 'C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/MonoBleedingEdge/etc'
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Loading player data from C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/data.unity3d
+Initialize engine version: 2022.3.29f1 (8d510ca76d2b)
+[Subsystems] Discovering subsystems at path C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.898 seconds
+- Finished resetting the current domain, in  0.002 seconds
+ERROR: Shader Hidden/LandClaimBoundary shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Unlit/Transparent Colored shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+UnloadTime: 1.157800 ms
+ERROR: Shader GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.198400 ms
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoDecode. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass YCbCr_To_RGB1 in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBAFull in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBASplit_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGB1 in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGBA in shader <not found>
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoComposite. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass Default in shader <not found>
+2024-08-16T20:51:37 0.045 INF Backtrace Initialized
+2024-08-16T20:51:37 0.082 INF Version: V 1.1 (b4) Compatibility Version: V 1.1, Build: WindowsPlayer 64 Bit
+2024-08-16T20:51:37 0.083 INF System information:
+2024-08-16T20:51:37 0.084 INF    OS: Windows 10  (10.0.19045) 64bit
+2024-08-16T20:51:37 0.084 INF    CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz (cores: 4)
+2024-08-16T20:51:37 0.085 INF    RAM: 16276 MB
+2024-08-16T20:51:37 0.086 INF    GPU: Null Device (128 MB)
+2024-08-16T20:51:37 0.094 INF    Graphics API: NULL 1.0 [1.0] (shader level 3.0)
+2024-08-16T20:51:37 0.097 INF Local UTC offset: 3 hours
+2024-08-16T20:51:37 0.128 INF Command line arguments: 7DaysToDie -logfile C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\\7DaysToDie_Data\output_log__2024-08-16__20-51-27.txt -quit -batchmode -nographics -configfile=C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\serverconfig.xml -dedicated
+2024-08-16T20:51:37 0.132 INF Parsing server configfile: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\serverconfig.xml
+2024-08-16T20:51:37 0.286 INF Parsing server configfile successfully completed
+2024-08-16T20:51:37 0.287 INF UserDataFolder: C:\Users\Windows10\AppData\Roaming/7DaysToDie
+2024-08-16T20:51:37 0.292 INF [Platform] Init
+2024-08-16T20:51:37 0.477 INF [Platform] Using native platform: Steam
+2024-08-16T20:51:37 0.480 INF [Platform] Using cross platform: EOS
+2024-08-16T20:51:37 0.481 INF [Platform] Using server platform: Steam
+2024-08-16T20:51:37 0.481 INF [Platform] Using server platform: XBL
+2024-08-16T20:51:37 0.482 INF [Platform] Using server platform: PSN
+2024-08-16T20:51:37 0.488 INF Starting PlayerInputManager...
+2024-08-16T20:51:37 0.491 INF InControl (version 1.8.9 build 9376, native module = False, XInput = False)
+2024-08-16T20:51:37 0.497 INF InControl (version 1.8.9 build 9376)
+2024-08-16T20:51:38 0.844 INF UnityInputDeviceManager enabled.
+2024-08-16T20:51:38 0.886 INF [Platform] Initializing Steam
+2024-08-16T20:51:38 0.905 INF [Platform] Initializing EOS
+2024-08-16T20:51:38 0.936 INF [EOS] Initialize: Success
+2024-08-16T20:51:38 0.968 INF [Platform] Initializing XBL
+2024-08-16T20:51:38 0.969 INF [Platform] Initializing PSN
+2024-08-16T20:51:38 0.972 INF [SaveDataUtils] InitStatic Begin
+2024-08-16T20:51:38 0.976 INF [SaveDataUtils] SdPlayerPrefs -> Unity
+2024-08-16T20:51:38 0.977 INF [SaveDataUtils] InitStatic Complete
+2024-08-16T20:51:38 0.992 INF Last played version: V 1.1
+2024-08-16T20:51:38 0.997 INF Starting dedicated server level=Navezgane game name=My Game
+2024-08-16T20:51:38 0.998 INF Maximum allowed players: 16
+2024-08-16T20:51:38 0.999 INF Game mode: GameModeSurvival
+2024-08-16T20:51:38 1.328 INF Localization language from prefs: english
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 5913.
+Total: 11.193600 ms (FindLiveObjects: 0.272200 ms CreateObjectMapping: 0.264900 ms MarkObjects: 10.486600 ms  DeleteObjects: 0.169500 ms)
+
+ERROR: Shader Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: '7DTD/Cube_UI_Frame' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/Cube_UI_Frame shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/Cube_UI_Frame' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: '7DTD/Cube_UI_Glow' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/Cube_UI_Glow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/Cube_UI_Glow' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+UnloadTime: 0.791800 ms
+2024-08-16T20:51:38 1.446 INF Awake IsFocused: True
+2024-08-16T20:51:38 1.446 INF Awake
+2024-08-16T20:51:39 1.973 INF Started Terminal Window
+ERROR: Shader Occlusion/DepthCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-16T20:51:39 2.021 INF Occlusion: Awake
+2024-08-16T20:51:39 2.026 INF Texture quality is set to 3
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 6147.
+Total: 21.869600 ms (FindLiveObjects: 0.303700 ms CreateObjectMapping: 0.316500 ms MarkObjects: 21.214200 ms  DeleteObjects: 0.034800 ms)
+
+2024-08-16T20:51:39 2.151 INF WinThread started
+ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/Entity Tint Mask' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Entity Tint Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Entity Tint Mask' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-16T20:51:39 2.691 INF [MODS] Start loading from: 'C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/../Mods'
+2024-08-16T20:51:39 2.700 INF [MODS]   Trying to load from folder: '0_TFP_Harmony'
+2024-08-16T20:51:41 4.295 INF [MODS]     Loaded Mod: TFP_Harmony (1.1.0.4)
+2024-08-16T20:51:41 4.296 INF [MODS]   Trying to load from folder: 'disable'
+2024-08-16T20:51:41 4.297 WRN [MODS]     Folder disable does not contain a ModInfo.xml, ignoring
+2024-08-16T20:51:41 4.297 INF [MODS]   Trying to load from folder: 'Double Vehicle Speeds'
+2024-08-16T20:51:41 4.350 INF [MODS]     Loaded Mod: DoubleVehicleSpeeds (1.0)
+2024-08-16T20:51:41 4.350 INF [MODS]   Trying to load from folder: 'JaWoodleKHA20 - MegaCityGen'
+2024-08-16T20:51:41 4.361 ERR [MODS]     JaWoodleKHA20 - MegaCityGen/ModInfo.xml in legacy format. V2 required to load mod
+2024-08-16T20:51:41 4.361 ERR [MODS]     Could not parse JaWoodleKHA20 - MegaCityGen/ModInfo.xml, ignoring
+2024-08-16T20:51:41 4.362 INF [MODS]   Trying to load from folder: 'LHG_InfoPanel_IMG'
+2024-08-16T20:51:41 4.370 INF [MODS]     Loaded Mod: LHG_InfoPanel_IMG (0.0.0.6)
+2024-08-16T20:51:41 4.370 INF [MODS]   Trying to load from folder: 'UI_ESC_1_Menu'
+2024-08-16T20:51:41 4.382 INF [MODS]     Loaded Mod: Add_UI_ESC_Menu_UI (21.0)
+2024-08-16T20:51:41 4.383 INF [MODS] Initializing mod code
+2024-08-16T20:51:41 4.384 INF [MODS]   Initializing mod TFP_Harmony
+2024-08-16T20:51:41 4.407 INF [MODS]     Found ModAPI in TfpHarmony.dll, creating instance
+2024-08-16T20:51:41 4.409 INF [MODS]       [Harmony] Init done
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/MonoBleedingEdge/data-000001D04082A500.dll
+2024-08-16T20:51:42 4.851 INF [MODS]     Initialized code in mod 'TFP_Harmony' from DLL 'TfpHarmony.dll'
+2024-08-16T20:51:42 4.851 INF [MODS] Loading done
+2024-08-16T20:51:42 4.853 INF [MODS] Loading localization from mod: LHG_InfoPanel_IMG
+2024-08-16T20:51:42 4.854 INF [MODS] Loading localization from mod: Add_UI_ESC_Menu_UI
+2024-08-16T20:51:42 4.879 INF Loading permissions file at 'C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/serveradmin.xml'
+2024-08-16T20:51:42 4.921 WRN Ignoring unknown section in permissions file: apitokens
+2024-08-16T20:51:42 4.921 WRN Ignoring unknown section in permissions file: webmodules
+2024-08-16T20:51:42 4.922 WRN Ignoring unknown section in permissions file: webusers
+2024-08-16T20:51:42 4.926 INF Loading permissions file done.
+2024-08-16T20:51:42 5.677 INF Reloading serveradmin.xml
+2024-08-16T20:51:42 5.677 INF Loading permissions file at 'C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/serveradmin.xml'
+2024-08-16T20:51:42 5.679 INF Permissions file unchanged, skipping reloading
+WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_B' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/partPyro_template_lit_B shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_B' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/partPyro_fireShader_A' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/partPyro_fireShader_A shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/partPyro_fireShader_A' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_O' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/bloodShader_O shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_O' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/bloodShader_U shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/bloodShader_T shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_spec_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/bloodShader_spec_T shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_spec_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Particles/Standard Surface shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Autodesk Interactive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/Autodesk XFade' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Autodesk XFade shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Autodesk XFade' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: '7DTD/7DTD_Glass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/7DTD_Glass shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Glass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: '7DTD/7DTD_Fire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/7DTD_Fire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Fire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Alpha Blended Premultiply shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy/AlphaSelfIllum shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Particles/Blood_Particle shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Standard Surface shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/gasGenericShader_A' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/gasGenericShader_A shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/gasGenericShader_A' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Particles/Standard Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Particles/Standard Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_C' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/partPyro_template_lit_C shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_C' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Specular shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Bumped Specular shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/surfaceShader_particleEnhanced' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/surfaceShader_particleEnhanced shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/surfaceShader_particleEnhanced' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Standard (Specular setup)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard (Specular setup) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard (Specular setup)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Alpha Blended shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Additive (Soft) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/BasicUV_TA' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/BasicUV_TA shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/BasicUV_TA' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Shader Forge/PaintParticle shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Shader Forge/7DTD_Fire_New shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/shader_gas_unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Bumped Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Transparent/Cutout/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Transparent/Cutout/Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Transparent/Cutout/Bumped Specular shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Transparent/Cutout/Bumped Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/vomitShader_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/vomitShader_T shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/vomitShader_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/shader_gas_lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Couldn't create a Convex Mesh from source mesh "Head" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+WARNING: Shader Unsupported: 'Game Particles/Liquid' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Liquid shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Liquid' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/ZombieGibRadiation' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/ZombieGibRadiation shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/ZombieGibRadiation' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/VertexLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Reflective/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/VertexLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Reflective/Bumped Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Reflective/Bumped Specular shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'stainedGlass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader stainedGlass shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'stainedGlass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Game/ChunkTransparent shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+2024-08-16T20:52:06 29.628 INF Loaded (local): events in 0.01
+2024-08-16T20:52:06 29.656 INF Loaded (local): rwgmixer in 0.02
+2024-08-16T20:52:07 29.800 INF Loaded (local): archetypes in 0.04
+2024-08-16T20:52:07 29.857 INF Loaded (local): loadingscreen in 0.00
+2024-08-16T20:52:07 29.897 INF Added 1335 subtitle data entries and 3 speaker colors
+2024-08-16T20:52:07 29.897 INF Loaded (local): subtitles in 0.01
+2024-08-16T20:52:07 29.938 INF Loaded (local): videos in 0.00
+2024-08-16T20:52:07 29.941 INF WorldStaticData.Init() needed 24.000s
+2024-08-16T20:52:07 30.014 INF Started Telnet on 8081
+2024-08-16T20:52:07 30.028 INF [PartyQuests] Initialized
+2024-08-16T20:52:07 30.030 INF Awake done in 28583 ms
+ERROR: Shader Unlit/Text shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+2024-08-16T20:52:09 32.682 INF NET: Starting server protocols
+2024-08-16T20:52:09 32.686 INF [NET] Disabling protocol: SteamNetworking
+2024-08-16T20:52:10 33.045 INF NET: LiteNetLib server started
+2024-08-16T20:52:10 33.048 INF [PlatformApplication] restart required = False
+2024-08-16T20:52:10 33.048 INF StartGame
+2024-08-16T20:52:10 33.050 INF NetPackageManager Init
+2024-08-16T20:52:10 33.287 INF Persistent GamePrefs saved
+GamePref.AdminFileName = serveradmin.xml
+GamePref.AirDropFrequency = 72
+GamePref.AirDropMarker = True
+GamePref.AllowSpawnNearBackpack = True
+GamePref.AutopilotMode = 0
+GamePref.BedrollDeadZoneSize = 15
+GamePref.BedrollExpiryTime = 45
+GamePref.BlockDamageAI = 100
+GamePref.BlockDamageAIBM = 100
+GamePref.BlockDamagePlayer = 100
+GamePref.BloodMoonEnemyCount = 16
+GamePref.BloodMoonFrequency = 7
+GamePref.BloodMoonRange = 0
+GamePref.BloodMoonWarning = 8
+GamePref.BuildCreate = False
+GamePref.ConnectToServerIP = localhost
+GamePref.ConnectToServerPort = 26900
+GamePref.CreateLevelDim = 8
+GamePref.CreateLevelName = My Level
+GamePref.CreativeMenuEnabled = False
+GamePref.DayCount = 3
+GamePref.DayLightLength = 18
+GamePref.DayNightLength = 60
+GamePref.DeathPenalty = 1
+GamePref.DebugMenuEnabled = False
+GamePref.DebugMenuShowTasks = False
+GamePref.DebugPanelsEnabled = ,Ply,Ge,Sp,Fo,Pr,
+GamePref.DebugStopEnemiesMoving = False
+GamePref.DropOnDeath = 1
+GamePref.DropOnQuit = 0
+GamePref.DynamicMeshDistance = 1000
+GamePref.DynamicMeshEnabled = True
+GamePref.DynamicMeshLandClaimBuffer = 3
+GamePref.DynamicMeshLandClaimOnly = True
+GamePref.DynamicMeshMaxItemCache = 3
+GamePref.DynamicMeshMaxRegionCache = 1
+GamePref.DynamicMeshUseImposters = True
+GamePref.DynamicSpawner = 
+GamePref.EACEnabled = True
+GamePref.EnableMapRendering = False
+GamePref.EnemyDifficulty = 0
+GamePref.EnemySpawnMode = True
+GamePref.EulaLatestVersion = 1
+GamePref.EulaVersionAccepted = 1
+GamePref.FavoriteServersList = 
+GamePref.FragLimit = 20
+GamePref.GameDifficulty = 1
+GamePref.GameGuidClient = 
+GamePref.GameMode = GameModeSurvival
+GamePref.GameName = My Game
+GamePref.GameNameClient = My Game
+GamePref.GameVersion = V 1.1
+GamePref.GameWorld = Navezgane
+GamePref.HideCommandExecutionLog = 0
+GamePref.IgnoreEOSSanctions = False
+GamePref.JoiningOptions = True
+GamePref.LandClaimCount = 3
+GamePref.LandClaimDeadZone = 30
+GamePref.LandClaimDecayMode = 0
+GamePref.LandClaimExpiryTime = 30
+GamePref.LandClaimOfflineDelay = 0
+GamePref.LandClaimOfflineDurabilityModifier = 50
+GamePref.LandClaimOnlineDurabilityModifier = 50
+GamePref.LandClaimSize = 41
+GamePref.Language = English
+GamePref.LanguageBrowser = English
+GamePref.LastGameResetRevision = 13
+GamePref.LastLoadedPrefab = 
+GamePref.LastLoadingTipRead = 12
+GamePref.LootAbundance = 100
+GamePref.LootRespawnDays = 7
+GamePref.LootTimer = 
+GamePref.MatchLength = 10
+GamePref.MaxChunkAge = -1
+GamePref.MaxQueuedMeshLayers = 1000
+GamePref.MaxSpawnedAnimals = 50
+GamePref.MaxSpawnedZombies = 64
+GamePref.MaxUncoveredMapChunksPerPlayer = 131072
+GamePref.NoGraphicsMode = True
+GamePref.OptionsAllowController = True
+GamePref.OptionsAmbientVolumeLevel = 1
+GamePref.OptionsAudioOcclusion = False
+GamePref.OptionsBackgroundGlobalOpacity = 0.75
+GamePref.OptionsChatCommunication = True
+GamePref.OptionsControllerAimAssists = True
+GamePref.OptionsControllerCursorHoverSensitivity = 0.5
+GamePref.OptionsControllerCursorSnap = True
+GamePref.OptionsControllerJoystickLayout = 0
+GamePref.OptionsControllerLookAcceleration = 4
+GamePref.OptionsControllerLookAxisDeadzone = 0.1
+GamePref.OptionsControllerLookInvert = False
+GamePref.OptionsControllerMoveAxisDeadzone = 0.1
+GamePref.OptionsControllerSensitivityX = 0.3
+GamePref.OptionsControllerSensitivityY = 0.3
+GamePref.OptionsControllerTriggerEffects = False
+GamePref.OptionsControllerVehicleSensitivity = 1
+GamePref.OptionsControllerVibration = True
+GamePref.OptionsControllerVibrationStrength = 2
+GamePref.OptionsControllerWeaponAiming = False
+GamePref.OptionsControllerZoomSensitivity = 0.5
+GamePref.OptionsControlsResetRevision = 7
+GamePref.OptionsControlsSprintLock = False
+GamePref.OptionsDisableChunkLODs = False
+GamePref.OptionsDisableXmlEvents = False
+GamePref.OptionsDynamicMusicDailyTime = 0.45
+GamePref.OptionsDynamicMusicEnabled = True
+GamePref.OptionsFilterProfanity = False
+GamePref.OptionsForegroundGlobalOpacity = 1
+GamePref.OptionsGfxAA = 0
+GamePref.OptionsGfxAASharpness = 0
+GamePref.OptionsGfxBloom = False
+GamePref.OptionsGfxBrightness = 1
+GamePref.OptionsGfxDOF = False
+GamePref.OptionsGfxDynamicMinFPS = 60
+GamePref.OptionsGfxDynamicMode = 0
+GamePref.OptionsGfxDynamicScale = 1
+GamePref.OptionsGfxFOV = 58
+GamePref.OptionsGfxGrassDistance = 0
+GamePref.OptionsGfxLODDistance = 0
+GamePref.OptionsGfxMotionBlur = 0
+GamePref.OptionsGfxMotionBlurEnabled = False
+GamePref.OptionsGfxObjQuality = 4
+GamePref.OptionsGfxOcclusion = True
+GamePref.OptionsGfxQualityPreset = 5
+GamePref.OptionsGfxReflectQuality = 0
+GamePref.OptionsGfxReflectShadows = False
+GamePref.OptionsGfxResetRevision = 4
+GamePref.OptionsGfxResolution = 0
+GamePref.OptionsGfxShadowDistance = 0
+GamePref.OptionsGfxShadowQuality = 0
+GamePref.OptionsGfxSSAO = False
+GamePref.OptionsGfxSSReflections = 0
+GamePref.OptionsGfxStreamMipmaps = True
+GamePref.OptionsGfxSunShafts = False
+GamePref.OptionsGfxTerrainQuality = 0
+GamePref.OptionsGfxTexFilter = 0
+GamePref.OptionsGfxTexQuality = 2
+GamePref.OptionsGfxTreeDistance = 4
+GamePref.OptionsGfxViewDistance = 6
+GamePref.OptionsGfxVsync = 0
+GamePref.OptionsGfxWaterPtlLimiter = 0
+GamePref.OptionsGfxWaterQuality = 0
+GamePref.OptionsHudOpacity = 1
+GamePref.OptionsHudSize = 1
+GamePref.OptionsInterfaceSensitivity = 0.75
+GamePref.OptionsIntroMovieEnabled = True
+GamePref.OptionsInvertMouse = False
+GamePref.OptionsJournalPopup = True
+GamePref.OptionsLiteNetLibMtuOverride = False
+GamePref.OptionsLookSensitivity = 0.5
+GamePref.OptionsMenuMusicVolumeLevel = 0
+GamePref.OptionsMicVolumeLevel = 0.75
+GamePref.OptionsMumblePositionalAudioSupport = False
+GamePref.OptionsMusicVolumeLevel = 0
+GamePref.OptionsOverallAudioVolumeLevel = 1
+GamePref.OptionsPlayChanceFrequency = 3
+GamePref.OptionsPlayChanceProbability = 0.983
+GamePref.OptionsPlayerModel = playerMale
+GamePref.OptionsPlayerModelTexture = Player/Male/Player_male
+GamePref.OptionsPOICulling = 1
+GamePref.OptionsQuestsAutoAccept = True
+GamePref.OptionsQuestsAutoShare = True
+GamePref.OptionsScreenBoundsValue = 1
+GamePref.OptionsSelectionBoxAlphaMultiplier = 0.4
+GamePref.OptionsShowCompass = True
+GamePref.OptionsShowCrosshair = True
+GamePref.OptionsStabSpawnBlocksOnGround = True
+GamePref.OptionsSubtitlesEnabled = True
+GamePref.OptionsTempCelsius = True
+GamePref.OptionsUiCompassUseEnglishCardinalDirections = False
+GamePref.OptionsUiFpsScaling = 0.8112069
+GamePref.OptionsVehicleLookSensitivity = 0.5
+GamePref.OptionsVoiceChatEnabled = True
+GamePref.OptionsVoiceInputDevice = {64a198f1-018d-4522-84ac-315d9c2f8126}
+GamePref.OptionsVoiceOutputDevice = {0.0.0.00000000}.{7ae2f3eb-7675-482b-9c74-f025861d4c75}
+GamePref.OptionsVoiceVolumeLevel = 0.75
+GamePref.OptionsWeaponAiming = False
+GamePref.OptionsZoomAccel = 0.5
+GamePref.OptionsZoomSensitivity = 0.3
+GamePref.PartySharedKillRange = 100
+GamePref.PersistentPlayerProfiles = False
+GamePref.PlayerAutologin = False
+GamePref.PlayerKillingMode = 0
+GamePref.PlayerName = boqsc
+GamePref.PlayerSafeZoneHours = 5
+GamePref.PlayerSafeZoneLevel = 5
+GamePref.PlayerToken = 
+GamePref.PlaytestBiome = 3
+GamePref.QuestProgressionDailyLimit = 9999
+GamePref.RebuildMap = False
+GamePref.Region = Europe
+GamePref.SaveDataLimit = -1
+GamePref.SelectionContextMode = 0
+GamePref.SelectionOperationMode = 0
+GamePref.ServerAdminSlots = 0
+GamePref.ServerAdminSlotsPermission = 0
+GamePref.ServerDescription = Basic Vanilla Server based in Europe. \n Open Source and Open Collective. \n 24/7 | Free  \n  Using latest game version.
+GamePref.ServerDisabledNetworkProtocols = SteamNetworking
+GamePref.ServerEnabled = True
+GamePref.ServerIP = 
+GamePref.ServerIsPublic = True
+GamePref.ServerLoginConfirmationText = 
+GamePref.ServerMaxAllowedViewDistance = 12
+GamePref.ServerMaxPlayerCount = 16
+GamePref.ServerMaxWorldTransferSpeedKiBs = 3000
+GamePref.ServerName = 7 Days to Die Vanilla Public Server
+GamePref.ServerPort = 26900
+GamePref.ServerReservedSlots = 0
+GamePref.ServerReservedSlotsPermission = 100
+GamePref.ServerVisibility = 2
+GamePref.ServerWebsiteURL = http://vanillaserver.eu/
+GamePref.ShowFriendPlayerOnMap = True
+GamePref.SkipSpawnButton = False
+GamePref.TelnetEnabled = True
+GamePref.TelnetFailedLoginLimit = 10
+GamePref.TelnetFailedLoginsBlocktime = 10
+GamePref.TelnetPort = 8081
+GamePref.TerminalWindowEnabled = True
+GamePref.TwitchBloodMoonAllowed = False
+GamePref.TwitchServerPermission = 90
+GamePref.UNUSED_ControlPanelEnabled = False
+GamePref.UNUSED_ControlPanelPort = 8080
+GamePref.UNUSED_LastLoadedPrefabSize = 
+GamePref.UNUSED_NewGameSetDefaults = 
+GamePref.UNUSED_OptionsBloom = 
+GamePref.UNUSED_OptionsDOF = 
+GamePref.UNUSED_OptionsFieldOfViewNew = 
+GamePref.UNUSED_OptionsGamma = 
+GamePref.UNUSED_OptionsGfxGameplayResolutionHeight = 
+GamePref.UNUSED_OptionsGfxGameplayResolutionWidth = 
+GamePref.UNUSED_OptionsGfxUMATexQuality = 
+GamePref.UNUSED_OptionsMotionBlur = 
+GamePref.UNUSED_OptionsObjectBlur = 
+GamePref.UNUSED_OptionsReflectionBounces = 
+GamePref.UNUSED_OptionsReflectionCullList = 
+GamePref.UNUSED_OptionsReflectionFarClip = 
+GamePref.UNUSED_OptionsReflectionRefreshMode = 
+GamePref.UNUSED_OptionsReflectionShadowDistance = 
+GamePref.UNUSED_OptionsReflectionTimeSlicingMode = 
+GamePref.UNUSED_OptionsSSAO = 
+GamePref.UNUSED_OptionsStreamingMipmapsBudget = 
+GamePref.UNUSED_OptionsSunShafts = 
+GamePref.UNUSED_PlayerId = 
+GamePref.UNUSED_SaveGameFolder = 
+GamePref.UNUSED_UserDataFolder = 
+GamePref.WebDashboardEnabled = False
+GamePref.WebDashboardPort = 8080
+GamePref.WebDashboardUrl = 
+GamePref.WorldGenSeed = asdf
+GamePref.WorldGenSize = 6144
+GamePref.XPMultiplier = 100
+GamePref.ZombieBMMove = 3
+GamePref.ZombieFeralMove = 3
+GamePref.ZombieFeralSense = 0
+GamePref.ZombieMove = 0
+GamePref.ZombieMoveNight = 3
+GamePref.ZombiePlayers = True
+GameStat.AirDropFrequency = 0
+GameStat.AirDropMarker = True
+GameStat.AllowedViewDistance = 12
+GameStat.AnimalCount = 0
+GameStat.AutoParty = False
+GameStat.BedrollExpiryTime = 45
+GameStat.BlockDamagePlayer = 100
+GameStat.BloodMoonDay = 0
+GameStat.BloodMoonEnemyCount = 8
+GameStat.BloodMoonWarning = 8
+GameStat.ChunkStabilityEnabled = True
+GameStat.CurrentRoundIx = 0
+GameStat.DayLightLength = 18
+GameStat.DayLimitActive = False
+GameStat.DayLimitThisRound = 0
+GameStat.DeathPenalty = XPOnly
+GameStat.DropOnDeath = 1
+GameStat.DropOnQuit = 0
+GameStat.EnemyCount = 0
+GameStat.EnemyDifficulty = Normal
+GameStat.EnemySpawnMode = True
+GameStat.FragLimitActive = False
+GameStat.FragLimitThisRound = 0
+GameStat.GameDifficulty = 2
+GameStat.GameDifficultyBonus = 1
+GameStat.GameModeId = 0
+GameStat.GameState = 0
+GameStat.GlobalMessageToShow = 
+GameStat.IsCreativeMenuEnabled = False
+GameStat.IsFlyingEnabled = False
+GameStat.IsPlayerCollisionEnabled = True
+GameStat.IsPlayerDamageEnabled = True
+GameStat.IsResetMapOnRestart = False
+GameStat.IsSaveSupplyCrates = True
+GameStat.IsSpawnEnemies = True
+GameStat.IsSpawnNearOtherPlayer = False
+GameStat.IsTeleportEnabled = False
+GameStat.IsVersionCheckDone = False
+GameStat.LandClaimCount = 3
+GameStat.LandClaimDeadZone = 30
+GameStat.LandClaimDecayMode = 0
+GameStat.LandClaimExpiryTime = 3
+GameStat.LandClaimOfflineDelay = 0
+GameStat.LandClaimOfflineDurabilityModifier = 32
+GameStat.LandClaimOnlineDurabilityModifier = 32
+GameStat.LandClaimSize = 41
+GameStat.LoadScene = 
+GameStat.LootTimer = 
+GameStat.OptionsPOICulling = 0
+GameStat.PartySharedKillRange = 100
+GameStat.PlayerKillingMode = KillStrangersOnly
+GameStat.QuestProgressionDailyLimit = 4
+GameStat.ScoreDiedMultiplier = -5
+GameStat.ScorePlayerKillMultiplier = 1
+GameStat.ScoreZombieKillMultiplier = 1
+GameStat.ShowAllPlayersOnMap = False
+GameStat.ShowFriendPlayerOnMap = True
+GameStat.ShowSpawnWindow = False
+GameStat.ShowWindow = 
+GameStat.TimeLimitActive = False
+GameStat.TimeLimitThisRound = 0
+GameStat.TimeOfDayIncPerSec = 20
+GameStat.TwitchBloodMoonAllowed = True
+GameStat.UNUSED_ShowZombieCounter = 
+GameStat.XPMultiplier = 100
+GameStat.ZombieHordeMeter = False
+2024-08-16T20:52:10 33.392 INF StartAsServer
+2024-08-16T20:52:10 33.429 INF Setting for 'BloodMoonEnemyCount' does not match the default (server will go to the modded category): current = 16, default = 8
+2024-08-16T20:52:10 33.429 INF Setting for 'QuestProgressionDailyLimit' not within the default range (server will go to the modded category): current = 9999, default = -1 - 8
+2024-08-16T20:52:11 34.556 INF Loaded (local): events in 0.10
+2024-08-16T20:52:12 35.258 INF Loaded (local): materials in 0.30
+2024-08-16T20:52:12 35.605 INF Loaded (local): physicsbodies in 0.10
+2024-08-16T20:52:13 35.958 INF Loaded (local): painting in 0.10
+2024-08-16T20:52:13 36.356 INF Loaded (local): shapes in 0.10
+ERROR: Shader Legacy Shaders/Transparent/Cutout/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/SpeedTree' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/SpeedTree shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/SpeedTree' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Nature/SpeedTree Billboard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Nature/SpeedTree Billboard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Nature/SpeedTree Billboard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/BlockMissing shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Entity Tint Mask' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Entity Tint Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Entity Tint Mask' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Transparent shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Liquid' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/7DTD_Liquid shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Liquid' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/SignTextShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/SignTextShader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/SignTextShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/Autodesk XFade' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Autodesk XFade shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Autodesk XFade' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Alpha Blended Premultiply shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Fire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/7DTD_Fire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Fire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/SemiTransGlow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Particles/Standard Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-16T20:52:36 59.346 INF Reloading serveradmin.xml
+2024-08-16T20:52:36 59.347 INF Loading permissions file at 'C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/serveradmin.xml'
+2024-08-16T20:52:36 59.349 INF Permissions file unchanged, skipping reloading
+WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/TorchFire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/partPyro_fireShader_A' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/partPyro_fireShader_A shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/partPyro_fireShader_A' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_B' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/partPyro_template_lit_B shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_B' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Particles/Standard Surface shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Autodesk Interactive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/Autodesk' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Autodesk shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Autodesk' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Character shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Cobweb' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/7DTD_Cobweb shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Cobweb' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/EntityTintMaskSSS' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/EntityTintMaskSSS shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/EntityTintMaskSSS' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Alpha Blended shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/CharacterPlayerOutfit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/CharacterPlayerOutfit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/CharacterPlayerOutfit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Standard Surface shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/Autodesk' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Autodesk shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Autodesk' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: '7DTD/7DTD_Sign_Illuminated' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/7DTD_Sign_Illuminated shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Sign_Illuminated' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/SignTextShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/SignTextShader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/SignTextShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Transparent shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Nature/SpeedTree8' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Nature/SpeedTree8 shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Nature/SpeedTree8' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/SpeedTree8' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/SpeedTree8 shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/SpeedTree8' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Nature/SpeedTree' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Nature/SpeedTree shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Nature/SpeedTree' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/Autodesk XFade' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Autodesk XFade shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Autodesk XFade' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Standard (Specular setup)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard (Specular setup) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard (Specular setup)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: '7DTD/7DTD_RallyPoint' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/7DTD_RallyPoint shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_RallyPoint' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Character shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Cloth' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Cloth shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Cloth' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/shader_gas_unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-16T20:52:43 66.329 INF Block IDs with mapping
+Unloading 5 Unused Serialized files (Serialized files now loaded: 12)
+2024-08-16T20:52:43 66.345 INF Block IDs total 23973, terr 29, last 24195
+2024-08-16T20:52:43 66.378 INF Loaded (local): blocks in 29.38
+Unloading 72684 unused Assets to reduce memory usage. Loaded Objects now: 81177.
+Total: 408.327200 ms (FindLiveObjects: 7.864600 ms CreateObjectMapping: 14.863400 ms MarkObjects: 359.202500 ms  DeleteObjects: 26.396400 ms)
+
+2024-08-16T20:52:44 67.130 INF Loaded (local): progression in 0.19
+WARNING: Shader Unsupported: '7DTD_Unity5/WaterInBucket' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD_Unity5/WaterInBucket shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD_Unity5/WaterInBucket' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-16T20:52:44 67.626 INF Loaded (local): buffs in 0.25
+2024-08-16T20:52:45 67.939 INF Loaded (local): misc in 0.10
+WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/TorchFire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: '7DTD/TorchGlow' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/TorchGlow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/TorchGlow' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/TorchFire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-16T20:52:46 68.898 INF Loaded (local): items in 0.61
+ERROR: Shader Shader Forge/7DTD_Particle_Additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Glass Reflex' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Glass Reflex shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Glass Reflex' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-16T20:52:46 69.265 INF Item IDs with mapping
+2024-08-16T20:52:46 69.266 INF ItemIDs from Mapping
+2024-08-16T20:52:46 69.273 INF ItemClass assignLeftOverItems 66876 of 81920
+2024-08-16T20:52:46 69.358 INF Loaded (local): item_modifiers in 0.09
+2024-08-16T20:52:46 69.761 INF Loaded (local): entityclasses in 0.15
+2024-08-16T20:52:47 70.063 INF Loaded (local): qualityinfo in 0.10
+2024-08-16T20:52:47 70.462 INF Loaded (local): sounds in 0.10
+2024-08-16T20:52:48 70.812 INF Loaded (local): recipes in 0.10
+2024-08-16T20:52:48 71.162 INF Loaded (local): blockplaceholders in 0.10
+2024-08-16T20:52:48 71.512 INF Loaded (local): loot in 0.10
+2024-08-16T20:52:49 71.861 INF Loaded (local): entitygroups in 0.10
+2024-08-16T20:52:49 72.212 INF Loaded (local): utilityai in 0.10
+2024-08-16T20:52:49 72.562 INF Loaded (local): vehicles in 0.10
+2024-08-16T20:52:50 72.962 INF Loaded (local): rwgmixer in 0.10
+2024-08-16T20:52:50 73.313 INF Loaded (local): weathersurvival in 0.10
+2024-08-16T20:52:50 73.712 INF Loaded (local): archetypes in 0.10
+2024-08-16T20:52:51 74.062 INF Loaded (local): challenges in 0.10
+2024-08-16T20:52:51 74.444 INF Loaded (local): quests in 0.13
+2024-08-16T20:52:52 74.793 INF Loaded (local): traders in 0.10
+2024-08-16T20:52:52 75.143 INF Loaded (local): npc in 0.10
+2024-08-16T20:52:52 75.493 INF Loaded (local): dialogs in 0.10
+2024-08-16T20:52:53 75.893 INF Loaded (local): ui_display in 0.10
+2024-08-16T20:52:53 76.243 INF Loaded (local): nav_objects in 0.10
+2024-08-16T20:52:53 76.594 INF Loaded (local): gamestages in 0.10
+2024-08-16T20:52:54 77.244 INF Loaded (local): gameevents in 0.40
+2024-08-16T20:52:54 77.585 INF Loaded (local): twitch in 0.10
+2024-08-16T20:52:55 77.935 INF Loaded (local): twitch_events in 0.10
+2024-08-16T20:52:55 78.286 INF Loaded (local): dmscontent in 0.10
+2024-08-16T20:52:55 78.636 INF Loaded (local): XUi_Common/styles in 0.10
+2024-08-16T20:52:56 78.986 INF Loaded (local): XUi_Common/controls in 0.10
+2024-08-16T20:52:56 79.336 INF Loaded (local): XUi/styles in 0.10
+2024-08-16T20:52:56 79.686 INF Loaded (local): XUi/controls in 0.10
+2024-08-16T20:52:57 80.036 INF Loaded (local): XUi/windows in 0.10
+2024-08-16T20:52:57 80.385 INF Loaded (local): XUi/xui in 0.10
+2024-08-16T20:52:57 80.736 INF Loaded (local): biomes in 0.10
+2024-08-16T20:52:58 81.088 INF Loaded (local): worldglobal in 0.10
+2024-08-16T20:52:58 81.487 INF Loaded (local): spawning in 0.10
+2024-08-16T20:52:59 81.836 INF Loaded (local): loadingscreen in 0.10
+2024-08-16T20:52:59 82.138 INF Added 1335 subtitle data entries and 3 speaker colors
+2024-08-16T20:52:59 82.186 INF Loaded (local): subtitles in 0.10
+2024-08-16T20:52:59 82.536 INF Loaded (local): videos in 0.10
+2024-08-16T20:52:59 82.687 INF Loading players.xml
+2024-08-16T20:52:59 82.747 INF createWorld: Navezgane, My Game, GameModeSurvival
+2024-08-16T20:52:59 82.748 INF Occlusion: Disabled
+2024-08-16T20:52:59 82.763 INF Started thread ChunkCalc
+2024-08-16T20:52:59 82.768 INF Started thread ChunkRegeneration
+2024-08-16T20:52:59 82.770 INF Started thread ChunkMeshBake
+2024-08-16T20:53:00 82.853 INF World.Load: Navezgane
+2024-08-16T20:53:00 82.880 INF BloodMoon SetDay: day 7, last day 0, freq 7, range 0
+2024-08-16T20:53:00 82.908 INF Started thread WaterSimulationApplyChanges
+2024-08-16T20:53:32 115.460 INF Started thread GenerateChunks
+2024-08-16T20:53:34 116.915 INF Calculating world hashes took 1366 ms (world size 191 MiB)
+2024-08-16T20:53:34 116.920 INF Initial ENABLE_FILE_BACKED_ARRAYS == False
+2024-08-16T20:53:34 117.040 INF Loading dtm raw file took 1541ms
+2024-08-16T20:53:34 117.245 INF Biomes image size w= 3072, h = 3072
+2024-08-16T20:53:35 118.390 INF Loading and creating biomes took 1343ms
+Texture with ID 2744 and with size 6144x6144 was too large for graphics device maximum supported texture size (4096x4096). Falling back to a dummy texture. Generate mip maps to provide lower size fallback.
+Texture with ID 2745 and with size 6144x6144 was too large for graphics device maximum supported texture size (4096x4096). Falling back to a dummy texture. Generate mip maps to provide lower size fallback.
+2024-08-16T20:53:37 119.788 INF Loading and creating shader control textures took 1396ms
+2024-08-16T20:53:37 120.766 INF Loading and parsing of generator took 977ms
+2024-08-16T20:53:38 120.853 INF Computed 415 chunk groups containing a total of 8472 chunks. Largest group contains 449 chunks.
+2024-08-16T20:53:38 120.992 INF Started thread SaveChunks C:\Users\Windows10\AppData\Roaming\7DaysToDie\Saves\Navezgane\My Game\Region
+2024-08-16T20:53:40 123.537 INF [DECO] read 75484
+2024-08-16T20:53:40 123.686 INF Dynamic Music Initialized on Server
+2024-08-16T20:53:40 123.687 INF Dynamic Music Initialized on Dedi
+2024-08-16T20:53:40 123.697 INF AstarManager Init
+2024-08-16T20:53:41 124.281 INF WeatherManager: Init 8 weather packages
+WARNING: Shader Unsupported: '7DTD_Unity5/Wire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD_Unity5/Wire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD_Unity5/Wire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-16T20:53:41 124.763 INF WeatherManager: ApplySavedPackages
+2024-08-16T20:53:41 124.772 INF createWorld() done
+2024-08-16T20:53:42 124.858 INF Loaded player
+2024-08-16T20:53:42 124.958 INF VehicleManager C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/vehicles.dat, loaded 0
+2024-08-16T20:53:42 124.966 INF DroneManager C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/drones.dat, loaded 0
+2024-08-16T20:53:42 124.972 INF TurretTracker C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/turrets.dat, loaded 0
+2024-08-16T20:53:42 125.041 INF [EOS] Registering server
+2024-08-16T20:53:42 125.112 INF [PlayerInteractions] JoinedMultiplayerServer not supported with current platforms
+2024-08-16T20:53:42 125.115 INF [EAC] Starting EAC server
+2024-08-16T20:53:46 129.214 INF [DECO] written 75484, in 30ms
+2024-08-16T20:53:46 129.230 INF [DECO] write thread 6ms
+2024-08-16T20:53:46 129.586 INF Loading dymesh settings
+2024-08-16T20:53:46 129.588 INF Dynamic Mesh Settings
+2024-08-16T20:53:46 129.589 INF Use Imposter Values: True
+2024-08-16T20:53:46 129.590 INF Only Player Areas: True
+2024-08-16T20:53:46 129.590 INF Player Area Buffer: 3
+2024-08-16T20:53:46 129.591 INF Max View Distance: 1000
+2024-08-16T20:53:46 129.592 INF Regen all on new world: False
+2024-08-16T20:53:46 129.598 INF Dymesh: Prepping dynamic mesh. Resend Default: True
+2024-08-16T20:53:46 129.599 INF Dymesh: Mesh location: C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/DynamicMeshes/
+2024-08-16T20:53:46 129.651 INF StartGame done
+2024-08-16T20:53:46 129.663 INF [Steamworks.NET] Registering auth callbacks
+2024-08-16T20:53:46 129.670 INF [Steamworks.NET] GameServer.Init successful
+2024-08-16T20:53:46 129.694 INF [Steamworks.NET] Making server public
+2024-08-16T20:53:47 129.912 INF [EOS] Server registered, session: 099bf2204a9f4c4f9a1c295da1d76506
+2024-08-16T20:53:47 129.921 INF [EOS] Session address: 7*.6*.4*.22*
+2024-08-16T20:53:47 130.354 INF Dymesh: Warming dynamic mesh
+2024-08-16T20:53:47 130.354 INF Dymesh: Creating dynamic mesh manager
+2024-08-16T20:53:47 130.361 INF Dymesh: Awake
+2024-08-16T20:53:47 130.362 INF Dymesh: Mesh location: C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/DynamicMeshes/
+2024-08-16T20:53:47 130.364 INF Dymesh: Loading Items: C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/DynamicMeshes/
+2024-08-16T20:53:47 130.369 INF Dymesh: Loaded Items: 0
+2024-08-16T20:53:47 130.373 INF Dymesh: Loading all items took: 0.0079793 seconds.
+2024-08-16T20:53:47 130.382 INF Clearing queues.
+2024-08-16T20:53:47 130.384 INF Cleared queues.
+2024-08-16T20:53:47 130.397 INF Dymesh door replacement: imposterBlock
+2024-08-16T20:53:47 130.403 INF Dynamic thread starting
+2024-08-16T20:53:49 132.157 INF [Steamworks.NET] GameServer.LogOn successful, SteamID=90200996150317080, public IP=7*.6*.4*.22*
+2024-08-16T20:56:29 291.818 INF NET: LiteNetLib: Connect from: 127.0.0.1:56291 / 0
+2024-08-16T20:56:29 291.833 INF Started thread NCS_Reader_0_0
+2024-08-16T20:56:29 291.841 INF Started thread NCS_Writer_0_0
+IOException: Sharing violation on path C:\Users\WINDOW~1\AppData\Local\Temp\The Fun Pimps\7 Days To Die\Player.log
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append) [0x00008] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool)
+  at BacktraceUtils.Backtrace_LogCallbacks (System.String _msg, System.String _trace, UnityEngine.LogType _type) [0x00010] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void_string_string_LogType(string,string,UnityEngine.LogType)
+  at Log.SendToLogListeners (System.String _formattedMessage, System.String _trace, UnityEngine.LogType _type, System.DateTime _timestamp, System.Int64 _uptime, System.String _message) [0x00009] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.UnityLogCallback (System.String _logString, System.String _stackTrace, UnityEngine.LogType _type) [0x0001b] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at UnityEngine.Application.CallLogCallback (System.String logString, System.String stackTrace, UnityEngine.LogType type, System.Boolean invokedOnMainThread) [0x00030] in <dfbdd4656e0844829a5285bde9c1a365>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+IOException: Sharing violation on path C:\Users\WINDOW~1\AppData\Local\Temp\The Fun Pimps\7 Days To Die\Player.log
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append) [0x00008] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool)
+  at BacktraceUtils.Backtrace_LogCallbacks (System.String _msg, System.String _trace, UnityEngine.LogType _type) [0x00010] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void_string_string_LogType(string,string,UnityEngine.LogType)
+  at Log.SendToLogListeners (System.String _formattedMessage, System.String _trace, UnityEngine.LogType _type, System.DateTime _timestamp, System.Int64 _uptime, System.String _message) [0x00009] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.masterLogStandalone (System.String _txt, UnityEngine.LogType _logType, System.String _trace) [0x0002a] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.Out (System.String _txt) [0x00030] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at ThreadManager.myThreadInvoke (System.Object _threadInfo) [0x0002b] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at System.Threading.ThreadHelper.ThreadStart_Context (System.Object state) [0x00025] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00071] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.Threading.ExecutionContext.Run (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.Threading.ExecutionContext.Run (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state) [0x0002b] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.Threading.ThreadHelper.ThreadStart (System.Object obj) [0x0000f] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+2024-08-16T20:56:29 291.856 INF Started thread NCS_Reader_0_1
+IOException: Sharing violation on path C:\Users\WINDOW~1\AppData\Local\Temp\The Fun Pimps\7 Days To Die\Player.log
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append) [0x00008] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool)
+  at BacktraceUtils.Backtrace_LogCallbacks (System.String _msg, System.String _trace, UnityEngine.LogType _type) [0x00010] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void_string_string_LogType(string,string,UnityEngine.LogType)
+  at Log.SendToLogListeners (System.String _formattedMessage, System.String _trace, UnityEngine.LogType _type, System.DateTime _timestamp, System.Int64 _uptime, System.String _message) [0x00009] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.UnityLogCallback (System.String _logString, System.String _stackTrace, UnityEngine.LogType _type) [0x0001b] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at UnityEngine.Application.CallLogCallback (System.String logString, System.String stackTrace, UnityEngine.LogType type, System.Boolean invokedOnMainThread) [0x00030] in <dfbdd4656e0844829a5285bde9c1a365>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+IOException: Sharing violation on path C:\Users\WINDOW~1\AppData\Local\Temp\The Fun Pimps\7 Days To Die\Player.log
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append) [0x00008] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool)
+  at BacktraceUtils.Backtrace_LogCallbacks (System.String _msg, System.String _trace, UnityEngine.LogType _type) [0x00010] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void_string_string_LogType(string,string,UnityEngine.LogType)
+  at Log.SendToLogListeners (System.String _formattedMessage, System.String _trace, UnityEngine.LogType _type, System.DateTime _timestamp, System.Int64 _uptime, System.String _message) [0x00009] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.masterLogStandalone (System.String _txt, UnityEngine.LogType _logType, System.String _trace) [0x0002a] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.Out (System.String _txt) [0x00030] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at ThreadManager.myThreadInvoke (System.Object _threadInfo) [0x0002b] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at System.Threading.ThreadHelper.ThreadStart_Context (System.Object state) [0x00025] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00071] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.Threading.ExecutionContext.Run (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.Threading.ExecutionContext.Run (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state) [0x0002b] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.Threading.ThreadHelper.ThreadStart (System.Object obj) [0x0000f] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+2024-08-16T20:56:29 291.860 INF Started thread NCS_Writer_0_1
+IOException: Sharing violation on path C:\Users\WINDOW~1\AppData\Local\Temp\The Fun Pimps\7 Days To Die\Player.log
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append) [0x00008] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool)
+  at BacktraceUtils.Backtrace_LogCallbacks (System.String _msg, System.String _trace, UnityEngine.LogType _type) [0x00010] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void_string_string_LogType(string,string,UnityEngine.LogType)
+  at Log.SendToLogListeners (System.String _formattedMessage, System.String _trace, UnityEngine.LogType _type, System.DateTime _timestamp, System.Int64 _uptime, System.String _message) [0x00009] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.masterLogStandalone (System.String _txt, UnityEngine.LogType _logType, System.String _trace) [0x0002a] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.Out (System.String _txt) [0x00030] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at ThreadManager.myThreadInvoke (System.Object _threadInfo) [0x0002b] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at System.Threading.ThreadHelper.ThreadStart_Context (System.Object state) [0x00025] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00071] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.Threading.ExecutionContext.Run (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.Threading.ExecutionContext.Run (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state) [0x0002b] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.Threading.ThreadHelper.ThreadStart (System.Object obj) [0x0000f] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+
+2024-08-16T20:56:29 291.871 INF [NET] PlayerConnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='1'
+2024-08-16T20:56:30 293.390 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:56291 / 0 (RemoteConnectionClose)
+2024-08-16T20:56:30 293.427 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:56291 / 0 (RemoteConnectionClose)
+2024-08-16T20:56:30 293.431 INF [NET] PlayerDisconnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='1'
+2024-08-16T20:56:30 293.434 WRN DynamicMusic: -1 was not in Bloodmoon state cache on disconnect
+2024-08-16T20:56:30 293.435 INF Client disconnected from dy mesh: Id: -1 Total: 0
+2024-08-16T20:56:30 293.436 INF Player disconnected: EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='1'
+2024-08-16T20:56:30 293.437 INF Exited thread NCS_Reader_0_0
+2024-08-16T20:56:30 293.439 INF [EOS-ACS] FreeUser: EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='1'
+2024-08-16T20:56:30 293.452 ERR [EOS] [LogEOSAntiCheat - Error] [AntiCheatServer] [UnregisterClient-001] ClientHandle 0000000000000001 not found.
+2024-08-16T20:56:30 293.464 ERR [EOS-ACS] Failed unregistering user: InvalidParameters
+2024-08-16T20:58:53 436.674 INF NET: LiteNetLib: Connect from: 127.0.0.1:55890 / 0
+2024-08-16T20:58:53 436.677 INF Started thread NCS_Reader_0_0
+2024-08-16T20:58:53 436.678 INF Started thread NCS_Writer_0_01
+2024-08-16T20:58:53 436.679 INF [NET] PlayerConnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='2'
+2024-08-16T20:58:53 436.680 INF Started thread NCS_Reader_0_11
+2024-08-16T20:58:53 436.681 INF Started thread NCS_Writer_0_11
+2024-08-16T20:58:54 436.800 INF NPPL.Read
+2024-08-16T20:58:54 436.843 INF PlayerLogin: boqsc/V 1.1
+2024-08-16T20:58:54 436.844 INF Client IP: 127.0.0.1
+2024-08-16T20:58:54 436.849 INF [Auth] PlayerName authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T20:58:54 436.852 INF [Auth] ServerState authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T20:58:54 436.855 INF [Auth] MpHostAllowed authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T20:58:54 436.857 INF [Auth] PlayerId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T20:58:54 436.859 INF [Auth] DuplicateUserId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T20:58:54 436.861 INF [Auth] VersionCheck authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T20:58:54 436.865 INF [Auth] PlayerSlots authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T20:58:54 436.871 INF [Auth] LegacyModAuthorizations authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T20:58:54 436.874 INF [Steamworks.NET] Auth.AuthenticateUser()
+2024-08-16T20:58:54 436.900 INF [Steamworks.NET] Authenticating player: boqsc SteamId: 76561198072601792 TicketLen: 1024 Result: k_EBeginAuthSessionResultOK
+2024-08-16T20:58:55 438.343 INF [Steamworks.NET] Authentication callback. ID: 76561198072601792, owner: 76561198072601792, result: k_EAuthSessionResponseOK
+2024-08-16T20:58:55 438.344 INF [Auth] PlatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T20:58:55 438.346 INF [Auth] SteamFamily authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T20:58:55 438.348 INF [Auth] SteamGroups authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T20:58:55 438.350 INF [EOS] Verifying token for 00020585a34f4b93bf8c21b3cf8d3150
+2024-08-16T20:58:55 438.356 WRN [SteamServer] Tick took exceptionally long: 42 ms
+2024-08-16T20:58:56 438.969 INF [EOS] Device=, Platform=steam, AccType=Steam, AccId=76561198072601792, PUID=00020585a34f4b93bf8c21b3cf8d3150
+2024-08-16T20:58:56 439.666 INF [EOS] Player may have active sanctions
+2024-08-16T20:58:56 439.667 INF [EOS] SanctionsQuery finished with: 0 sanctions
+2024-08-16T20:58:56 439.669 INF [Auth] CrossplatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T20:58:56 439.673 INF [Auth] BansAndWhitelist authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T20:58:56 439.674 INF [Auth] Crossplay authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T20:58:56 439.676 INF [EOS-ACS] Registering user: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T20:59:03 446.300 INF [Auth] EAC authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T20:59:03 446.364 INF [Auth] Finalizer authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T20:59:03 446.373 INF Allowing player with id EOS_00020585a34f4b93bf8c21b3cf8d3150
+2024-08-16T20:59:03 446.564 INF RequestToEnterGame: EOS_00020585a34f4b93bf8c21b3cf8d3150/boqsc
+2024-08-16T20:59:16 459.717 INF Time: 6.86m FPS: 20.00 Heap: 1180.1MB Max: 1180.1MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1905.6MB
+2024-08-16T20:59:47 489.775 INF Time: 7.36m FPS: 20.00 Heap: 1144.0MB Max: 1180.1MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1907.3MB
+2024-08-16T21:00:14 516.986 INF Dymesh: Update items to send for boqsc id: -1  recieved: 0
+2024-08-16T21:00:14 516.992 INF Dymesh: Items to send: 0   Added: 0   chunks: 0
+2024-08-16T21:00:17 519.776 INF Time: 7.86m FPS: 20.00 Heap: 1146.8MB Max: 1180.1MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1907.4MB
+2024-08-16T21:00:39 542.027 INF RequestToSpawnPlayer: 0, boqsc, 6
+WARNING: Shader Unsupported: 'Game/SDCS/Skin' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/SDCS/Skin shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/SDCS/Skin' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/SDCS/Hair' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/SDCS/Hair shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/SDCS/Hair' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-16T21:00:40 543.014 WRN Parameter 'IsMale' not found in animator
+2024-08-16T21:00:40 543.035 INF Created player with id=0
+2024-08-16T21:00:47 550.697 INF [DECO] written 75484, in 25ms
+2024-08-16T21:00:47 550.707 INF [DECO] write thread 7ms
+2024-08-16T21:00:47 550.722 INF Time: 8.36m FPS: 13.88 Heap: 1518.0MB Max: 1518.0MB Chunks: 234 CGO: 31 Ply: 1 Zom: 6 Ent: 7 (7) Items: 0 CO: 1 RSS: 2219.7MB
+2024-08-16T21:00:48 551.529 INF GMSG: Player 'boqsc' joined the game
+2024-08-16T21:00:48 551.546 INF PlayerSpawnedInWorld (reason: JoinMultiplayer, position: 1096, 74, 467): EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T21:01:17 580.749 INF Time: 8.86m FPS: 20.04 Heap: 1522.5MB Max: 1522.5MB Chunks: 234 CGO: 35 Ply: 1 Zom: 6 Ent: 7 (7) Items: 0 CO: 1 RSS: 2226.1MB
+2024-08-16T21:01:48 610.926 INF Time: 9.36m FPS: 19.99 Heap: 1516.7MB Max: 1522.5MB Chunks: 234 CGO: 42 Ply: 1 Zom: 6 Ent: 7 (7) Items: 0 CO: 1 RSS: 2229.0MB
+2024-08-16T21:02:18 640.929 INF Time: 9.86m FPS: 20.00 Heap: 1517.8MB Max: 1522.5MB Chunks: 234 CGO: 35 Ply: 1 Zom: 6 Ent: 7 (7) Items: 0 CO: 1 RSS: 2229.0MB
+2024-08-16T21:02:40 663.032 INF VehicleManager saving 0 (0 + 0)
+2024-08-16T21:02:40 663.049 INF DroneManager saving 0 (0 + 0)
+2024-08-16T21:02:40 663.096 INF TurretTracker saving 0 (0 + 0)
+2024-08-16T21:02:40 663.110 INF DroneManager saved 9 bytes
+2024-08-16T21:02:40 663.127 INF TurretTracker saved 9 bytes
+2024-08-16T21:02:40 663.127 INF VehicleManager saved 9 bytes
+2024-08-16T21:02:48 670.940 INF Time: 10.36m FPS: 19.36 Heap: 1526.7MB Max: 1526.7MB Chunks: 234 CGO: 40 Ply: 1 Zom: 6 Ent: 7 (7) Items: 0 CO: 1 RSS: 2231.1MB
+2024-08-16T21:03:18 700.990 INF Time: 10.86m FPS: 20.01 Heap: 1529.3MB Max: 1529.3MB Chunks: 234 CGO: 37 Ply: 1 Zom: 6 Ent: 7 (7) Items: 0 CO: 1 RSS: 2233.7MB
+2024-08-16T21:03:48 731.164 INF Time: 11.36m FPS: 19.27 Heap: 1517.4MB Max: 1529.3MB Chunks: 234 CGO: 34 Ply: 1 Zom: 5 Ent: 6 (7) Items: 0 CO: 1 RSS: 2236.5MB
+2024-08-16T21:04:18 761.196 INF Time: 11.86m FPS: 19.75 Heap: 1518.5MB Max: 1529.3MB Chunks: 234 CGO: 37 Ply: 1 Zom: 5 Ent: 6 (7) Items: 0 CO: 1 RSS: 2236.5MB
+2024-08-16T21:04:32 775.667 INF Player boqsc disconnected after 3.9 minutes
+2024-08-16T21:04:33 776.126 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:55890 / 0 (RemoteConnectionClose)
+2024-08-16T21:04:33 776.132 INF DynamicMusic: 0 successfully removed from Bloodmoon state cache
+2024-08-16T21:04:33 776.133 INF Client disconnected from dy mesh: Id: 0 Total: 1
+2024-08-16T21:04:33 776.134 INF Player disconnected: EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T21:04:33 776.135 INF [EOS-ACS] FreeUser: EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T21:04:33 776.136 INF Exited thread NCS_Reader_0_0
+2024-08-16T21:04:33 776.137 INF Exited thread NCS_Writer_0_01
+2024-08-16T21:04:33 776.138 INF Exited thread NCS_Writer_0_11
+2024-08-16T21:04:33 776.139 INF Exited thread NCS_Reader_0_11
+2024-08-16T21:04:33 776.143 INF GMSG: Player 'boqsc' left the game
+IOException: Sharing violation on path C:\Users\WINDOW~1\AppData\Local\Temp\The Fun Pimps\7 Days To Die\Player.log
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append) [0x00008] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool)
+  at BacktraceUtils.Backtrace_LogCallbacks (System.String _msg, System.String _trace, UnityEngine.LogType _type) [0x00010] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void_string_string_LogType(string,string,UnityEngine.LogType)
+  at Log.SendToLogListeners (System.String _formattedMessage, System.String _trace, UnityEngine.LogType _type, System.DateTime _timestamp, System.Int64 _uptime, System.String _message) [0x00009] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.masterLogStandalone (System.String _txt, UnityEngine.LogType _logType, System.String _trace) [0x0002a] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.Out (System.String _txt) [0x00030] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at GameManager.DisplayGameMessage (EnumGameMessages _type, System.Int32 _mainEntity, System.Int32 _secondaryEntity, System.Boolean _log) [0x0010a] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at GameManager.FinishGameMessageServer (ClientInfo _cInfo, EnumGameMessages _type, System.String _msg, System.Int32 _mainEntityId, System.Int32 _secondaryEntityId, System.String _mainName) [0x00030] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at GameManager.GameMessageServer (ClientInfo _cInfo, EnumGameMessages _type, System.String _msg, System.Int32 _mainEntityId, System.Int32 _secondaryEntityId) [0x00032] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at GameManager.GameMessage (EnumGameMessages _type, System.String _msg, EntityAlive _mainEntity, EntityAlive _otherEntity) [0x00059] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at GameManager.GameMessage (EnumGameMessages _type, EntityAlive _mainEntity, EntityAlive _otherEntity) [0x00000] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at ConnectionManager.DisconnectClient (ClientInfo _cInfo, System.Boolean _bShutdown, System.Boolean _clientDisconnect) [0x00176] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at GameManager.PlayerDisconnected (ClientInfo _cInfo) [0x00091] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at NetPackagePlayerDisconnect.ProcessPackage (World _world, GameManager _callbacks) [0x0000f] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at ConnectionManager.ProcessPackages (INetConnection _connection, NetPackageDirection _disallowedDirection, ClientInfo _clientInfo) [0x000f0] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at ConnectionManager.Update () [0x000a1] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+
+2024-08-16T21:04:33 776.146 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:55890 / 0 (RemoteConnectionClose)
+2024-08-16T21:04:33 776.147 INF [NET] PlayerDisconnected EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T21:04:33 776.148 WRN DynamicMusic: 0 was not in Bloodmoon state cache on disconnect
+2024-08-16T21:04:33 776.148 INF Client disconnected from dy mesh: Id: 0 Total: 1
+2024-08-16T21:04:33 776.149 INF Player disconnected: EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T21:04:33 776.150 INF [EOS-ACS] FreeUser: EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-16T21:04:33 776.150 ERR [EOS] [LogEOSAntiCheat - Error] [AntiCheatServer] [UnregisterClient-001] ClientHandle 0000000000000002 not found.
+2024-08-16T21:04:33 776.151 ERR [EOS-ACS] Failed unregistering user: InvalidParameters
+2024-08-16T21:04:33 776.152 INF GMSG: Player 'boqsc' left the game
+2024-08-16T21:04:33 776.261 ERR [EOS] Failed unregistering player in session: NoChange
+2024-08-16T21:04:40 782.904 INF NET: LiteNetLib: Connect from: 127.0.0.1:49769 / 0
+[NM] SocketReceiveThread error: System.IO.IOException: Sharing violation on path C:\Users\WINDOW~1\AppData\Local\Temp\The Fun Pimps\7 Days To Die\Player.log
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append) [0x00008] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool)
+  at BacktraceUtils.Backtrace_LogCallbacks (System.String _msg, System.String _trace, UnityEngine.LogType _type) [0x00010] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void_string_string_LogType(string,string,UnityEngine.LogType)
+  at Log.SendToLogListeners (System.String _formattedMessage, System.String _trace, UnityEngine.LogType _type, System.DateTime _timestamp, System.Int64 _uptime, System.String _message) [0x00009] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.masterLogStandalone (System.String _txt, UnityEngine.LogType _logType, System.String _trace) [0x0002a] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.Out (System.String _txt) [0x00030] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at NetworkServerLiteNetLib.<StartServer>b__14_0 (LiteNetLib.NetPeer _peer) [0x0001b] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnPeerConnected (LiteNetLib.NetPeer peer) [0x00008] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00042] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.CreateEvent (LiteNetLib.NetEvent+EType type, LiteNetLib.NetPeer peer, System.Net.IPEndPoint remoteEndPoint, System.Net.Sockets.SocketError errorCode, System.Int32 latency, LiteNetLib.DisconnectReason disconnectReason, LiteNetLib.ConnectionRequest connectionRequest, LiteNetLib.DeliveryMethod deliveryMethod, LiteNetLib.NetPacket readerSource, System.Object userData) [0x000ca] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.OnConnectionSolved (LiteNetLib.ConnectionRequest request, System.Byte[] rejectData, System.Int32 start, System.Int32 length) [0x00131] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.ConnectionRequest.Accept () [0x00011] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at NetworkServerLiteNetLib.ConnectionRequestCheck (LiteNetLib.ConnectionRequest _request) [0x00104] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnConnectionRequest (LiteNetLib.ConnectionRequest request) [0x00008] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00128] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.CreateEvent (LiteNetLib.NetEvent+EType type, LiteNetLib.NetPeer peer, System.Net.IPEndPoint remoteEndPoint, System.Net.Sockets.SocketError errorCode, System.Int32 latency, LiteNetLib.DisconnectReason disconnectReason, LiteNetLib.ConnectionRequest connectionRequest, LiteNetLib.DeliveryMethod deliveryMethod, LiteNetLib.NetPacket readerSource, System.Object userData) [0x000ca] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessConnectRequest (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPeer netPeer, LiteNetLib.NetConnectRequestPacket connRequest) [0x000c0] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.DataReceived (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x001f9] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.OnMessageReceived (LiteNetLib.NetPacket packet, System.Net.Sockets.SocketError errorCode, System.Net.IPEndPoint remoteEndPoint) [0x0002e] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+2024-08-16T21:04:41 783.848 INF Clearing all pools
+2024-08-16T21:04:48 791.439 INF Time: 12.36m FPS: 20.00 Heap: 1547.5MB Max: 1547.5MB Chunks: 234 CGO: 0 Ply: 0 Zom: 5 Ent: 0 (7) Items: 0 CO: 0 RSS: 2253.0MB
