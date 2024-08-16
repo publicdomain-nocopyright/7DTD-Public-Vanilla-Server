@@ -11,17 +11,17 @@ NullGfxDevice:
     Renderer: Null Device
     Vendor:   Unity Technologies
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.360 seconds
-- Finished resetting the current domain, in  0.003 seconds
+- Loaded All Assemblies, in  0.217 seconds
+- Finished resetting the current domain, in  0.002 seconds
 ERROR: Shader Hidden/LandClaimBoundary shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
 ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 ERROR: Shader Unlit/Transparent Colored shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-UnloadTime: 2.399700 ms
+UnloadTime: 0.919900 ms
 ERROR: Shader GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.594900 ms
+UnloadTime: 2.135900 ms
 This custom render path shader needs to have at least 1 passes.
 Could not find material Hidden/VideoDecode. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
 Could not find video decode shader pass YCbCr_To_RGB1 in shader <not found>
@@ -34,44 +34,44 @@ Could not find video decode shader pass Flip_NV12_To_RGBA in shader <not found>
 This custom render path shader needs to have at least 1 passes.
 Could not find material Hidden/VideoComposite. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
 Could not find video decode shader pass Default in shader <not found>
-2024-08-16T12:58:36 0.081 INF Backtrace Initialized
-2024-08-16T12:58:36 0.141 INF Version: V 1.1 (b4) Compatibility Version: V 1.1, Build: WindowsPlayer 64 Bit
-2024-08-16T12:58:36 0.142 INF System information:
-2024-08-16T12:58:36 0.144 INF    OS: Windows 10  (10.0.19045) 64bit
-2024-08-16T12:58:36 0.145 INF    CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz (cores: 4)
-2024-08-16T12:58:36 0.147 INF    RAM: 16276 MB
-2024-08-16T12:58:36 0.148 INF    GPU: Null Device (128 MB)
-2024-08-16T12:58:36 0.163 INF    Graphics API: NULL 1.0 [1.0] (shader level 3.0)
-2024-08-16T12:58:36 0.169 INF Local UTC offset: 3 hours
-2024-08-16T12:58:36 0.225 INF Command line arguments: 7DaysToDie -logfile C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\\7DaysToDie_Data\output_log__2024-08-16__12-58-33.txt -quit -batchmode -nographics -configfile=C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\serverconfig.xml -dedicated
-2024-08-16T12:58:36 0.230 INF Parsing server configfile: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\serverconfig.xml
-2024-08-16T12:58:36 0.381 INF Parsing server configfile successfully completed
-2024-08-16T12:58:36 0.383 INF UserDataFolder: C:\Users\Windows10\AppData\Roaming/7DaysToDie
-2024-08-16T12:58:36 0.388 INF [Platform] Init
-2024-08-16T12:58:36 0.542 INF [Platform] Using native platform: Steam
-2024-08-16T12:58:36 0.546 INF [Platform] Using cross platform: EOS
-2024-08-16T12:58:36 0.548 INF [Platform] Using server platform: Steam
-2024-08-16T12:58:36 0.549 INF [Platform] Using server platform: XBL
-2024-08-16T12:58:36 0.550 INF [Platform] Using server platform: PSN
-2024-08-16T12:58:36 0.561 INF Starting PlayerInputManager...
-2024-08-16T12:58:36 0.566 INF InControl (version 1.8.9 build 9376, native module = False, XInput = False)
-2024-08-16T12:58:36 0.577 INF InControl (version 1.8.9 build 9376)
-2024-08-16T12:58:37 1.539 INF UnityInputDeviceManager enabled.
-2024-08-16T12:58:37 1.610 INF [Platform] Initializing Steam
-2024-08-16T12:58:37 1.667 INF [Platform] Initializing EOS
-2024-08-16T12:58:37 1.823 INF [EOS] Initialize: Success
-2024-08-16T12:58:37 1.918 INF [Platform] Initializing XBL
-2024-08-16T12:58:37 1.920 INF [Platform] Initializing PSN
-2024-08-16T12:58:37 1.923 INF [SaveDataUtils] InitStatic Begin
-2024-08-16T12:58:37 1.929 INF [SaveDataUtils] SdPlayerPrefs -> Unity
-2024-08-16T12:58:37 1.930 INF [SaveDataUtils] InitStatic Complete
-2024-08-16T12:58:37 1.959 INF Last played version: V 1.1
-2024-08-16T12:58:37 1.967 INF Starting dedicated server level=Navezgane game name=My Game
-2024-08-16T12:58:37 1.968 INF Maximum allowed players: 16
-2024-08-16T12:58:37 1.969 INF Game mode: GameModeSurvival
-2024-08-16T12:58:38 2.533 INF Localization language from prefs: english
+2024-08-16T14:15:51 0.039 INF Backtrace Initialized
+2024-08-16T14:15:51 0.073 INF Version: V 1.1 (b4) Compatibility Version: V 1.1, Build: WindowsPlayer 64 Bit
+2024-08-16T14:15:51 0.074 INF System information:
+2024-08-16T14:15:51 0.075 INF    OS: Windows 10  (10.0.19045) 64bit
+2024-08-16T14:15:51 0.076 INF    CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz (cores: 4)
+2024-08-16T14:15:51 0.077 INF    RAM: 16276 MB
+2024-08-16T14:15:51 0.078 INF    GPU: Null Device (128 MB)
+2024-08-16T14:15:51 0.085 INF    Graphics API: NULL 1.0 [1.0] (shader level 3.0)
+2024-08-16T14:15:51 0.087 INF Local UTC offset: 3 hours
+2024-08-16T14:15:51 0.116 INF Command line arguments: 7DaysToDie -logfile C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\\7DaysToDie_Data\output_log__2024-08-16__14-15-49.txt -quit -batchmode -nographics -configfile=C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\serverconfig.xml -dedicated
+2024-08-16T14:15:51 0.119 INF Parsing server configfile: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\serverconfig.xml
+2024-08-16T14:15:51 0.192 INF Parsing server configfile successfully completed
+2024-08-16T14:15:51 0.193 INF UserDataFolder: C:\Users\Windows10\AppData\Roaming/7DaysToDie
+2024-08-16T14:15:51 0.196 INF [Platform] Init
+2024-08-16T14:15:51 0.254 INF [Platform] Using native platform: Steam
+2024-08-16T14:15:51 0.256 INF [Platform] Using cross platform: EOS
+2024-08-16T14:15:51 0.257 INF [Platform] Using server platform: Steam
+2024-08-16T14:15:51 0.257 INF [Platform] Using server platform: XBL
+2024-08-16T14:15:51 0.258 INF [Platform] Using server platform: PSN
+2024-08-16T14:15:51 0.264 INF Starting PlayerInputManager...
+2024-08-16T14:15:51 0.266 INF InControl (version 1.8.9 build 9376, native module = False, XInput = False)
+2024-08-16T14:15:51 0.271 INF InControl (version 1.8.9 build 9376)
+2024-08-16T14:15:51 0.450 INF UnityInputDeviceManager enabled.
+2024-08-16T14:15:51 0.474 INF [Platform] Initializing Steam
+2024-08-16T14:15:51 0.488 INF [Platform] Initializing EOS
+2024-08-16T14:15:51 0.524 INF [EOS] Initialize: Success
+2024-08-16T14:15:51 0.556 INF [Platform] Initializing XBL
+2024-08-16T14:15:51 0.557 INF [Platform] Initializing PSN
+2024-08-16T14:15:51 0.560 INF [SaveDataUtils] InitStatic Begin
+2024-08-16T14:15:51 0.563 INF [SaveDataUtils] SdPlayerPrefs -> Unity
+2024-08-16T14:15:51 0.563 INF [SaveDataUtils] InitStatic Complete
+2024-08-16T14:15:51 0.582 INF Last played version: V 1.1
+2024-08-16T14:15:51 0.586 INF Starting dedicated server level=Navezgane game name=My Game
+2024-08-16T14:15:51 0.587 INF Maximum allowed players: 16
+2024-08-16T14:15:51 0.587 INF Game mode: GameModeSurvival
+2024-08-16T14:15:51 0.887 INF Localization language from prefs: english
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 5913.
-Total: 33.899200 ms (FindLiveObjects: 0.315500 ms CreateObjectMapping: 0.312600 ms MarkObjects: 33.216400 ms  DeleteObjects: 0.054400 ms)
+Total: 10.852500 ms (FindLiveObjects: 0.305800 ms CreateObjectMapping: 0.246800 ms MarkObjects: 10.210400 ms  DeleteObjects: 0.088800 ms)
 
 ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
@@ -88,7 +88,6 @@ ERROR: Shader 7DTD/Cube_UI_Frame shader is not supported on this GPU (none of su
 WARNING: Shader Unsupported: '7DTD/Cube_UI_Frame' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
 WARNING: Shader Unsupported: '7DTD/Cube_UI_Glow' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -96,10 +95,12 @@ ERROR: Shader 7DTD/Cube_UI_Glow shader is not supported on this GPU (none of sub
 WARNING: Shader Unsupported: '7DTD/Cube_UI_Glow' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-UnloadTime: 0.977300 ms
-2024-08-16T12:58:38 2.745 INF Awake IsFocused: True
-2024-08-16T12:58:38 2.745 INF Awake
-2024-08-16T12:58:39 3.398 INF Started Terminal Window
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.725100 ms
+2024-08-16T14:15:52 0.999 INF Awake IsFocused: True
+2024-08-16T14:15:52 1.000 INF Awake
+2024-08-16T14:15:52 1.405 INF WinThread started
+2024-08-16T14:15:52 1.506 INF Started Terminal Window
 ERROR: Shader Occlusion/DepthCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 WARNING: Shader Unsupported: 'Standard' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
@@ -108,11 +109,10 @@ ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/f
 WARNING: Shader Unsupported: 'Standard' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-2024-08-16T12:58:39 3.457 INF Occlusion: Awake
-2024-08-16T12:58:39 3.465 INF Texture quality is set to 3
-2024-08-16T12:58:39 3.469 INF WinThread started
+2024-08-16T14:15:52 1.553 INF Occlusion: Awake
+2024-08-16T14:15:52 1.563 INF Texture quality is set to 3
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 6147.
-Total: 16.841900 ms (FindLiveObjects: 0.405900 ms CreateObjectMapping: 0.384700 ms MarkObjects: 16.017200 ms  DeleteObjects: 0.033600 ms)
+Total: 12.137300 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.294900 ms MarkObjects: 11.482900 ms  DeleteObjects: 0.062800 ms)
 
 ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
@@ -129,37 +129,37 @@ ERROR: Shader Game/Entity Tint Mask shader is not supported on this GPU (none of
 WARNING: Shader Unsupported: 'Game/Entity Tint Mask' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-2024-08-16T12:58:39 3.992 INF [MODS] Start loading from: 'C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/../Mods'
-2024-08-16T12:58:39 4.002 INF [MODS]   Trying to load from folder: '0_TFP_Harmony'
-2024-08-16T12:58:40 4.033 INF [MODS]     Loaded Mod: TFP_Harmony (1.1.0.4)
-2024-08-16T12:58:40 4.035 INF [MODS]   Trying to load from folder: 'disable'
-2024-08-16T12:58:40 4.036 WRN [MODS]     Folder disable does not contain a ModInfo.xml, ignoring
-2024-08-16T12:58:40 4.036 INF [MODS]   Trying to load from folder: 'Double Vehicle Speeds'
-2024-08-16T12:58:40 4.040 INF [MODS]     Loaded Mod: DoubleVehicleSpeeds (1.0)
-2024-08-16T12:58:40 4.041 INF [MODS]   Trying to load from folder: 'JaWoodleKHA20 - MegaCityGen'
-2024-08-16T12:58:40 4.042 ERR [MODS]     JaWoodleKHA20 - MegaCityGen/ModInfo.xml in legacy format. V2 required to load mod
-2024-08-16T12:58:40 4.043 ERR [MODS]     Could not parse JaWoodleKHA20 - MegaCityGen/ModInfo.xml, ignoring
-2024-08-16T12:58:40 4.044 INF [MODS]   Trying to load from folder: 'LHG_InfoPanel_IMG'
-2024-08-16T12:58:40 4.046 INF [MODS]     Loaded Mod: LHG_InfoPanel_IMG (0.0.0.6)
-2024-08-16T12:58:40 4.047 INF [MODS]   Trying to load from folder: 'UI_ESC_1_Menu'
-2024-08-16T12:58:40 4.049 INF [MODS]     Loaded Mod: Add_UI_ESC_Menu_UI (21.0)
-2024-08-16T12:58:40 4.050 INF [MODS] Initializing mod code
-2024-08-16T12:58:40 4.051 INF [MODS]   Initializing mod TFP_Harmony
-2024-08-16T12:58:40 4.088 INF [MODS]     Found ModAPI in TfpHarmony.dll, creating instance
-2024-08-16T12:58:40 4.090 INF [MODS]       [Harmony] Init done
-Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/MonoBleedingEdge/data-00000206B2A070B0.dll
-2024-08-16T12:58:40 4.706 INF [MODS]     Initialized code in mod 'TFP_Harmony' from DLL 'TfpHarmony.dll'
-2024-08-16T12:58:40 4.707 INF [MODS] Loading done
-2024-08-16T12:58:40 4.712 INF [MODS] Loading localization from mod: LHG_InfoPanel_IMG
-2024-08-16T12:58:40 4.715 INF [MODS] Loading localization from mod: Add_UI_ESC_Menu_UI
-2024-08-16T12:58:40 4.750 INF Loading permissions file at 'C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/serveradmin.xml'
-2024-08-16T12:58:40 4.792 WRN Ignoring unknown section in permissions file: apitokens
-2024-08-16T12:58:40 4.793 WRN Ignoring unknown section in permissions file: webmodules
-2024-08-16T12:58:40 4.794 WRN Ignoring unknown section in permissions file: webusers
-2024-08-16T12:58:40 4.795 INF Loading permissions file done.
-2024-08-16T12:58:41 5.521 INF Reloading serveradmin.xml
-2024-08-16T12:58:41 5.522 INF Loading permissions file at 'C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/serveradmin.xml'
-2024-08-16T12:58:41 5.524 INF Permissions file unchanged, skipping reloading
+2024-08-16T14:15:52 1.768 INF [MODS] Start loading from: 'C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/../Mods'
+2024-08-16T14:15:52 1.775 INF [MODS]   Trying to load from folder: '0_TFP_Harmony'
+2024-08-16T14:15:52 1.795 INF [MODS]     Loaded Mod: TFP_Harmony (1.1.0.4)
+2024-08-16T14:15:52 1.796 INF [MODS]   Trying to load from folder: 'disable'
+2024-08-16T14:15:52 1.797 WRN [MODS]     Folder disable does not contain a ModInfo.xml, ignoring
+2024-08-16T14:15:52 1.798 INF [MODS]   Trying to load from folder: 'Double Vehicle Speeds'
+2024-08-16T14:15:52 1.800 INF [MODS]     Loaded Mod: DoubleVehicleSpeeds (1.0)
+2024-08-16T14:15:52 1.801 INF [MODS]   Trying to load from folder: 'JaWoodleKHA20 - MegaCityGen'
+2024-08-16T14:15:52 1.803 ERR [MODS]     JaWoodleKHA20 - MegaCityGen/ModInfo.xml in legacy format. V2 required to load mod
+2024-08-16T14:15:52 1.803 ERR [MODS]     Could not parse JaWoodleKHA20 - MegaCityGen/ModInfo.xml, ignoring
+2024-08-16T14:15:52 1.804 INF [MODS]   Trying to load from folder: 'LHG_InfoPanel_IMG'
+2024-08-16T14:15:52 1.805 INF [MODS]     Loaded Mod: LHG_InfoPanel_IMG (0.0.0.6)
+2024-08-16T14:15:52 1.806 INF [MODS]   Trying to load from folder: 'UI_ESC_1_Menu'
+2024-08-16T14:15:52 1.807 INF [MODS]     Loaded Mod: Add_UI_ESC_Menu_UI (21.0)
+2024-08-16T14:15:52 1.808 INF [MODS] Initializing mod code
+2024-08-16T14:15:52 1.809 INF [MODS]   Initializing mod TFP_Harmony
+2024-08-16T14:15:52 1.830 INF [MODS]     Found ModAPI in TfpHarmony.dll, creating instance
+2024-08-16T14:15:52 1.832 INF [MODS]       [Harmony] Init done
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/MonoBleedingEdge/data-0000022449768090.dll
+2024-08-16T14:15:53 2.209 INF [MODS]     Initialized code in mod 'TFP_Harmony' from DLL 'TfpHarmony.dll'
+2024-08-16T14:15:53 2.209 INF [MODS] Loading done
+2024-08-16T14:15:53 2.212 INF [MODS] Loading localization from mod: LHG_InfoPanel_IMG
+2024-08-16T14:15:53 2.213 INF [MODS] Loading localization from mod: Add_UI_ESC_Menu_UI
+2024-08-16T14:15:53 2.228 INF Loading permissions file at 'C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/serveradmin.xml'
+2024-08-16T14:15:53 2.263 WRN Ignoring unknown section in permissions file: apitokens
+2024-08-16T14:15:53 2.263 WRN Ignoring unknown section in permissions file: webmodules
+2024-08-16T14:15:53 2.264 WRN Ignoring unknown section in permissions file: webusers
+2024-08-16T14:15:53 2.264 INF Loading permissions file done.
+2024-08-16T14:15:54 2.980 INF Reloading serveradmin.xml
+2024-08-16T14:15:54 2.981 INF Loading permissions file at 'C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/serveradmin.xml'
+2024-08-16T14:15:54 2.983 INF Permissions file unchanged, skipping reloading
 WARNING: Shader Unsupported: 'Game Particles/partPyro_fireShader_A' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -240,8 +240,8 @@ WARNING: Shader Unsupported: '7DTD/7DTD_Fire' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 ERROR: Shader Legacy/AlphaSelfIllum shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-ERROR: Shader Particles/Blood_Particle shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 ERROR: Shader Legacy Shaders/Particles/Alpha Blended Premultiply shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Particles/Blood_Particle shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 WARNING: Shader Unsupported: 'Game Particles/Standard Surface' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -432,25 +432,25 @@ WARNING: Shader Unsupported: 'stainedGlass' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 ERROR: Shader Hidden/Game/ChunkTransparent shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-2024-08-16T12:58:56 20.516 INF Loaded (local): events in 0.02
-2024-08-16T12:58:56 20.550 INF Loaded (local): rwgmixer in 0.03
-2024-08-16T12:58:56 20.590 INF Loaded (local): archetypes in 0.03
-2024-08-16T12:58:56 20.599 INF Loaded (local): loadingscreen in 0.00
-2024-08-16T12:58:56 20.625 INF Added 1335 subtitle data entries and 3 speaker colors
-2024-08-16T12:58:56 20.626 INF Loaded (local): subtitles in 0.01
-2024-08-16T12:58:56 20.630 INF Loaded (local): videos in 0.00
-2024-08-16T12:58:56 20.632 INF WorldStaticData.Init() needed 15.000s
-2024-08-16T12:58:56 20.700 INF Started Telnet on 8081
-2024-08-16T12:58:56 20.718 INF [PartyQuests] Initialized
-2024-08-16T12:58:56 20.720 INF Awake done in 17974 ms
+2024-08-16T14:16:02 11.864 INF Loaded (local): events in 0.01
+2024-08-16T14:16:02 11.888 INF Loaded (local): rwgmixer in 0.02
+2024-08-16T14:16:03 11.925 INF Loaded (local): archetypes in 0.03
+2024-08-16T14:16:03 11.929 INF Loaded (local): loadingscreen in 0.00
+2024-08-16T14:16:03 11.948 INF Added 1335 subtitle data entries and 3 speaker colors
+2024-08-16T14:16:03 11.948 INF Loaded (local): subtitles in 0.01
+2024-08-16T14:16:03 11.951 INF Loaded (local): videos in 0.00
+2024-08-16T14:16:03 11.953 INF WorldStaticData.Init() needed 9.000s
+2024-08-16T14:16:03 12.013 INF Started Telnet on 8081
+2024-08-16T14:16:03 12.028 INF [PartyQuests] Initialized
+2024-08-16T14:16:03 12.030 INF Awake done in 11030 ms
 ERROR: Shader Unlit/Text shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-2024-08-16T12:58:59 23.401 INF NET: Starting server protocols
-2024-08-16T12:58:59 23.406 INF [NET] Disabling protocol: SteamNetworking
-2024-08-16T12:58:59 23.465 INF NET: LiteNetLib server started
-2024-08-16T12:58:59 23.470 INF [PlatformApplication] restart required = False
-2024-08-16T12:58:59 23.471 INF StartGame
-2024-08-16T12:58:59 23.473 INF NetPackageManager Init
-2024-08-16T12:58:59 23.721 INF Persistent GamePrefs saved
+2024-08-16T14:16:05 14.697 INF NET: Starting server protocols
+2024-08-16T14:16:05 14.701 INF [NET] Disabling protocol: SteamNetworking
+2024-08-16T14:16:05 14.752 INF NET: LiteNetLib server started
+2024-08-16T14:16:05 14.756 INF [PlatformApplication] restart required = False
+2024-08-16T14:16:05 14.756 INF StartGame
+2024-08-16T14:16:05 14.758 INF NetPackageManager Init
+2024-08-16T14:16:06 14.998 INF Persistent GamePrefs saved
 GamePref.AdminFileName = serveradmin.xml
 GamePref.AirDropFrequency = 72
 GamePref.AirDropMarker = True
@@ -519,7 +519,7 @@ GamePref.Language = English
 GamePref.LanguageBrowser = English
 GamePref.LastGameResetRevision = 13
 GamePref.LastLoadedPrefab = 
-GamePref.LastLoadingTipRead = 0
+GamePref.LastLoadingTipRead = 2
 GamePref.LootAbundance = 100
 GamePref.LootRespawnDays = 7
 GamePref.LootTimer = 
@@ -774,14 +774,14 @@ GameStat.TwitchBloodMoonAllowed = True
 GameStat.UNUSED_ShowZombieCounter = 
 GameStat.XPMultiplier = 100
 GameStat.ZombieHordeMeter = False
-2024-08-16T12:58:59 23.825 INF StartAsServer
-2024-08-16T12:58:59 23.863 INF Setting for 'BloodMoonEnemyCount' does not match the default (server will go to the modded category): current = 16, default = 8
-2024-08-16T12:58:59 23.864 INF Setting for 'QuestProgressionDailyLimit' not within the default range (server will go to the modded category): current = 9999, default = -1 - 8
-2024-08-16T12:59:00 24.424 INF Loaded (local): events in 0.10
-2024-08-16T12:59:01 25.123 INF Loaded (local): materials in 0.30
-2024-08-16T12:59:01 25.473 INF Loaded (local): physicsbodies in 0.10
-2024-08-16T12:59:01 25.823 INF Loaded (local): painting in 0.10
-2024-08-16T12:59:02 26.222 INF Loaded (local): shapes in 0.10
+2024-08-16T14:16:06 15.102 INF StartAsServer
+2024-08-16T14:16:06 15.135 INF Setting for 'BloodMoonEnemyCount' does not match the default (server will go to the modded category): current = 16, default = 8
+2024-08-16T14:16:06 15.136 INF Setting for 'QuestProgressionDailyLimit' not within the default range (server will go to the modded category): current = 9999, default = -1 - 8
+2024-08-16T14:16:06 15.675 INF Loaded (local): events in 0.10
+2024-08-16T14:16:07 16.426 INF Loaded (local): materials in 0.30
+2024-08-16T14:16:07 16.826 INF Loaded (local): physicsbodies in 0.10
+2024-08-16T14:16:08 17.225 INF Loaded (local): painting in 0.10
+2024-08-16T14:16:08 17.625 INF Loaded (local): shapes in 0.10
 ERROR: Shader Legacy Shaders/Transparent/Cutout/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 WARNING: Shader Unsupported: 'Game/SpeedTree' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
@@ -1017,13 +1017,13 @@ WARNING: Shader Unsupported: 'Game Particles/shader_gas_unlit' - All subshaders 
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Unloading 5 Unused Serialized files (Serialized files now loaded: 12)
-2024-08-16T12:59:27 51.420 INF Block IDs with mapping
-2024-08-16T12:59:27 51.439 INF Block IDs total 23973, terr 29, last 24195
-2024-08-16T12:59:27 51.488 INF Loaded (local): blocks in 24.43
-Unloading 72878 unused Assets to reduce memory usage. Loaded Objects now: 80983.
-Total: 505.343200 ms (FindLiveObjects: 9.914600 ms CreateObjectMapping: 18.561800 ms MarkObjects: 445.899400 ms  DeleteObjects: 30.967200 ms)
+2024-08-16T14:16:29 37.993 INF Block IDs with mapping
+2024-08-16T14:16:29 38.009 INF Block IDs total 23973, terr 29, last 24195
+2024-08-16T14:16:29 38.042 INF Loaded (local): blocks in 19.73
+Unloading 73040 unused Assets to reduce memory usage. Loaded Objects now: 80821.
+Total: 420.272400 ms (FindLiveObjects: 10.735100 ms CreateObjectMapping: 18.924500 ms MarkObjects: 365.426300 ms  DeleteObjects: 25.185300 ms)
 
-2024-08-16T12:59:28 52.392 INF Loaded (local): progression in 0.24
+2024-08-16T14:16:29 38.850 INF Loaded (local): progression in 0.18
 WARNING: Shader Unsupported: '7DTD_Unity5/WaterInBucket' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -1031,8 +1031,8 @@ ERROR: Shader 7DTD_Unity5/WaterInBucket shader is not supported on this GPU (non
 WARNING: Shader Unsupported: '7DTD_Unity5/WaterInBucket' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-2024-08-16T12:59:29 53.064 INF Loaded (local): buffs in 0.32
-2024-08-16T12:59:29 53.461 INF Loaded (local): misc in 0.10
+2024-08-16T14:16:30 39.340 INF Loaded (local): buffs in 0.24
+2024-08-16T14:16:30 39.708 INF Loaded (local): misc in 0.10
 WARNING: Shader Unsupported: '7DTD/TorchGlow' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -1054,7 +1054,7 @@ ERROR: Shader Game/TorchFire shader is not supported on this GPU (none of subsha
 WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-2024-08-16T12:59:30 54.699 INF Loaded (local): items in 0.79
+2024-08-16T14:16:31 40.738 INF Loaded (local): items in 0.63
 ERROR: Shader Shader Forge/7DTD_Particle_Additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 WARNING: Shader Unsupported: 'Game/Glass Reflex' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
@@ -1063,100 +1063,73 @@ ERROR: Shader Game/Glass Reflex shader is not supported on this GPU (none of sub
 WARNING: Shader Unsupported: 'Game/Glass Reflex' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-2024-08-16T12:59:31 55.181 INF Item IDs with mapping
-2024-08-16T12:59:31 55.183 INF ItemIDs from Mapping
-2024-08-16T12:59:31 55.191 INF ItemClass assignLeftOverItems 66876 of 81920
-2024-08-16T12:59:31 55.297 INF Loaded (local): item_modifiers in 0.12
-2024-08-16T12:59:31 55.726 INF Loaded (local): entityclasses in 0.18
-2024-08-16T12:59:32 56.054 INF Loaded (local): qualityinfo in 0.10
-2024-08-16T12:59:32 56.472 INF Loaded (local): sounds in 0.12
-2024-08-16T12:59:32 56.874 INF Loaded (local): recipes in 0.10
-2024-08-16T12:59:33 57.225 INF Loaded (local): blockplaceholders in 0.10
-2024-08-16T12:59:33 57.575 INF Loaded (local): loot in 0.10
-2024-08-16T12:59:33 57.923 INF Loaded (local): entitygroups in 0.10
-2024-08-16T12:59:34 58.275 INF Loaded (local): utilityai in 0.10
-2024-08-16T12:59:34 58.624 INF Loaded (local): vehicles in 0.10
-2024-08-16T12:59:34 58.973 INF Loaded (local): rwgmixer in 0.10
-2024-08-16T12:59:35 59.324 INF Loaded (local): weathersurvival in 0.10
-2024-08-16T12:59:35 59.674 INF Loaded (local): archetypes in 0.10
-2024-08-16T12:59:36 60.024 INF Loaded (local): challenges in 0.10
-2024-08-16T12:59:36 60.442 INF Loaded (local): quests in 0.17
-2024-08-16T12:59:36 60.792 INF Loaded (local): traders in 0.10
-2024-08-16T12:59:37 61.142 INF Loaded (local): npc in 0.10
-2024-08-16T12:59:37 61.490 INF Loaded (local): dialogs in 0.10
-2024-08-16T12:59:37 61.842 INF Loaded (local): ui_display in 0.10
-2024-08-16T12:59:38 62.191 INF Loaded (local): nav_objects in 0.10
-2024-08-16T12:59:38 62.541 INF Loaded (local): gamestages in 0.10
-2024-08-16T12:59:39 63.310 INF Loaded (local): gameevents in 0.52
-2024-08-16T12:59:39 63.668 INF Loaded (local): twitch in 0.12
-2024-08-16T12:59:40 64.006 INF Loaded (local): twitch_events in 0.10
-2024-08-16T12:59:40 64.361 INF Loaded (local): dmscontent in 0.10
-2024-08-16T12:59:40 64.711 INF Loaded (local): XUi_Common/styles in 0.10
-2024-08-16T12:59:41 65.062 INF Loaded (local): XUi_Common/controls in 0.10
-2024-08-16T12:59:41 65.414 INF Loaded (local): XUi/styles in 0.10
-2024-08-16T12:59:41 65.760 INF Loaded (local): XUi/controls in 0.10
-2024-08-16T12:59:42 66.117 INF Loaded (local): XUi/windows in 0.11
-2024-08-16T12:59:42 66.461 INF Loaded (local): XUi/xui in 0.10
-2024-08-16T12:59:42 66.811 INF Loaded (local): biomes in 0.10
-2024-08-16T12:59:43 67.160 INF Loaded (local): worldglobal in 0.10
-2024-08-16T12:59:43 67.563 INF Loaded (local): spawning in 0.10
-2024-08-16T12:59:43 67.913 INF Loaded (local): loadingscreen in 0.10
-2024-08-16T12:59:44 68.317 INF Added 1335 subtitle data entries and 3 speaker colors
-2024-08-16T12:59:44 68.362 INF Loaded (local): subtitles in 0.10
-2024-08-16T12:59:44 68.717 INF Loaded (local): videos in 0.11
-2024-08-16T12:59:44 68.863 INF Loading players.xml
-2024-08-16T12:59:44 68.939 INF createWorld: Navezgane, My Game, GameModeSurvival
-2024-08-16T12:59:44 68.941 INF Occlusion: Disabled
-2024-08-16T12:59:44 68.976 INF Started thread ChunkRegeneration
-2024-08-16T12:59:44 68.988 INF Started thread ChunkCalc
-2024-08-16T12:59:44 68.995 INF Started thread ChunkMeshBake
-2024-08-16T12:59:45 69.072 INF World.Load: Navezgane
-2024-08-16T12:59:45 69.103 INF BloodMoon SetDay: day 7, last day 0, freq 7, range 0
-2024-08-16T12:59:45 69.133 INF Started thread WaterSimulationApplyChanges
-2024-08-16T12:59:47 71.721 INF NET: LiteNetLib: Connect from: 127.0.0.1:61533 / 0
-2024-08-16T12:59:47 71.741 INF Started thread NCS_Reader_0_0
-2024-08-16T12:59:47 71.765 INF Started thread NCS_Writer_0_0
-2024-08-16T12:59:47 71.782 INF Started thread NCS_Reader_0_1
-2024-08-16T12:59:47 71.795 INF Started thread NCS_Writer_0_1
-2024-08-16T12:59:47 71.827 INF [NET] PlayerConnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='1'
-2024-08-16T12:59:47 71.892 INF NPPL.Read
-2024-08-16T12:59:47 71.924 INF PlayerLogin: boqsc/V 1.1
-2024-08-16T12:59:47 71.925 INF Client IP: 127.0.0.1
-2024-08-16T12:59:47 71.929 INF [Auth] PlayerName authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
-2024-08-16T12:59:47 71.931 INF [Auth] ServerState authorization failed: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
-2024-08-16T12:59:47 71.934 INF Kicking player (Server is still initializing): EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
-2024-08-16T12:59:47 71.958 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:61533 / 0 (RemoteConnectionClose)
-2024-08-16T12:59:47 71.993 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:61533 / 0 (RemoteConnectionClose)
-2024-08-16T12:59:47 71.994 INF [NET] PlayerDisconnected EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
-2024-08-16T12:59:47 71.996 INF Player disconnected: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
-2024-08-16T12:59:47 71.997 INF Exited thread NCS_Reader_0_0
-2024-08-16T12:59:47 71.999 INF Exited thread NCS_Writer_0_0
-2024-08-16T12:59:47 72.000 INF Exited thread NCS_Reader_0_1
-2024-08-16T12:59:47 72.000 INF Exited thread NCS_Writer_0_1
-2024-08-16T12:59:48 72.189 ERR [EOS] Failed unregistering player in session: NotFound
-2024-08-16T12:59:48 72.459 WRN DisconnectClient: Player EOS_00020585a34f4b93bf8c21b3cf8d3150 not found
-2024-08-16T12:59:48 72.460 INF From: UnityEngine.StackTraceUtility:ExtractStackTrace ()
-ConnectionManager:DisconnectClient (ClientInfo,bool,bool)
-GameUtils/<disconnectLater>d__49:MoveNext ()
-UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
-
-2024-08-16T12:59:52 76.941 INF Started thread GenerateChunks
-2024-08-16T12:59:54 78.207 INF Calculating world hashes took 1165 ms (world size 191 MiB)
-2024-08-16T12:59:54 78.215 INF Initial ENABLE_FILE_BACKED_ARRAYS == False
-2024-08-16T12:59:54 78.355 INF Loading dtm raw file took 1362ms
-2024-08-16T12:59:54 78.550 INF Biomes image size w= 3072, h = 3072
-2024-08-16T12:59:55 79.892 INF Loading and creating biomes took 1536ms
+2024-08-16T14:16:32 41.144 INF Item IDs with mapping
+2024-08-16T14:16:32 41.146 INF ItemIDs from Mapping
+2024-08-16T14:16:32 41.153 INF ItemClass assignLeftOverItems 66876 of 81920
+2024-08-16T14:16:32 41.235 INF Loaded (local): item_modifiers in 0.09
+2024-08-16T14:16:32 41.622 INF Loaded (local): entityclasses in 0.14
+2024-08-16T14:16:33 41.937 INF Loaded (local): qualityinfo in 0.10
+2024-08-16T14:16:33 42.340 INF Loaded (local): sounds in 0.10
+2024-08-16T14:16:33 42.697 INF Loaded (local): recipes in 0.11
+2024-08-16T14:16:34 43.097 INF Loaded (local): blockplaceholders in 0.10
+2024-08-16T14:16:34 43.497 INF Loaded (local): loot in 0.10
+2024-08-16T14:16:34 43.845 INF Loaded (local): entitygroups in 0.10
+2024-08-16T14:16:35 44.246 INF Loaded (local): utilityai in 0.10
+2024-08-16T14:16:35 44.598 INF Loaded (local): vehicles in 0.10
+2024-08-16T14:16:36 44.946 INF Loaded (local): rwgmixer in 0.10
+2024-08-16T14:16:36 45.296 INF Loaded (local): weathersurvival in 0.10
+2024-08-16T14:16:36 45.697 INF Loaded (local): archetypes in 0.10
+2024-08-16T14:16:37 46.046 INF Loaded (local): challenges in 0.10
+2024-08-16T14:16:37 46.428 INF Loaded (local): quests in 0.13
+2024-08-16T14:16:37 46.778 INF Loaded (local): traders in 0.10
+2024-08-16T14:16:38 47.127 INF Loaded (local): npc in 0.10
+2024-08-16T14:16:38 47.478 INF Loaded (local): dialogs in 0.10
+2024-08-16T14:16:38 47.827 INF Loaded (local): ui_display in 0.10
+2024-08-16T14:16:39 48.177 INF Loaded (local): nav_objects in 0.10
+2024-08-16T14:16:39 48.527 INF Loaded (local): gamestages in 0.10
+2024-08-16T14:16:40 49.204 INF Loaded (local): gameevents in 0.38
+2024-08-16T14:16:40 49.558 INF Loaded (local): twitch in 0.10
+2024-08-16T14:16:41 49.908 INF Loaded (local): twitch_events in 0.10
+2024-08-16T14:16:41 50.258 INF Loaded (local): dmscontent in 0.10
+2024-08-16T14:16:41 50.608 INF Loaded (local): XUi_Common/styles in 0.10
+2024-08-16T14:16:42 50.958 INF Loaded (local): XUi_Common/controls in 0.10
+2024-08-16T14:16:42 51.308 INF Loaded (local): XUi/styles in 0.10
+2024-08-16T14:16:42 51.708 INF Loaded (local): XUi/controls in 0.10
+2024-08-16T14:16:43 52.057 INF Loaded (local): XUi/windows in 0.10
+2024-08-16T14:16:43 52.408 INF Loaded (local): XUi/xui in 0.10
+2024-08-16T14:16:43 52.758 INF Loaded (local): biomes in 0.10
+2024-08-16T14:16:44 53.108 INF Loaded (local): worldglobal in 0.10
+2024-08-16T14:16:44 53.458 INF Loaded (local): spawning in 0.10
+2024-08-16T14:16:44 53.808 INF Loaded (local): loadingscreen in 0.10
+2024-08-16T14:16:45 54.110 INF Added 1335 subtitle data entries and 3 speaker colors
+2024-08-16T14:16:45 54.157 INF Loaded (local): subtitles in 0.10
+2024-08-16T14:16:45 54.507 INF Loaded (local): videos in 0.10
+2024-08-16T14:16:45 54.659 INF Loading players.xml
+2024-08-16T14:16:45 54.706 INF createWorld: Navezgane, My Game, GameModeSurvival
+2024-08-16T14:16:45 54.708 INF Occlusion: Disabled
+2024-08-16T14:16:45 54.723 INF Started thread ChunkRegeneration
+2024-08-16T14:16:45 54.724 INF Started thread ChunkCalc
+2024-08-16T14:16:45 54.728 INF Started thread ChunkMeshBake
+2024-08-16T14:16:45 54.811 INF World.Load: Navezgane
+2024-08-16T14:16:45 54.839 INF BloodMoon SetDay: day 7, last day 0, freq 7, range 0
+2024-08-16T14:16:45 54.866 INF Started thread WaterSimulationApplyChanges
+2024-08-16T14:16:52 60.967 INF Started thread GenerateChunks
+2024-08-16T14:16:53 62.328 INF Calculating world hashes took 1262 ms (world size 191 MiB)
+2024-08-16T14:16:53 62.332 INF Initial ENABLE_FILE_BACKED_ARRAYS == False
+2024-08-16T14:16:53 62.431 INF Loading dtm raw file took 1413ms
+2024-08-16T14:16:53 62.583 INF Biomes image size w= 3072, h = 3072
+2024-08-16T14:16:54 63.579 INF Loading and creating biomes took 1147ms
 Texture with ID 2744 and with size 6144x6144 was too large for graphics device maximum supported texture size (4096x4096). Falling back to a dummy texture. Generate mip maps to provide lower size fallback.
 Texture with ID 2745 and with size 6144x6144 was too large for graphics device maximum supported texture size (4096x4096). Falling back to a dummy texture. Generate mip maps to provide lower size fallback.
-2024-08-16T12:59:57 81.371 INF Loading and creating shader control textures took 1477ms
-2024-08-16T12:59:58 82.420 INF Loading and parsing of generator took 1048ms
-2024-08-16T12:59:58 82.491 INF Computed 415 chunk groups containing a total of 8472 chunks. Largest group contains 449 chunks.
-2024-08-16T12:59:58 82.564 INF Started thread SaveChunks C:\Users\Windows10\AppData\Roaming\7DaysToDie\Saves\Navezgane\My Game\Region
-2024-08-16T13:00:01 85.097 INF [DECO] read 75484
-2024-08-16T13:00:01 85.267 INF Dynamic Music Initialized on Server
-2024-08-16T13:00:01 85.268 INF Dynamic Music Initialized on Dedi
-2024-08-16T13:00:01 85.272 INF AstarManager Init
-2024-08-16T13:00:01 85.758 INF WeatherManager: Init 8 weather packages
+2024-08-16T14:16:55 64.661 INF Loading and creating shader control textures took 1081ms
+2024-08-16T14:16:56 65.479 INF Loading and parsing of generator took 817ms
+2024-08-16T14:16:56 65.545 INF Computed 415 chunk groups containing a total of 8472 chunks. Largest group contains 449 chunks.
+2024-08-16T14:16:56 65.573 INF Started thread SaveChunks C:\Users\Windows10\AppData\Roaming\7DaysToDie\Saves\Navezgane\My Game\Region
+2024-08-16T14:16:58 67.295 INF [DECO] read 75484
+2024-08-16T14:16:58 67.438 INF Dynamic Music Initialized on Server
+2024-08-16T14:16:58 67.438 INF Dynamic Music Initialized on Dedi
+2024-08-16T14:16:58 67.442 INF AstarManager Init
+2024-08-16T14:16:58 67.755 INF WeatherManager: Init 8 weather packages
 WARNING: Shader Unsupported: '7DTD_Unity5/Wire' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -1164,89 +1137,102 @@ ERROR: Shader 7DTD_Unity5/Wire shader is not supported on this GPU (none of subs
 WARNING: Shader Unsupported: '7DTD_Unity5/Wire' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-2024-08-16T13:00:02 86.214 INF WeatherManager: ApplySavedPackages
-2024-08-16T13:00:02 86.224 INF createWorld() done
-2024-08-16T13:00:02 86.320 INF Loaded player
-2024-08-16T13:00:02 86.369 INF VehicleManager C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/vehicles.dat, loaded 0
-2024-08-16T13:00:02 86.373 INF DroneManager C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/drones.dat, loaded 0
-2024-08-16T13:00:02 86.375 INF TurretTracker C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/turrets.dat, loaded 0
-2024-08-16T13:00:02 86.467 INF [EOS] Registering server
-2024-08-16T13:00:02 86.508 INF [PlayerInteractions] JoinedMultiplayerServer not supported with current platforms
-2024-08-16T13:00:02 86.514 INF [EAC] Starting EAC server
-2024-08-16T13:00:06 90.143 INF [DECO] written 75484, in 28ms
-2024-08-16T13:00:06 90.152 INF [DECO] write thread 5ms
-2024-08-16T13:00:06 90.467 INF Loading dymesh settings
-2024-08-16T13:00:06 90.468 INF Dynamic Mesh Settings
-2024-08-16T13:00:06 90.469 INF Use Imposter Values: True
-2024-08-16T13:00:06 90.470 INF Only Player Areas: True
-2024-08-16T13:00:06 90.470 INF Player Area Buffer: 3
-2024-08-16T13:00:06 90.471 INF Max View Distance: 1000
-2024-08-16T13:00:06 90.472 INF Regen all on new world: False
-2024-08-16T13:00:06 90.477 INF Dymesh: Prepping dynamic mesh. Resend Default: True
-2024-08-16T13:00:06 90.478 INF Dymesh: Mesh location: C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/DynamicMeshes/
-2024-08-16T13:00:06 90.519 INF StartGame done
-2024-08-16T13:00:06 90.524 INF [Steamworks.NET] Registering auth callbacks
-2024-08-16T13:00:06 90.530 INF [Steamworks.NET] GameServer.Init successful
-2024-08-16T13:00:06 90.542 INF [Steamworks.NET] Making server public
-2024-08-16T13:00:06 90.773 INF [EOS] Server registered, session: ada341e26b024f7eba9b8f9614e0558f
-2024-08-16T13:00:06 90.784 INF [EOS] Session address: 7*.6*.4*.22*
-2024-08-16T13:00:07 91.222 INF Dymesh: Warming dynamic mesh
-2024-08-16T13:00:07 91.223 INF Dymesh: Creating dynamic mesh manager
-2024-08-16T13:00:07 91.229 INF Dymesh: Awake
-2024-08-16T13:00:07 91.230 INF Dymesh: Mesh location: C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/DynamicMeshes/
-2024-08-16T13:00:07 91.233 INF Dymesh: Loading Items: C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/DynamicMeshes/
-2024-08-16T13:00:07 91.237 INF Dymesh: Loaded Items: 0
-2024-08-16T13:00:07 91.240 INF Dymesh: Loading all items took: 0.006983 seconds.
-2024-08-16T13:00:07 91.248 INF Clearing queues.
-2024-08-16T13:00:07 91.250 INF Cleared queues.
-2024-08-16T13:00:07 91.272 INF Dynamic thread starting
-2024-08-16T13:00:07 91.276 INF Dymesh door replacement: imposterBlock
-2024-08-16T13:00:08 92.783 INF [Steamworks.NET] GameServer.LogOn successful, SteamID=90200986093961240, public IP=7*.6*.4*.22*
-2024-08-16T13:00:13 97.992 INF NET: LiteNetLib: Connect from: 127.0.0.1:64599 / 0
-2024-08-16T13:00:14 98.005 INF Started thread NCS_Reader_0_0
-2024-08-16T13:00:14 98.016 INF Started thread NCS_Writer_0_0
-2024-08-16T13:00:14 98.019 INF Started thread NCS_Reader_0_1
-2024-08-16T13:00:14 98.028 INF [NET] PlayerConnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='2'
-2024-08-16T13:00:14 98.031 INF Started thread NCS_Writer_0_1
-2024-08-16T13:00:14 98.083 INF NPPL.Read
-2024-08-16T13:00:14 98.129 INF PlayerLogin: boqsc/V 1.1
-2024-08-16T13:00:14 98.130 INF Client IP: 127.0.0.1
-2024-08-16T13:00:14 98.131 INF [Auth] PlayerName authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:00:14 98.132 INF [Auth] ServerState authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:00:14 98.134 INF [Auth] MpHostAllowed authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:00:14 98.137 INF [Auth] PlayerId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:00:14 98.139 INF [Auth] DuplicateUserId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:00:14 98.142 INF [Auth] VersionCheck authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:00:14 98.147 INF [Auth] PlayerSlots authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:00:14 98.149 INF [Auth] LegacyModAuthorizations authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:00:14 98.151 INF [Steamworks.NET] Auth.AuthenticateUser()
-2024-08-16T13:00:14 98.168 INF [Steamworks.NET] Authenticating player: boqsc SteamId: 76561198072601792 TicketLen: 1024 Result: k_EBeginAuthSessionResultOK
-2024-08-16T13:00:15 99.607 INF [Steamworks.NET] Authentication callback. ID: 76561198072601792, owner: 76561198072601792, result: k_EAuthSessionResponseOK
-2024-08-16T13:00:15 99.607 INF [Auth] PlatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:00:15 99.609 INF [Auth] SteamFamily authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:00:15 99.614 INF [Auth] SteamGroups authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:00:15 99.616 INF [EOS] Verifying token for 00020585a34f4b93bf8c21b3cf8d3150
-2024-08-16T13:00:15 99.751 WRN [SteamServer] Tick took exceptionally long: 159 ms
-2024-08-16T13:00:16 100.312 INF [EOS] Device=, Platform=steam, AccType=Steam, AccId=76561198072601792, PUID=00020585a34f4b93bf8c21b3cf8d3150
-2024-08-16T13:00:16 100.959 INF [EOS] Player may have active sanctions
-2024-08-16T13:00:16 100.961 INF [EOS] SanctionsQuery finished with: 0 sanctions
-2024-08-16T13:00:16 100.963 INF [Auth] CrossplatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:00:16 100.967 INF [Auth] BansAndWhitelist authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:00:16 100.969 INF [Auth] Crossplay authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:00:16 100.972 INF [EOS-ACS] Registering user: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:00:24 108.006 INF [Auth] EAC authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:00:24 108.056 INF [Auth] Finalizer authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:00:24 108.069 INF Allowing player with id EOS_00020585a34f4b93bf8c21b3cf8d3150
-2024-08-16T13:00:24 108.206 INF RequestToEnterGame: EOS_00020585a34f4b93bf8c21b3cf8d3150/boqsc
-2024-08-16T13:00:35 119.861 INF Time: 1.51m FPS: 20.00 Heap: 1147.9MB Max: 1147.9MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1902.5MB
-2024-08-16T13:01:05 149.906 INF Time: 2.01m FPS: 20.00 Heap: 1149.5MB Max: 1149.5MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1902.5MB
-2024-08-16T13:01:08 152.462 INF Dymesh: Update items to send for boqsc id: -1  recieved: 0
-2024-08-16T13:01:08 152.468 INF Dymesh: Items to send: 0   Added: 0   chunks: 0
-2024-08-16T13:01:35 179.957 INF Time: 2.51m FPS: 20.00 Heap: 1153.8MB Max: 1153.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1902.6MB
-2024-08-16T13:02:06 210.350 INF Time: 3.01m FPS: 20.00 Heap: 1130.6MB Max: 1153.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1902.6MB
-2024-08-16T13:02:36 240.349 INF Time: 3.51m FPS: 20.00 Heap: 1131.6MB Max: 1153.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1902.6MB
-2024-08-16T13:03:06 270.352 INF Time: 4.01m FPS: 20.00 Heap: 1132.8MB Max: 1153.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1902.6MB
-2024-08-16T13:03:08 272.450 INF RequestToSpawnPlayer: 0, boqsc, 6
+2024-08-16T14:16:59 68.203 INF WeatherManager: ApplySavedPackages
+2024-08-16T14:16:59 68.210 INF createWorld() done
+2024-08-16T14:16:59 68.302 INF Loaded player
+2024-08-16T14:16:59 68.355 INF VehicleManager C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/vehicles.dat, loaded 0
+2024-08-16T14:16:59 68.357 INF DroneManager C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/drones.dat, loaded 0
+2024-08-16T14:16:59 68.359 INF TurretTracker C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/turrets.dat, loaded 0
+2024-08-16T14:16:59 68.456 INF [EOS] Registering server
+2024-08-16T14:16:59 68.486 INF [PlayerInteractions] JoinedMultiplayerServer not supported with current platforms
+2024-08-16T14:16:59 68.490 INF [EAC] Starting EAC server
+2024-08-16T14:17:02 71.111 INF Loading dymesh settings
+2024-08-16T14:17:02 71.113 INF Dynamic Mesh Settings
+2024-08-16T14:17:02 71.113 INF Use Imposter Values: True
+2024-08-16T14:17:02 71.114 INF Only Player Areas: True
+2024-08-16T14:17:02 71.114 INF Player Area Buffer: 3
+2024-08-16T14:17:02 71.115 INF Max View Distance: 1000
+2024-08-16T14:17:02 71.115 INF Regen all on new world: False
+2024-08-16T14:17:02 71.121 INF Dymesh: Prepping dynamic mesh. Resend Default: True
+2024-08-16T14:17:02 71.121 INF Dymesh: Mesh location: C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/DynamicMeshes/
+2024-08-16T14:17:02 71.181 INF StartGame done
+2024-08-16T14:17:02 71.184 INF [Steamworks.NET] Registering auth callbacks
+2024-08-16T14:17:02 71.190 INF [Steamworks.NET] GameServer.Init successful
+2024-08-16T14:17:02 71.196 INF [Steamworks.NET] Making server public
+2024-08-16T14:17:02 71.586 INF [EOS] Server registered, session: e54f813aaedf47fa8e877666431dc410
+2024-08-16T14:17:02 71.595 INF [EOS] Session address: 7*.6*.4*.22*
+2024-08-16T14:17:02 71.883 INF Dymesh: Warming dynamic mesh
+2024-08-16T14:17:02 71.884 INF Dymesh: Creating dynamic mesh manager
+2024-08-16T14:17:02 71.890 INF Dymesh: Awake
+2024-08-16T14:17:02 71.891 INF Dymesh: Mesh location: C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/DynamicMeshes/
+2024-08-16T14:17:02 71.894 INF Dymesh: Loading Items: C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/Navezgane/My Game/DynamicMeshes/
+2024-08-16T14:17:02 71.898 INF Dymesh: Loaded Items: 0
+2024-08-16T14:17:02 71.901 INF Dymesh: Loading all items took: 0.0069786 seconds.
+2024-08-16T14:17:03 71.908 INF Clearing queues.
+2024-08-16T14:17:03 71.910 INF Cleared queues.
+2024-08-16T14:17:03 71.912 INF Dynamic thread starting
+2024-08-16T14:17:03 71.915 INF Dymesh door replacement: imposterBlock
+2024-08-16T14:17:04 73.716 INF [Steamworks.NET] GameServer.LogOn successful, SteamID=90200988900413464, public IP=7*.6*.4*.22*
+2024-08-16T14:17:08 77.336 INF [DECO] written 75484, in 23ms
+2024-08-16T14:17:08 77.343 INF [DECO] write thread 4ms
+2024-08-16T14:18:32 161.742 INF Reloading serveradmin.xml
+2024-08-16T14:18:32 161.743 INF Loading permissions file at 'C:\Users\Windows10\AppData\Roaming/7DaysToDie\Saves/serveradmin.xml'
+2024-08-16T14:18:32 161.744 INF Permissions file unchanged, skipping reloading
+2024-08-16T14:31:51 959.920 INF NET: LiteNetLib: Connect from: 127.0.0.1:49619 / 0
+2024-08-16T14:31:51 959.947 INF Started thread NCS_Reader_0_0
+2024-08-16T14:31:51 960.042 INF Started thread NCS_Writer_0_0
+2024-08-16T14:31:51 960.074 INF Started thread NCS_Reader_0_1
+2024-08-16T14:31:51 960.112 INF Started thread NCS_Writer_0_1
+2024-08-16T14:31:51 960.135 INF [NET] PlayerConnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='1'
+2024-08-16T14:31:51 960.339 INF NPPL.Read
+2024-08-16T14:31:51 960.373 INF PlayerLogin: boqsc/V 1.1
+2024-08-16T14:31:51 960.374 INF Client IP: 127.0.0.1
+2024-08-16T14:31:51 960.379 INF [Auth] PlayerName authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:31:51 960.384 INF [Auth] ServerState authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:31:51 960.386 INF [Auth] MpHostAllowed authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:31:51 960.388 INF [Auth] PlayerId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:31:51 960.390 INF [Auth] DuplicateUserId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:31:51 960.392 INF [Auth] VersionCheck authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:31:51 960.396 INF [Auth] PlayerSlots authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:31:51 960.398 INF [Auth] LegacyModAuthorizations authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:31:51 960.403 INF [Steamworks.NET] Auth.AuthenticateUser()
+2024-08-16T14:31:51 960.422 INF [Steamworks.NET] Authenticating player: boqsc SteamId: 76561198072601792 TicketLen: 1024 Result: k_EBeginAuthSessionResultOK
+2024-08-16T14:31:52 961.791 INF [Steamworks.NET] Authentication callback. ID: 76561198072601792, owner: 76561198072601792, result: k_EAuthSessionResponseOK
+2024-08-16T14:31:52 961.793 INF [Auth] PlatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:31:52 961.795 INF [Auth] SteamFamily authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:31:52 961.798 INF [Auth] SteamGroups authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:31:52 961.802 INF [EOS] Verifying token for 00020585a34f4b93bf8c21b3cf8d3150
+2024-08-16T14:31:52 961.806 WRN [SteamServer] Tick took exceptionally long: 31 ms
+2024-08-16T14:31:53 962.282 INF [EOS] Device=, Platform=steam, AccType=Steam, AccId=76561198072601792, PUID=00020585a34f4b93bf8c21b3cf8d3150
+2024-08-16T14:31:54 962.979 INF [EOS] Player may have active sanctions
+2024-08-16T14:31:54 962.981 INF [EOS] SanctionsQuery finished with: 0 sanctions
+2024-08-16T14:31:54 962.984 INF [Auth] CrossplatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:31:54 962.988 INF [Auth] BansAndWhitelist authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:31:54 962.990 INF [Auth] Crossplay authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:31:54 962.994 INF [EOS-ACS] Registering user: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:32:00 969.076 INF [Auth] EAC authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:32:00 969.126 INF [Auth] Finalizer authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:32:00 969.137 INF Allowing player with id EOS_00020585a34f4b93bf8c21b3cf8d3150
+2024-08-16T14:32:00 969.326 INF RequestToEnterGame: EOS_00020585a34f4b93bf8c21b3cf8d3150/boqsc
+2024-08-16T14:32:04 973.631 INF Time: 15.91m FPS: 20.00 Heap: 1178.2MB Max: 1178.2MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1727.6MB
+2024-08-16T14:32:34 1003.626 INF Time: 16.41m FPS: 20.00 Heap: 1179.8MB Max: 1179.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1729.2MB
+2024-08-16T14:33:04 1033.752 INF Time: 16.91m FPS: 20.00 Heap: 1144.4MB Max: 1179.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1730.7MB
+2024-08-16T14:33:21 1050.259 INF Dymesh: Update items to send for boqsc id: -1  recieved: 0
+2024-08-16T14:33:21 1050.265 INF Dymesh: Items to send: 0   Added: 0   chunks: 0
+2024-08-16T14:33:34 1063.800 INF Time: 17.41m FPS: 20.00 Heap: 1146.7MB Max: 1179.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1730.8MB
+2024-08-16T14:34:04 1093.801 INF Time: 17.91m FPS: 20.00 Heap: 1147.8MB Max: 1179.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1730.8MB
+2024-08-16T14:34:34 1123.853 INF Time: 18.41m FPS: 20.00 Heap: 1149.0MB Max: 1179.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1730.8MB
+2024-08-16T14:35:05 1154.173 INF Time: 18.91m FPS: 20.00 Heap: 1144.3MB Max: 1179.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1730.8MB
+2024-08-16T14:35:35 1184.219 INF Time: 19.41m FPS: 19.99 Heap: 1145.2MB Max: 1179.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1730.8MB
+2024-08-16T14:36:05 1214.268 INF Time: 19.91m FPS: 20.00 Heap: 1146.1MB Max: 1179.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1730.8MB
+2024-08-16T14:36:35 1244.269 INF Time: 20.41m FPS: 20.01 Heap: 1147.2MB Max: 1179.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1730.8MB
+2024-08-16T14:37:05 1274.511 INF Time: 20.91m FPS: 20.00 Heap: 1144.3MB Max: 1179.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1730.8MB
+2024-08-16T14:37:35 1304.559 INF Time: 21.41m FPS: 20.00 Heap: 1145.2MB Max: 1179.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1730.8MB
+2024-08-16T14:38:05 1334.560 INF Time: 21.91m FPS: 19.99 Heap: 1146.2MB Max: 1179.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1730.8MB
+2024-08-16T14:38:35 1364.560 INF Time: 22.41m FPS: 19.99 Heap: 1147.3MB Max: 1179.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1730.8MB
+2024-08-16T14:39:05 1394.818 INF Time: 22.91m FPS: 20.00 Heap: 1144.3MB Max: 1179.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1730.8MB
+2024-08-16T14:39:35 1424.867 INF Time: 23.41m FPS: 20.00 Heap: 1145.3MB Max: 1179.8MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1730.8MB
+2024-08-16T14:39:44 1433.022 INF RequestToSpawnPlayer: 0, boqsc, 6
 WARNING: Shader Unsupported: 'Game/SDCS/Skin' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -1261,323 +1247,23 @@ ERROR: Shader Game/SDCS/Hair shader is not supported on this GPU (none of subsha
 WARNING: Shader Unsupported: 'Game/SDCS/Hair' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-2024-08-16T13:03:09 273.357 WRN Parameter 'IsMale' not found in animator
-2024-08-16T13:03:09 273.401 INF Created player with id=0
-2024-08-16T13:03:14 278.320 INF GMSG: Player 'boqsc' joined the game
-2024-08-16T13:03:14 278.333 INF PlayerSpawnedInWorld (reason: JoinMultiplayer, position: 1096, 74, 468): EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:03:20 284.943 INF Player boqsc disconnected after 0.2 minutes
-2024-08-16T13:03:21 285.489 INF DynamicMusic: 0 successfully removed from Bloodmoon state cache
-2024-08-16T13:03:21 285.494 INF Client disconnected from dy mesh: Id: 0 Total: 1
-2024-08-16T13:03:21 285.496 INF Player disconnected: EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:03:21 285.497 INF [EOS-ACS] FreeUser: EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
-2024-08-16T13:03:21 285.499 INF Exited thread NCS_Writer_0_0
-2024-08-16T13:03:21 285.500 INF Exited thread NCS_Writer_0_1
-2024-08-16T13:03:21 285.506 INF Exited thread NCS_Reader_0_1
-2024-08-16T13:03:21 285.507 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:64599 / 0 (RemoteConnectionClose)
-2024-08-16T13:03:21 285.511 INF Exited thread NCS_Reader_0_0
-2024-08-16T13:03:21 285.549 INF GMSG: Player 'boqsc' left the game
-2024-08-16T13:03:21 285.568 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:64599 / 0 (RemoteConnectionClose)
-2024-08-16T13:03:29 293.256 INF Clearing all pools
-2024-08-16T13:03:37 301.606 INF Time: 4.51m FPS: 20.00 Heap: 1371.9MB Max: 1371.9MB Chunks: 234 CGO: 0 Ply: 0 Zom: 6 Ent: 0 (7) Items: 0 CO: 0 RSS: 2201.6MB
-2024-08-16T13:03:47 311.138 INF Shutdown game from Terminal Window
-2024-08-16T13:03:47 311.259 INF Preparing quit
-2024-08-16T13:03:47 311.263 INF Disconnect
-2024-08-16T13:03:47 311.266 INF [NET] ServerShutdown
-2024-08-16T13:03:47 311.268 INF NET: Stopping server protocols
-2024-08-16T13:03:47 311.539 INF NET: LiteNetLib server stopped
-2024-08-16T13:03:47 311.547 INF SaveAndCleanupWorld
-2024-08-16T13:03:47 311.580 INF Saving 0 of chunks took 21ms
-2024-08-16T13:03:47 311.635 INF [DECO] written 75484, in 54ms
-2024-08-16T13:03:47 311.691 INF [Steamworks.NET] Exiting Lobby
-2024-08-16T13:03:47 311.696 INF [EOS] Unregistering server
-2024-08-16T13:03:47 311.701 INF [Steamworks.NET] Stopping server
-2024-08-16T13:03:47 311.736 INF [DECO] write thread 5ms
-2024-08-16T13:03:48 312.436 INF [MODS] Loading localization from mod: LHG_InfoPanel_IMG
-2024-08-16T13:03:48 312.437 INF [MODS] Loading localization from mod: Add_UI_ESC_Menu_UI
-2024-08-16T13:03:48 312.443 INF AstarManager Cleanup
-2024-08-16T13:03:48 312.572 INF Clearing queues.
-2024-08-16T13:03:48 312.580 INF Cleared queues.
-2024-08-16T13:03:50 314.526 INF Clearing queues.
-2024-08-16T13:03:50 314.527 INF Cleared queues.
-2024-08-16T13:03:50 314.536 INF World.Unload
-2024-08-16T13:03:50 314.543 INF Exited thread GenerateChunks
-2024-08-16T13:03:50 314.549 INF Exited thread SaveChunks C:\Users\Windows10\AppData\Roaming\7DaysToDie\Saves\Navezgane\My Game\Region
-2024-08-16T13:03:50 314.566 INF World.Cleanup
-2024-08-16T13:03:50 314.573 INF Exited thread ChunkRegeneration
-2024-08-16T13:03:50 314.583 INF Exited thread ChunkCalc
-2024-08-16T13:03:50 314.584 INF Exited thread ChunkMeshBake
-2024-08-16T13:03:50 314.593 INF Exited thread WaterSimulationApplyChanges
-2024-08-16T13:03:50 314.601 INF VehicleManager saving 0 (0 + 0)
-2024-08-16T13:03:50 314.605 INF VehicleManager saved 9 bytes
-2024-08-16T13:03:50 314.606 INF DroneManager saving 0 (0 + 0)
-2024-08-16T13:03:50 314.611 INF DroneManager saved 9 bytes
-2024-08-16T13:03:50 314.613 INF TurretTracker saving 0 (0 + 0)
-2024-08-16T13:03:50 314.616 INF TurretTracker saved 9 bytes
-2024-08-16T13:03:50 314.626 INF Persistent GamePrefs saved
-2024-08-16T13:03:50 314.837 INF Persistent GamePrefs saved
-2024-08-16T13:03:50 314.838 INF Cleanup
-2024-08-16T13:03:50 314.840 INF Closing Terminal Window
-2024-08-16T13:03:50 314.869 INF WinThread ended
-2024-08-16T13:03:50 314.871 INF Ended Terminal Window
-2024-08-16T13:03:50 315.000 INF [EOS] Server unregistered
-2024-08-16T13:03:51 315.799 INF Terminating threads
-2024-08-16T13:03:51 315.800 INF OnApplicationQuit
-2024-08-16T13:03:51 315.801 INF Terminating threads
-2024-08-16T13:03:51 315.801 INF OnApplicationQuit
-Memory Statistics:
-[ALLOC_TEMP_TLS] TLS Allocator
-  StackAllocators : 
-    [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 2 frames, [8.0 KB-16.0 KB]: 821 frames, [16.0 KB-32.0 KB]: 147 frames, [32.0 KB-64.0 KB]: 95 frames, [64.0 KB-128.0 KB]: 3809 frames, [128.0 KB-256.0 KB]: 530 frames, [256.0 KB-0.5 MB]: 3 frames, [0.5 MB-1.0 MB]: 4 frames, [1.0 MB-2.0 MB]: 4 frames, [2.0 MB-4.0 MB]: 5 frames, [4.0 MB-8.0 MB]: 4 frames
-      Initial Block Size 4.0 MB
-      Current Block Size 8.0 MB
-      Peak Allocated Bytes 7.2 MB
-      Overflow Count 16783
-    [ALLOC_TEMP_Loading.AsyncRead]
-      Initial Block Size 64.0 KB
-      Current Block Size 128.0 KB
-      Peak Allocated Bytes 127.7 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Loading.PreloadManager]
-      Initial Block Size 256.0 KB
-      Current Block Size 0.5 MB
-      Peak Allocated Bytes 509.8 KB
-      Overflow Count 34
-    [ALLOC_TEMP_Background Job.Worker 8]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 9]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 0]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 181.9 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 10]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 14]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 6]
-      Initial Block Size 32.0 KB
-      Current Block Size 56.0 KB
-      Peak Allocated Bytes 53.1 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 12]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_EnlightenWorker] x 2
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 15]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 1]
-      Initial Block Size 32.0 KB
-      Current Block Size 56.0 KB
-      Peak Allocated Bytes 53.1 KB
-      Overflow Count 2
-    [ALLOC_TEMP_Background Job.Worker 2]
-      Initial Block Size 32.0 KB
-      Current Block Size 40.0 KB
-      Peak Allocated Bytes 39.7 KB
-      Overflow Count 1
-    [ALLOC_TEMP_Background Job.Worker 7]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 3
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 138 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 5]
-      Initial Block Size 32.0 KB
-      Current Block Size 48.0 KB
-      Peak Allocated Bytes 45.5 KB
-      Overflow Count 1
-    [ALLOC_TEMP_Background Job.Worker 13]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 1]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 182.2 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 2]
-      Initial Block Size 256.0 KB
-      Current Block Size 340.0 KB
-      Peak Allocated Bytes 285.1 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 3]
-      Initial Block Size 32.0 KB
-      Current Block Size 36.0 KB
-      Peak Allocated Bytes 32.0 KB
-      Overflow Count 1
-    [ALLOC_TEMP_Background Job.Worker 11]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 0]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 4]
-      Initial Block Size 32.0 KB
-      Current Block Size 36.0 KB
-      Peak Allocated Bytes 32.0 KB
-      Overflow Count 1
-    [ALLOC_TEMP_BatchDeleteObjects]
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-[ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 16928
-    [ALLOC_BUCKET]
-      Large Block size 4.0 MB
-      Used Block count 1
-      Peak Allocated bytes 4.0 MB
-      Failed Allocations. Bucket layout:
-        16B: 1 Subsections = 1024 buckets. Failed count: 431481
-        32B: 13 Subsections = 6656 buckets. Failed count: 107273
-        48B: 49 Subsections = 16725 buckets. Failed count: 487304
-        64B: 30 Subsections = 7680 buckets. Failed count: 269728
-        80B: 151 Subsections = 30924 buckets. Failed count: 33496
-        96B: 8 Subsections = 1365 buckets. Failed count: 27871
-        112B: 2 Subsections = 292 buckets. Failed count: 5452
-        128B: 2 Subsections = 256 buckets. Failed count: 54021
-    [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 311 frames, [32.0 MB-64.0 MB]: 5111 frames, [64.0 MB-128.0 MB]: 2 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 5
-      Peak Allocated memory 73.2 MB
-      Peak Large allocation bytes 36.0 MB
-    [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 413 frames, [16.0 MB-32.0 MB]: 4289 frames, [32.0 MB-64.0 MB]: 556 frames, [64.0 MB-128.0 MB]: 165 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 5
-      Peak Allocated memory 65.2 MB
-      Peak Large allocation bytes 32.0 MB
-[ALLOC_TEMP_JOB_1_FRAME]
-  Initial Block Size 2.0 MB
-  Used Block Count 0
-  Overflow Count (too large) 0
-  Overflow Count (full) 0
-[ALLOC_TEMP_JOB_2_FRAMES]
-  Initial Block Size 2.0 MB
-  Used Block Count 0
-  Overflow Count (too large) 0
-  Overflow Count (full) 0
-[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
-  Initial Block Size 2.0 MB
-  Used Block Count 1
-  Overflow Count (too large) 4
-  Overflow Count (full) 0
-[ALLOC_TEMP_JOB_ASYNC (Background)]
-  Initial Block Size 1.0 MB
-  Used Block Count 1
-  Overflow Count (too large) 0
-  Overflow Count (full) 0
-[ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 1
-    [ALLOC_BUCKET]
-      Large Block size 4.0 MB
-      Used Block count 1
-      Peak Allocated bytes 4.0 MB
-      Failed Allocations. Bucket layout:
-        16B: 1 Subsections = 1024 buckets. Failed count: 431481
-        32B: 13 Subsections = 6656 buckets. Failed count: 107273
-        48B: 49 Subsections = 16725 buckets. Failed count: 487304
-        64B: 30 Subsections = 7680 buckets. Failed count: 269728
-        80B: 151 Subsections = 30924 buckets. Failed count: 33496
-        96B: 8 Subsections = 1365 buckets. Failed count: 27871
-        112B: 2 Subsections = 292 buckets. Failed count: 5452
-        128B: 2 Subsections = 256 buckets. Failed count: 54021
-    [ALLOC_GFX_MAIN]
-      Peak usage frame count: [64.0 KB-128.0 KB]: 312 frames, [128.0 KB-256.0 KB]: 1 frames, [0.5 MB-1.0 MB]: 1 frames, [1.0 MB-2.0 MB]: 13 frames, [8.0 MB-16.0 MB]: 36 frames, [16.0 MB-32.0 MB]: 28 frames, [32.0 MB-64.0 MB]: 13 frames, [64.0 MB-128.0 MB]: 4982 frames, [128.0 MB-256.0 MB]: 12 frames, [256.0 MB-0.50 GB]: 26 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 8
-      Peak Allocated memory 428.6 MB
-      Peak Large allocation bytes 324.0 MB
-    [ALLOC_GFX_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 1 frames, [8.0 MB-16.0 MB]: 4671 frames, [16.0 MB-32.0 MB]: 752 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 2
-      Peak Allocated memory 22.4 MB
-      Peak Large allocation bytes 0 B
-[ALLOC_CACHEOBJECTS] Dual Thread Allocator
-  Peak main deferred allocation count 102678
-    [ALLOC_BUCKET]
-      Large Block size 4.0 MB
-      Used Block count 1
-      Peak Allocated bytes 4.0 MB
-      Failed Allocations. Bucket layout:
-        16B: 1 Subsections = 1024 buckets. Failed count: 431481
-        32B: 13 Subsections = 6656 buckets. Failed count: 107273
-        48B: 49 Subsections = 16725 buckets. Failed count: 487304
-        64B: 30 Subsections = 7680 buckets. Failed count: 269728
-        80B: 151 Subsections = 30924 buckets. Failed count: 33496
-        96B: 8 Subsections = 1365 buckets. Failed count: 27871
-        112B: 2 Subsections = 292 buckets. Failed count: 5452
-        128B: 2 Subsections = 256 buckets. Failed count: 54021
-    [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [32.0 MB-64.0 MB]: 282 frames, [64.0 MB-128.0 MB]: 5141 frames, [128.0 MB-256.0 MB]: 1 frames
-      Requested Block Size 4.0 MB
-      Peak Block count 27
-      Peak Allocated memory 128.8 MB
-      Peak Large allocation bytes 83.6 MB
-    [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [32.0 MB-64.0 MB]: 313 frames, [64.0 MB-128.0 MB]: 5110 frames
-      Requested Block Size 4.0 MB
-      Peak Block count 16
-      Peak Allocated memory 114.2 MB
-      Peak Large allocation bytes 62.3 MB
-[ALLOC_TYPETREE] Dual Thread Allocator
-  Peak main deferred allocation count 1
-    [ALLOC_BUCKET]
-      Large Block size 4.0 MB
-      Used Block count 1
-      Peak Allocated bytes 4.0 MB
-      Failed Allocations. Bucket layout:
-        16B: 1 Subsections = 1024 buckets. Failed count: 431481
-        32B: 13 Subsections = 6656 buckets. Failed count: 107273
-        48B: 49 Subsections = 16725 buckets. Failed count: 487304
-        64B: 30 Subsections = 7680 buckets. Failed count: 269728
-        80B: 151 Subsections = 30924 buckets. Failed count: 33496
-        96B: 8 Subsections = 1365 buckets. Failed count: 27871
-        112B: 2 Subsections = 292 buckets. Failed count: 5452
-        128B: 2 Subsections = 256 buckets. Failed count: 54021
-    [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 312 frames, [128.0 KB-256.0 KB]: 5111 frames
-      Requested Block Size 2.0 MB
-      Peak Block count 1
-      Peak Allocated memory 200.9 KB
-      Peak Large allocation bytes 0 B
-    [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 5423 frames
-      Requested Block Size 2.0 MB
-      Peak Block count 2
-      Peak Allocated memory 3.0 MB
-      Peak Large allocation bytes 0 B
+2024-08-16T14:39:45 1434.338 WRN Parameter 'IsMale' not found in animator
+2024-08-16T14:39:45 1434.372 INF Created player with id=0
+2024-08-16T14:39:52 1441.780 INF GMSG: Player 'boqsc' joined the game
+2024-08-16T14:39:52 1441.793 INF PlayerSpawnedInWorld (reason: JoinMultiplayer, position: 1096, 74, 468): EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:40:01 1450.133 INF Player boqsc disconnected after 0.3 minutes
+2024-08-16T14:40:01 1450.640 INF DynamicMusic: 0 successfully removed from Bloodmoon state cache
+2024-08-16T14:40:01 1450.641 INF Client disconnected from dy mesh: Id: 0 Total: 1
+2024-08-16T14:40:01 1450.643 INF Player disconnected: EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:40:01 1450.645 INF [EOS-ACS] FreeUser: EntityID=0, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='1'
+2024-08-16T14:40:01 1450.645 INF Exited thread NCS_Reader_0_1
+2024-08-16T14:40:01 1450.646 INF Exited thread NCS_Reader_0_0
+2024-08-16T14:40:01 1450.647 INF Exited thread NCS_Writer_0_0
+2024-08-16T14:40:01 1450.648 INF Exited thread NCS_Writer_0_1
+2024-08-16T14:40:01 1450.649 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:49619 / 0 (RemoteConnectionClose)
+2024-08-16T14:40:01 1450.664 INF GMSG: Player 'boqsc' left the game
+2024-08-16T14:40:01 1450.683 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:49619 / 0 (RemoteConnectionClose)
+2024-08-16T14:40:07 1456.670 INF Time: 23.91m FPS: 17.84 Heap: 1368.0MB Max: 1368.0MB Chunks: 234 CGO: 0 Ply: 0 Zom: 6 Ent: 0 (7) Items: 0 CO: 0 RSS: 1569.7MB
+2024-08-16T14:40:09 1458.372 INF Clearing all pools
+2024-08-16T14:40:13 1462.452 INF [DECO] written 75484, in 31ms
+2024-08-16T14:40:13 1462.486 INF [DECO] write thread 5ms

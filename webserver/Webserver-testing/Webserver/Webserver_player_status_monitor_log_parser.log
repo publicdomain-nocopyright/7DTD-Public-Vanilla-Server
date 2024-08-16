@@ -4489,3 +4489,59 @@ Full Player Status Report:
   "players": {},
   "server_status": "Offline"
 }
+2024-08-16 14:11:58,229 - INFO - Script started.
+2024-08-16 14:11:58,242 - INFO - Initializing player status from log file: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\Webserver\../7DaysToDie_Data\output_log__2024-08-16__12-58-33.txt
+2024-08-16 14:11:58,249 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-16 14:11:58,250 - DEBUG - Player 'boqsc' detected with status: Online,Joining
+2024-08-16 14:11:58,250 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,250 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,250 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,250 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,250 - DEBUG - Player 'boqsc' detected with status: Offline
+2024-08-16 14:11:58,250 - DEBUG - Player '', ClientNumber=' detected with status: None
+2024-08-16 14:11:58,251 - DEBUG - Player 'boqsc' detected with status: Online,Joining
+2024-08-16 14:11:58,251 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,251 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,251 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,251 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,251 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,251 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,251 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,251 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,251 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,251 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,251 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,251 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,251 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,251 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,251 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,252 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,252 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,252 - DEBUG - Player 'boqsc' detected with status: Online,Playing
+2024-08-16 14:11:58,252 - DEBUG - Player 'boqsc' detected with status: Online,Spawned
+2024-08-16 14:11:58,252 - DEBUG - Player 'boqsc' detected with status: Offline
+2024-08-16 14:11:58,252 - DEBUG - Player 'boqsc' detected with status: None
+2024-08-16 14:11:58,252 - DEBUG - Player 'boqsc' detected with status: Offline
+2024-08-16 14:11:58,252 - INFO - Server is shutting down
+2024-08-16 14:11:58,254 - DEBUG - Initial player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-16 14:11:58,254 - INFO - player_status.json found. Updating with current data.
+2024-08-16 14:11:58,254 - INFO - Updating player_status.json file
+2024-08-16 14:11:58,255 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-16 14:11:58,255 - DEBUG - Online count: 0
+2024-08-16 14:11:58,255 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-16 14:11:58,255 - INFO - Starting to monitor log file in real-time...
+2024-08-16 14:11:59,901 - INFO - Monitoring stopped by user.
+2024-08-16 14:11:59,901 - INFO - Generating final JSON report.
+2024-08-16 14:11:59,901 - INFO - Updating player_status.json file
+2024-08-16 14:11:59,901 - DEBUG - Current player status: {'SERVER': {'status': 'Shutdown', 'pltfm_id': None}, 'boqsc': {'status': 'Offline', 'pltfm_id': 'Steam_76561198072601792'}}
+2024-08-16 14:11:59,902 - DEBUG - Online count: 0
+2024-08-16 14:11:59,902 - DEBUG - JSON data: {
+  "online_count": 0,
+  "players": {},
+  "server_status": "Offline"
+}
+2024-08-16 14:11:59,902 - INFO - Script ended.
