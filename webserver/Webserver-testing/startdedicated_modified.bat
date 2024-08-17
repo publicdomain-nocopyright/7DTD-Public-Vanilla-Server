@@ -66,11 +66,10 @@ set LOGFILE=%~dp0\%GAMENAME%_Data\%LOGNAME%%LOGTIMESTAMP%.txt
 
 echo Writing log file to: %LOGFILE%
 
-start %GAMENAME% -logfile "%LOGFILE%" -quit -batchmode -nographics "-configfile=%~DP0serverconfig.xml" -dedicated
+start %GAMENAME% -logfile "%LOGFILE%" -quit -batchmode -nographics "-configfile=%~DP0serverconfig.xml" -dedicated -UserDataFolder="%~dp0UserDataFolder"
 
 
 echo Starting server ...
-REM timeout 15
 
 cls
 
@@ -80,4 +79,3 @@ echo You can check the task manager if the server process is really running.
 echo.
 echo.
 
-REM pause
