@@ -33,6 +33,8 @@ def process_log_file(file_path, data):
     ]
 
     chat_pattern = r"(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}).*Chat \(from '(.+?)', entity id '(\d+)', to '(.+?)'\): (.+)"
+    pltfm_id_pattern = r"PlayerLogin: (.+?)/V"
+    player_name_pattern = r"PlayerName='(.+?)'"
 
     if last_processed_file != file_path:
         last_processed_position = 0
@@ -41,6 +43,7 @@ def process_log_file(file_path, data):
     with open(file_path, 'r') as file:
         file.seek(last_processed_position)
         new_lines_processed = 0
+        current_pltfm_id = None
 
         for line in file:
             new_lines_processed += 1
@@ -49,22 +52,37 @@ def process_log_file(file_path, data):
                 current_timestamp = datetime.strptime(timestamp_match.group(1), '%Y-%m-%dT%H:%M:%S')
                 last_timestamp = current_timestamp
 
+            pltfm_id_match = re.search(pltfm_id_pattern, line)
+            if pltfm_id_match:
+                current_pltfm_id = pltfm_id_match.group(1)
+
+            player_name_match = re.search(player_name_pattern, line)
+            if player_name_match and current_pltfm_id:
+                player_name = player_name_match.group(1)
+                players[current_pltfm_id] = players.get(current_pltfm_id, {})
+                players[current_pltfm_id]["pltfm_id"] = current_pltfm_id
+                players[current_pltfm_id]["name"] = player_name
+
             for pattern, status in patterns:
                 match = re.search(pattern, line)
                 if match:
                     player_name = match.group(1)
-                    if status:
-                        players[player_name] = players.get(player_name, {})
-                        players[player_name]["status"] = status
-                        players[player_name]["last_seen"] = current_timestamp
+                    for pltfm_id, player_data in players.items():
+                        if player_data.get("name") == player_name:
+                            if status:
+                                player_data["status"] = status
+                                player_data["last_seen"] = current_timestamp
+                            break
                     break
 
             chat_match = re.search(chat_pattern, line)
             if chat_match:
-                timestamp, player_name, entity_id, chat_type, message = chat_match.groups()
+                timestamp, chat_pltfm_id, entity_id, chat_type, message = chat_match.groups()
+                player_name = next((data["name"] for data in players.values() if data["pltfm_id"] == chat_pltfm_id), chat_pltfm_id)
                 chat_messages.append({
                     'timestamp': datetime.strptime(timestamp, '%Y-%m-%dT%H:%M:%S'),
                     'player_name': player_name,
+                    'pltfm_id': chat_pltfm_id,
                     'entity_id': entity_id,
                     'chat_type': chat_type,
                     'message': message
@@ -79,6 +97,66 @@ def process_log_file(file_path, data):
         'last_processed_file': file_path,
         'last_timestamp': last_timestamp,
         'new_lines_processed': new_lines_processed
+    }
+
+def analyze_data(chat_messages, players):
+    player_message_counts = {}
+    chat_types = set()
+    word_frequency = {}
+
+    for message in chat_messages:
+        player = message['player_name']
+        player_message_counts[player] = player_message_counts.get(player, 0) + 1
+        chat_types.add(message['chat_type'])
+
+        words = message['message'].lower().split()
+        for word in words:
+            word_frequency[word] = word_frequency.get(word, 0) + 1
+
+    most_active_player = max(player_message_counts, key=player_message_counts.get) if player_message_counts else "No messages yet"
+    most_common_words = sorted(word_frequency.items(), key=lambda x: x[1], reverse=True)[:5]
+
+    online_players = [data["name"] for data in players.values() if data.get('status', '').startswith('Online')]
+
+    return {
+        'total_messages': len(chat_messages),
+        'unique_players': len(player_message_counts),
+        'most_active_player': most_active_player,
+        'chat_types': list(chat_types),
+        'most_common_words': most_common_words,
+        'online_players': online_players,
+        'player_count': len(players),
+        'online_count': len(online_players)
+    }
+
+def analyze_data(chat_messages, players):
+    player_message_counts = {}
+    chat_types = set()
+    word_frequency = {}
+
+    for message in chat_messages:
+        player = message['player_name']
+        player_message_counts[player] = player_message_counts.get(player, 0) + 1
+        chat_types.add(message['chat_type'])
+
+        words = message['message'].lower().split()
+        for word in words:
+            word_frequency[word] = word_frequency.get(word, 0) + 1
+
+    most_active_player = max(player_message_counts, key=player_message_counts.get) if player_message_counts else "No messages yet"
+    most_common_words = sorted(word_frequency.items(), key=lambda x: x[1], reverse=True)[:5]
+
+    online_players = [data["name"] for data in players.values() if data.get('status', '').startswith('Online')]
+
+    return {
+        'total_messages': len(chat_messages),
+        'unique_players': len(player_message_counts),
+        'most_active_player': most_active_player,
+        'chat_types': list(chat_types),
+        'most_common_words': most_common_words,
+        'online_players': online_players,
+        'player_count': len(players),
+        'online_count': len(online_players)
     }
 
 def load_data(data_file):
@@ -116,7 +194,7 @@ def analyze_data(chat_messages, players):
     most_active_player = max(player_message_counts, key=player_message_counts.get) if player_message_counts else "No messages yet"
     most_common_words = sorted(word_frequency.items(), key=lambda x: x[1], reverse=True)[:5]
 
-    online_players = [player for player, data in players.items() if data['status'].startswith('Online')]
+    online_players = [data.get("name", pltfm_id) for pltfm_id, data in players.items() if data.get('status', '').startswith('Online')]
 
     return {
         'total_messages': len(chat_messages),
