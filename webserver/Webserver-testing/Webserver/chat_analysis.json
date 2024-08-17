@@ -1,0 +1,85 @@
+{
+  "chat_messages": [
+    {
+      "timestamp": "2024-08-17T15:04:26",
+      "player_name": "Steam_76561198072601792",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "gewwta"
+    },
+    {
+      "timestamp": "2024-08-17T15:10:01",
+      "player_name": "Steam_76561198072601792",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "aa"
+    },
+    {
+      "timestamp": "2024-08-17T15:10:26",
+      "player_name": "Steam_76561198072601792",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "dsf"
+    },
+    {
+      "timestamp": "2024-08-17T15:11:26",
+      "player_name": "Steam_76561198072601792",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "test"
+    },
+    {
+      "timestamp": "2024-08-17T15:14:26",
+      "player_name": "Steam_76561198072601792",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "zzz"
+    }
+  ],
+  "players": {
+    "boqsc": {
+      "status": "Offline",
+      "last_seen": "2024-08-17T15:16:48"
+    },
+    "', ClientNumber=": {
+      "status": "Offline",
+      "last_seen": "2024-08-17T14:59:39"
+    }
+  },
+  "last_processed_position": 155446,
+  "last_processed_file": "C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Webserver-testing\\7DaysToDie_Data\\output_log__2024-08-17__14-56-54.txt",
+  "last_timestamp": "2024-08-17T15:46:28",
+  "analysis": {
+    "total_messages": 5,
+    "unique_players": 1,
+    "most_active_player": "Steam_76561198072601792",
+    "chat_types": [
+      "Global"
+    ],
+    "most_common_words": [
+      [
+        "gewwta",
+        1
+      ],
+      [
+        "aa",
+        1
+      ],
+      [
+        "dsf",
+        1
+      ],
+      [
+        "test",
+        1
+      ],
+      [
+        "zzz",
+        1
+      ]
+    ],
+    "online_players": [],
+    "player_count": 2,
+    "online_count": 0
+  }
+}

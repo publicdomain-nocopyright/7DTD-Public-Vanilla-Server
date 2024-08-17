@@ -1090,3 +1090,449 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 2024-08-17T11:19:38 43.472 INF Loaded (local): npc in 0.10
 2024-08-17T11:19:39 43.823 INF Loaded (local): dialogs in 0.10
 2024-08-17T11:19:39 44.175 INF Loaded (local): ui_display in 0.10
+2024-08-17T11:19:39 44.523 INF Loaded (local): nav_objects in 0.10
+2024-08-17T11:19:40 44.873 INF Loaded (local): gamestages in 0.10
+2024-08-17T11:19:40 45.561 INF Loaded (local): gameevents in 0.43
+2024-08-17T11:19:41 45.936 INF Loaded (local): twitch in 0.10
+2024-08-17T11:19:41 46.285 INF Loaded (local): twitch_events in 0.10
+2024-08-17T11:19:41 46.635 INF Loaded (local): dmscontent in 0.10
+2024-08-17T11:19:42 46.986 INF Loaded (local): XUi_Common/styles in 0.10
+2024-08-17T11:19:42 47.335 INF Loaded (local): XUi_Common/controls in 0.10
+2024-08-17T11:19:42 47.686 INF Loaded (local): XUi/styles in 0.10
+2024-08-17T11:19:43 48.036 INF Loaded (local): XUi/controls in 0.10
+2024-08-17T11:19:43 48.387 INF Loaded (local): XUi/windows in 0.10
+2024-08-17T11:19:44 48.787 INF Loaded (local): XUi/xui in 0.10
+2024-08-17T11:19:44 49.136 INF Loaded (local): biomes in 0.10
+2024-08-17T11:19:44 49.487 INF Loaded (local): worldglobal in 0.10
+2024-08-17T11:19:45 49.836 INF Loaded (local): spawning in 0.10
+2024-08-17T11:19:45 50.186 INF Loaded (local): loadingscreen in 0.10
+2024-08-17T11:19:45 50.489 INF Added 1335 subtitle data entries and 3 speaker colors
+2024-08-17T11:19:45 50.536 INF Loaded (local): subtitles in 0.10
+2024-08-17T11:19:46 50.936 INF Loaded (local): videos in 0.10
+2024-08-17T11:19:46 51.086 INF Loading players.xml
+2024-08-17T11:19:46 51.093 INF createWorld: Navezgane, My Game, GameModeSurvival
+2024-08-17T11:19:46 51.094 INF Occlusion: Disabled
+2024-08-17T11:19:46 51.146 INF Started thread ChunkRegeneration
+2024-08-17T11:19:46 51.147 INF Started thread ChunkCalc
+2024-08-17T11:19:46 51.148 INF Started thread ChunkMeshBake
+2024-08-17T11:19:46 51.237 INF World.Load: Navezgane
+2024-08-17T11:19:46 51.266 INF BloodMoon SetDay: day 7, last day 0, freq 7, range 0
+2024-08-17T11:19:46 51.291 INF Started thread WaterSimulationApplyChanges
+2024-08-17T11:19:52 57.011 INF Started thread GenerateChunks
+2024-08-17T11:19:53 58.356 INF Calculating world hashes took 1244 ms (world size 191 MiB)
+2024-08-17T11:19:53 58.360 INF Initial ENABLE_FILE_BACKED_ARRAYS == False
+2024-08-17T11:19:53 58.463 INF Loading dtm raw file took 1401ms
+2024-08-17T11:19:53 58.617 INF Biomes image size w= 3072, h = 3072
+2024-08-17T11:19:54 59.634 INF Loading and creating biomes took 1170ms
+Texture with ID 2744 and with size 6144x6144 was too large for graphics device maximum supported texture size (4096x4096). Falling back to a dummy texture. Generate mip maps to provide lower size fallback.
+Texture with ID 2745 and with size 6144x6144 was too large for graphics device maximum supported texture size (4096x4096). Falling back to a dummy texture. Generate mip maps to provide lower size fallback.
+2024-08-17T11:19:55 60.727 INF Loading and creating shader control textures took 1092ms
+2024-08-17T11:19:56 61.545 INF Loading and parsing of generator took 816ms
+2024-08-17T11:19:56 61.608 INF Computed 415 chunk groups containing a total of 8472 chunks. Largest group contains 449 chunks.
+2024-08-17T11:19:56 61.613 INF Started thread SaveChunks C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves\Navezgane\My Game\Region
+2024-08-17T11:19:58 63.351 INF [DECO] read 75466
+2024-08-17T11:19:58 63.496 INF Dynamic Music Initialized on Server
+2024-08-17T11:19:58 63.497 INF Dynamic Music Initialized on Dedi
+2024-08-17T11:19:58 63.499 INF AstarManager Init
+2024-08-17T11:19:59 63.802 INF WeatherManager: Init 8 weather packages
+WARNING: Shader Unsupported: '7DTD_Unity5/Wire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD_Unity5/Wire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD_Unity5/Wire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-17T11:19:59 64.250 INF WeatherManager: ApplySavedPackages
+2024-08-17T11:19:59 64.257 INF createWorld() done
+2024-08-17T11:19:59 64.349 INF Loaded player
+2024-08-17T11:19:59 64.402 INF VehicleManager C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves/Navezgane/My Game/vehicles.dat, loaded 0
+2024-08-17T11:19:59 64.405 INF DroneManager C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves/Navezgane/My Game/drones.dat, loaded 0
+2024-08-17T11:19:59 64.407 INF TurretTracker C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves/Navezgane/My Game/turrets.dat, loaded 0
+2024-08-17T11:19:59 64.505 INF [EOS] Registering server
+2024-08-17T11:19:59 64.544 INF [PlayerInteractions] JoinedMultiplayerServer not supported with current platforms
+2024-08-17T11:19:59 64.546 INF [EAC] Starting EAC server
+Current game time: Day 1, 07:00
+It's daytime!
+2024-08-17T11:20:02 67.211 INF Loading dymesh settings
+2024-08-17T11:20:02 67.212 INF Dynamic Mesh Settings
+2024-08-17T11:20:02 67.212 INF Use Imposter Values: True
+2024-08-17T11:20:02 67.213 INF Only Player Areas: True
+2024-08-17T11:20:02 67.214 INF Player Area Buffer: 3
+2024-08-17T11:20:02 67.214 INF Max View Distance: 1000
+2024-08-17T11:20:02 67.215 INF Regen all on new world: False
+2024-08-17T11:20:02 67.222 INF Dymesh: Prepping dynamic mesh. Resend Default: True
+2024-08-17T11:20:02 67.223 INF Dymesh: Mesh location: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves/Navezgane/My Game/DynamicMeshes/
+2024-08-17T11:20:02 67.295 INF StartGame done
+2024-08-17T11:20:02 67.299 INF [Steamworks.NET] Registering auth callbacks
+2024-08-17T11:20:02 67.307 INF [Steamworks.NET] GameServer.Init successful
+2024-08-17T11:20:02 67.312 INF [Steamworks.NET] Making server public
+2024-08-17T11:20:02 67.653 INF [EOS] Server registered, session: ffbe4506fdb24b28a579716c8cfad720
+2024-08-17T11:20:02 67.660 INF [EOS] Session address: 7*.6*.4*.22*
+2024-08-17T11:20:03 67.998 INF Dymesh: Warming dynamic mesh
+2024-08-17T11:20:03 67.999 INF Dymesh: Creating dynamic mesh manager
+2024-08-17T11:20:03 68.006 INF Dymesh: Awake
+2024-08-17T11:20:03 68.007 INF Dymesh: Mesh location: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves/Navezgane/My Game/DynamicMeshes/
+2024-08-17T11:20:03 68.011 INF Dymesh: Loading Items: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves/Navezgane/My Game/DynamicMeshes/
+2024-08-17T11:20:03 68.019 INF Dymesh: Loaded Items: 0
+2024-08-17T11:20:03 68.024 INF Dymesh: Loading all items took: 0.0139629 seconds.
+2024-08-17T11:20:03 68.035 INF Clearing queues.
+2024-08-17T11:20:03 68.040 INF Cleared queues.
+2024-08-17T11:20:03 68.043 INF Dynamic thread starting
+2024-08-17T11:20:03 68.047 INF Dymesh door replacement: imposterBlock
+2024-08-17T11:20:04 68.948 INF [Steamworks.NET] GameServer.LogOn successful, SteamID=90201011353203736, public IP=7*.6*.4*.22*
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+2024-08-17T11:22:20 204.970 INF Shutdown game from Terminal Window
+2024-08-17T11:22:20 205.032 INF Preparing quit
+2024-08-17T11:22:20 205.033 INF Disconnect
+2024-08-17T11:22:20 205.035 INF [NET] ServerShutdown
+2024-08-17T11:22:20 205.036 INF NET: Stopping server protocols
+2024-08-17T11:22:20 205.111 INF NET: LiteNetLib server stopped
+2024-08-17T11:22:20 205.114 INF SaveAndCleanupWorld
+2024-08-17T11:22:20 205.141 INF Saving 0 of chunks took 20ms
+2024-08-17T11:22:20 205.165 INF [DECO] written 75466, in 22ms
+2024-08-17T11:22:20 205.169 INF [Steamworks.NET] Exiting Lobby
+2024-08-17T11:22:20 205.171 INF [EOS] Unregistering server
+2024-08-17T11:22:20 205.174 INF [Steamworks.NET] Stopping server
+2024-08-17T11:22:20 205.176 INF [DECO] write thread 9ms
+2024-08-17T11:22:20 205.551 INF [MODS] Loading localization from mod: LHG_InfoPanel_IMG
+2024-08-17T11:22:20 205.554 INF [MODS] Loading localization from mod: Add_UI_ESC_Menu_UI
+2024-08-17T11:22:20 205.557 INF AstarManager Cleanup
+2024-08-17T11:22:20 205.682 INF Clearing queues.
+2024-08-17T11:22:20 205.682 INF Cleared queues.
+2024-08-17T11:22:21 206.565 INF Clearing queues.
+2024-08-17T11:22:21 206.565 INF Cleared queues.
+2024-08-17T11:22:21 206.575 INF World.Unload
+2024-08-17T11:22:21 206.578 INF Exited thread GenerateChunks
+2024-08-17T11:22:21 206.586 INF Exited thread SaveChunks C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves\Navezgane\My Game\Region
+2024-08-17T11:22:21 206.603 INF World.Cleanup
+2024-08-17T11:22:21 206.609 INF Exited thread ChunkRegeneration
+2024-08-17T11:22:21 206.616 INF Exited thread ChunkCalc
+2024-08-17T11:22:21 206.617 INF Exited thread ChunkMeshBake
+2024-08-17T11:22:21 206.626 INF Exited thread WaterSimulationApplyChanges
+2024-08-17T11:22:21 206.630 INF VehicleManager saving 0 (0 + 0)
+2024-08-17T11:22:21 206.633 INF VehicleManager saved 9 bytes
+2024-08-17T11:22:21 206.635 INF DroneManager saving 0 (0 + 0)
+2024-08-17T11:22:21 206.638 INF DroneManager saved 9 bytes
+2024-08-17T11:22:21 206.640 INF TurretTracker saving 0 (0 + 0)
+2024-08-17T11:22:21 206.643 INF TurretTracker saved 9 bytes
+2024-08-17T11:22:21 206.652 INF Persistent GamePrefs saved
+2024-08-17T11:22:21 206.664 INF Persistent GamePrefs saved
+2024-08-17T11:22:21 206.665 INF Cleanup
+2024-08-17T11:22:21 206.667 INF Closing Terminal Window
+2024-08-17T11:22:21 206.732 INF WinThread ended
+2024-08-17T11:22:21 206.736 INF Ended Terminal Window
+2024-08-17T11:22:22 206.789 INF [EOS] Server unregistered
+2024-08-17T11:22:22 207.573 INF Terminating threads
+2024-08-17T11:22:22 207.574 INF OnApplicationQuit
+2024-08-17T11:22:22 207.575 INF Terminating threads
+2024-08-17T11:22:22 207.576 INF OnApplicationQuit
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 2 frames, [8.0 KB-16.0 KB]: 729 frames, [16.0 KB-32.0 KB]: 116 frames, [32.0 KB-64.0 KB]: 96 frames, [64.0 KB-128.0 KB]: 2650 frames, [128.0 KB-256.0 KB]: 77 frames, [256.0 KB-0.5 MB]: 3 frames, [0.5 MB-1.0 MB]: 4 frames, [1.0 MB-2.0 MB]: 4 frames, [2.0 MB-4.0 MB]: 2 frames, [4.0 MB-8.0 MB]: 4 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 8.0 MB
+      Peak Allocated Bytes 7.2 MB
+      Overflow Count 16783
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 128.0 KB
+      Peak Allocated Bytes 127.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 0.5 MB
+      Peak Allocated Bytes 509.8 KB
+      Overflow Count 34
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 181.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 56.0 KB
+      Peak Allocated Bytes 53.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 2
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 56.0 KB
+      Peak Allocated Bytes 53.1 KB
+      Overflow Count 2
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 40.0 KB
+      Peak Allocated Bytes 39.7 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 3
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 48.0 KB
+      Peak Allocated Bytes 45.5 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 181.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 340.0 KB
+      Peak Allocated Bytes 285.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 32.0 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 32.0 KB
+      Overflow Count 1
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 18238
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 398963
+        32B: 13 Subsections = 6656 buckets. Failed count: 91948
+        48B: 49 Subsections = 16725 buckets. Failed count: 465123
+        64B: 30 Subsections = 7680 buckets. Failed count: 259492
+        80B: 151 Subsections = 30924 buckets. Failed count: 30044
+        96B: 8 Subsections = 1365 buckets. Failed count: 26810
+        112B: 2 Subsections = 292 buckets. Failed count: 3807
+        128B: 2 Subsections = 256 buckets. Failed count: 44617
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 263 frames, [32.0 MB-64.0 MB]: 3422 frames, [64.0 MB-128.0 MB]: 2 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 4
+      Peak Allocated memory 73.2 MB
+      Peak Large allocation bytes 36.0 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 347 frames, [16.0 MB-32.0 MB]: 3338 frames, [32.0 MB-64.0 MB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 37.3 MB
+      Peak Large allocation bytes 32.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 4
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 398963
+        32B: 13 Subsections = 6656 buckets. Failed count: 91948
+        48B: 49 Subsections = 16725 buckets. Failed count: 465123
+        64B: 30 Subsections = 7680 buckets. Failed count: 259492
+        80B: 151 Subsections = 30924 buckets. Failed count: 30044
+        96B: 8 Subsections = 1365 buckets. Failed count: 26810
+        112B: 2 Subsections = 292 buckets. Failed count: 3807
+        128B: 2 Subsections = 256 buckets. Failed count: 44617
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [64.0 KB-128.0 KB]: 264 frames, [128.0 KB-256.0 KB]: 1 frames, [0.5 MB-1.0 MB]: 1 frames, [1.0 MB-2.0 MB]: 9 frames, [2.0 MB-4.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 29 frames, [16.0 MB-32.0 MB]: 25 frames, [32.0 MB-64.0 MB]: 11 frames, [64.0 MB-128.0 MB]: 3312 frames, [128.0 MB-256.0 MB]: 12 frames, [256.0 MB-0.50 GB]: 22 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 7
+      Peak Allocated memory 428.6 MB
+      Peak Large allocation bytes 324.0 MB
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 1 frames, [8.0 MB-16.0 MB]: 3669 frames, [16.0 MB-32.0 MB]: 17 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 16.8 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 108669
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 398963
+        32B: 13 Subsections = 6656 buckets. Failed count: 91948
+        48B: 49 Subsections = 16725 buckets. Failed count: 465123
+        64B: 30 Subsections = 7680 buckets. Failed count: 259492
+        80B: 151 Subsections = 30924 buckets. Failed count: 30044
+        96B: 8 Subsections = 1365 buckets. Failed count: 26810
+        112B: 2 Subsections = 292 buckets. Failed count: 3807
+        128B: 2 Subsections = 256 buckets. Failed count: 44617
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [32.0 MB-64.0 MB]: 243 frames, [64.0 MB-128.0 MB]: 3443 frames, [128.0 MB-256.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 23
+      Peak Allocated memory 128.8 MB
+      Peak Large allocation bytes 83.6 MB
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [32.0 MB-64.0 MB]: 265 frames, [64.0 MB-128.0 MB]: 3421 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 15
+      Peak Allocated memory 114.2 MB
+      Peak Large allocation bytes 62.3 MB
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 398963
+        32B: 13 Subsections = 6656 buckets. Failed count: 91948
+        48B: 49 Subsections = 16725 buckets. Failed count: 465123
+        64B: 30 Subsections = 7680 buckets. Failed count: 259492
+        80B: 151 Subsections = 30924 buckets. Failed count: 30044
+        96B: 8 Subsections = 1365 buckets. Failed count: 26810
+        112B: 2 Subsections = 292 buckets. Failed count: 3807
+        128B: 2 Subsections = 256 buckets. Failed count: 44617
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 264 frames, [128.0 KB-256.0 KB]: 3422 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 194.2 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 3686 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 2
+      Peak Allocated memory 3.0 MB
+      Peak Large allocation bytes 0 B

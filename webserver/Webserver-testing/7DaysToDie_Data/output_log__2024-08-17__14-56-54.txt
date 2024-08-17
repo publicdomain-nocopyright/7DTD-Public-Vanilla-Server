@@ -1,0 +1,2829 @@
+Mono path[0] = 'C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/Managed'
+Mono config path = 'C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/MonoBleedingEdge/etc'
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Loading player data from C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/data.unity3d
+Initialize engine version: 2022.3.29f1 (8d510ca76d2b)
+[Subsystems] Discovering subsystems at path C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.494 seconds
+- Finished resetting the current domain, in  0.003 seconds
+ERROR: Shader Hidden/LandClaimBoundary shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Unlit/Transparent Colored shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+UnloadTime: 1.641700 ms
+ERROR: Shader GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.368000 ms
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoDecode. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass YCbCr_To_RGB1 in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBAFull in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBASplit_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGB1 in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGBA in shader <not found>
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoComposite. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass Default in shader <not found>
+2024-08-17T14:56:57 0.090 INF Backtrace Initialized
+2024-08-17T14:56:57 0.161 INF Version: V 1.1 (b4) Compatibility Version: V 1.1, Build: WindowsPlayer 64 Bit
+2024-08-17T14:56:57 0.163 INF System information:
+2024-08-17T14:56:57 0.167 INF    OS: Windows 10  (10.0.19045) 64bit
+2024-08-17T14:56:57 0.168 INF    CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz (cores: 4)
+2024-08-17T14:56:57 0.170 INF    RAM: 16276 MB
+2024-08-17T14:56:57 0.171 INF    GPU: Null Device (128 MB)
+2024-08-17T14:56:57 0.186 INF    Graphics API: NULL 1.0 [1.0] (shader level 3.0)
+2024-08-17T14:56:57 0.190 INF Local UTC offset: 3 hours
+2024-08-17T14:56:57 0.244 INF Command line arguments: 7DaysToDie -logfile C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\\7DaysToDie_Data\output_log__2024-08-17__14-56-54.txt -quit -batchmode -nographics -configfile=C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\serverconfig.xml -dedicated -UserDataFolder=C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder
+2024-08-17T14:56:57 0.253 INF Parsing server configfile: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\serverconfig.xml
+2024-08-17T14:56:58 0.426 INF Parsing server configfile successfully completed
+2024-08-17T14:56:58 0.434 INF UserDataFolder: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder
+2024-08-17T14:56:58 0.444 INF [Platform] Init
+2024-08-17T14:56:58 0.578 INF [Platform] Using native platform: Steam
+2024-08-17T14:56:58 0.582 INF [Platform] Using cross platform: EOS
+2024-08-17T14:56:58 0.584 INF [Platform] Using server platform: Steam
+2024-08-17T14:56:58 0.584 INF [Platform] Using server platform: XBL
+2024-08-17T14:56:58 0.585 INF [Platform] Using server platform: PSN
+2024-08-17T14:56:58 0.594 INF Starting PlayerInputManager...
+2024-08-17T14:56:58 0.599 INF InControl (version 1.8.9 build 9376, native module = False, XInput = False)
+2024-08-17T14:56:58 0.607 INF InControl (version 1.8.9 build 9376)
+2024-08-17T14:56:58 1.087 INF UnityInputDeviceManager enabled.
+2024-08-17T14:56:58 1.157 INF [Platform] Initializing Steam
+2024-08-17T14:56:58 1.193 INF [Platform] Initializing EOS
+2024-08-17T14:56:58 1.265 INF [EOS] Initialize: Success
+2024-08-17T14:56:58 1.314 INF [Platform] Initializing XBL
+2024-08-17T14:56:58 1.317 INF [Platform] Initializing PSN
+2024-08-17T14:56:58 1.320 INF [SaveDataUtils] InitStatic Begin
+2024-08-17T14:56:58 1.324 INF [SaveDataUtils] SdPlayerPrefs -> Unity
+2024-08-17T14:56:58 1.325 INF [SaveDataUtils] InitStatic Complete
+2024-08-17T14:56:59 1.357 INF Last played version: V 1.1
+2024-08-17T14:56:59 1.363 INF Starting dedicated server level=Navezgane game name=My Game
+2024-08-17T14:56:59 1.364 INF Maximum allowed players: 16
+2024-08-17T14:56:59 1.365 INF Game mode: GameModeSurvival
+2024-08-17T14:56:59 1.872 INF Localization language from prefs: english
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 5913.
+Total: 15.378000 ms (FindLiveObjects: 0.380200 ms CreateObjectMapping: 0.385500 ms MarkObjects: 14.557200 ms  DeleteObjects: 0.054500 ms)
+
+ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: '7DTD/Cube_UI_Frame' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/Cube_UI_Frame shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/Cube_UI_Frame' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: '7DTD/Cube_UI_Glow' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/Cube_UI_Glow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/Cube_UI_Glow' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.141200 ms
+2024-08-17T14:56:59 2.038 INF Awake IsFocused: True
+2024-08-17T14:56:59 2.039 INF Awake
+2024-08-17T14:57:00 2.680 INF Started Terminal Window
+ERROR: Shader Occlusion/DepthCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-17T14:57:00 2.753 INF Occlusion: Awake
+2024-08-17T14:57:00 2.763 INF Texture quality is set to 3
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 6147.
+Total: 36.768300 ms (FindLiveObjects: 0.367400 ms CreateObjectMapping: 0.368500 ms MarkObjects: 35.994400 ms  DeleteObjects: 0.037300 ms)
+
+2024-08-17T14:57:00 2.953 INF WinThread started
+ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/Entity Tint Mask' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Entity Tint Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Entity Tint Mask' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-17T14:57:00 3.309 INF [MODS] Start loading from: 'C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder/Mods'
+2024-08-17T14:57:00 3.321 INF [MODS]   Trying to load from folder: 'MyMod'
+2024-08-17T14:57:01 3.422 INF [MODS]     Loaded Mod: MyMod (1.0)
+2024-08-17T14:57:01 3.424 INF [MODS] Start loading from: 'C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/../Mods'
+2024-08-17T14:57:01 3.427 INF [MODS]   Trying to load from folder: '0_TFP_Harmony'
+2024-08-17T14:57:02 5.242 INF [MODS]     Loaded Mod: TFP_Harmony (1.1.0.4)
+2024-08-17T14:57:02 5.243 INF [MODS]   Trying to load from folder: 'disable'
+2024-08-17T14:57:02 5.244 WRN [MODS]     Folder disable does not contain a ModInfo.xml, ignoring
+2024-08-17T14:57:02 5.245 INF [MODS]   Trying to load from folder: 'Double Vehicle Speeds'
+2024-08-17T14:57:02 5.247 INF [MODS]     Loaded Mod: DoubleVehicleSpeeds (1.0)
+2024-08-17T14:57:02 5.248 INF [MODS]   Trying to load from folder: 'JaWoodleKHA20 - MegaCityGen'
+2024-08-17T14:57:02 5.251 ERR [MODS]     JaWoodleKHA20 - MegaCityGen/ModInfo.xml in legacy format. V2 required to load mod
+2024-08-17T14:57:02 5.251 ERR [MODS]     Could not parse JaWoodleKHA20 - MegaCityGen/ModInfo.xml, ignoring
+2024-08-17T14:57:02 5.252 INF [MODS]   Trying to load from folder: 'LHG_InfoPanel_IMG'
+2024-08-17T14:57:02 5.253 INF [MODS]     Loaded Mod: LHG_InfoPanel_IMG (0.0.0.6)
+2024-08-17T14:57:02 5.254 INF [MODS]   Trying to load from folder: 'UI_ESC_1_Menu'
+2024-08-17T14:57:02 5.256 INF [MODS]     Loaded Mod: Add_UI_ESC_Menu_UI (21.0)
+2024-08-17T14:57:02 5.257 INF [MODS] Initializing mod code
+2024-08-17T14:57:02 5.259 INF [MODS]   Initializing mod TFP_Harmony
+2024-08-17T14:57:02 5.289 INF [MODS]     Found ModAPI in TfpHarmony.dll, creating instance
+2024-08-17T14:57:02 5.291 INF [MODS]       [Harmony] Init done
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/MonoBleedingEdge/data-00000168B365F110.dll
+2024-08-17T14:57:03 5.942 INF [MODS]     Initialized code in mod 'TFP_Harmony' from DLL 'TfpHarmony.dll'
+2024-08-17T14:57:03 5.943 INF [MODS]   Initializing mod MyMod
+2024-08-17T14:57:03 5.943 INF [MODS]     Found ModAPI in ClassLibrary2.dll, creating instance
+Time Polling Modlet initialized
+2024-08-17T14:57:03 5.949 INF [MODS]     Initialized code in mod 'MyMod' from DLL 'ClassLibrary2.dll'
+2024-08-17T14:57:03 5.950 INF [MODS] Loading done
+2024-08-17T14:57:03 5.954 INF [MODS] Loading localization from mod: LHG_InfoPanel_IMG
+2024-08-17T14:57:03 5.956 INF [MODS] Loading localization from mod: Add_UI_ESC_Menu_UI
+2024-08-17T14:57:03 5.983 INF Loading permissions file at 'C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves/serveradmin.xml'
+2024-08-17T14:57:03 6.046 INF Loading permissions file done.
+2024-08-17T14:57:04 6.738 INF Reloading serveradmin.xml
+2024-08-17T14:57:04 6.739 INF Loading permissions file at 'C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves/serveradmin.xml'
+2024-08-17T14:57:04 6.741 INF Permissions file unchanged, skipping reloading
+WARNING: Shader Unsupported: 'Game Particles/partPyro_fireShader_A' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/partPyro_fireShader_A shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/partPyro_fireShader_A' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_B' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/partPyro_template_lit_B shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_B' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_spec_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/bloodShader_spec_T shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_spec_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_O' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/bloodShader_O shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_O' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/bloodShader_T shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/bloodShader_U shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Autodesk Interactive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Particles/Standard Surface shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/Autodesk XFade' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Autodesk XFade shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Autodesk XFade' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: '7DTD/7DTD_Glass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/7DTD_Glass shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Glass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: '7DTD/7DTD_Fire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/7DTD_Fire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Fire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy/AlphaSelfIllum shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Particles/Blood_Particle shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/Particles/Alpha Blended Premultiply shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Standard Surface shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/gasGenericShader_A' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/gasGenericShader_A shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/gasGenericShader_A' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Particles/Standard Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Particles/Standard Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_C' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/partPyro_template_lit_C shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_C' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Specular shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Bumped Specular shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/surfaceShader_particleEnhanced' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/surfaceShader_particleEnhanced shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/surfaceShader_particleEnhanced' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Standard (Specular setup)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard (Specular setup) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard (Specular setup)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Alpha Blended shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Additive (Soft) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/BasicUV_TA' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/BasicUV_TA shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/BasicUV_TA' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Shader Forge/PaintParticle shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Shader Forge/7DTD_Fire_New shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/shader_gas_unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Bumped Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Transparent/Cutout/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Transparent/Cutout/Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Transparent/Cutout/Bumped Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Transparent/Cutout/Bumped Specular shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/vomitShader_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/vomitShader_T shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/vomitShader_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/shader_gas_lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Couldn't create a Convex Mesh from source mesh "Head" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+WARNING: Shader Unsupported: 'Game/ZombieGibRadiation' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/ZombieGibRadiation shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/ZombieGibRadiation' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Liquid' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Liquid shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Liquid' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/VertexLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Reflective/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/VertexLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Reflective/Bumped Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Reflective/Bumped Specular shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'stainedGlass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader stainedGlass shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'stainedGlass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Game/ChunkTransparent shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+2024-08-17T14:57:22 24.352 INF Loaded (local): events in 0.02
+2024-08-17T14:57:22 24.388 INF Loaded (local): rwgmixer in 0.03
+2024-08-17T14:57:22 24.455 INF Loaded (local): archetypes in 0.06
+2024-08-17T14:57:22 24.460 INF Loaded (local): loadingscreen in 0.00
+2024-08-17T14:57:22 24.488 INF Added 1335 subtitle data entries and 3 speaker colors
+2024-08-17T14:57:22 24.488 INF Loaded (local): subtitles in 0.01
+2024-08-17T14:57:22 24.492 INF Loaded (local): videos in 0.00
+2024-08-17T14:57:22 24.493 INF WorldStaticData.Init() needed 18.000s
+2024-08-17T14:57:22 24.569 INF Started Telnet on 8081
+2024-08-17T14:57:22 24.588 INF [PartyQuests] Initialized
+2024-08-17T14:57:22 24.590 INF Awake done in 22551 ms
+ERROR: Shader Unlit/Text shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+2024-08-17T14:57:24 27.293 INF NET: Starting server protocols
+2024-08-17T14:57:24 27.303 INF [NET] Disabling protocol: SteamNetworking
+2024-08-17T14:57:25 27.370 INF NET: LiteNetLib server started
+2024-08-17T14:57:25 27.373 INF [PlatformApplication] restart required = False
+2024-08-17T14:57:25 27.374 INF StartGame
+2024-08-17T14:57:25 27.376 INF NetPackageManager Init
+2024-08-17T14:57:25 27.625 INF Persistent GamePrefs saved
+GamePref.AdminFileName = serveradmin.xml
+GamePref.AirDropFrequency = 72
+GamePref.AirDropMarker = True
+GamePref.AllowSpawnNearBackpack = True
+GamePref.AutopilotMode = 0
+GamePref.BedrollDeadZoneSize = 15
+GamePref.BedrollExpiryTime = 45
+GamePref.BlockDamageAI = 100
+GamePref.BlockDamageAIBM = 100
+GamePref.BlockDamagePlayer = 100
+GamePref.BloodMoonEnemyCount = 16
+GamePref.BloodMoonFrequency = 7
+GamePref.BloodMoonRange = 0
+GamePref.BloodMoonWarning = 8
+GamePref.BuildCreate = False
+GamePref.ConnectToServerIP = vanillaserver.eu
+GamePref.ConnectToServerPort = 26900
+GamePref.CreateLevelDim = 8
+GamePref.CreateLevelName = My Level
+GamePref.CreativeMenuEnabled = False
+GamePref.DayCount = 3
+GamePref.DayLightLength = 18
+GamePref.DayNightLength = 60
+GamePref.DeathPenalty = 1
+GamePref.DebugMenuEnabled = False
+GamePref.DebugMenuShowTasks = False
+GamePref.DebugPanelsEnabled = ,Ply,Ge,Sp,Fo,Pr,
+GamePref.DebugStopEnemiesMoving = False
+GamePref.DropOnDeath = 1
+GamePref.DropOnQuit = 0
+GamePref.DynamicMeshDistance = 1000
+GamePref.DynamicMeshEnabled = True
+GamePref.DynamicMeshLandClaimBuffer = 3
+GamePref.DynamicMeshLandClaimOnly = True
+GamePref.DynamicMeshMaxItemCache = 3
+GamePref.DynamicMeshMaxRegionCache = 1
+GamePref.DynamicMeshUseImposters = True
+GamePref.DynamicSpawner = 
+GamePref.EACEnabled = True
+GamePref.EnableMapRendering = False
+GamePref.EnemyDifficulty = 0
+GamePref.EnemySpawnMode = True
+GamePref.EulaLatestVersion = 1
+GamePref.EulaVersionAccepted = 1
+GamePref.FavoriteServersList = 
+GamePref.FragLimit = 20
+GamePref.GameDifficulty = 1
+GamePref.GameGuidClient = 
+GamePref.GameMode = GameModeSurvival
+GamePref.GameName = My Game
+GamePref.GameNameClient = My Game
+GamePref.GameVersion = V 1.1
+GamePref.GameWorld = Navezgane
+GamePref.HideCommandExecutionLog = 0
+GamePref.IgnoreEOSSanctions = False
+GamePref.JoiningOptions = True
+GamePref.LandClaimCount = 3
+GamePref.LandClaimDeadZone = 30
+GamePref.LandClaimDecayMode = 0
+GamePref.LandClaimExpiryTime = 30
+GamePref.LandClaimOfflineDelay = 0
+GamePref.LandClaimOfflineDurabilityModifier = 50
+GamePref.LandClaimOnlineDurabilityModifier = 50
+GamePref.LandClaimSize = 41
+GamePref.Language = English
+GamePref.LanguageBrowser = English
+GamePref.LastGameResetRevision = 13
+GamePref.LastLoadedPrefab = 
+GamePref.LastLoadingTipRead = 28
+GamePref.LootAbundance = 100
+GamePref.LootRespawnDays = 7
+GamePref.LootTimer = 
+GamePref.MatchLength = 10
+GamePref.MaxChunkAge = -1
+GamePref.MaxQueuedMeshLayers = 1000
+GamePref.MaxSpawnedAnimals = 50
+GamePref.MaxSpawnedZombies = 64
+GamePref.MaxUncoveredMapChunksPerPlayer = 131072
+GamePref.NoGraphicsMode = True
+GamePref.OptionsAllowController = True
+GamePref.OptionsAmbientVolumeLevel = 1
+GamePref.OptionsAudioOcclusion = False
+GamePref.OptionsBackgroundGlobalOpacity = 0.75
+GamePref.OptionsChatCommunication = True
+GamePref.OptionsControllerAimAssists = True
+GamePref.OptionsControllerCursorHoverSensitivity = 0.5
+GamePref.OptionsControllerCursorSnap = True
+GamePref.OptionsControllerJoystickLayout = 0
+GamePref.OptionsControllerLookAcceleration = 4
+GamePref.OptionsControllerLookAxisDeadzone = 0.1
+GamePref.OptionsControllerLookInvert = False
+GamePref.OptionsControllerMoveAxisDeadzone = 0.1
+GamePref.OptionsControllerSensitivityX = 0.3
+GamePref.OptionsControllerSensitivityY = 0.3
+GamePref.OptionsControllerTriggerEffects = False
+GamePref.OptionsControllerVehicleSensitivity = 1
+GamePref.OptionsControllerVibration = True
+GamePref.OptionsControllerVibrationStrength = 2
+GamePref.OptionsControllerWeaponAiming = False
+GamePref.OptionsControllerZoomSensitivity = 0.5
+GamePref.OptionsControlsResetRevision = 7
+GamePref.OptionsControlsSprintLock = False
+GamePref.OptionsDisableChunkLODs = False
+GamePref.OptionsDisableXmlEvents = False
+GamePref.OptionsDynamicMusicDailyTime = 0.45
+GamePref.OptionsDynamicMusicEnabled = True
+GamePref.OptionsFilterProfanity = False
+GamePref.OptionsForegroundGlobalOpacity = 1
+GamePref.OptionsGfxAA = 0
+GamePref.OptionsGfxAASharpness = 0
+GamePref.OptionsGfxBloom = False
+GamePref.OptionsGfxBrightness = 1
+GamePref.OptionsGfxDOF = False
+GamePref.OptionsGfxDynamicMinFPS = 60
+GamePref.OptionsGfxDynamicMode = 0
+GamePref.OptionsGfxDynamicScale = 1
+GamePref.OptionsGfxFOV = 58
+GamePref.OptionsGfxGrassDistance = 0
+GamePref.OptionsGfxLODDistance = 0
+GamePref.OptionsGfxMotionBlur = 0
+GamePref.OptionsGfxMotionBlurEnabled = False
+GamePref.OptionsGfxObjQuality = 4
+GamePref.OptionsGfxOcclusion = True
+GamePref.OptionsGfxQualityPreset = 5
+GamePref.OptionsGfxReflectQuality = 0
+GamePref.OptionsGfxReflectShadows = False
+GamePref.OptionsGfxResetRevision = 4
+GamePref.OptionsGfxResolution = 0
+GamePref.OptionsGfxShadowDistance = 0
+GamePref.OptionsGfxShadowQuality = 0
+GamePref.OptionsGfxSSAO = False
+GamePref.OptionsGfxSSReflections = 0
+GamePref.OptionsGfxStreamMipmaps = True
+GamePref.OptionsGfxSunShafts = False
+GamePref.OptionsGfxTerrainQuality = 0
+GamePref.OptionsGfxTexFilter = 0
+GamePref.OptionsGfxTexQuality = 2
+GamePref.OptionsGfxTreeDistance = 4
+GamePref.OptionsGfxViewDistance = 6
+GamePref.OptionsGfxVsync = 0
+GamePref.OptionsGfxWaterPtlLimiter = 0
+GamePref.OptionsGfxWaterQuality = 0
+GamePref.OptionsHudOpacity = 1
+GamePref.OptionsHudSize = 1
+GamePref.OptionsInterfaceSensitivity = 0.75
+GamePref.OptionsIntroMovieEnabled = True
+GamePref.OptionsInvertMouse = False
+GamePref.OptionsJournalPopup = True
+GamePref.OptionsLiteNetLibMtuOverride = False
+GamePref.OptionsLookSensitivity = 0.5
+GamePref.OptionsMenuMusicVolumeLevel = 0
+GamePref.OptionsMicVolumeLevel = 0.75
+GamePref.OptionsMumblePositionalAudioSupport = False
+GamePref.OptionsMusicVolumeLevel = 0
+GamePref.OptionsOverallAudioVolumeLevel = 1
+GamePref.OptionsPlayChanceFrequency = 3
+GamePref.OptionsPlayChanceProbability = 0.983
+GamePref.OptionsPlayerModel = playerMale
+GamePref.OptionsPlayerModelTexture = Player/Male/Player_male
+GamePref.OptionsPOICulling = 1
+GamePref.OptionsQuestsAutoAccept = True
+GamePref.OptionsQuestsAutoShare = True
+GamePref.OptionsScreenBoundsValue = 1
+GamePref.OptionsSelectionBoxAlphaMultiplier = 0.4
+GamePref.OptionsShowCompass = True
+GamePref.OptionsShowCrosshair = True
+GamePref.OptionsStabSpawnBlocksOnGround = True
+GamePref.OptionsSubtitlesEnabled = True
+GamePref.OptionsTempCelsius = True
+GamePref.OptionsUiCompassUseEnglishCardinalDirections = False
+GamePref.OptionsUiFpsScaling = 0.8112069
+GamePref.OptionsVehicleLookSensitivity = 0.5
+GamePref.OptionsVoiceChatEnabled = True
+GamePref.OptionsVoiceInputDevice = {64a198f1-018d-4522-84ac-315d9c2f8126}
+GamePref.OptionsVoiceOutputDevice = {0.0.0.00000000}.{7ae2f3eb-7675-482b-9c74-f025861d4c75}
+GamePref.OptionsVoiceVolumeLevel = 0.75
+GamePref.OptionsWeaponAiming = False
+GamePref.OptionsZoomAccel = 0.5
+GamePref.OptionsZoomSensitivity = 0.3
+GamePref.PartySharedKillRange = 100
+GamePref.PersistentPlayerProfiles = False
+GamePref.PlayerAutologin = False
+GamePref.PlayerKillingMode = 0
+GamePref.PlayerName = boqsc
+GamePref.PlayerSafeZoneHours = 5
+GamePref.PlayerSafeZoneLevel = 5
+GamePref.PlayerToken = 
+GamePref.PlaytestBiome = 3
+GamePref.QuestProgressionDailyLimit = 9999
+GamePref.RebuildMap = False
+GamePref.Region = Europe
+GamePref.SaveDataLimit = -1
+GamePref.SelectionContextMode = 0
+GamePref.SelectionOperationMode = 0
+GamePref.ServerAdminSlots = 0
+GamePref.ServerAdminSlotsPermission = 0
+GamePref.ServerDescription = Basic Vanilla Server based in Europe. \n Open Source and Open Collective. \n 24/7 | Free  \n  Using latest game version.
+GamePref.ServerDisabledNetworkProtocols = SteamNetworking
+GamePref.ServerEnabled = True
+GamePref.ServerIP = 
+GamePref.ServerIsPublic = True
+GamePref.ServerLoginConfirmationText = 
+GamePref.ServerMaxAllowedViewDistance = 12
+GamePref.ServerMaxPlayerCount = 16
+GamePref.ServerMaxWorldTransferSpeedKiBs = 3000
+GamePref.ServerName = 7 Days to Die Vanilla Public Server
+GamePref.ServerPort = 26900
+GamePref.ServerReservedSlots = 0
+GamePref.ServerReservedSlotsPermission = 100
+GamePref.ServerVisibility = 2
+GamePref.ServerWebsiteURL = http://vanillaserver.eu/
+GamePref.ShowFriendPlayerOnMap = True
+GamePref.SkipSpawnButton = False
+GamePref.TelnetEnabled = True
+GamePref.TelnetFailedLoginLimit = 10
+GamePref.TelnetFailedLoginsBlocktime = 10
+GamePref.TelnetPort = 8081
+GamePref.TerminalWindowEnabled = True
+GamePref.TwitchBloodMoonAllowed = False
+GamePref.TwitchServerPermission = 90
+GamePref.UNUSED_ControlPanelEnabled = False
+GamePref.UNUSED_ControlPanelPort = 8080
+GamePref.UNUSED_LastLoadedPrefabSize = 
+GamePref.UNUSED_NewGameSetDefaults = 
+GamePref.UNUSED_OptionsBloom = 
+GamePref.UNUSED_OptionsDOF = 
+GamePref.UNUSED_OptionsFieldOfViewNew = 
+GamePref.UNUSED_OptionsGamma = 
+GamePref.UNUSED_OptionsGfxGameplayResolutionHeight = 
+GamePref.UNUSED_OptionsGfxGameplayResolutionWidth = 
+GamePref.UNUSED_OptionsGfxUMATexQuality = 
+GamePref.UNUSED_OptionsMotionBlur = 
+GamePref.UNUSED_OptionsObjectBlur = 
+GamePref.UNUSED_OptionsReflectionBounces = 
+GamePref.UNUSED_OptionsReflectionCullList = 
+GamePref.UNUSED_OptionsReflectionFarClip = 
+GamePref.UNUSED_OptionsReflectionRefreshMode = 
+GamePref.UNUSED_OptionsReflectionShadowDistance = 
+GamePref.UNUSED_OptionsReflectionTimeSlicingMode = 
+GamePref.UNUSED_OptionsSSAO = 
+GamePref.UNUSED_OptionsStreamingMipmapsBudget = 
+GamePref.UNUSED_OptionsSunShafts = 
+GamePref.UNUSED_PlayerId = 
+GamePref.UNUSED_SaveGameFolder = 
+GamePref.UNUSED_UserDataFolder = 
+GamePref.WebDashboardEnabled = False
+GamePref.WebDashboardPort = 8080
+GamePref.WebDashboardUrl = 
+GamePref.WorldGenSeed = asdf
+GamePref.WorldGenSize = 6144
+GamePref.XPMultiplier = 100
+GamePref.ZombieBMMove = 3
+GamePref.ZombieFeralMove = 3
+GamePref.ZombieFeralSense = 0
+GamePref.ZombieMove = 0
+GamePref.ZombieMoveNight = 3
+GamePref.ZombiePlayers = True
+GameStat.AirDropFrequency = 0
+GameStat.AirDropMarker = True
+GameStat.AllowedViewDistance = 12
+GameStat.AnimalCount = 0
+GameStat.AutoParty = False
+GameStat.BedrollExpiryTime = 45
+GameStat.BlockDamagePlayer = 100
+GameStat.BloodMoonDay = 0
+GameStat.BloodMoonEnemyCount = 8
+GameStat.BloodMoonWarning = 8
+GameStat.ChunkStabilityEnabled = True
+GameStat.CurrentRoundIx = 0
+GameStat.DayLightLength = 18
+GameStat.DayLimitActive = False
+GameStat.DayLimitThisRound = 0
+GameStat.DeathPenalty = XPOnly
+GameStat.DropOnDeath = 1
+GameStat.DropOnQuit = 0
+GameStat.EnemyCount = 0
+GameStat.EnemyDifficulty = Normal
+GameStat.EnemySpawnMode = True
+GameStat.FragLimitActive = False
+GameStat.FragLimitThisRound = 0
+GameStat.GameDifficulty = 2
+GameStat.GameDifficultyBonus = 1
+GameStat.GameModeId = 0
+GameStat.GameState = 0
+GameStat.GlobalMessageToShow = 
+GameStat.IsCreativeMenuEnabled = False
+GameStat.IsFlyingEnabled = False
+GameStat.IsPlayerCollisionEnabled = True
+GameStat.IsPlayerDamageEnabled = True
+GameStat.IsResetMapOnRestart = False
+GameStat.IsSaveSupplyCrates = True
+GameStat.IsSpawnEnemies = True
+GameStat.IsSpawnNearOtherPlayer = False
+GameStat.IsTeleportEnabled = False
+GameStat.IsVersionCheckDone = False
+GameStat.LandClaimCount = 3
+GameStat.LandClaimDeadZone = 30
+GameStat.LandClaimDecayMode = 0
+GameStat.LandClaimExpiryTime = 3
+GameStat.LandClaimOfflineDelay = 0
+GameStat.LandClaimOfflineDurabilityModifier = 32
+GameStat.LandClaimOnlineDurabilityModifier = 32
+GameStat.LandClaimSize = 41
+GameStat.LoadScene = 
+GameStat.LootTimer = 
+GameStat.OptionsPOICulling = 0
+GameStat.PartySharedKillRange = 100
+GameStat.PlayerKillingMode = KillStrangersOnly
+GameStat.QuestProgressionDailyLimit = 4
+GameStat.ScoreDiedMultiplier = -5
+GameStat.ScorePlayerKillMultiplier = 1
+GameStat.ScoreZombieKillMultiplier = 1
+GameStat.ShowAllPlayersOnMap = False
+GameStat.ShowFriendPlayerOnMap = True
+GameStat.ShowSpawnWindow = False
+GameStat.ShowWindow = 
+GameStat.TimeLimitActive = False
+GameStat.TimeLimitThisRound = 0
+GameStat.TimeOfDayIncPerSec = 20
+GameStat.TwitchBloodMoonAllowed = True
+GameStat.UNUSED_ShowZombieCounter = 
+GameStat.XPMultiplier = 100
+GameStat.ZombieHordeMeter = False
+2024-08-17T14:57:25 27.732 INF StartAsServer
+2024-08-17T14:57:25 27.782 INF Setting for 'BloodMoonEnemyCount' does not match the default (server will go to the modded category): current = 16, default = 8
+2024-08-17T14:57:25 27.782 INF Setting for 'QuestProgressionDailyLimit' not within the default range (server will go to the modded category): current = 9999, default = -1 - 8
+2024-08-17T14:57:26 28.689 WRN save folder does not exist
+2024-08-17T14:57:26 29.040 INF Loaded (local): events in 0.10
+2024-08-17T14:57:27 29.741 INF Loaded (local): materials in 0.30
+2024-08-17T14:57:27 30.141 INF Loaded (local): physicsbodies in 0.10
+2024-08-17T14:57:28 30.490 INF Loaded (local): painting in 0.10
+2024-08-17T14:57:28 30.942 INF Loaded (local): shapes in 0.10
+ERROR: Shader Legacy Shaders/Transparent/Cutout/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/SpeedTree' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/SpeedTree shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/SpeedTree' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Nature/SpeedTree Billboard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Nature/SpeedTree Billboard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Nature/SpeedTree Billboard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/BlockMissing shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Entity Tint Mask' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Entity Tint Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Entity Tint Mask' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Transparent shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Liquid' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/7DTD_Liquid shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Liquid' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/SignTextShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/SignTextShader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/SignTextShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/Autodesk XFade' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Autodesk XFade shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Autodesk XFade' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Alpha Blended Premultiply shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Fire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/7DTD_Fire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Fire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/SemiTransGlow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Particles/Standard Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/TorchFire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/partPyro_fireShader_A' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/partPyro_fireShader_A shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/partPyro_fireShader_A' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_B' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/partPyro_template_lit_B shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_B' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Particles/Standard Surface shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Autodesk Interactive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/Autodesk' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Autodesk shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Autodesk' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Character shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Cobweb' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/7DTD_Cobweb shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Cobweb' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/EntityTintMaskSSS' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/EntityTintMaskSSS shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/EntityTintMaskSSS' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Alpha Blended shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/CharacterPlayerOutfit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/CharacterPlayerOutfit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/CharacterPlayerOutfit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Standard Surface shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/Autodesk' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Autodesk shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Autodesk' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: '7DTD/7DTD_Sign_Illuminated' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/7DTD_Sign_Illuminated shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Sign_Illuminated' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Custom/SignTextShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Custom/SignTextShader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Custom/SignTextShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Transparent shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Nature/SpeedTree8' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Nature/SpeedTree8 shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Nature/SpeedTree8' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/SpeedTree8' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/SpeedTree8 shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/SpeedTree8' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Nature/SpeedTree' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Nature/SpeedTree shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Nature/SpeedTree' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/Autodesk XFade' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Autodesk XFade shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Autodesk XFade' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Standard (Specular setup)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard (Specular setup) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard (Specular setup)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: '7DTD/7DTD_RallyPoint' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/7DTD_RallyPoint shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_RallyPoint' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Character shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Cloth' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Cloth shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Cloth' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/shader_gas_unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Unloading 5 Unused Serialized files (Serialized files now loaded: 12)
+2024-08-17T14:58:02 64.443 INF Block IDs with mapping
+2024-08-17T14:58:02 64.465 INF Block IDs total 23973, terr 29, last 24195
+2024-08-17T14:58:02 64.508 INF Loaded (local): blocks in 32.66
+Unloading 72684 unused Assets to reduce memory usage. Loaded Objects now: 81177.
+Total: 541.967200 ms (FindLiveObjects: 11.297700 ms CreateObjectMapping: 22.553700 ms MarkObjects: 478.120500 ms  DeleteObjects: 29.994900 ms)
+
+2024-08-17T14:58:03 65.504 INF Loaded (local): progression in 0.25
+WARNING: Shader Unsupported: '7DTD_Unity5/WaterInBucket' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD_Unity5/WaterInBucket shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD_Unity5/WaterInBucket' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-17T14:58:03 66.092 INF Loaded (local): buffs in 0.29
+2024-08-17T14:58:04 66.415 INF Loaded (local): misc in 0.10
+WARNING: Shader Unsupported: '7DTD/TorchGlow' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/TorchGlow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/TorchGlow' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/TorchFire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/TorchFire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/TorchFire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-17T14:58:05 67.582 INF Loaded (local): items in 0.82
+ERROR: Shader Shader Forge/7DTD_Particle_Additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Glass Reflex' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Glass Reflex shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Glass Reflex' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-17T14:58:05 68.022 INF Item IDs with mapping
+2024-08-17T14:58:05 68.023 INF ItemIDs from Mapping
+2024-08-17T14:58:05 68.031 INF ItemClass assignLeftOverItems 66882 of 81920
+2024-08-17T14:58:05 68.133 INF Loaded (local): item_modifiers in 0.11
+2024-08-17T14:58:06 68.565 INF Loaded (local): entityclasses in 0.18
+2024-08-17T14:58:06 68.889 INF Loaded (local): qualityinfo in 0.10
+2024-08-17T14:58:06 69.295 INF Loaded (local): sounds in 0.10
+2024-08-17T14:58:07 69.655 INF Loaded (local): recipes in 0.11
+2024-08-17T14:58:07 70.005 INF Loaded (local): blockplaceholders in 0.10
+2024-08-17T14:58:08 70.357 INF Loaded (local): loot in 0.10
+2024-08-17T14:58:08 70.707 INF Loaded (local): entitygroups in 0.10
+2024-08-17T14:58:08 71.057 INF Loaded (local): utilityai in 0.10
+2024-08-17T14:58:09 71.408 INF Loaded (local): vehicles in 0.10
+2024-08-17T14:58:09 71.757 INF Loaded (local): rwgmixer in 0.10
+2024-08-17T14:58:09 72.106 INF Loaded (local): weathersurvival in 0.10
+2024-08-17T14:58:10 72.457 INF Loaded (local): archetypes in 0.10
+2024-08-17T14:58:10 72.808 INF Loaded (local): challenges in 0.10
+2024-08-17T14:58:10 73.228 INF Loaded (local): quests in 0.17
+2024-08-17T14:58:11 73.577 INF Loaded (local): traders in 0.10
+2024-08-17T14:58:11 73.927 INF Loaded (local): npc in 0.10
+2024-08-17T14:58:11 74.278 INF Loaded (local): dialogs in 0.10
+2024-08-17T14:58:12 74.627 INF Loaded (local): ui_display in 0.10
+2024-08-17T14:58:12 74.978 INF Loaded (local): nav_objects in 0.10
+2024-08-17T14:58:12 75.326 INF Loaded (local): gamestages in 0.10
+2024-08-17T14:58:13 76.196 INF Loaded (local): gameevents in 0.62
+2024-08-17T14:58:14 76.591 INF Loaded (local): twitch in 0.12
+2024-08-17T14:58:14 76.930 INF Loaded (local): twitch_events in 0.10
+2024-08-17T14:58:14 77.285 INF Loaded (local): dmscontent in 0.11
+2024-08-17T14:58:15 77.635 INF Loaded (local): XUi_Common/styles in 0.10
+2024-08-17T14:58:15 77.985 INF Loaded (local): XUi_Common/controls in 0.10
+2024-08-17T14:58:15 78.335 INF Loaded (local): XUi/styles in 0.10
+2024-08-17T14:58:16 78.686 INF Loaded (local): XUi/controls in 0.10
+2024-08-17T14:58:16 79.035 INF Loaded (local): XUi/windows in 0.10
+2024-08-17T14:58:17 79.386 INF Loaded (local): XUi/xui in 0.10
+2024-08-17T14:58:17 79.735 INF Loaded (local): biomes in 0.10
+2024-08-17T14:58:17 80.085 INF Loaded (local): worldglobal in 0.10
+2024-08-17T14:58:18 80.436 INF Loaded (local): spawning in 0.10
+2024-08-17T14:58:18 80.784 INF Loaded (local): loadingscreen in 0.10
+2024-08-17T14:58:18 81.089 INF Added 1335 subtitle data entries and 3 speaker colors
+2024-08-17T14:58:18 81.135 INF Loaded (local): subtitles in 0.10
+2024-08-17T14:58:19 81.485 INF Loaded (local): videos in 0.10
+2024-08-17T14:58:19 81.636 INF Loading players.xml
+2024-08-17T14:58:19 81.643 INF createWorld: Navezgane, My Game, GameModeSurvival
+2024-08-17T14:58:19 81.645 INF Occlusion: Disabled
+2024-08-17T14:58:19 81.696 INF Started thread ChunkCalc
+2024-08-17T14:58:19 81.698 INF Started thread ChunkRegeneration
+2024-08-17T14:58:19 81.700 INF Started thread ChunkMeshBake
+2024-08-17T14:58:19 81.787 INF World.Load: Navezgane
+2024-08-17T14:58:19 81.823 INF BloodMoon SetDay: day 7, last day 0, freq 7, range 0
+2024-08-17T14:58:19 81.844 INF Started thread WaterSimulationApplyChanges
+2024-08-17T14:58:45 108.108 INF Started thread GenerateChunks
+2024-08-17T14:58:47 109.423 INF Calculating world hashes took 1234 ms (world size 191 MiB)
+2024-08-17T14:58:47 109.429 INF Initial ENABLE_FILE_BACKED_ARRAYS == False
+2024-08-17T14:58:47 109.554 INF Loading dtm raw file took 1413ms
+2024-08-17T14:58:47 109.789 INF Biomes image size w= 3072, h = 3072
+2024-08-17T14:58:48 111.227 INF Loading and creating biomes took 1671ms
+2024-08-17T14:58:49 111.756 INF NET: LiteNetLib: Connect from: 127.0.0.1:53445 / 0
+2024-08-17T14:58:49 111.772 INF Started thread NCS_Reader_0_0
+2024-08-17T14:58:49 111.797 INF Started thread NCS_Writer_0_0
+2024-08-17T14:58:49 111.806 INF Started thread NCS_Reader_0_1
+2024-08-17T14:58:49 111.836 INF Started thread NCS_Writer_0_1
+2024-08-17T14:58:49 111.846 INF [NET] PlayerConnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='1'
+2024-08-17T14:58:49 111.956 INF NPPL.Read
+Texture with ID 2744 and with size 6144x6144 was too large for graphics device maximum supported texture size (4096x4096). Falling back to a dummy texture. Generate mip maps to provide lower size fallback.
+2024-08-17T14:58:49 112.158 INF PlayerLogin: boqsc/V 1.1
+2024-08-17T14:58:49 112.159 INF Client IP: 127.0.0.1
+2024-08-17T14:58:49 112.166 INF [Auth] PlayerName authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
+2024-08-17T14:58:49 112.170 INF [Auth] ServerState authorization failed: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
+2024-08-17T14:58:49 112.173 INF Kicking player (Server is still initializing): EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
+2024-08-17T14:58:49 112.195 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:53445 / 0 (RemoteConnectionClose)
+2024-08-17T14:58:49 112.198 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:53445 / 0 (RemoteConnectionClose)
+2024-08-17T14:58:49 112.199 INF [NET] PlayerDisconnected EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
+2024-08-17T14:58:49 112.201 INF Player disconnected: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='1'
+2024-08-17T14:58:49 112.202 INF Exited thread NCS_Writer_0_0
+2024-08-17T14:58:49 112.203 INF Exited thread NCS_Reader_0_0
+2024-08-17T14:58:49 112.203 INF Exited thread NCS_Reader_0_1
+2024-08-17T14:58:49 112.204 INF Exited thread NCS_Writer_0_1
+Texture with ID 2745 and with size 6144x6144 was too large for graphics device maximum supported texture size (4096x4096). Falling back to a dummy texture. Generate mip maps to provide lower size fallback.
+2024-08-17T14:58:50 112.675 ERR [EOS] Failed unregistering player in session: NotFound
+2024-08-17T14:58:50 112.676 WRN DisconnectClient: Player EOS_00020585a34f4b93bf8c21b3cf8d3150 not found
+2024-08-17T14:58:50 112.677 INF From: UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ConnectionManager:DisconnectClient (ClientInfo,bool,bool)
+GameUtils/<disconnectLater>d__49:MoveNext ()
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+2024-08-17T14:58:50 112.760 INF Loading and creating shader control textures took 1532ms
+2024-08-17T14:58:51 113.738 INF Loading and parsing of generator took 976ms
+2024-08-17T14:58:51 113.812 INF Computed 415 chunk groups containing a total of 8472 chunks. Largest group contains 449 chunks.
+2024-08-17T14:58:51 113.853 INF Started thread SaveChunks C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves\Navezgane\My Game\Region
+2024-08-17T14:58:53 116.134 INF [DECO] read 75466
+2024-08-17T14:58:53 116.298 INF Dynamic Music Initialized on Server
+2024-08-17T14:58:53 116.299 INF Dynamic Music Initialized on Dedi
+2024-08-17T14:58:53 116.302 INF AstarManager Init
+2024-08-17T14:58:54 116.714 INF WeatherManager: Init 8 weather packages
+WARNING: Shader Unsupported: '7DTD_Unity5/Wire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD_Unity5/Wire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD_Unity5/Wire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-17T14:58:54 117.171 INF WeatherManager: ApplySavedPackages
+2024-08-17T14:58:54 117.182 INF createWorld() done
+2024-08-17T14:58:54 117.270 INF Loaded player
+2024-08-17T14:58:54 117.322 INF VehicleManager C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves/Navezgane/My Game/vehicles.dat, loaded 0
+2024-08-17T14:58:54 117.325 INF DroneManager C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves/Navezgane/My Game/drones.dat, loaded 0
+2024-08-17T14:58:54 117.328 INF TurretTracker C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves/Navezgane/My Game/turrets.dat, loaded 0
+2024-08-17T14:58:55 117.424 INF [EOS] Registering server
+2024-08-17T14:58:55 117.466 INF [PlayerInteractions] JoinedMultiplayerServer not supported with current platforms
+2024-08-17T14:58:55 117.471 INF [EAC] Starting EAC server
+Current game time: Day 1, 07:00
+It's daytime!
+2024-08-17T14:58:58 121.315 INF Loading dymesh settings
+2024-08-17T14:58:58 121.317 INF Dynamic Mesh Settings
+2024-08-17T14:58:58 121.318 INF Use Imposter Values: True
+2024-08-17T14:58:58 121.318 INF Only Player Areas: True
+2024-08-17T14:58:58 121.319 INF Player Area Buffer: 3
+2024-08-17T14:58:58 121.320 INF Max View Distance: 1000
+2024-08-17T14:58:58 121.320 INF Regen all on new world: False
+2024-08-17T14:58:58 121.327 INF Dymesh: Prepping dynamic mesh. Resend Default: True
+2024-08-17T14:58:58 121.327 INF Dymesh: Mesh location: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves/Navezgane/My Game/DynamicMeshes/
+2024-08-17T14:58:59 121.391 INF StartGame done
+2024-08-17T14:58:59 121.398 INF [Steamworks.NET] Registering auth callbacks
+2024-08-17T14:58:59 121.404 INF [Steamworks.NET] GameServer.Init successful
+2024-08-17T14:58:59 121.419 INF [Steamworks.NET] Making server public
+2024-08-17T14:58:59 121.698 INF [EOS] Server registered, session: 802e776b7aab4d80bf8711750960d7c1
+2024-08-17T14:58:59 121.709 INF [EOS] Session address: 7*.6*.4*.22*
+2024-08-17T14:58:59 122.094 INF Dymesh: Warming dynamic mesh
+2024-08-17T14:58:59 122.094 INF Dymesh: Creating dynamic mesh manager
+2024-08-17T14:58:59 122.102 INF Dymesh: Awake
+2024-08-17T14:58:59 122.103 INF Dymesh: Mesh location: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves/Navezgane/My Game/DynamicMeshes/
+2024-08-17T14:58:59 122.106 INF Dymesh: Loading Items: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves/Navezgane/My Game/DynamicMeshes/
+2024-08-17T14:58:59 122.110 INF Dymesh: Loaded Items: 0
+2024-08-17T14:58:59 122.115 INF Dymesh: Loading all items took: 0.0079772 seconds.
+2024-08-17T14:58:59 122.123 INF Clearing queues.
+2024-08-17T14:58:59 122.125 INF Cleared queues.
+2024-08-17T14:58:59 122.156 INF Dymesh door replacement: imposterBlock
+2024-08-17T14:58:59 122.170 INF Dynamic thread starting
+2024-08-17T14:59:01 123.741 INF [Steamworks.NET] GameServer.LogOn successful, SteamID=90201015636560920, public IP=7*.6*.4*.22*
+Current game time: Day 1, 07:00
+It's daytime!
+2024-08-17T14:59:04 126.571 INF NET: LiteNetLib: Connect from: 127.0.0.1:62987 / 0
+2024-08-17T14:59:04 126.589 INF Started thread NCS_Reader_0_0
+2024-08-17T14:59:04 126.596 INF Started thread NCS_Writer_0_0
+2024-08-17T14:59:04 126.606 INF Started thread NCS_Reader_0_1
+2024-08-17T14:59:04 126.616 INF Started thread NCS_Writer_0_1
+2024-08-17T14:59:04 126.617 INF [NET] PlayerConnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='2'
+2024-08-17T14:59:04 126.675 INF [DECO] written 75466, in 37ms
+2024-08-17T14:59:04 126.717 INF [DECO] write thread 11ms
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+2024-08-17T14:59:28 150.744 INF Time: 1.84m FPS: 20.00 Heap: 1086.1MB Max: 1086.1MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1854.9MB
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+2024-08-17T14:59:39 162.152 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:62987 / 0 (RemoteConnectionClose)
+2024-08-17T14:59:39 162.171 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:62987 / 0 (RemoteConnectionClose)
+2024-08-17T14:59:39 162.171 INF [NET] PlayerDisconnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='2'
+2024-08-17T14:59:39 162.173 WRN DynamicMusic: -1 was not in Bloodmoon state cache on disconnect
+2024-08-17T14:59:39 162.174 INF Client disconnected from dy mesh: Id: -1 Total: 0
+2024-08-17T14:59:39 162.175 INF Player disconnected: EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='2'
+2024-08-17T14:59:39 162.176 INF Exited thread NCS_Reader_0_0
+2024-08-17T14:59:39 162.176 INF [EOS-ACS] FreeUser: EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='2'
+2024-08-17T14:59:39 162.177 INF Exited thread NCS_Writer_0_0
+2024-08-17T14:59:39 162.178 INF Exited thread NCS_Reader_0_1
+2024-08-17T14:59:39 162.178 INF Exited thread NCS_Writer_0_1
+2024-08-17T14:59:39 162.190 ERR [EOS] [LogEOSAntiCheat - Error] [AntiCheatServer] [UnregisterClient-001] ClientHandle 0000000000000002 not found.
+2024-08-17T14:59:39 162.191 ERR [EOS-ACS] Failed unregistering user: InvalidParameters
+Current game time: Day 1, 07:00
+It's daytime!
+2024-08-17T14:59:44 167.108 INF NET: LiteNetLib: Connect from: 127.0.0.1:52049 / 0
+[NM] SocketReceiveThread error: System.IO.IOException: Sharing violation on path C:\Users\WINDOW~1\AppData\Local\Temp\The Fun Pimps\7 Days To Die\Player.log
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append) [0x00008] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool)
+  at BacktraceUtils.Backtrace_LogCallbacks (System.String _msg, System.String _trace, UnityEngine.LogType _type) [0x00010] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void_string_string_LogType(string,string,UnityEngine.LogType)
+  at Log.SendToLogListeners (System.String _formattedMessage, System.String _trace, UnityEngine.LogType _type, System.DateTime _timestamp, System.Int64 _uptime, System.String _message) [0x00009] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.masterLogStandalone (System.String _txt, UnityEngine.LogType _logType, System.String _trace) [0x0002a] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.Out (System.String _txt) [0x00030] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at NetworkServerLiteNetLib.<StartServer>b__14_0 (LiteNetLib.NetPeer _peer) [0x0001b] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnPeerConnected (LiteNetLib.NetPeer peer) [0x00008] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00042] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.CreateEvent (LiteNetLib.NetEvent+EType type, LiteNetLib.NetPeer peer, System.Net.IPEndPoint remoteEndPoint, System.Net.Sockets.SocketError errorCode, System.Int32 latency, LiteNetLib.DisconnectReason disconnectReason, LiteNetLib.ConnectionRequest connectionRequest, LiteNetLib.DeliveryMethod deliveryMethod, LiteNetLib.NetPacket readerSource, System.Object userData) [0x000ca] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.OnConnectionSolved (LiteNetLib.ConnectionRequest request, System.Byte[] rejectData, System.Int32 start, System.Int32 length) [0x00131] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.ConnectionRequest.Accept () [0x00011] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at NetworkServerLiteNetLib.ConnectionRequestCheck (LiteNetLib.ConnectionRequest _request) [0x00104] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnConnectionRequest (LiteNetLib.ConnectionRequest request) [0x00008] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00128] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.CreateEvent (LiteNetLib.NetEvent+EType type, LiteNetLib.NetPeer peer, System.Net.IPEndPoint remoteEndPoint, System.Net.Sockets.SocketError errorCode, System.Int32 latency, LiteNetLib.DisconnectReason disconnectReason, LiteNetLib.ConnectionRequest connectionRequest, LiteNetLib.DeliveryMethod deliveryMethod, LiteNetLib.NetPacket readerSource, System.Object userData) [0x000ca] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessConnectRequest (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPeer netPeer, LiteNetLib.NetConnectRequestPacket connRequest) [0x000c0] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.DataReceived (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x001f9] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.OnMessageReceived (LiteNetLib.NetPacket packet, System.Net.Sockets.SocketError errorCode, System.Net.IPEndPoint remoteEndPoint) [0x0002e] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+2024-08-17T14:59:47 169.353 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:52049 / 0 (RemoteConnectionClose)
+2024-08-17T14:59:47 169.371 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:52049 / 0 (RemoteConnectionClose)
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+2024-08-17T14:59:58 180.771 INF Time: 2.34m FPS: 20.01 Heap: 1117.5MB Max: 1117.5MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1854.9MB
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+2024-08-17T15:02:49 351.477 INF NET: LiteNetLib: Connect from: 127.0.0.1:63282 / 0
+2024-08-17T15:02:49 351.479 INF Started thread NCS_Reader_0_0
+2024-08-17T15:02:49 351.487 INF Started thread NCS_Writer_0_0
+2024-08-17T15:02:49 351.495 INF Started thread NCS_Reader_0_1
+2024-08-17T15:02:49 351.496 INF [NET] PlayerConnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='3'
+2024-08-17T15:02:49 351.496 INF Started thread NCS_Writer_0_1
+2024-08-17T15:02:49 351.585 INF NPPL.Read
+2024-08-17T15:02:49 351.609 INF PlayerLogin: boqsc/V 1.1
+2024-08-17T15:02:49 351.610 INF Client IP: 127.0.0.1
+2024-08-17T15:02:49 351.613 INF [Auth] PlayerName authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:02:49 351.614 INF [Auth] ServerState authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:02:49 351.616 INF [Auth] MpHostAllowed authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:02:49 351.618 INF [Auth] PlayerId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:02:49 351.619 INF [Auth] DuplicateUserId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:02:49 351.621 INF [Auth] VersionCheck authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:02:49 351.625 INF [Auth] PlayerSlots authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:02:49 351.629 INF [Auth] LegacyModAuthorizations authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:02:49 351.632 INF [Steamworks.NET] Auth.AuthenticateUser()
+2024-08-17T15:02:49 351.652 INF [Steamworks.NET] Authenticating player: boqsc SteamId: 76561198072601792 TicketLen: 1024 Result: k_EBeginAuthSessionResultOK
+Current game time: Day 1, 07:00
+It's daytime!
+2024-08-17T15:02:50 352.919 INF [Steamworks.NET] Authentication callback. ID: 76561198072601792, owner: 76561198072601792, result: k_EAuthSessionResponseOK
+2024-08-17T15:02:50 352.920 INF [Auth] PlatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:02:50 352.922 INF [Auth] SteamFamily authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:02:50 352.925 INF [Auth] SteamGroups authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:02:50 352.931 INF [EOS] Verifying token for 00020585a34f4b93bf8c21b3cf8d3150
+2024-08-17T15:02:50 352.935 WRN [SteamServer] Tick took exceptionally long: 27 ms
+2024-08-17T15:02:51 353.614 INF [EOS] Device=, Platform=steam, AccType=Steam, AccId=76561198072601792, PUID=00020585a34f4b93bf8c21b3cf8d3150
+2024-08-17T15:02:51 354.062 INF [EOS] Player may have active sanctions
+2024-08-17T15:02:51 354.064 INF [EOS] SanctionsQuery finished with: 0 sanctions
+2024-08-17T15:02:51 354.067 INF [Auth] CrossplatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:02:51 354.070 INF [Auth] BansAndWhitelist authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:02:51 354.073 INF [Auth] Crossplay authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:02:51 354.075 INF [EOS-ACS] Registering user: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+Current game time: Day 1, 07:00
+It's daytime!
+2024-08-17T15:02:58 360.808 INF [Auth] EAC authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:02:58 360.857 INF [Auth] Finalizer authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:02:58 360.910 INF Allowing player with id EOS_00020585a34f4b93bf8c21b3cf8d3150
+2024-08-17T15:02:59 361.398 INF Time: 5.35m FPS: 20.00 Heap: 1110.4MB Max: 1137.1MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1967.9MB
+2024-08-17T15:02:59 361.501 INF RequestToEnterGame: EOS_00020585a34f4b93bf8c21b3cf8d3150/boqsc
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+2024-08-17T15:03:29 391.399 INF Time: 5.85m FPS: 20.00 Heap: 1140.2MB Max: 1140.2MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1970.3MB
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:00
+It's daytime!
+2024-08-17T15:03:59 421.447 INF Time: 6.35m FPS: 20.00 Heap: 1166.0MB Max: 1166.0MB Chunks: 9 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (0) Items: 0 CO: 0 RSS: 1970.0MB
+Current game time: Day 1, 07:00
+It's daytime!
+2024-08-17T15:04:04 427.108 INF Dymesh: Update items to send for boqsc id: -1  recieved: 0
+2024-08-17T15:04:04 427.114 INF Dymesh: Items to send: 0   Added: 0   chunks: 0
+2024-08-17T15:04:05 427.409 INF RequestToSpawnPlayer: 171, boqsc, 6
+WARNING: Shader Unsupported: 'Game/SDCS/Skin' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/SDCS/Skin shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/SDCS/Skin' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/SDCS/Hair' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/SDCS/Hair shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/SDCS/Hair' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-17T15:04:05 428.334 WRN Parameter 'IsMale' not found in animator
+2024-08-17T15:04:06 428.358 INF Created player with id=171
+Current game time: Day 1, 07:00
+It's daytime!
+Current game time: Day 1, 07:02
+It's daytime!
+2024-08-17T15:04:11 434.003 INF GMSG: Player 'boqsc' joined the game
+2024-08-17T15:04:11 434.015 INF PlayerSpawnedInWorld (reason: EnterMultiplayer, position: 122, 75, 1213): EntityID=171, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:04:13 436.209 INF MinEventLogMessage: XP gained during the last level:
+2024-08-17T15:04:13 436.214 INF CVarLogValue: $xpFromLootThisLevel == 0
+2024-08-17T15:04:13 436.215 INF CVarLogValue: $xpFromHarvestingThisLevel == 0
+2024-08-17T15:04:13 436.216 INF CVarLogValue: $xpFromKillThisLevel == 0
+Current game time: Day 1, 07:03
+It's daytime!
+Current game time: Day 1, 07:05
+It's daytime!
+2024-08-17T15:04:26 448.772 INF Chat (from 'Steam_76561198072601792', entity id '171', to 'Global'): gewwta
+Current game time: Day 1, 07:07
+It's daytime!
+2024-08-17T15:04:29 452.308 INF Time: 6.85m FPS: 20.00 Heap: 1331.6MB Max: 1331.6MB Chunks: 234 CGO: 15 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 2150.0MB
+Current game time: Day 1, 07:09
+It's daytime!
+Current game time: Day 1, 07:10
+It's daytime!
+Current game time: Day 1, 07:12
+It's daytime!
+Current game time: Day 1, 07:14
+It's daytime!
+Current game time: Day 1, 07:16
+It's daytime!
+Current game time: Day 1, 07:18
+It's daytime!
+2024-08-17T15:05:00 482.620 INF Time: 7.35m FPS: 20.00 Heap: 1312.8MB Max: 1331.6MB Chunks: 234 CGO: 15 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 2152.4MB
+Current game time: Day 1, 07:19
+It's daytime!
+Current game time: Day 1, 07:21
+It's daytime!
+Current game time: Day 1, 07:23
+It's daytime!
+Current game time: Day 1, 07:25
+It's daytime!
+Current game time: Day 1, 07:27
+It's daytime!
+Current game time: Day 1, 07:28
+It's daytime!
+2024-08-17T15:05:30 512.670 INF Time: 7.85m FPS: 20.01 Heap: 1337.3MB Max: 1337.3MB Chunks: 234 CGO: 15 Ply: 1 Zom: 0 Ent: 2 (2) Items: 0 CO: 1 RSS: 2152.3MB
+Current game time: Day 1, 07:30
+It's daytime!
+Current game time: Day 1, 07:32
+It's daytime!
+Current game time: Day 1, 07:34
+It's daytime!
+Current game time: Day 1, 07:36
+It's daytime!
+Current game time: Day 1, 07:37
+It's daytime!
+Current game time: Day 1, 07:39
+It's daytime!
+2024-08-17T15:06:00 542.697 INF Time: 8.35m FPS: 19.72 Heap: 1367.7MB Max: 1367.7MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2168.8MB
+Current game time: Day 1, 07:41
+It's daytime!
+2024-08-17T15:06:06 548.498 INF VehicleManager saving 0 (0 + 0)
+2024-08-17T15:06:06 548.501 INF DroneManager saving 0 (0 + 0)
+2024-08-17T15:06:06 548.540 INF VehicleManager saved 9 bytes
+2024-08-17T15:06:06 548.564 INF TurretTracker saving 0 (0 + 0)
+2024-08-17T15:06:06 548.589 INF TurretTracker saved 9 bytes
+2024-08-17T15:06:06 548.590 INF DroneManager saved 9 bytes
+Current game time: Day 1, 07:43
+It's daytime!
+Current game time: Day 1, 07:45
+It's daytime!
+Current game time: Day 1, 07:46
+It's daytime!
+Current game time: Day 1, 07:48
+It's daytime!
+Current game time: Day 1, 07:50
+It's daytime!
+2024-08-17T15:06:30 572.709 INF Time: 8.85m FPS: 20.01 Heap: 1414.7MB Max: 1414.7MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2216.2MB
+Current game time: Day 1, 07:52
+It's daytime!
+Current game time: Day 1, 07:54
+It's daytime!
+Current game time: Day 1, 07:55
+It's daytime!
+Current game time: Day 1, 07:57
+It's daytime!
+Current game time: Day 1, 07:59
+It's daytime!
+Current game time: Day 1, 08:01
+It's daytime!
+2024-08-17T15:07:01 603.806 INF Time: 9.35m FPS: 19.32 Heap: 1314.3MB Max: 1414.7MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2249.9MB
+Current game time: Day 1, 08:03
+It's daytime!
+Current game time: Day 1, 08:04
+It's daytime!
+Current game time: Day 1, 08:06
+It's daytime!
+Current game time: Day 1, 08:08
+It's daytime!
+Current game time: Day 1, 08:10
+It's daytime!
+Current game time: Day 1, 08:12
+It's daytime!
+2024-08-17T15:07:31 633.855 INF Time: 9.85m FPS: 18.38 Heap: 1340.4MB Max: 1414.7MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2249.9MB
+Current game time: Day 1, 08:13
+It's daytime!
+Current game time: Day 1, 08:15
+It's daytime!
+Current game time: Day 1, 08:17
+It's daytime!
+Current game time: Day 1, 08:19
+It's daytime!
+Current game time: Day 1, 08:21
+It's daytime!
+Current game time: Day 1, 08:22
+It's daytime!
+2024-08-17T15:08:01 663.870 INF Time: 10.35m FPS: 20.00 Heap: 1372.4MB Max: 1414.7MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2249.9MB
+Current game time: Day 1, 08:24
+It's daytime!
+2024-08-17T15:08:07 670.024 INF VehicleManager saving 0 (0 + 0)
+2024-08-17T15:08:07 670.171 INF DroneManager saving 0 (0 + 0)
+2024-08-17T15:08:07 670.223 INF TurretTracker saving 0 (0 + 0)
+2024-08-17T15:08:07 670.239 INF VehicleManager saved 9 bytes
+2024-08-17T15:08:07 670.250 INF TurretTracker saved 9 bytes
+2024-08-17T15:08:07 670.262 INF DroneManager saved 9 bytes
+Current game time: Day 1, 08:26
+It's daytime!
+Current game time: Day 1, 08:28
+It's daytime!
+Current game time: Day 1, 08:30
+It's daytime!
+Current game time: Day 1, 08:31
+It's daytime!
+Current game time: Day 1, 08:33
+It's daytime!
+2024-08-17T15:08:31 693.948 INF Time: 10.85m FPS: 19.99 Heap: 1422.9MB Max: 1422.9MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2250.0MB
+Current game time: Day 1, 08:35
+It's daytime!
+Current game time: Day 1, 08:37
+It's daytime!
+Current game time: Day 1, 08:39
+It's daytime!
+Current game time: Day 1, 08:40
+It's daytime!
+Current game time: Day 1, 08:42
+It's daytime!
+Current game time: Day 1, 08:44
+It's daytime!
+2024-08-17T15:09:02 724.830 INF Time: 11.36m FPS: 19.98 Heap: 1315.4MB Max: 1422.9MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2261.5MB
+Current game time: Day 1, 08:46
+It's daytime!
+Current game time: Day 1, 08:48
+It's daytime!
+Current game time: Day 1, 08:49
+It's daytime!
+Current game time: Day 1, 08:51
+It's daytime!
+Current game time: Day 1, 08:53
+It's daytime!
+Current game time: Day 1, 08:55
+It's daytime!
+2024-08-17T15:09:32 754.864 INF Time: 11.86m FPS: 19.94 Heap: 1344.3MB Max: 1422.9MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2261.5MB
+Current game time: Day 1, 08:57
+It's daytime!
+Current game time: Day 1, 08:58
+It's daytime!
+Current game time: Day 1, 09:00
+It's daytime!
+Current game time: Day 1, 09:02
+It's daytime!
+Current game time: Day 1, 09:04
+It's daytime!
+Current game time: Day 1, 09:05
+It's daytime!
+2024-08-17T15:10:01 783.702 INF Chat (from 'Steam_76561198072601792', entity id '171', to 'Global'): aa
+2024-08-17T15:10:02 784.896 INF Time: 12.36m FPS: 20.00 Heap: 1382.6MB Max: 1422.9MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2261.5MB
+Current game time: Day 1, 09:07
+It's daytime!
+2024-08-17T15:10:08 790.795 INF VehicleManager saving 0 (0 + 0)
+2024-08-17T15:10:08 790.801 INF DroneManager saving 0 (0 + 0)
+2024-08-17T15:10:08 790.803 INF TurretTracker saving 0 (0 + 0)
+2024-08-17T15:10:08 790.822 INF VehicleManager saved 9 bytes
+2024-08-17T15:10:08 790.851 INF DroneManager saved 9 bytes
+2024-08-17T15:10:08 790.868 INF TurretTracker saved 9 bytes
+Current game time: Day 1, 09:09
+It's daytime!
+Current game time: Day 1, 09:11
+It's daytime!
+Current game time: Day 1, 09:13
+It's daytime!
+Current game time: Day 1, 09:14
+It's daytime!
+2024-08-17T15:10:26 808.789 INF Chat (from 'Steam_76561198072601792', entity id '171', to 'Global'): dsf
+Current game time: Day 1, 09:16
+It's daytime!
+2024-08-17T15:10:32 814.915 INF Time: 12.86m FPS: 19.43 Heap: 1440.2MB Max: 1440.2MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2261.6MB
+Current game time: Day 1, 09:18
+It's daytime!
+Current game time: Day 1, 09:20
+It's daytime!
+Current game time: Day 1, 09:22
+It's daytime!
+Current game time: Day 1, 09:24
+It's daytime!
+Current game time: Day 1, 09:25
+It's daytime!
+Current game time: Day 1, 09:27
+It's daytime!
+2024-08-17T15:11:03 845.934 INF Time: 13.36m FPS: 14.76 Heap: 1316.1MB Max: 1440.2MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2281.8MB
+Current game time: Day 1, 09:29
+It's daytime!
+Current game time: Day 1, 09:31
+It's daytime!
+Current game time: Day 1, 09:32
+It's daytime!
+Current game time: Day 1, 09:34
+It's daytime!
+2024-08-17T15:11:26 869.238 INF Chat (from 'Steam_76561198072601792', entity id '171', to 'Global'): test
+Current game time: Day 1, 09:36
+It's daytime!
+Current game time: Day 1, 09:38
+It's daytime!
+2024-08-17T15:11:34 876.728 INF Time: 13.86m FPS: 19.94 Heap: 1349.4MB Max: 1440.2MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2281.9MB
+Current game time: Day 1, 09:40
+It's daytime!
+Current game time: Day 1, 09:41
+It's daytime!
+Current game time: Day 1, 09:43
+It's daytime!
+Current game time: Day 1, 09:45
+It's daytime!
+Current game time: Day 1, 09:47
+It's daytime!
+Current game time: Day 1, 09:49
+It's daytime!
+2024-08-17T15:12:04 906.733 INF Time: 14.36m FPS: 20.00 Heap: 1386.8MB Max: 1440.2MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2281.9MB
+Current game time: Day 1, 09:50
+It's daytime!
+2024-08-17T15:12:10 912.662 INF VehicleManager saving 0 (0 + 0)
+2024-08-17T15:12:10 912.663 INF DroneManager saving 0 (0 + 0)
+2024-08-17T15:12:10 912.668 INF VehicleManager saved 9 bytes
+2024-08-17T15:12:10 912.814 INF TurretTracker saving 0 (0 + 0)
+2024-08-17T15:12:10 912.820 INF TurretTracker saved 9 bytes
+2024-08-17T15:12:10 912.854 INF DroneManager saved 9 bytes
+Current game time: Day 1, 09:52
+It's daytime!
+Current game time: Day 1, 09:54
+It's daytime!
+Current game time: Day 1, 09:56
+It's daytime!
+Current game time: Day 1, 09:58
+It's daytime!
+Current game time: Day 1, 10:00
+It's daytime!
+2024-08-17T15:12:34 936.784 INF Time: 14.86m FPS: 20.00 Heap: 1445.0MB Max: 1445.0MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2282.0MB
+Current game time: Day 1, 10:01
+It's daytime!
+Current game time: Day 1, 10:03
+It's daytime!
+Current game time: Day 1, 10:05
+It's daytime!
+Current game time: Day 1, 10:07
+It's daytime!
+Current game time: Day 1, 10:09
+It's daytime!
+Current game time: Day 1, 10:10
+It's daytime!
+2024-08-17T15:13:08 971.051 INF Time: 15.36m FPS: 12.35 Heap: 1316.5MB Max: 1445.0MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2282.6MB
+Current game time: Day 1, 10:12
+It's daytime!
+Current game time: Day 1, 10:14
+It's daytime!
+Current game time: Day 1, 10:16
+It's daytime!
+Current game time: Day 1, 10:18
+It's daytime!
+Current game time: Day 1, 10:19
+It's daytime!
+Current game time: Day 1, 10:21
+It's daytime!
+2024-08-17T15:13:38 1001.154 INF Time: 15.86m FPS: 18.59 Heap: 1350.1MB Max: 1445.0MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2282.6MB
+Current game time: Day 1, 10:23
+It's daytime!
+Current game time: Day 1, 10:25
+It's daytime!
+Current game time: Day 1, 10:27
+It's daytime!
+Current game time: Day 1, 10:28
+It's daytime!
+Current game time: Day 1, 10:30
+It's daytime!
+Current game time: Day 1, 10:32
+It's daytime!
+2024-08-17T15:14:08 1031.200 INF Time: 16.36m FPS: 19.83 Heap: 1390.8MB Max: 1445.0MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2282.7MB
+Current game time: Day 1, 10:34
+It's daytime!
+2024-08-17T15:14:14 1036.938 INF VehicleManager saving 0 (0 + 0)
+2024-08-17T15:14:14 1036.987 INF DroneManager saving 0 (0 + 0)
+2024-08-17T15:14:14 1036.989 INF TurretTracker saving 0 (0 + 0)
+2024-08-17T15:14:14 1037.060 INF VehicleManager saved 9 bytes
+2024-08-17T15:14:14 1037.100 INF DroneManager saved 9 bytes
+2024-08-17T15:14:14 1037.177 INF TurretTracker saved 9 bytes
+Current game time: Day 1, 10:36
+It's daytime!
+Current game time: Day 1, 10:37
+It's daytime!
+2024-08-17T15:14:26 1048.630 INF Chat (from 'Steam_76561198072601792', entity id '171', to 'Global'): zzz
+Current game time: Day 1, 10:39
+It's daytime!
+Current game time: Day 1, 10:41
+It's daytime!
+Current game time: Day 1, 10:43
+It's daytime!
+2024-08-17T15:14:38 1061.199 INF Time: 16.86m FPS: 20.00 Heap: 1458.7MB Max: 1458.7MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2282.8MB
+Current game time: Day 1, 10:45
+It's daytime!
+Current game time: Day 1, 10:46
+It's daytime!
+Current game time: Day 1, 10:48
+It's daytime!
+Current game time: Day 1, 10:50
+It's daytime!
+Current game time: Day 1, 10:52
+It's daytime!
+Current game time: Day 1, 10:54
+It's daytime!
+2024-08-17T15:15:11 1093.944 INF Time: 17.36m FPS: 15.58 Heap: 1320.9MB Max: 1458.7MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2284.0MB
+Current game time: Day 1, 10:55
+It's daytime!
+Current game time: Day 1, 10:57
+It's daytime!
+Current game time: Day 1, 10:59
+It's daytime!
+Current game time: Day 1, 11:01
+It's daytime!
+Current game time: Day 1, 11:03
+It's daytime!
+Current game time: Day 1, 11:04
+It's daytime!
+2024-08-17T15:15:41 1123.970 INF Time: 17.86m FPS: 20.00 Heap: 1358.6MB Max: 1458.7MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2284.0MB
+Current game time: Day 1, 11:06
+It's daytime!
+Current game time: Day 1, 11:08
+It's daytime!
+Current game time: Day 1, 11:10
+It's daytime!
+Current game time: Day 1, 11:12
+It's daytime!
+Current game time: Day 1, 11:13
+It's daytime!
+Current game time: Day 1, 11:15
+It's daytime!
+2024-08-17T15:16:11 1153.974 INF Time: 18.36m FPS: 19.98 Heap: 1401.5MB Max: 1458.7MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2284.0MB
+Current game time: Day 1, 11:17
+It's daytime!
+2024-08-17T15:16:17 1159.630 INF VehicleManager saving 0 (0 + 0)
+2024-08-17T15:16:17 1159.636 INF DroneManager saving 0 (0 + 0)
+2024-08-17T15:16:17 1159.637 INF TurretTracker saving 0 (0 + 0)
+2024-08-17T15:16:17 1159.658 INF VehicleManager saved 9 bytes
+2024-08-17T15:16:17 1159.679 INF DroneManager saved 9 bytes
+2024-08-17T15:16:17 1159.705 INF TurretTracker saved 9 bytes
+Current game time: Day 1, 11:19
+It's daytime!
+Current game time: Day 1, 11:21
+It's daytime!
+Current game time: Day 1, 11:22
+It's daytime!
+Current game time: Day 1, 11:24
+It's daytime!
+Current game time: Day 1, 11:26
+It's daytime!
+2024-08-17T15:16:41 1184.014 INF Time: 18.86m FPS: 19.94 Heap: 1467.7MB Max: 1467.7MB Chunks: 234 CGO: 9 Ply: 1 Zom: 0 Ent: 1 (2) Items: 0 CO: 1 RSS: 2284.2MB
+Current game time: Day 1, 11:28
+It's daytime!
+2024-08-17T15:16:47 1190.226 INF Player boqsc disconnected after 12.5 minutes
+2024-08-17T15:16:48 1191.273 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:63282 / 0 (RemoteConnectionClose)
+2024-08-17T15:16:48 1191.281 INF DynamicMusic: 171 successfully removed from Bloodmoon state cache
+2024-08-17T15:16:48 1191.282 INF Client disconnected from dy mesh: Id: 171 Total: 1
+2024-08-17T15:16:48 1191.283 INF Player disconnected: EntityID=171, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:16:48 1191.284 INF [EOS-ACS] FreeUser: EntityID=171, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='3'
+2024-08-17T15:16:48 1191.286 INF Exited thread NCS_Reader_0_0
+2024-08-17T15:16:48 1191.290 INF Exited thread NCS_Writer_0_0
+2024-08-17T15:16:48 1191.292 INF Exited thread NCS_Reader_0_1
+2024-08-17T15:16:48 1191.294 INF Exited thread NCS_Writer_0_1
+2024-08-17T15:16:48 1191.335 INF GMSG: Player 'boqsc' left the game
+2024-08-17T15:16:49 1191.373 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:63282 / 0 (RemoteConnectionClose)
+Current game time: Day 1, 11:28
+It's daytime!
+2024-08-17T15:16:56 1199.065 INF Clearing all pools
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+2024-08-17T15:17:17 1219.394 INF Time: 19.36m FPS: 12.64 Heap: 1093.0MB Max: 1467.7MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (2) Items: 0 CO: 0 RSS: 2284.6MB
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+NOT IMPLEMENTED: ResetDefault()
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+Current game time: Day 1, 11:28
+It's daytime!
+2024-08-17T15:46:25 2967.578 INF Shutdown game from Terminal Window
+2024-08-17T15:46:25 2967.649 INF Preparing quit
+2024-08-17T15:46:25 2967.650 INF Disconnect
+2024-08-17T15:46:25 2967.654 INF [NET] ServerShutdown
+2024-08-17T15:46:25 2967.655 INF NET: Stopping server protocols
+2024-08-17T15:46:25 2968.068 INF NET: LiteNetLib server stopped
+2024-08-17T15:46:25 2968.072 INF SaveAndCleanupWorld
+2024-08-17T15:46:25 2968.100 INF Saving 0 of chunks took 20ms
+2024-08-17T15:46:25 2968.104 INF [Steamworks.NET] Exiting Lobby
+2024-08-17T15:46:25 2968.106 INF [EOS] Unregistering server
+2024-08-17T15:46:25 2968.112 INF [Steamworks.NET] Stopping server
+2024-08-17T15:46:26 2968.591 INF [MODS] Loading localization from mod: LHG_InfoPanel_IMG
+2024-08-17T15:46:26 2968.592 INF [MODS] Loading localization from mod: Add_UI_ESC_Menu_UI
+2024-08-17T15:46:26 2968.595 INF AstarManager Cleanup
+2024-08-17T15:46:26 2968.890 INF Clearing queues.
+2024-08-17T15:46:26 2968.891 INF Cleared queues.
+2024-08-17T15:46:27 2969.603 INF Clearing queues.
+2024-08-17T15:46:27 2969.604 INF Cleared queues.
+2024-08-17T15:46:27 2969.613 INF World.Unload
+2024-08-17T15:46:27 2969.623 INF Exited thread GenerateChunks
+2024-08-17T15:46:27 2969.637 INF Exited thread SaveChunks C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves\Navezgane\My Game\Region
+2024-08-17T15:46:27 2969.678 INF World.Cleanup
+2024-08-17T15:46:27 2969.679 INF Exited thread ChunkRegeneration
+2024-08-17T15:46:27 2969.686 INF Exited thread ChunkCalc
+2024-08-17T15:46:27 2969.687 INF Exited thread ChunkMeshBake
+2024-08-17T15:46:27 2969.706 INF Exited thread WaterSimulationApplyChanges
+2024-08-17T15:46:27 2969.715 INF VehicleManager saving 0 (0 + 0)
+2024-08-17T15:46:27 2969.717 INF VehicleManager saved 9 bytes
+2024-08-17T15:46:27 2969.719 INF DroneManager saving 0 (0 + 0)
+2024-08-17T15:46:27 2969.720 INF DroneManager saved 9 bytes
+2024-08-17T15:46:27 2969.721 INF TurretTracker saving 0 (0 + 0)
+2024-08-17T15:46:27 2969.723 INF TurretTracker saved 9 bytes
+2024-08-17T15:46:27 2969.731 INF Persistent GamePrefs saved
+2024-08-17T15:46:27 2969.755 INF Persistent GamePrefs saved
+2024-08-17T15:46:27 2969.756 INF Cleanup
+2024-08-17T15:46:27 2969.757 INF Closing Terminal Window
+2024-08-17T15:46:27 2969.832 INF WinThread ended
+2024-08-17T15:46:27 2969.835 INF Ended Terminal Window
+2024-08-17T15:46:27 2969.880 INF [EOS] Server unregistered
+2024-08-17T15:46:28 2970.605 INF Terminating threads
+2024-08-17T15:46:28 2970.606 INF OnApplicationQuit
+2024-08-17T15:46:28 2970.607 INF Terminating threads
+2024-08-17T15:46:28 2970.608 INF OnApplicationQuit
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 2 frames, [8.0 KB-16.0 KB]: 1049 frames, [16.0 KB-32.0 KB]: 170 frames, [32.0 KB-64.0 KB]: 93 frames, [64.0 KB-128.0 KB]: 51294 frames, [128.0 KB-256.0 KB]: 4947 frames, [256.0 KB-0.5 MB]: 3 frames, [0.5 MB-1.0 MB]: 5 frames, [1.0 MB-2.0 MB]: 4 frames, [2.0 MB-4.0 MB]: 7 frames, [4.0 MB-8.0 MB]: 4 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 8.0 MB
+      Peak Allocated Bytes 7.2 MB
+      Overflow Count 16783
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 128.0 KB
+      Peak Allocated Bytes 127.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 0.5 MB
+      Peak Allocated Bytes 509.8 KB
+      Overflow Count 34
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 56.0 KB
+      Peak Allocated Bytes 53.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 183.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 56.0 KB
+      Peak Allocated Bytes 53.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 2
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 40.0 KB
+      Peak Allocated Bytes 39.7 KB
+      Overflow Count 2
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 35.6 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 3
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 48.0 KB
+      Peak Allocated Bytes 45.5 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 183.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 340.0 KB
+      Peak Allocated Bytes 285.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 32.0 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 32.0 KB
+      Overflow Count 1
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 12962
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 539266
+        32B: 13 Subsections = 6656 buckets. Failed count: 140069
+        48B: 49 Subsections = 16725 buckets. Failed count: 636490
+        64B: 30 Subsections = 7680 buckets. Failed count: 281190
+        80B: 151 Subsections = 30924 buckets. Failed count: 33023
+        96B: 8 Subsections = 1365 buckets. Failed count: 42233
+        112B: 2 Subsections = 292 buckets. Failed count: 7873
+        128B: 2 Subsections = 256 buckets. Failed count: 48830
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 337 frames, [32.0 MB-64.0 MB]: 57239 frames, [64.0 MB-128.0 MB]: 2 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 4
+      Peak Allocated memory 73.2 MB
+      Peak Large allocation bytes 36.0 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 470 frames, [16.0 MB-32.0 MB]: 6996 frames, [32.0 MB-64.0 MB]: 50111 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 5
+      Peak Allocated memory 62.3 MB
+      Peak Large allocation bytes 32.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 4
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 539266
+        32B: 13 Subsections = 6656 buckets. Failed count: 140069
+        48B: 49 Subsections = 16725 buckets. Failed count: 636490
+        64B: 30 Subsections = 7680 buckets. Failed count: 281190
+        80B: 151 Subsections = 30924 buckets. Failed count: 33023
+        96B: 8 Subsections = 1365 buckets. Failed count: 42233
+        112B: 2 Subsections = 292 buckets. Failed count: 7873
+        128B: 2 Subsections = 256 buckets. Failed count: 48830
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [64.0 KB-128.0 KB]: 338 frames, [128.0 KB-256.0 KB]: 1 frames, [0.5 MB-1.0 MB]: 1 frames, [1.0 MB-2.0 MB]: 13 frames, [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 37 frames, [16.0 MB-32.0 MB]: 31 frames, [32.0 MB-64.0 MB]: 14 frames, [64.0 MB-128.0 MB]: 57105 frames, [128.0 MB-256.0 MB]: 12 frames, [256.0 MB-0.50 GB]: 25 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 8
+      Peak Allocated memory 428.6 MB
+      Peak Large allocation bytes 324.0 MB
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 1 frames, [8.0 MB-16.0 MB]: 57556 frames, [16.0 MB-32.0 MB]: 21 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 16.8 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 79043
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 539266
+        32B: 13 Subsections = 6656 buckets. Failed count: 140069
+        48B: 49 Subsections = 16725 buckets. Failed count: 636490
+        64B: 30 Subsections = 7680 buckets. Failed count: 281190
+        80B: 151 Subsections = 30924 buckets. Failed count: 33023
+        96B: 8 Subsections = 1365 buckets. Failed count: 42233
+        112B: 2 Subsections = 292 buckets. Failed count: 7873
+        128B: 2 Subsections = 256 buckets. Failed count: 48830
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [32.0 MB-64.0 MB]: 298 frames, [64.0 MB-128.0 MB]: 57279 frames, [128.0 MB-256.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 27
+      Peak Allocated memory 128.8 MB
+      Peak Large allocation bytes 83.6 MB
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [32.0 MB-64.0 MB]: 339 frames, [64.0 MB-128.0 MB]: 57238 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 15
+      Peak Allocated memory 114.2 MB
+      Peak Large allocation bytes 62.3 MB
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 539266
+        32B: 13 Subsections = 6656 buckets. Failed count: 140069
+        48B: 49 Subsections = 16725 buckets. Failed count: 636490
+        64B: 30 Subsections = 7680 buckets. Failed count: 281190
+        80B: 151 Subsections = 30924 buckets. Failed count: 33023
+        96B: 8 Subsections = 1365 buckets. Failed count: 42233
+        112B: 2 Subsections = 292 buckets. Failed count: 7873
+        128B: 2 Subsections = 256 buckets. Failed count: 48830
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 338 frames, [128.0 KB-256.0 KB]: 57239 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 200.9 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 57577 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 2
+      Peak Allocated memory 3.0 MB
+      Peak Large allocation bytes 0 B
