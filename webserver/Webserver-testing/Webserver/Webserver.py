@@ -53,8 +53,9 @@ class RedirectHandler(SimpleHTTPRequestHandler):
         elif self.path == '/server-log':
             
             # Assuming Webserver_Get_Latest_Game_Server_Log_File.get_latest_game_server_log_file_name() returns the log file path
+            import get_path_latest_game_server_log_file
             import Webserver_get_latest_game_server_log_file
-            log_file_path = Webserver_get_latest_game_server_log_file.get_latest_game_server_log_file_name()
+            log_file_path = latest_log_file = get_path_latest_game_server_log_file.get_path_latest_game_server_log_file()
             log_content = Webserver_get_latest_game_server_log_file.read_server_log(log_file_path)
             
             # Wrap the log content in <pre> tags
