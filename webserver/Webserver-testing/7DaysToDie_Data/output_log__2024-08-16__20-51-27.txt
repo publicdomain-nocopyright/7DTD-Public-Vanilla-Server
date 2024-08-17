@@ -1584,3 +1584,44 @@ IOException: Sharing violation on path C:\Users\WINDOW~1\AppData\Local\Temp\The 
 2024-08-16T21:13:01 1284.036 INF GMSG: Player 'boqsc' left the game
 2024-08-16T21:13:01 1284.102 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:57615 / 0 (RemoteConnectionClose)
 2024-08-16T21:13:08 1291.771 INF Clearing all pools
+2024-08-16T21:13:20 1302.983 INF Time: 20.87m FPS: 19.99 Heap: 1569.8MB Max: 1569.8MB Chunks: 234 CGO: 0 Ply: 0 Zom: 5 Ent: 0 (13) Items: 0 CO: 0 RSS: 1779.7MB
+2024-08-16T21:13:53 1336.373 INF Shutdown game from Terminal Window
+2024-08-16T21:13:53 1336.481 INF Preparing quit
+2024-08-16T21:13:53 1336.484 INF Disconnect
+2024-08-16T21:13:53 1336.488 INF [NET] ServerShutdown
+2024-08-16T21:13:53 1336.490 INF NET: Stopping server protocols
+2024-08-16T21:13:53 1336.620 INF NET: LiteNetLib server stopped
+2024-08-16T21:13:53 1336.629 INF SaveAndCleanupWorld
+2024-08-16T21:13:53 1336.683 INF Saving 0 of chunks took 20ms
+2024-08-16T21:13:53 1336.691 INF [Steamworks.NET] Exiting Lobby
+2024-08-16T21:13:53 1336.694 INF [EOS] Unregistering server
+2024-08-16T21:13:53 1336.697 INF [Steamworks.NET] Stopping server
+2024-08-16T21:13:54 1337.306 INF [MODS] Loading localization from mod: LHG_InfoPanel_IMG
+2024-08-16T21:13:54 1337.308 INF [MODS] Loading localization from mod: Add_UI_ESC_Menu_UI
+2024-08-16T21:13:54 1337.312 INF AstarManager Cleanup
+2024-08-16T21:13:54 1337.519 INF Clearing queues.
+2024-08-16T21:13:54 1337.520 INF Cleared queues.
+2024-08-16T21:13:57 1340.221 INF Clearing queues.
+2024-08-16T21:13:57 1340.222 INF Cleared queues.
+2024-08-16T21:13:57 1340.234 INF World.Unload
+2024-08-16T21:13:57 1340.252 INF Exited thread GenerateChunks
+2024-08-16T21:13:57 1340.255 INF Exited thread SaveChunks C:\Users\Windows10\AppData\Roaming\7DaysToDie\Saves\Navezgane\My Game\Region
+2024-08-16T21:13:57 1340.272 INF World.Cleanup
+2024-08-16T21:13:57 1340.276 INF Exited thread ChunkRegeneration
+2024-08-16T21:13:57 1340.284 INF Exited thread ChunkCalc
+2024-08-16T21:13:57 1340.286 INF Exited thread ChunkMeshBake
+2024-08-16T21:13:57 1340.304 INF Exited thread WaterSimulationApplyChanges
+2024-08-16T21:13:57 1340.316 INF VehicleManager saving 0 (0 + 0)
+2024-08-16T21:13:57 1340.321 INF VehicleManager saved 9 bytes
+2024-08-16T21:13:57 1340.322 INF DroneManager saving 0 (0 + 0)
+2024-08-16T21:13:57 1340.325 INF DroneManager saved 9 bytes
+2024-08-16T21:13:57 1340.327 INF TurretTracker saving 0 (0 + 0)
+2024-08-16T21:13:57 1340.329 INF TurretTracker saved 9 bytes
+2024-08-16T21:13:57 1340.342 INF Persistent GamePrefs saved
+2024-08-16T21:13:59 1342.055 INF Persistent GamePrefs saved
+2024-08-16T21:13:59 1342.056 INF Cleanup
+2024-08-16T21:13:59 1342.058 INF Closing Terminal Window
+2024-08-16T21:13:59 1342.088 INF WinThread ended
+2024-08-16T21:13:59 1342.091 INF Ended Terminal Window
+2024-08-16T21:13:59 1342.194 INF [EOS] Server unregistered
+2024-08-16T21:14:00 1342.991 INF Terminating threads

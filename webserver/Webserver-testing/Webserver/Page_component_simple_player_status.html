@@ -47,33 +47,37 @@
         <tbody id="playerList"></tbody>
     </table>
 
-    <script>
+<script>
         function updatePlayerStatus() {
             fetch('player_status.json')
                 .then(response => response.json())
                 .then(data => {
                     const playerCountMessage = document.getElementById('playerCountMessage');
                     const playerList = document.getElementById('playerList');
-					console.log(data)
-                    if (data.online_count === 0) {
+                    console.log(data);
+
+                    // Filter out offline players and count online players
+                    const onlinePlayers = Object.entries(data.players).filter(([_, status]) => 
+                        Object.values(status)[0] !== "Offline"
+                    );
+                    const onlineCount = onlinePlayers.length;
+
+                    if (onlineCount === 0) {
                         playerCountMessage.textContent = "There are no players online.";
                         playerList.innerHTML = '<tr><td colspan="2" class="no-players">No players online</td></tr>';
                     } else {
-                        playerCountMessage.textContent = `Total online players: ${data.online_count}`;
+                        playerCountMessage.textContent = `Total online players: ${onlineCount}`;
                         playerList.innerHTML = '';
-
-                        for (const [player, status] of Object.entries(data.players)) {
+                        onlinePlayers.forEach(([player, status]) => {
                             const row = document.createElement('tr');
-							const firstStatusElement = Object.values(status)[0];
-							const secondStatusElement = Object.values(status)[1].split('_')[1];
+                            const firstStatusElement = Object.values(status)[0];
+                            const secondStatusElement = Object.values(status)[1].split('_')[1];
                             row.innerHTML = `
                                 <td><a href="https://steamcommunity.com/profiles/${secondStatusElement}" target="_blank">${player}</a></td>
                                 <td>${firstStatusElement}</td>
-
-								
                             `;
                             playerList.appendChild(row);
-                        }
+                        });
                     }
                 })
                 .catch(error => {
@@ -82,7 +86,6 @@
                     document.getElementById('playerList').innerHTML = '<tr><td colspan="2" class="no-players">Unable to load player data</td></tr>';
                 });
         }
-
         // Update player status every 5 seconds
         updatePlayerStatus();
         setInterval(updatePlayerStatus, 5000);
