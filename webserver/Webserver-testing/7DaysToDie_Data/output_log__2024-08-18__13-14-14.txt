@@ -2067,3 +2067,203 @@ Current game time: Day 1, 19:37
 It's daytime!
 Current game time: Day 1, 19:39
 It's daytime!
+Current game time: Day 1, 19:41
+It's daytime!
+2024-08-18T13:43:47 1760.611 INF Time: 28.55m FPS: 19.95 Heap: 1313.3MB Max: 1608.2MB Chunks: 234 CGO: 25 Ply: 1 Zom: 2 Ent: 3 (11) Items: 0 CO: 1 RSS: 2252.4MB
+2024-08-18T13:43:48 1762.158 INF VehicleManager saving 0 (0 + 0)
+2024-08-18T13:43:48 1762.163 INF DroneManager saving 0 (0 + 0)
+2024-08-18T13:43:48 1762.164 INF TurretTracker saving 0 (0 + 0)
+2024-08-18T13:43:48 1762.169 INF DroneManager saved 9 bytes
+2024-08-18T13:43:49 1762.215 INF VehicleManager saved 9 bytes
+2024-08-18T13:43:49 1762.253 INF TurretTracker saved 9 bytes
+Current game time: Day 1, 19:43
+It's daytime!
+Current game time: Day 1, 19:44
+It's daytime!
+Current game time: Day 1, 19:46
+It's daytime!
+Current game time: Day 1, 19:48
+It's daytime!
+Current game time: Day 1, 19:50
+It's daytime!
+Current game time: Day 1, 19:52
+It's daytime!
+2024-08-18T13:44:17 1790.646 INF Time: 29.05m FPS: 20.00 Heap: 1358.7MB Max: 1608.2MB Chunks: 234 CGO: 25 Ply: 1 Zom: 2 Ent: 3 (11) Items: 0 CO: 1 RSS: 2252.5MB
+Current game time: Day 1, 19:53
+It's daytime!
+Current game time: Day 1, 19:55
+It's daytime!
+Current game time: Day 1, 19:57
+It's daytime!
+Current game time: Day 1, 19:59
+It's daytime!
+Current game time: Day 1, 20:01
+It's daytime!
+Current game time: Day 1, 20:02
+It's daytime!
+2024-08-18T13:44:48 1821.589 INF Time: 29.55m FPS: 15.20 Heap: 1260.9MB Max: 1608.2MB Chunks: 234 CGO: 25 Ply: 1 Zom: 2 Ent: 3 (11) Items: 0 CO: 1 RSS: 2124.5MB
+Current game time: Day 1, 20:04
+It's daytime!
+Current game time: Day 1, 20:06
+It's daytime!
+Current game time: Day 1, 20:08
+It's daytime!
+Current game time: Day 1, 20:10
+It's daytime!
+Current game time: Day 1, 20:11
+It's daytime!
+Current game time: Day 1, 20:13
+It's daytime!
+2024-08-18T13:45:18 1851.640 INF Time: 30.05m FPS: 20.00 Heap: 1289.0MB Max: 1608.2MB Chunks: 234 CGO: 25 Ply: 1 Zom: 2 Ent: 3 (11) Items: 0 CO: 1 RSS: 2124.5MB
+Current game time: Day 1, 20:15
+It's daytime!
+Current game time: Day 1, 20:17
+It's daytime!
+Current game time: Day 1, 20:19
+It's daytime!
+Current game time: Day 1, 20:20
+It's daytime!
+Current game time: Day 1, 20:22
+It's daytime!
+Current game time: Day 1, 20:24
+It's daytime!
+2024-08-18T13:45:48 1881.687 INF Time: 30.55m FPS: 19.97 Heap: 1320.6MB Max: 1608.2MB Chunks: 234 CGO: 25 Ply: 1 Zom: 2 Ent: 3 (11) Items: 0 CO: 1 RSS: 2124.6MB
+2024-08-18T13:45:49 1883.089 INF VehicleManager saving 0 (0 + 0)
+2024-08-18T13:45:49 1883.092 INF DroneManager saving 0 (0 + 0)
+2024-08-18T13:45:49 1883.093 INF TurretTracker saving 0 (0 + 0)
+2024-08-18T13:45:49 1883.102 INF VehicleManager saved 9 bytes
+2024-08-18T13:45:49 1883.113 INF DroneManager saved 9 bytes
+2024-08-18T13:45:49 1883.175 INF TurretTracker saved 9 bytes
+Current game time: Day 1, 20:26
+It's daytime!
+Current game time: Day 1, 20:28
+It's daytime!
+Current game time: Day 1, 20:29
+It's daytime!
+Current game time: Day 1, 20:31
+It's daytime!
+Current game time: Day 1, 20:33
+It's daytime!
+Current game time: Day 1, 20:35
+It's daytime!
+2024-08-18T13:46:18 1911.710 INF Time: 31.05m FPS: 19.79 Heap: 1369.9MB Max: 1608.2MB Chunks: 234 CGO: 23 Ply: 1 Zom: 2 Ent: 3 (11) Items: 0 CO: 1 RSS: 2124.6MB
+Current game time: Day 1, 20:37
+It's daytime!
+2024-08-18T13:46:22 1915.472 WRN [SteamServer] Tick took exceptionally long: 92 ms
+Current game time: Day 1, 20:38
+It's daytime!
+Current game time: Day 1, 20:40
+It's daytime!
+Current game time: Day 1, 20:42
+It's daytime!
+Current game time: Day 1, 20:44
+It's daytime!
+ERROR: Shader Game/Animal/Fur shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Current game time: Day 1, 20:46
+It's daytime!
+2024-08-18T13:46:49 1942.283 INF [DECO] written 75467, in 55ms
+2024-08-18T13:46:49 1942.316 INF [DECO] write thread 11ms
+2024-08-18T13:46:49 1942.693 INF Time: 31.55m FPS: 15.39 Heap: 1268.8MB Max: 1608.2MB Chunks: 235 CGO: 29 Ply: 1 Zom: 4 Ent: 5 (13) Items: 0 CO: 1 RSS: 1979.9MB
+Current game time: Day 1, 20:47
+It's daytime!
+Current game time: Day 1, 20:49
+It's daytime!
+Current game time: Day 1, 20:51
+It's daytime!
+Current game time: Day 1, 20:53
+It's daytime!
+Current game time: Day 1, 20:55
+It's daytime!
+Current game time: Day 1, 20:56
+It's daytime!
+2024-08-18T13:47:19 1972.691 INF Time: 32.05m FPS: 19.76 Heap: 1300.2MB Max: 1608.2MB Chunks: 235 CGO: 29 Ply: 1 Zom: 4 Ent: 5 (13) Items: 0 CO: 1 RSS: 1854.2MB
+Current game time: Day 1, 20:58
+It's daytime!
+Current game time: Day 1, 21:00
+It's daytime!
+Current game time: Day 1, 21:02
+It's daytime!
+Current game time: Day 1, 21:04
+It's daytime!
+Current game time: Day 1, 21:05
+It's daytime!
+Current game time: Day 1, 21:07
+It's daytime!
+2024-08-18T13:47:49 2002.320 INF [DECO] written 75468, in 60ms
+2024-08-18T13:47:49 2002.362 INF [DECO] write thread 18ms
+2024-08-18T13:47:49 2002.704 INF Time: 32.55m FPS: 20.00 Heap: 1340.7MB Max: 1608.2MB Chunks: 235 CGO: 37 Ply: 1 Zom: 7 Ent: 8 (16) Items: 0 CO: 1 RSS: 1855.1MB
+2024-08-18T13:47:50 2004.072 INF VehicleManager saving 0 (0 + 0)
+2024-08-18T13:47:50 2004.074 INF DroneManager saving 0 (0 + 0)
+2024-08-18T13:47:51 2004.240 INF TurretTracker saving 0 (0 + 0)
+2024-08-18T13:47:51 2004.421 INF VehicleManager saved 9 bytes
+2024-08-18T13:47:51 2004.428 INF DroneManager saved 9 bytes
+2024-08-18T13:47:51 2004.434 INF TurretTracker saved 9 bytes
+Current game time: Day 1, 21:09
+It's daytime!
+Current game time: Day 1, 21:11
+It's daytime!
+Current game time: Day 1, 21:13
+It's daytime!
+Current game time: Day 1, 21:14
+It's daytime!
+Current game time: Day 1, 21:16
+It's daytime!
+Current game time: Day 1, 21:18
+It's daytime!
+2024-08-18T13:48:18 2031.610 INF Denying command 'cm' from client EntityID=171, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-18T13:48:19 2032.523 INF Denying command 'dm' from client EntityID=171, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-18T13:48:19 2032.785 INF Time: 33.05m FPS: 19.80 Heap: 1402.9MB Max: 1608.2MB Chunks: 237 CGO: 31 Ply: 1 Zom: 5 Ent: 6 (16) Items: 0 CO: 1 RSS: 1857.3MB
+Current game time: Day 1, 21:20
+It's daytime!
+Current game time: Day 1, 21:22
+It's daytime!
+Current game time: Day 1, 21:23
+It's daytime!
+Current game time: Day 1, 21:25
+It's daytime!
+Current game time: Day 1, 21:27
+It's daytime!
+Current game time: Day 1, 21:29
+It's daytime!
+2024-08-18T13:48:49 2062.964 INF [DECO] written 75468, in 39ms
+2024-08-18T13:48:49 2062.986 INF [DECO] write thread 10ms
+2024-08-18T13:48:50 2063.464 INF Time: 33.55m FPS: 16.45 Heap: 1273.2MB Max: 1608.2MB Chunks: 237 CGO: 46 Ply: 1 Zom: 6 Ent: 7 (16) Items: 0 CO: 1 RSS: 1858.8MB
+Current game time: Day 1, 21:31
+It's daytime!
+Current game time: Day 1, 21:32
+It's daytime!
+Current game time: Day 1, 21:34
+It's daytime!
+Current game time: Day 1, 21:36
+It's daytime!
+Current game time: Day 1, 21:38
+It's daytime!
+Current game time: Day 1, 21:40
+It's daytime!
+2024-08-18T13:49:20 2093.490 INF Time: 34.05m FPS: 19.82 Heap: 1308.0MB Max: 1608.2MB Chunks: 237 CGO: 48 Ply: 1 Zom: 6 Ent: 7 (16) Items: 0 CO: 1 RSS: 1858.9MB
+Current game time: Day 1, 21:41
+It's daytime!
+Current game time: Day 1, 21:43
+It's daytime!
+Current game time: Day 1, 21:45
+It's daytime!
+2024-08-18T13:49:33 2107.025 INF Chat (from 'Steam_76561198072601792', entity id '171', to 'Global'): hey
+Current game time: Day 1, 21:47
+It's daytime!
+Current game time: Day 1, 21:49
+It's daytime!
+Current game time: Day 1, 21:50
+It's daytime!
+2024-08-18T13:49:50 2123.522 INF Time: 34.55m FPS: 20.00 Heap: 1349.0MB Max: 1608.2MB Chunks: 237 CGO: 43 Ply: 1 Zom: 6 Ent: 7 (16) Items: 0 CO: 1 RSS: 1859.0MB
+2024-08-18T13:49:51 2124.724 INF VehicleManager saving 0 (0 + 0)
+2024-08-18T13:49:51 2124.735 INF DroneManager saving 0 (0 + 0)
+2024-08-18T13:49:51 2124.743 INF TurretTracker saving 0 (0 + 0)
+2024-08-18T13:49:51 2124.784 INF DroneManager saved 9 bytes
+2024-08-18T13:49:51 2124.825 INF VehicleManager saved 9 bytes
+2024-08-18T13:49:51 2124.857 INF TurretTracker saved 9 bytes
+Current game time: Day 1, 21:52
+It's daytime!
+Current game time: Day 1, 21:54
+It's daytime!
+Current game time: Day 1, 21:56
+It's daytime!

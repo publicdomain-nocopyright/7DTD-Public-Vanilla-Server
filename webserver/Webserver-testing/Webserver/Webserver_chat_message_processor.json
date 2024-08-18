@@ -125,13 +125,22 @@
       "entity_id": "171",
       "chat_type": "Global",
       "message": "testing frequence"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T13:49:33",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "hey"
     }
   ],
-  "last_processed_position": 133236,
+  "last_processed_position": 141705,
   "last_processed_file": "C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Webserver-testing\\7DaysToDie_Data\\output_log__2024-08-18__13-14-14.txt",
-  "last_timestamp": "2024-08-18T13:40:06",
+  "last_timestamp": "2024-08-18T13:49:33",
   "analysis": {
-    "total_messages": 14,
+    "total_messages": 15,
     "unique_players": 1,
     "most_active_player": "boqsc",
     "chat_types": [
