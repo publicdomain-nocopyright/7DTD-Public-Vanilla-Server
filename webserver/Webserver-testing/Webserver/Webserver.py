@@ -108,10 +108,20 @@ class RedirectHandler(SimpleHTTPRequestHandler):
             
             # Write the JSON response
             self.wfile.write(json_response.encode('utf-8'))
-
-
-
             pass
+        elif self.path == '/current_game_time.json':
+                import os
+                file_path = os.path.join(os.path.dirname(__file__), '..', 'UserDataFolder', 'Mods', 'World_GameTime', 'current_game_time.json')
+
+                try:
+                    with open(file_path, 'r') as file:
+                        self.send_response(200)
+                        self.send_header('Content-type', 'application/json')
+                        self.end_headers()
+                        self.wfile.write(file.read().encode('utf-8'))
+                except FileNotFoundError:
+                    self.send_response(404)
+                    self.end_headers()
         
 
         # Enables SimpleHTTPRequestHandler to serve files from current directory

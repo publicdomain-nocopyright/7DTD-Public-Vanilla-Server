@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <Name value="World_GameTime"/>
+    <DisplayName value="World_GameTime"/>
+    <Version value="1.0"/>
+    <Description value="Every few seconds export current game time into .json file."/>
+    <Author value="BoQsc"/>
+    <Website value="https://7daystodie.fandom.com/wiki/Mod_Structure"/>
+</xml>
