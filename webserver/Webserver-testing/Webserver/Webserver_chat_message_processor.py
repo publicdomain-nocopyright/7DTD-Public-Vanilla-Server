@@ -11,8 +11,13 @@ def datetime_to_string(obj):
     raise TypeError(f"Object of type {obj.__class__.__name__} is not JSON serializable")
 
 def load_player_status():
-    with open('Webserver_player_status.json', 'r') as f:
-        return json.load(f)
+    while True:
+        if os.path.exists('Webserver_player_status.json'):
+            with open('Webserver_player_status.json', 'r') as f:
+                return json.load(f)
+        else:
+            print("Waiting for Webserver_player_status.json to be created...")
+            time.sleep(5)  # Wait for 5 seconds before checking again
 
 def get_player_name(pltfm_id, player_status):
     for player_name, player_info in player_status['players'].items():
