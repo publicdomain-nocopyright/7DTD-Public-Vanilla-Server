@@ -44,13 +44,94 @@
       "entity_id": "171",
       "chat_type": "Global",
       "message": "zzz"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T13:18:45",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "testing2000"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T13:20:28",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "wh9000"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T13:20:58",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "made me"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T13:34:03",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "who"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T13:36:30",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "so what"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T13:39:43",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "welcome"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T13:39:57",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "yeah I thought that too"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T13:40:03",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "hmm "
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T13:40:06",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "testing frequence"
     }
   ],
-  "last_processed_position": 155446,
-  "last_processed_file": "C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Webserver-testing\\7DaysToDie_Data\\output_log__2024-08-17__14-56-54.txt",
-  "last_timestamp": "2024-08-17T15:14:26",
+  "last_processed_position": 133236,
+  "last_processed_file": "C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Webserver-testing\\7DaysToDie_Data\\output_log__2024-08-18__13-14-14.txt",
+  "last_timestamp": "2024-08-18T13:40:06",
   "analysis": {
-    "total_messages": 5,
+    "total_messages": 14,
     "unique_players": 1,
     "most_active_player": "boqsc",
     "chat_types": [
