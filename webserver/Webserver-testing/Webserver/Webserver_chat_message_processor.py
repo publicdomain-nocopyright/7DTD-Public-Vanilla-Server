@@ -113,7 +113,7 @@ def analyze_chat(chat_messages):
     }
 
 def main():
-    data_file = 'chat_analysis.json'
+    data_file = 'Webserver_chat_message_processor.json'
     
     while True:
         latest_log_file = get_path_latest_game_server_log_file.get_path_latest_game_server_log_file()
