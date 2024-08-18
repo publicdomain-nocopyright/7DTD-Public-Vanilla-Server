@@ -251,13 +251,40 @@
       "entity_id": "171",
       "chat_type": "Global",
       "message": "123"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T19:22:56",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "wrot this now 88"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T19:23:59",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "wait who"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T19:29:11",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "test99"
     }
   ],
-  "last_processed_position": 102451,
-  "last_processed_file": "C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Webserver-testing\\7DaysToDie_Data\\output_log__2024-08-18__14-43-15.txt",
-  "last_timestamp": "2024-08-18T14:47:23",
+  "last_processed_position": 98260,
+  "last_processed_file": "C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Webserver-testing\\7DaysToDie_Data\\output_log__2024-08-18__19-25-21.txt",
+  "last_timestamp": "2024-08-18T19:29:11",
   "analysis": {
-    "total_messages": 28,
+    "total_messages": 31,
     "unique_players": 1,
     "most_active_player": "boqsc",
     "chat_types": [
@@ -266,7 +293,7 @@
     "most_common_words": [
       [
         "who",
-        2
+        3
       ],
       [
         "what",
@@ -277,12 +304,12 @@
         2
       ],
       [
-        "gewwta",
-        1
+        "now",
+        2
       ],
       [
-        "aa",
-        1
+        "this",
+        2
       ]
     ]
   }
