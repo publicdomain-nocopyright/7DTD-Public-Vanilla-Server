@@ -230,6 +230,9 @@ if __name__ == '__main__':
     import Webserver_player_status_monitor
     Thread(target=Webserver_player_status_monitor.main, daemon=True).start()
 
+    import Webserver_chat_message_processor
+    Thread(target=Webserver_chat_message_processor.main, daemon=True).start()
+
     #from threading import Thread
     #import Webserver_UPNP_Portforwarding
     #Thread(target=Webserver_UPNP_Portforwarding.main, daemon=True).start()
