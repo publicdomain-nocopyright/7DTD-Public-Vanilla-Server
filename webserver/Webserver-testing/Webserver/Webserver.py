@@ -117,7 +117,7 @@ class RedirectHandler(SimpleHTTPRequestHandler):
         else:
                 # Serve files from the current directory for all other paths
                 # Serve only .html files from the current directory for all other paths
-            if self.path.endswith('.html'):
+            if self.path.endswith('.html') or self.path.endswith('.json'):
                 super().do_GET()
             else:
                 self.send_error(404, "File not found")
