@@ -95,7 +95,7 @@ chatLog.addEventListener('scroll', () => {
 
 function fetchChatMessages() {
     console.log("fetching chat messages");
-    fetch('http://localhost/Webserver_chat_message_processor.json')
+    fetch('/Webserver_chat_message_processor.json')
         .then(response => response.json())
         .then(data => {
             const scrollTop = chatLog.scrollTop;
