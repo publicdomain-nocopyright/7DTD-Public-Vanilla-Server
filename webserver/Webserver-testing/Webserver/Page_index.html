@@ -1,4 +1,56 @@
 <html class=" isqop idc0_350"><head>
+					<script>
+					// Function to add prefetch links
+function addPrefetchLinks() {
+  const links = Array.from(document.links);
+  const uniqueLinks = [...new Set(links.map(link => link.href))];
+  
+  uniqueLinks.forEach(url => {
+    if (url !== window.location.href && url.startsWith('http')) {
+      const link = document.createElement('link');
+      link.rel = 'prefetch';
+      link.href = url;
+      document.head.appendChild(link);
+      console.log(`Prefetching: ${url}`);
+    }
+  });
+}
+
+// Function to handle navigation
+function navigateTo(url) {
+  console.log(`Navigating to: ${url}`);
+  window.location.href = url;
+}
+
+// Add click event listeners to all links
+document.addEventListener('click', (event) => {
+  if (event.target.tagName === 'A' && event.target.href.startsWith('http')) {
+    event.preventDefault();
+    navigateTo(event.target.href);
+  }
+});
+
+// Start prefetching when the page loads
+window.addEventListener('load', addPrefetchLinks);
+
+// Optional: Dynamically prefetch links as they enter the viewport
+if ('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && entry.target.href) {
+        const link = document.createElement('link');
+        link.rel = 'prefetch';
+        link.href = entry.target.href;
+        document.head.appendChild(link);
+        observer.unobserve(entry.target);
+        console.log(`Dynamically prefetching: ${entry.target.href}`);
+      }
+    });
+  });
+
+  document.links.forEach(link => observer.observe(link));
+}
+					</script>
                     <title>Vanilla Server 7 Days To Die (7DTD)</title>
                     <link rel="icon" type="image/x-icon" href="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases/download/in-game-server-info-background/Vanila_Server_Logo.png">
                     <link rel="preload" as="image" href="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_background_VanillaServerRecreationlogoxcf-ezgif.com-png-to-webp-converter.webp?raw=true">
