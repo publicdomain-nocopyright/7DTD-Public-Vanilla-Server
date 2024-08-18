@@ -224,6 +224,31 @@ def get_self_paths_json(handler_class):
     paths = inspect_self_paths(handler_class)
     return json.dumps({"paths": paths})
 
+
+def check_port_connectable(host='localhost', port=26900, check_interval=4):
+    import socket, time, os
+    def check():
+        while True:
+            sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            sock.settimeout(5)  # Set a timeout for the connection attempt
+            result = sock.connect_ex((host, port))
+            if result == 0:
+                print(f"Server on port {port} is online.")
+            else:
+                print(f"Server on port {port} is offline.")
+                # Define the full path to the JSON file
+                script_dir = os.path.dirname(os.path.abspath(__file__))
+                json_file_path = os.path.join(script_dir, 'Webserver_player_status.json')
+                # Check if the file exists and remove it if it does
+                if os.path.exists(json_file_path):
+                    os.remove(json_file_path)
+                    print("Webserver_player_status.json has been deleted.")
+            sock.close()
+            time.sleep(check_interval)
+    
+    # Start the check function in a separate thread
+    Thread(target=check, daemon=True).start()
+
 if __name__ == '__main__':
     list_all_self_paths()
 
@@ -233,6 +258,9 @@ if __name__ == '__main__':
 
     import Webserver_chat_message_processor
     Thread(target=Webserver_chat_message_processor.main, daemon=True).start()
+
+    # Start the port connectivity check in a separate thread
+    check_port_connectable()
 
     #from threading import Thread
     #import Webserver_UPNP_Portforwarding

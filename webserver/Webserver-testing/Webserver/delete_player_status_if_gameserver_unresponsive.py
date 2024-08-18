@@ -12,10 +12,19 @@ def check_port_connectable(host='localhost', port=26900):
         else:
             print(f"Server on port {port} is offline.")
             # Uncomment the next lines to remove the file if the server is offline
-            # import os
-            # if os.path.exists('Webserver_player_status.json'):
-            #     os.remove('Webserver_player_status.json')
-            #     print("Webserver_player_status.json has been deleted.")
+            import os
+
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+
+            # Define the full path to the JSON file
+            json_file_path = os.path.join(script_dir, 'Webserver_player_status.json')
+
+            # Check if the file exists and remove it if it does
+            #if os.path.exists(json_file_path):
+            #    os.remove(json_file_path)
+            #    print("Webserver_player_status.json has been deleted.")
+
+
 
         sock.close()
         time.sleep(4)
