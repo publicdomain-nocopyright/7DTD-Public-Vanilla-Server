@@ -134,13 +134,130 @@
       "entity_id": "171",
       "chat_type": "Global",
       "message": "hey"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T14:24:26",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "huh?"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T14:25:15",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "sdfa"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T14:26:17",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "zzzzzzzzzzzz"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T14:28:26",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "wha"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T14:29:34",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "how"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T14:30:08",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "hmm"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T14:30:44",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "oh"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T14:31:01",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "weird"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T14:33:40",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "who said what"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T14:33:50",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "alright works for now "
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T14:34:09",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "This is a very long message written in global chat"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T14:39:39",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "aaaaaaaaaaaa"
+    },
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-18T14:47:23",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "123"
     }
   ],
-  "last_processed_position": 163146,
-  "last_processed_file": "C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Webserver-testing\\7DaysToDie_Data\\output_log__2024-08-18__13-14-14.txt",
-  "last_timestamp": "2024-08-18T13:49:33",
+  "last_processed_position": 102451,
+  "last_processed_file": "C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Webserver-testing\\7DaysToDie_Data\\output_log__2024-08-18__14-43-15.txt",
+  "last_timestamp": "2024-08-18T14:47:23",
   "analysis": {
-    "total_messages": 15,
+    "total_messages": 28,
     "unique_players": 1,
     "most_active_player": "boqsc",
     "chat_types": [
@@ -148,23 +265,23 @@
     ],
     "most_common_words": [
       [
+        "who",
+        2
+      ],
+      [
+        "what",
+        2
+      ],
+      [
+        "hmm",
+        2
+      ],
+      [
         "gewwta",
         1
       ],
       [
         "aa",
-        1
-      ],
-      [
-        "dsf",
-        1
-      ],
-      [
-        "test",
-        1
-      ],
-      [
-        "zzz",
         1
       ]
     ]
