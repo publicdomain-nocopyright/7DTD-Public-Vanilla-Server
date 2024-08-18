@@ -10,7 +10,17 @@ def datetime_to_string(obj):
         return obj.strftime('%Y-%m-%dT%H:%M:%S')
     raise TypeError(f"Object of type {obj.__class__.__name__} is not JSON serializable")
 
-def process_log_file(file_path, data):
+def load_player_status():
+    with open('Webserver_player_status.json', 'r') as f:
+        return json.load(f)
+
+def get_player_name(pltfm_id, player_status):
+    for player_name, player_info in player_status['players'].items():
+        if player_info['pltfm_id'] == pltfm_id:
+            return player_name
+    return pltfm_id  # Return pltfm_id if no matching player name is found
+
+def process_log_file(file_path, data, player_status):
     chat_messages = data.get('chat_messages', [])
     last_processed_position = data.get('last_processed_position', 0)
     last_processed_file = data.get('last_processed_file', '')
@@ -31,9 +41,11 @@ def process_log_file(file_path, data):
             match = re.search(chat_pattern, line)
             if match:
                 timestamp, pltfm_id, entity_id, chat_type, message = match.groups()
+                player_name = get_player_name(pltfm_id, player_status)
                 chat_messages.append({
                     'timestamp': datetime.strptime(timestamp, '%Y-%m-%dT%H:%M:%S'),
                     'pltfm_id': pltfm_id,
+                    'player_name': player_name,
                     'entity_id': entity_id,
                     'chat_type': chat_type,
                     'message': message
@@ -71,7 +83,7 @@ def analyze_chat(chat_messages):
     word_frequency = {}
 
     for message in chat_messages:
-        player = message['pltfm_id']
+        player = message['player_name']
         player_message_counts[player] = player_message_counts.get(player, 0) + 1
         chat_types.add(message['chat_type'])
 
@@ -96,8 +108,9 @@ def main():
     while True:
         latest_log_file = get_path_latest_game_server_log_file.get_path_latest_game_server_log_file()
         data = load_data(data_file)
+        player_status = load_player_status()
         
-        result = process_log_file(latest_log_file, data)
+        result = process_log_file(latest_log_file, data, player_status)
         
         if result['new_lines_processed'] > 0:
             print(f"Processed {result['new_lines_processed']} new lines.")
