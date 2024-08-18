@@ -1422,3 +1422,619 @@ GameManager:Update ()
 2024-08-18T22:21:57 1886.383 INF Time: 30.97m FPS: 19.70 Heap: 1319.9MB Max: 1374.1MB Chunks: 235 CGO: 0 Ply: 0 Zom: 4 Ent: 0 (18) Items: 1 CO: 0 RSS: 1430.0MB
 2024-08-18T22:21:59 1888.982 INF 0 EntityBackpack id 196, plyrId 171, (77.3, 87.7, 1198.9) (4, 74), chunk True (4, 5, 74), items 5 drinkJarBoiledWater, foodCanChili at (0, 0, 0, xz 0 0) : Write
 2024-08-18T22:22:04 1893.103 INF Clearing all pools
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+Error writing to JSON file: Could not find a part of the path "C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json".
+2024-08-18T22:28:15 2264.490 INF NET: LiteNetLib: Connect from: 127.0.0.1:56930 / 0
+2024-08-18T22:28:15 2264.513 INF Started thread NCS_Reader_0_0
+2024-08-18T22:28:15 2264.532 INF Started thread NCS_Writer_0_0
+2024-08-18T22:28:15 2264.543 INF Started thread NCS_Reader_0_1
+2024-08-18T22:28:15 2264.545 INF [NET] PlayerConnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='3'
+2024-08-18T22:28:15 2264.549 INF Started thread NCS_Writer_0_1
+2024-08-18T22:28:16 2265.803 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:56930 / 0 (RemoteConnectionClose)
+2024-08-18T22:28:16 2265.818 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:56930 / 0 (RemoteConnectionClose)
+2024-08-18T22:28:16 2265.819 INF [NET] PlayerDisconnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='3'
+2024-08-18T22:28:16 2265.820 WRN DynamicMusic: -1 was not in Bloodmoon state cache on disconnect
+2024-08-18T22:28:16 2265.821 INF Client disconnected from dy mesh: Id: -1 Total: 1
+2024-08-18T22:28:16 2265.821 INF Player disconnected: EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='3'
+2024-08-18T22:28:16 2265.822 INF Exited thread NCS_Writer_0_1
+2024-08-18T22:28:16 2265.823 INF [EOS-ACS] FreeUser: EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='3'
+2024-08-18T22:28:16 2265.824 INF Exited thread NCS_Writer_0_0
+2024-08-18T22:28:16 2265.824 INF Exited thread NCS_Reader_0_1
+2024-08-18T22:28:16 2265.825 ERR [EOS] [LogEOSAntiCheat - Error] [AntiCheatServer] [UnregisterClient-001] ClientHandle 0000000000000003 not found.
+2024-08-18T22:28:16 2265.826 ERR [EOS-ACS] Failed unregistering user: InvalidParameters
+2024-08-18T22:28:16 2265.827 INF Exited thread NCS_Reader_0_0
+2024-08-18T22:28:29 2278.744 INF NET: LiteNetLib: Connect from: 127.0.0.1:61265 / 0
+[NM] SocketReceiveThread error: System.IO.IOException: Sharing violation on path C:\Users\WINDOW~1\AppData\Local\Temp\The Fun Pimps\7 Days To Die\Player.log
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append) [0x00008] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool)
+  at BacktraceUtils.Backtrace_LogCallbacks (System.String _msg, System.String _trace, UnityEngine.LogType _type) [0x00010] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void_string_string_LogType(string,string,UnityEngine.LogType)
+  at Log.SendToLogListeners (System.String _formattedMessage, System.String _trace, UnityEngine.LogType _type, System.DateTime _timestamp, System.Int64 _uptime, System.String _message) [0x00009] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.masterLogStandalone (System.String _txt, UnityEngine.LogType _logType, System.String _trace) [0x0002a] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.Out (System.String _txt) [0x00030] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at NetworkServerLiteNetLib.<StartServer>b__14_0 (LiteNetLib.NetPeer _peer) [0x0001b] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnPeerConnected (LiteNetLib.NetPeer peer) [0x00008] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00042] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.CreateEvent (LiteNetLib.NetEvent+EType type, LiteNetLib.NetPeer peer, System.Net.IPEndPoint remoteEndPoint, System.Net.Sockets.SocketError errorCode, System.Int32 latency, LiteNetLib.DisconnectReason disconnectReason, LiteNetLib.ConnectionRequest connectionRequest, LiteNetLib.DeliveryMethod deliveryMethod, LiteNetLib.NetPacket readerSource, System.Object userData) [0x000ca] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.OnConnectionSolved (LiteNetLib.ConnectionRequest request, System.Byte[] rejectData, System.Int32 start, System.Int32 length) [0x00131] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.ConnectionRequest.Accept () [0x00011] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at NetworkServerLiteNetLib.ConnectionRequestCheck (LiteNetLib.ConnectionRequest _request) [0x00104] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnConnectionRequest (LiteNetLib.ConnectionRequest request) [0x00008] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00128] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.CreateEvent (LiteNetLib.NetEvent+EType type, LiteNetLib.NetPeer peer, System.Net.IPEndPoint remoteEndPoint, System.Net.Sockets.SocketError errorCode, System.Int32 latency, LiteNetLib.DisconnectReason disconnectReason, LiteNetLib.ConnectionRequest connectionRequest, LiteNetLib.DeliveryMethod deliveryMethod, LiteNetLib.NetPacket readerSource, System.Object userData) [0x000ca] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessConnectRequest (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPeer netPeer, LiteNetLib.NetConnectRequestPacket connRequest) [0x000c0] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.DataReceived (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x001f9] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.OnMessageReceived (LiteNetLib.NetPacket packet, System.Net.Sockets.SocketError errorCode, System.Net.IPEndPoint remoteEndPoint) [0x0002e] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+2024-08-18T22:28:30 2279.803 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:61265 / 0 (RemoteConnectionClose)
+2024-08-18T22:28:30 2279.818 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:61265 / 0 (RemoteConnectionClose)
+2024-08-18T22:28:41 2290.356 INF NET: LiteNetLib: Connect from: 127.0.0.1:64701 / 0
+2024-08-18T22:28:41 2290.365 INF Started thread NCS_Reader_0_0
+2024-08-18T22:28:41 2290.376 INF Started thread NCS_Writer_0_0
+2024-08-18T22:28:41 2290.380 INF Started thread NCS_Reader_0_1
+2024-08-18T22:28:41 2290.382 INF [NET] PlayerConnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='4'
+2024-08-18T22:28:41 2290.383 INF Started thread NCS_Writer_0_1
+2024-08-18T22:28:47 2296.219 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:64701 / 0 (RemoteConnectionClose)
+2024-08-18T22:28:47 2296.268 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:64701 / 0 (RemoteConnectionClose)
+2024-08-18T22:28:47 2296.269 INF [NET] PlayerDisconnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='4'
+2024-08-18T22:28:47 2296.270 WRN DynamicMusic: -1 was not in Bloodmoon state cache on disconnect
+2024-08-18T22:28:47 2296.271 INF Client disconnected from dy mesh: Id: -1 Total: 0
+2024-08-18T22:28:47 2296.272 INF Player disconnected: EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='4'
+2024-08-18T22:28:47 2296.272 INF [EOS-ACS] FreeUser: EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='4'
+2024-08-18T22:28:47 2296.273 ERR [EOS] [LogEOSAntiCheat - Error] [AntiCheatServer] [UnregisterClient-001] ClientHandle 0000000000000004 not found.
+2024-08-18T22:28:47 2296.274 ERR [EOS-ACS] Failed unregistering user: InvalidParameters
+2024-08-18T22:28:47 2296.275 INF Exited thread NCS_Writer_0_0
+2024-08-18T22:28:47 2296.275 INF Exited thread NCS_Reader_0_1
+2024-08-18T22:28:47 2296.276 INF Exited thread NCS_Reader_0_0
+2024-08-18T22:28:47 2296.278 INF Exited thread NCS_Writer_0_1
+2024-08-18T22:28:56 2305.763 INF NET: LiteNetLib: Connect from: 127.0.0.1:56363 / 0
+[NM] SocketReceiveThread error: System.IO.IOException: Sharing violation on path C:\Users\WINDOW~1\AppData\Local\Temp\The Fun Pimps\7 Days To Die\Player.log
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append) [0x00008] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool)
+  at BacktraceUtils.Backtrace_LogCallbacks (System.String _msg, System.String _trace, UnityEngine.LogType _type) [0x00010] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void_string_string_LogType(string,string,UnityEngine.LogType)
+  at Log.SendToLogListeners (System.String _formattedMessage, System.String _trace, UnityEngine.LogType _type, System.DateTime _timestamp, System.Int64 _uptime, System.String _message) [0x00009] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.masterLogStandalone (System.String _txt, UnityEngine.LogType _logType, System.String _trace) [0x0002a] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.Out (System.String _txt) [0x00030] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at NetworkServerLiteNetLib.<StartServer>b__14_0 (LiteNetLib.NetPeer _peer) [0x0001b] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnPeerConnected (LiteNetLib.NetPeer peer) [0x00008] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00042] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.CreateEvent (LiteNetLib.NetEvent+EType type, LiteNetLib.NetPeer peer, System.Net.IPEndPoint remoteEndPoint, System.Net.Sockets.SocketError errorCode, System.Int32 latency, LiteNetLib.DisconnectReason disconnectReason, LiteNetLib.ConnectionRequest connectionRequest, LiteNetLib.DeliveryMethod deliveryMethod, LiteNetLib.NetPacket readerSource, System.Object userData) [0x000ca] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.OnConnectionSolved (LiteNetLib.ConnectionRequest request, System.Byte[] rejectData, System.Int32 start, System.Int32 length) [0x00131] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.ConnectionRequest.Accept () [0x00011] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at NetworkServerLiteNetLib.ConnectionRequestCheck (LiteNetLib.ConnectionRequest _request) [0x00104] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at LiteNetLib.EventBasedNetListener.LiteNetLib.INetEventListener.OnConnectionRequest (LiteNetLib.ConnectionRequest request) [0x00008] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessEvent (LiteNetLib.NetEvent evt) [0x00128] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.CreateEvent (LiteNetLib.NetEvent+EType type, LiteNetLib.NetPeer peer, System.Net.IPEndPoint remoteEndPoint, System.Net.Sockets.SocketError errorCode, System.Int32 latency, LiteNetLib.DisconnectReason disconnectReason, LiteNetLib.ConnectionRequest connectionRequest, LiteNetLib.DeliveryMethod deliveryMethod, LiteNetLib.NetPacket readerSource, System.Object userData) [0x000ca] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.ProcessConnectRequest (System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPeer netPeer, LiteNetLib.NetConnectRequestPacket connRequest) [0x000c0] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.DataReceived (LiteNetLib.NetPacket packet, System.Net.IPEndPoint remoteEndPoint) [0x001f9] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+  at LiteNetLib.NetManager.OnMessageReceived (LiteNetLib.NetPacket packet, System.Net.Sockets.SocketError errorCode, System.Net.IPEndPoint remoteEndPoint) [0x0002e] in <ff9a5b9f374e46e5b8620639efa4bd27>:0 
+2024-08-18T22:28:57 2306.644 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:56363 / 0 (RemoteConnectionClose)
+2024-08-18T22:28:57 2306.668 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:56363 / 0 (RemoteConnectionClose)
+2024-08-18T22:29:10 2319.159 INF NET: LiteNetLib: Connect from: 127.0.0.1:53949 / 0
+2024-08-18T22:29:10 2319.164 INF Started thread NCS_Reader_0_0
+2024-08-18T22:29:10 2319.187 INF Started thread NCS_Writer_0_0
+2024-08-18T22:29:10 2319.189 INF Started thread NCS_Reader_0_1
+2024-08-18T22:29:10 2319.190 INF [NET] PlayerConnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='5'
+2024-08-18T22:29:10 2319.191 INF Started thread NCS_Writer_0_1
+2024-08-18T22:29:10 2319.730 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:53949 / 0 (RemoteConnectionClose)
+2024-08-18T22:29:10 2319.768 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:53949 / 0 (RemoteConnectionClose)
+2024-08-18T22:29:10 2319.769 INF [NET] PlayerDisconnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='5'
+2024-08-18T22:29:10 2319.770 WRN DynamicMusic: -1 was not in Bloodmoon state cache on disconnect
+2024-08-18T22:29:10 2319.771 INF Client disconnected from dy mesh: Id: -1 Total: 0
+2024-08-18T22:29:10 2319.771 INF Player disconnected: EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='5'
+2024-08-18T22:29:10 2319.772 INF [EOS-ACS] FreeUser: EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='5'
+2024-08-18T22:29:10 2319.773 INF Exited thread NCS_Writer_0_0
+2024-08-18T22:29:10 2319.773 INF Exited thread NCS_Writer_0_1
+2024-08-18T22:29:10 2319.774 INF Exited thread NCS_Reader_0_0
+2024-08-18T22:29:10 2319.775 INF Exited thread NCS_Reader_0_1
+2024-08-18T22:29:10 2319.775 ERR [EOS] [LogEOSAntiCheat - Error] [AntiCheatServer] [UnregisterClient-001] ClientHandle 0000000000000005 not found.
+2024-08-18T22:29:10 2319.776 ERR [EOS-ACS] Failed unregistering user: InvalidParameters
+2024-08-18T22:30:58 2427.909 INF NET: LiteNetLib: Connect from: 127.0.0.1:51833 / 0
+2024-08-18T22:30:58 2427.913 INF Started thread NCS_Reader_0_0
+2024-08-18T22:30:58 2427.938 INF Started thread NCS_Writer_0_0
+2024-08-18T22:30:58 2427.947 INF Started thread NCS_Reader_0_1
+2024-08-18T22:30:58 2427.948 INF [NET] PlayerConnected EntityID=-1, PltfmId='Local_<none>', CrossId='<unknown/none>', OwnerID='<unknown/none>', PlayerName='', ClientNumber='6'
+2024-08-18T22:30:58 2427.949 INF Started thread NCS_Writer_0_1
+2024-08-18T22:30:59 2428.062 INF NPPL.Read
+2024-08-18T22:30:59 2428.083 INF PlayerLogin: boqsc/V 1.1
+2024-08-18T22:30:59 2428.084 INF Client IP: 127.0.0.1
+2024-08-18T22:30:59 2428.087 INF [Auth] PlayerName authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:30:59 2428.089 INF [Auth] ServerState authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:30:59 2428.090 INF [Auth] MpHostAllowed authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:30:59 2428.091 INF [Auth] PlayerId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:30:59 2428.093 INF [Auth] DuplicateUserId authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:30:59 2428.095 INF [Auth] VersionCheck authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:30:59 2428.097 INF [Auth] PlayerSlots authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:30:59 2428.098 INF [Auth] LegacyModAuthorizations authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='<unknown/none>', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:30:59 2428.099 INF [Steamworks.NET] Auth.AuthenticateUser()
+2024-08-18T22:30:59 2428.103 INF [Steamworks.NET] Authenticating player: boqsc SteamId: 76561198072601792 TicketLen: 1024 Result: k_EBeginAuthSessionResultOK
+2024-08-18T22:30:59 2428.344 INF Time: 39.98m FPS: 20.00 Heap: 1194.3MB Max: 1374.1MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (17) Items: 0 CO: 0 RSS: 1217.7MB
+2024-08-18T22:31:00 2429.383 INF [Steamworks.NET] Authentication callback. ID: 76561198072601792, owner: 76561198072601792, result: k_EAuthSessionResponseOK
+2024-08-18T22:31:00 2429.383 INF [Auth] PlatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:31:00 2429.385 INF [Auth] SteamFamily authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:31:00 2429.386 INF [Auth] SteamGroups authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:31:00 2429.387 INF [EOS] Verifying token for 00020585a34f4b93bf8c21b3cf8d3150
+2024-08-18T22:31:00 2429.583 INF [EOS] Device=, Platform=steam, AccType=Steam, AccId=76561198072601792, PUID=00020585a34f4b93bf8c21b3cf8d3150
+2024-08-18T22:31:01 2430.133 INF [EOS] Player may have active sanctions
+2024-08-18T22:31:01 2430.133 INF [EOS] SanctionsQuery finished with: 0 sanctions
+2024-08-18T22:31:01 2430.134 INF [Auth] CrossplatformAuth authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:31:01 2430.136 INF [Auth] BansAndWhitelist authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:31:01 2430.137 INF [Auth] Crossplay authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:31:01 2430.138 INF [EOS-ACS] Registering user: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:31:07 2436.484 INF [Auth] EAC authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:31:07 2436.532 INF [Auth] Finalizer authorization successful: EntityID=-1, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:31:07 2436.538 INF Allowing player with id EOS_00020585a34f4b93bf8c21b3cf8d3150
+2024-08-18T22:31:07 2436.733 INF RequestToEnterGame: EOS_00020585a34f4b93bf8c21b3cf8d3150/boqsc
+2024-08-18T22:31:29 2458.383 INF Time: 40.48m FPS: 20.00 Heap: 1154.6MB Max: 1374.1MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (17) Items: 0 CO: 0 RSS: 1218.2MB
+2024-08-18T22:31:59 2488.537 INF Time: 40.98m FPS: 20.00 Heap: 1136.7MB Max: 1374.1MB Chunks: 13 CGO: 0 Ply: 0 Zom: 0 Ent: 0 (17) Items: 0 CO: 0 RSS: 1203.2MB
+2024-08-18T22:32:21 2510.692 INF Dymesh: Update items to send for boqsc id: -1  recieved: 0
+2024-08-18T22:32:21 2510.693 INF Dymesh: Items to send: 0   Added: 0   chunks: 0
+2024-08-18T22:32:22 2511.255 INF RequestToSpawnPlayer: 171, boqsc, 6
+2024-08-18T22:32:22 2511.322 WRN Parameter 'IsMale' not found in animator
+2024-08-18T22:32:22 2511.326 INF Created player with id=171
+2024-08-18T22:32:23 2512.027 INF 49301 EntityBackpack id 196, plyrId 171, (0.0, 0.0, 0.0) (0, 0), chunk False (0, 0, 0), items 5 drinkJarBoiledWater, foodCanChili at (0, 0, 0, xz 0 0) : Read
+2024-08-18T22:32:23 2512.029 INF 49301 EntityBackpack id 196, plyrId 171, (77.3, 87.7, 1198.9) (4, 74), chunk True (4, 5, 74), items 5 drinkJarBoiledWater, foodCanChili at (0, 0, 0, xz 0 0) : Start
+2024-08-18T22:32:24 2513.027 INF 49321 EntityBackpack id 196, plyrId 171, (77.3, 87.7, 1198.9) (4, 74), chunk True (4, 5, 74), items 5 drinkJarBoiledWater, foodCanChili at (0, 0, 0, xz 0 0) : Write
+2024-08-18T22:32:27 2516.576 INF GMSG: Player 'boqsc' joined the game
+2024-08-18T22:32:27 2516.577 INF PlayerSpawnedInWorld (reason: JoinMultiplayer, position: 155, 75, 1139): EntityID=171, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:32:29 2518.577 INF Time: 41.49m FPS: 19.44 Heap: 1398.1MB Max: 1398.1MB Chunks: 238 CGO: 29 Ply: 1 Zom: 4 Ent: 6 (23) Items: 1 CO: 1 RSS: 1276.5MB
+2024-08-18T22:32:47 2536.749 INF Player boqsc disconnected after 0.4 minutes
+2024-08-18T22:32:48 2537.388 INF DynamicMusic: 171 successfully removed from Bloodmoon state cache
+2024-08-18T22:32:48 2537.389 INF Client disconnected from dy mesh: Id: 171 Total: 1
+2024-08-18T22:32:48 2537.396 INF Player disconnected: EntityID=171, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:32:48 2537.398 INF [EOS-ACS] FreeUser: EntityID=171, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='6'
+2024-08-18T22:32:48 2537.399 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:51833 / 0 (RemoteConnectionClose)
+2024-08-18T22:32:48 2537.400 INF Exited thread NCS_Reader_0_0
+2024-08-18T22:32:48 2537.403 INF Exited thread NCS_Writer_0_0
+2024-08-18T22:32:48 2537.405 INF GMSG: Player 'boqsc' left the game
+2024-08-18T22:32:48 2537.406 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:51833 / 0 (RemoteConnectionClose)
+2024-08-18T22:32:48 2537.407 INF Exited thread NCS_Reader_0_1
+2024-08-18T22:32:48 2537.408 INF 49795 EntityBackpack id 196, plyrId 171, (77.3, 87.7, 1198.9) (4, 74), chunk True (4, 5, 74), items 5 drinkJarBoiledWater, foodCanChili at (0, 0, 0, xz 0 0) : OnEntityUnload markedForUnload False, IsDead True, IsDespawned False
+2024-08-18T22:32:48 2537.409 INF Exited thread NCS_Writer_0_1
+2024-08-18T22:32:49 2538.322 INF 0 EntityBackpack id 196, plyrId 171, (77.3, 87.7, 1198.9) (4, 74), chunk True (4, 5, 74), items 5 drinkJarBoiledWater, foodCanChili at (0, 0, 0, xz 0 0) : Write
+2024-08-18T22:32:56 2545.074 INF Clearing all pools
+2024-08-18T22:32:58 2547.815 INF Shutdown game from Terminal Window
+2024-08-18T22:32:58 2548.007 INF Preparing quit
+2024-08-18T22:32:59 2548.072 INF Disconnect
+2024-08-18T22:32:59 2548.129 INF [NET] ServerShutdown
+2024-08-18T22:32:59 2548.142 INF NET: Stopping server protocols
+2024-08-18T22:32:59 2548.414 INF NET: LiteNetLib server stopped
+2024-08-18T22:32:59 2548.714 INF SaveAndCleanupWorld
+2024-08-18T22:32:59 2548.832 INF Saving 0 of chunks took 20ms
+2024-08-18T22:32:59 2548.924 INF [Steamworks.NET] Exiting Lobby
+2024-08-18T22:32:59 2549.002 INF [EOS] Unregistering server
+2024-08-18T22:33:00 2549.040 INF [Steamworks.NET] Stopping server
+2024-08-18T22:33:00 2549.798 INF [MODS] Loading localization from mod: LHG_InfoPanel_IMG
+2024-08-18T22:33:00 2549.799 INF [MODS] Loading localization from mod: Add_UI_ESC_Menu_UI
+2024-08-18T22:33:00 2549.822 INF AstarManager Cleanup
+2024-08-18T22:33:00 2549.959 INF Clearing queues.
+2024-08-18T22:33:00 2549.960 INF Cleared queues.
+2024-08-18T22:33:01 2550.933 INF Clearing queues.
+2024-08-18T22:33:01 2550.934 INF Cleared queues.
+2024-08-18T22:33:02 2551.100 INF World.Unload
+2024-08-18T22:33:02 2551.121 ERR Exception in thread GenerateChunks:
+2024-08-18T22:33:02 2551.164 EXC Object reference not set to an instance of an object
+  at ChunkManager.GetNextChunkToProvide () [0x00086] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at World.GetNextChunkToProvide () [0x00000] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at ChunkProviderGenerateWorld.GenerateChunksThread (ThreadManager+ThreadInfo _threadInfo) [0x00013] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at ThreadManager.myThreadInvoke (System.Object _threadInfo) [0x0005e] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+UnityEngine.StackTraceUtility:ExtractStringFromException(Object)
+Log:Exception(Exception)
+ThreadManager:myThreadInvoke(Object)
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart(Object)
+
+2024-08-18T22:33:02 2551.457 INF Exited thread GenerateChunks
+2024-08-18T22:33:02 2551.478 INF Exited thread SaveChunks C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves\Navezgane\My Game\Region
+2024-08-18T22:33:02 2551.546 INF World.Cleanup
+2024-08-18T22:33:02 2551.552 INF Exited thread ChunkRegeneration
+2024-08-18T22:33:02 2551.558 INF Exited thread ChunkCalc
+2024-08-18T22:33:02 2551.560 INF Exited thread ChunkMeshBake
+2024-08-18T22:33:02 2551.609 INF Exited thread WaterSimulationApplyChanges
+2024-08-18T22:33:02 2551.656 INF VehicleManager saving 0 (0 + 0)
+2024-08-18T22:33:02 2551.663 INF VehicleManager saved 9 bytes
+2024-08-18T22:33:02 2551.664 INF DroneManager saving 0 (0 + 0)
+2024-08-18T22:33:02 2551.677 INF DroneManager saved 9 bytes
+2024-08-18T22:33:02 2551.681 INF TurretTracker saving 0 (0 + 0)
+2024-08-18T22:33:02 2551.698 INF TurretTracker saved 9 bytes
+2024-08-18T22:33:02 2551.831 INF Persistent GamePrefs saved
+2024-08-18T22:33:06 2555.395 INF Persistent GamePrefs saved
+2024-08-18T22:33:06 2555.402 INF Cleanup
+2024-08-18T22:33:06 2555.419 INF Closing Terminal Window
+2024-08-18T22:33:06 2555.513 INF WinThread ended
+2024-08-18T22:33:06 2555.521 INF Ended Terminal Window
+2024-08-18T22:33:11 2560.169 WRN [EOS] [LogHttp - Warning] 0000019B83DCDBF0: request was cancelled
+2024-08-18T22:33:11 2560.171 WRN [EOS] [LogHttp - Warning] 0000019B83DCE1C0: request was cancelled
+2024-08-18T22:33:11 2560.172 WRN [EOS] [LogHttp - Warning] 0000019B83DCE790: request was cancelled
+2024-08-18T22:33:11 2560.173 WRN [EOS] [LogHttp - Warning] 0000019B83DCB910: request was cancelled
+2024-08-18T22:33:11 2560.173 WRN [EOS] [LogHttp - Warning] 0000019B83DCC4B0: request was cancelled
+2024-08-18T22:33:11 2560.525 INF Terminating threads
+2024-08-18T22:33:11 2560.526 INF OnApplicationQuit
+2024-08-18T22:33:11 2560.527 INF Terminating threads
+2024-08-18T22:33:11 2560.528 INF OnApplicationQuit
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 2 frames, [8.0 KB-16.0 KB]: 783 frames, [16.0 KB-32.0 KB]: 145 frames, [32.0 KB-64.0 KB]: 100 frames, [64.0 KB-128.0 KB]: 40733 frames, [128.0 KB-256.0 KB]: 8218 frames, [256.0 KB-0.5 MB]: 3 frames, [0.5 MB-1.0 MB]: 5 frames, [1.0 MB-2.0 MB]: 4 frames, [2.0 MB-4.0 MB]: 11 frames, [4.0 MB-8.0 MB]: 4 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 8.0 MB
+      Peak Allocated Bytes 7.2 MB
+      Overflow Count 16784
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 128.0 KB
+      Peak Allocated Bytes 127.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 0.5 MB
+      Peak Allocated Bytes 509.8 KB
+      Overflow Count 34
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 183.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 56.0 KB
+      Peak Allocated Bytes 53.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 2
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 56.0 KB
+      Peak Allocated Bytes 53.1 KB
+      Overflow Count 2
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 40.0 KB
+      Peak Allocated Bytes 39.7 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 3
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 48.0 KB
+      Peak Allocated Bytes 45.5 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 183.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 340.0 KB
+      Peak Allocated Bytes 285.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 32.0 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 32.0 KB
+      Overflow Count 1
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 18041
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 648927
+        32B: 13 Subsections = 6656 buckets. Failed count: 215965
+        48B: 49 Subsections = 16725 buckets. Failed count: 547938
+        64B: 30 Subsections = 7680 buckets. Failed count: 285404
+        80B: 151 Subsections = 30924 buckets. Failed count: 42037
+        96B: 8 Subsections = 1365 buckets. Failed count: 32545
+        112B: 2 Subsections = 292 buckets. Failed count: 6439
+        128B: 2 Subsections = 256 buckets. Failed count: 65251
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 298 frames, [32.0 MB-64.0 MB]: 49706 frames, [64.0 MB-128.0 MB]: 4 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 5
+      Peak Allocated memory 73.2 MB
+      Peak Large allocation bytes 36.0 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 401 frames, [16.0 MB-32.0 MB]: 4980 frames, [32.0 MB-64.0 MB]: 36 frames, [64.0 MB-128.0 MB]: 44590 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 5
+      Peak Allocated memory 73.8 MB
+      Peak Large allocation bytes 32.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 5
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 648927
+        32B: 13 Subsections = 6656 buckets. Failed count: 215965
+        48B: 49 Subsections = 16725 buckets. Failed count: 547938
+        64B: 30 Subsections = 7680 buckets. Failed count: 285404
+        80B: 151 Subsections = 30924 buckets. Failed count: 42037
+        96B: 8 Subsections = 1365 buckets. Failed count: 32545
+        112B: 2 Subsections = 292 buckets. Failed count: 6439
+        128B: 2 Subsections = 256 buckets. Failed count: 65251
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [64.0 KB-128.0 KB]: 299 frames, [128.0 KB-256.0 KB]: 1 frames, [0.5 MB-1.0 MB]: 1 frames, [1.0 MB-2.0 MB]: 12 frames, [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 36 frames, [16.0 MB-32.0 MB]: 29 frames, [32.0 MB-64.0 MB]: 13 frames, [64.0 MB-128.0 MB]: 4946 frames, [128.0 MB-256.0 MB]: 44647 frames, [256.0 MB-0.50 GB]: 23 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 9
+      Peak Allocated memory 428.6 MB
+      Peak Large allocation bytes 324.0 MB
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 1 frames, [8.0 MB-16.0 MB]: 5349 frames, [16.0 MB-32.0 MB]: 44658 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 24.8 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 108672
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 648927
+        32B: 13 Subsections = 6656 buckets. Failed count: 215965
+        48B: 49 Subsections = 16725 buckets. Failed count: 547938
+        64B: 30 Subsections = 7680 buckets. Failed count: 285404
+        80B: 151 Subsections = 30924 buckets. Failed count: 42037
+        96B: 8 Subsections = 1365 buckets. Failed count: 32545
+        112B: 2 Subsections = 292 buckets. Failed count: 6439
+        128B: 2 Subsections = 256 buckets. Failed count: 65251
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [32.0 MB-64.0 MB]: 279 frames, [64.0 MB-128.0 MB]: 49727 frames, [128.0 MB-256.0 MB]: 2 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 28
+      Peak Allocated memory 154.7 MB
+      Peak Large allocation bytes 83.6 MB
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [32.0 MB-64.0 MB]: 300 frames, [64.0 MB-128.0 MB]: 49707 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 17
+      Peak Allocated memory 114.1 MB
+      Peak Large allocation bytes 62.3 MB
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 648927
+        32B: 13 Subsections = 6656 buckets. Failed count: 215965
+        48B: 49 Subsections = 16725 buckets. Failed count: 547938
+        64B: 30 Subsections = 7680 buckets. Failed count: 285404
+        80B: 151 Subsections = 30924 buckets. Failed count: 42037
+        96B: 8 Subsections = 1365 buckets. Failed count: 32545
+        112B: 2 Subsections = 292 buckets. Failed count: 6439
+        128B: 2 Subsections = 256 buckets. Failed count: 65251
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 299 frames, [128.0 KB-256.0 KB]: 49708 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 200.9 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 50007 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 2
+      Peak Allocated memory 3.0 MB
+      Peak Large allocation bytes 0 B
