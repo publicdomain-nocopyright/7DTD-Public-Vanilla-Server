@@ -1437,3 +1437,318 @@ Current game time: Day 2, 06:02
 It's daytime!
 Current game time: Day 2, 06:04
 It's daytime!
+Current game time: Day 2, 06:06
+It's daytime!
+2024-08-18T14:51:48 508.855 INF Shutdown game from Terminal Window
+2024-08-18T14:51:49 508.964 INF Preparing quit
+2024-08-18T14:51:49 508.966 INF Disconnect
+2024-08-18T14:51:49 508.969 INF [NET] ServerShutdown
+2024-08-18T14:51:49 508.971 INF NET: Stopping server protocols
+2024-08-18T14:51:49 508.974 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:63804 / 0 (DisconnectPeerCalled)
+2024-08-18T14:51:49 509.163 INF NET: LiteNetLib server stopped
+2024-08-18T14:51:49 509.166 INF DynamicMusic: 171 successfully removed from Bloodmoon state cache
+2024-08-18T14:51:49 509.168 INF Client disconnected from dy mesh: Id: 171 Total: 1
+2024-08-18T14:51:49 509.170 INF Player disconnected: EntityID=171, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-18T14:51:49 509.171 INF Exited thread NCS_Reader_0_0
+2024-08-18T14:51:49 509.172 INF Exited thread NCS_Writer_0_0
+2024-08-18T14:51:49 509.173 INF Exited thread NCS_Writer_0_1
+2024-08-18T14:51:49 509.174 INF Exited thread NCS_Reader_0_1
+2024-08-18T14:51:49 509.176 INF [EOS-ACS] FreeUser: EntityID=171, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-18T14:51:49 509.190 INF SaveAndCleanupWorld
+2024-08-18T14:51:49 509.206 INF 8364 EntityBackpack id 196, plyrId 171, (77.3, 87.7, 1198.9) (4, 74), chunk True (4, 5, 74), items 5 drinkJarBoiledWater, foodCanChili at (0, 0, 0, xz 0 0) : Write
+2024-08-18T14:51:52 512.872 INF Saving 69 of chunks took 3620ms
+2024-08-18T14:51:52 512.929 INF [Steamworks.NET] Exiting Lobby
+2024-08-18T14:51:52 512.934 INF [EOS] Unregistering server
+2024-08-18T14:51:53 512.939 INF [Steamworks.NET] Stopping server
+2024-08-18T14:51:54 514.144 INF [MODS] Loading localization from mod: LHG_InfoPanel_IMG
+2024-08-18T14:51:54 514.146 INF [MODS] Loading localization from mod: Add_UI_ESC_Menu_UI
+2024-08-18T14:51:54 514.150 INF AstarManager Cleanup
+2024-08-18T14:51:54 514.457 INF Clearing queues.
+2024-08-18T14:51:54 514.461 INF Cleared queues.
+2024-08-18T14:51:55 515.174 INF Clearing queues.
+2024-08-18T14:51:55 515.181 INF Cleared queues.
+2024-08-18T14:51:55 515.201 INF World.Unload
+2024-08-18T14:51:55 515.220 INF Exited thread GenerateChunks
+2024-08-18T14:51:55 515.223 INF 8364 EntityBackpack id 196, plyrId 171, (77.3, 87.7, 1198.9) (4, 74), chunk True (4, 5, 74), items 5 drinkJarBoiledWater, foodCanChili at (0, 0, 0, xz 0 0) : OnEntityUnload markedForUnload False, IsDead True, IsDespawned False
+2024-08-18T14:51:56 515.944 INF 0 EntityBackpack id 196, plyrId 171, (77.3, 87.7, 1198.9) (4, 74), chunk True (4, 5, 74), items 5 drinkJarBoiledWater, foodCanChili at (0, 0, 0, xz 0 0) : Write
+2024-08-18T14:51:57 517.032 INF Exited thread SaveChunks C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves\Navezgane\My Game\Region
+2024-08-18T14:51:57 517.062 INF World.Cleanup
+2024-08-18T14:51:57 517.067 INF Exited thread ChunkRegeneration
+2024-08-18T14:51:57 517.074 INF Exited thread ChunkCalc
+2024-08-18T14:51:57 517.080 INF Exited thread ChunkMeshBake
+2024-08-18T14:51:57 517.096 INF Exited thread WaterSimulationApplyChanges
+2024-08-18T14:51:57 517.109 INF VehicleManager saving 0 (0 + 0)
+2024-08-18T14:51:57 517.113 INF VehicleManager saved 9 bytes
+2024-08-18T14:51:57 517.116 INF DroneManager saving 0 (0 + 0)
+2024-08-18T14:51:57 517.121 INF DroneManager saved 9 bytes
+2024-08-18T14:51:57 517.124 INF TurretTracker saving 0 (0 + 0)
+2024-08-18T14:51:57 517.130 INF TurretTracker saved 9 bytes
+2024-08-18T14:51:57 517.157 INF Persistent GamePrefs saved
+2024-08-18T14:51:57 517.255 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:63804 / 0 (DisconnectPeerCalled)
+2024-08-18T14:51:57 517.271 INF Persistent GamePrefs saved
+2024-08-18T14:51:57 517.273 INF Cleanup
+2024-08-18T14:51:57 517.276 INF Closing Terminal Window
+2024-08-18T14:51:57 517.320 INF WinThread ended
+2024-08-18T14:51:57 517.332 INF Ended Terminal Window
+2024-08-18T14:51:57 517.569 INF [EOS] Server unregistered
+2024-08-18T14:51:58 518.531 INF Terminating threads
+2024-08-18T14:51:58 518.533 INF OnApplicationQuit
+2024-08-18T14:51:58 518.552 INF Terminating threads
+2024-08-18T14:51:58 518.553 INF OnApplicationQuit
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 2 frames, [8.0 KB-16.0 KB]: 975 frames, [16.0 KB-32.0 KB]: 224 frames, [32.0 KB-64.0 KB]: 91 frames, [64.0 KB-128.0 KB]: 5755 frames, [128.0 KB-256.0 KB]: 1295 frames, [256.0 KB-0.5 MB]: 3 frames, [0.5 MB-1.0 MB]: 5 frames, [1.0 MB-2.0 MB]: 4 frames, [2.0 MB-4.0 MB]: 8 frames, [4.0 MB-8.0 MB]: 4 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 8.0 MB
+      Peak Allocated Bytes 7.2 MB
+      Overflow Count 16784
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 128.0 KB
+      Peak Allocated Bytes 127.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 0.5 MB
+      Peak Allocated Bytes 509.8 KB
+      Overflow Count 34
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 181.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 32.0 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 2
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 40.0 KB
+      Peak Allocated Bytes 37.3 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 56.0 KB
+      Peak Allocated Bytes 53.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 48.0 KB
+      Peak Allocated Bytes 45.5 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 3
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 35.6 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 182.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 340.0 KB
+      Peak Allocated Bytes 285.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 32.0 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 32.0 KB
+      Overflow Count 1
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 15179
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 550893
+        32B: 13 Subsections = 6656 buckets. Failed count: 188059
+        48B: 49 Subsections = 16725 buckets. Failed count: 499479
+        64B: 30 Subsections = 7680 buckets. Failed count: 280708
+        80B: 151 Subsections = 30924 buckets. Failed count: 34517
+        96B: 8 Subsections = 1365 buckets. Failed count: 30510
+        112B: 2 Subsections = 292 buckets. Failed count: 5501
+        128B: 2 Subsections = 256 buckets. Failed count: 54456
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 468 frames, [32.0 MB-64.0 MB]: 7895 frames, [64.0 MB-128.0 MB]: 3 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 4
+      Peak Allocated memory 73.6 MB
+      Peak Large allocation bytes 36.0 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 459 frames, [16.0 MB-32.0 MB]: 2212 frames, [32.0 MB-64.0 MB]: 27 frames, [64.0 MB-128.0 MB]: 5667 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 5
+      Peak Allocated memory 72.3 MB
+      Peak Large allocation bytes 32.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 5
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 550893
+        32B: 13 Subsections = 6656 buckets. Failed count: 188059
+        48B: 49 Subsections = 16725 buckets. Failed count: 499479
+        64B: 30 Subsections = 7680 buckets. Failed count: 280708
+        80B: 151 Subsections = 30924 buckets. Failed count: 34517
+        96B: 8 Subsections = 1365 buckets. Failed count: 30510
+        112B: 2 Subsections = 292 buckets. Failed count: 5501
+        128B: 2 Subsections = 256 buckets. Failed count: 54456
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [64.0 KB-128.0 KB]: 417 frames, [128.0 KB-256.0 KB]: 1 frames, [0.5 MB-1.0 MB]: 1 frames, [1.0 MB-2.0 MB]: 17 frames, [2.0 MB-4.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 48 frames, [16.0 MB-32.0 MB]: 40 frames, [32.0 MB-64.0 MB]: 21 frames, [64.0 MB-128.0 MB]: 2525 frames, [128.0 MB-256.0 MB]: 5267 frames, [256.0 MB-0.50 GB]: 28 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 8
+      Peak Allocated memory 428.6 MB
+      Peak Large allocation bytes 324.0 MB
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 1 frames, [8.0 MB-16.0 MB]: 2634 frames, [16.0 MB-32.0 MB]: 5731 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 21.5 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 72363
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 550893
+        32B: 13 Subsections = 6656 buckets. Failed count: 188059
+        48B: 49 Subsections = 16725 buckets. Failed count: 499479
+        64B: 30 Subsections = 7680 buckets. Failed count: 280708
+        80B: 151 Subsections = 30924 buckets. Failed count: 34517
+        96B: 8 Subsections = 1365 buckets. Failed count: 30510
+        112B: 2 Subsections = 292 buckets. Failed count: 5501
+        128B: 2 Subsections = 256 buckets. Failed count: 54456
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [32.0 MB-64.0 MB]: 364 frames, [64.0 MB-128.0 MB]: 8000 frames, [128.0 MB-256.0 MB]: 2 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 28
+      Peak Allocated memory 154.9 MB
+      Peak Large allocation bytes 83.6 MB
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [32.0 MB-64.0 MB]: 418 frames, [64.0 MB-128.0 MB]: 7947 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 16
+      Peak Allocated memory 114.1 MB
+      Peak Large allocation bytes 62.3 MB
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 550893
+        32B: 13 Subsections = 6656 buckets. Failed count: 188059
+        48B: 49 Subsections = 16725 buckets. Failed count: 499479
+        64B: 30 Subsections = 7680 buckets. Failed count: 280708
+        80B: 151 Subsections = 30924 buckets. Failed count: 34517
+        96B: 8 Subsections = 1365 buckets. Failed count: 30510
+        112B: 2 Subsections = 292 buckets. Failed count: 5501
+        128B: 2 Subsections = 256 buckets. Failed count: 54456
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 417 frames, [128.0 KB-256.0 KB]: 7948 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 200.9 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 8365 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 2
+      Peak Allocated memory 3.0 MB
+      Peak Large allocation bytes 0 B
