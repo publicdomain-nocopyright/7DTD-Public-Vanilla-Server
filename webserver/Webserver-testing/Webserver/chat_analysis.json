@@ -1,6 +1,7 @@
 {
   "chat_messages": [
     {
+      "machine_timezone_offset": "-3:00",
       "timestamp": "2024-08-17T15:04:26",
       "pltfm_id": "Steam_76561198072601792",
       "player_name": "boqsc",
@@ -9,6 +10,7 @@
       "message": "gewwta"
     },
     {
+      "machine_timezone_offset": "-3:00",
       "timestamp": "2024-08-17T15:10:01",
       "pltfm_id": "Steam_76561198072601792",
       "player_name": "boqsc",
@@ -17,6 +19,7 @@
       "message": "aa"
     },
     {
+      "machine_timezone_offset": "-3:00",
       "timestamp": "2024-08-17T15:10:26",
       "pltfm_id": "Steam_76561198072601792",
       "player_name": "boqsc",
@@ -25,6 +28,7 @@
       "message": "dsf"
     },
     {
+      "machine_timezone_offset": "-3:00",
       "timestamp": "2024-08-17T15:11:26",
       "pltfm_id": "Steam_76561198072601792",
       "player_name": "boqsc",
@@ -33,6 +37,7 @@
       "message": "test"
     },
     {
+      "machine_timezone_offset": "-3:00",
       "timestamp": "2024-08-17T15:14:26",
       "pltfm_id": "Steam_76561198072601792",
       "player_name": "boqsc",

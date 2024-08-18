@@ -20,6 +20,15 @@ def get_player_name(pltfm_id, player_status):
             return player_name
     return pltfm_id  # Return pltfm_id if no matching player name is found
 
+def get_machine_timezone_offset():
+    from datetime import datetime
+    import time
+
+    offset_seconds = time.timezone if time.localtime().tm_isdst == 0 else time.altzone
+    offset_hours = offset_seconds / 3600
+    current_time_zone_offset = f'{offset_hours:+.0f}:00'
+    return current_time_zone_offset
+
 def process_log_file(file_path, data, player_status):
     chat_messages = data.get('chat_messages', [])
     last_processed_position = data.get('last_processed_position', 0)
@@ -43,6 +52,7 @@ def process_log_file(file_path, data, player_status):
                 timestamp, pltfm_id, entity_id, chat_type, message = match.groups()
                 player_name = get_player_name(pltfm_id, player_status)
                 chat_messages.append({
+                    'machine_timezone_offset': get_machine_timezone_offset(),
                     'timestamp': datetime.strptime(timestamp, '%Y-%m-%dT%H:%M:%S'),
                     'pltfm_id': pltfm_id,
                     'player_name': player_name,
