@@ -1380,3 +1380,45 @@ ERROR: Shader Game/Animal/Fur shader is not supported on this GPU (none of subsh
 2024-08-18T22:18:32 1681.949 INF TurretTracker saved 9 bytes
 2024-08-18T22:18:53 1702.130 INF 33256 EntityBackpack id 196, plyrId 171, (77.3, 87.7, 1198.9) (4, 74), chunk True (4, 5, 74), items 5 drinkJarBoiledWater, foodCanChili at (0, 0, 0, xz 0 0) : Write
 2024-08-18T22:18:55 1704.183 INF Time: 27.97m FPS: 20.01 Heap: 1317.1MB Max: 1374.1MB Chunks: 234 CGO: 43 Ply: 1 Zom: 4 Ent: 6 (18) Items: 1 CO: 1 RSS: 1601.5MB
+2024-08-18T22:19:19 1728.110 INF 33774 EntityBackpack id 196, plyrId 171, (77.3, 87.7, 1198.9) (4, 74), chunk True (4, 5, 74), items 5 drinkJarBoiledWater, foodCanChili at (0, 0, 0, xz 0 0) : Write
+2024-08-18T22:19:25 1734.205 INF Time: 28.47m FPS: 20.00 Heap: 1323.1MB Max: 1374.1MB Chunks: 234 CGO: 43 Ply: 1 Zom: 4 Ent: 6 (18) Items: 1 CO: 1 RSS: 1544.5MB
+2024-08-18T22:19:43 1752.094 INF 34252 EntityBackpack id 196, plyrId 171, (77.3, 87.7, 1198.9) (4, 74), chunk True (4, 5, 74), items 5 drinkJarBoiledWater, foodCanChili at (0, 0, 0, xz 0 0) : Write
+2024-08-18T22:19:55 1764.692 INF Time: 28.97m FPS: 20.00 Heap: 1296.8MB Max: 1374.1MB Chunks: 234 CGO: 44 Ply: 1 Zom: 4 Ent: 6 (18) Items: 1 CO: 1 RSS: 1544.5MB
+2024-08-18T22:20:25 1794.702 INF Time: 29.47m FPS: 19.95 Heap: 1298.8MB Max: 1374.1MB Chunks: 234 CGO: 40 Ply: 1 Zom: 4 Ent: 6 (18) Items: 1 CO: 1 RSS: 1544.5MB
+2024-08-18T22:20:31 1800.115 INF 35192 EntityBackpack id 196, plyrId 171, (77.3, 87.7, 1198.9) (4, 74), chunk True (4, 5, 74), items 5 drinkJarBoiledWater, foodCanChili at (0, 0, 0, xz 0 0) : Write
+2024-08-18T22:20:33 1802.370 INF VehicleManager saving 0 (0 + 0)
+2024-08-18T22:20:33 1802.372 INF DroneManager saving 0 (0 + 0)
+2024-08-18T22:20:33 1802.374 INF TurretTracker saving 0 (0 + 0)
+2024-08-18T22:20:33 1802.424 INF VehicleManager saved 9 bytes
+2024-08-18T22:20:33 1802.439 INF DroneManager saved 9 bytes
+2024-08-18T22:20:33 1802.453 INF TurretTracker saved 9 bytes
+2024-08-18T22:20:55 1824.718 INF Time: 29.97m FPS: 19.96 Heap: 1315.8MB Max: 1374.1MB Chunks: 234 CGO: 41 Ply: 1 Zom: 4 Ent: 6 (18) Items: 1 CO: 1 RSS: 1544.5MB
+2024-08-18T22:21:19 1848.110 INF 36151 EntityBackpack id 196, plyrId 171, (77.3, 87.7, 1198.9) (4, 74), chunk True (4, 5, 74), items 5 drinkJarBoiledWater, foodCanChili at (0, 0, 0, xz 0 0) : Write
+2024-08-18T22:21:25 1854.721 INF Time: 30.47m FPS: 19.94 Heap: 1321.8MB Max: 1374.1MB Chunks: 234 CGO: 33 Ply: 1 Zom: 4 Ent: 6 (18) Items: 1 CO: 1 RSS: 1544.5MB
+2024-08-18T22:21:55 1884.863 INF NET: LiteNetLib: Client disconnect from: 127.0.0.1:60606 / 0 (RemoteConnectionClose)
+2024-08-18T22:21:55 1884.882 WRN NET: LiteNetLib: SendData requested for unknown client EntityID=171, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-18T22:21:55 1884.885 INF Player boqsc disconnected after 6.5 minutes
+2024-08-18T22:21:55 1884.886 INF Exited thread NCS_Writer_0_0
+2024-08-18T22:21:56 1885.638 INF Exited thread NCS_Reader_0_0
+2024-08-18T22:21:56 1885.642 INF DynamicMusic: 171 successfully removed from Bloodmoon state cache
+2024-08-18T22:21:56 1885.644 INF Client disconnected from dy mesh: Id: 171 Total: 1
+2024-08-18T22:21:56 1885.645 INF Player disconnected: EntityID=171, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-18T22:21:56 1885.646 INF [EOS-ACS] FreeUser: EntityID=171, PltfmId='Steam_76561198072601792', CrossId='EOS_00020585a34f4b93bf8c21b3cf8d3150', OwnerID='Steam_76561198072601792', PlayerName='boqsc', ClientNumber='2'
+2024-08-18T22:21:56 1885.647 INF Exited thread NCS_Reader_0_1
+2024-08-18T22:21:56 1885.648 INF Exited thread NCS_Writer_0_1
+2024-08-18T22:21:56 1885.649 INF GMSG: Player 'boqsc' left the game
+2024-08-18T22:21:56 1885.693 ERR [EOS] [LogEOSAntiCheat - Error] [AntiCheatServer] [ReceiveMessageFromClient-001] ClientHandle 0000000000000002 not found.
+2024-08-18T22:21:56 1885.717 ERR [EOS-ACS] Failed handling message: InvalidParameters
+2024-08-18T22:21:56 1885.719 INF NET: LiteNetLib: MT: Client disconnect from: 127.0.0.1:60606 / 0 (RemoteConnectionClose)
+2024-08-18T22:21:56 1885.720 WRN DisconnectClient: Player EOS_00020585a34f4b93bf8c21b3cf8d3150 not found
+2024-08-18T22:21:56 1885.729 INF From: UnityEngine.StackTraceUtility:ExtractStackTrace ()
+ConnectionManager:DisconnectClient (ClientInfo,bool,bool)
+ConnectionManager:<DisconnectClient>b__54_0 (object)
+ThreadManager:UpdateMainThreadTasks ()
+GameManager:gmUpdate ()
+GameManager:Update ()
+
+2024-08-18T22:21:56 1885.734 INF 36847 EntityBackpack id 196, plyrId 171, (77.3, 87.7, 1198.9) (4, 74), chunk True (4, 5, 74), items 5 drinkJarBoiledWater, foodCanChili at (0, 0, 0, xz 0 0) : OnEntityUnload markedForUnload False, IsDead True, IsDespawned False
+2024-08-18T22:21:57 1886.383 INF Time: 30.97m FPS: 19.70 Heap: 1319.9MB Max: 1374.1MB Chunks: 235 CGO: 0 Ply: 0 Zom: 4 Ent: 0 (18) Items: 1 CO: 0 RSS: 1430.0MB
+2024-08-18T22:21:59 1888.982 INF 0 EntityBackpack id 196, plyrId 171, (77.3, 87.7, 1198.9) (4, 74), chunk True (4, 5, 74), items 5 drinkJarBoiledWater, foodCanChili at (0, 0, 0, xz 0 0) : Write
+2024-08-18T22:22:04 1893.103 INF Clearing all pools

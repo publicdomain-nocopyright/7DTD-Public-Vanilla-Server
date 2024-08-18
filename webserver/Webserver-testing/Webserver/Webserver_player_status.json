@@ -1,12 +1,12 @@
 {
-  "online_count": 1,
+  "online_count": 0,
   "players": {
     "boqsc": {
-      "status": "Online,Spawned",
+      "status": "Offline",
       "pltfm_id": "Steam_76561198072601792"
     }
   },
-  "last_processed_position": 117616,
+  "last_processed_position": 122249,
   "last_processed_file": "C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Webserver-testing\\7DaysToDie_Data\\output_log__2024-08-18__21-50-29.txt",
-  "last_timestamp": "2024-08-18T22:19:19"
+  "last_timestamp": "2024-08-18T22:22:04"
 }
