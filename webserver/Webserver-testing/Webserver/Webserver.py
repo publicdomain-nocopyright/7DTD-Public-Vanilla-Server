@@ -122,7 +122,12 @@ class RedirectHandler(SimpleHTTPRequestHandler):
                 except FileNotFoundError:
                     self.send_response(404)
                     self.end_headers()
-        
+
+        elif self.path == '/join_game_server':
+            self.send_response(302)
+            self.send_header('Location', 'steam://connect/' + Webserver_Public_IP + ':26900')
+            self.end_headers()
+            
 
         # Enables SimpleHTTPRequestHandler to serve files from current directory
         else:
@@ -197,6 +202,8 @@ def Get_WebServer_Public_IP():
         webserver_public_ip = urllib.request.urlopen('https://api.ipify.org').read().decode()
         return webserver_public_ip
 
+
+
 # Note: ip='localhost' or ip='127.0.0.1' will disallow local network and internet access to the HTTP server.
 def start_webserver(server_class=ThreadingHTTPServer, handler_class=RedirectHandler, ip='0.0.0.0', port=80):
     from threading import Thread
@@ -260,6 +267,9 @@ def check_port_connectable(host='localhost', port=26900, check_interval=4):
     Thread(target=check, daemon=True).start()
 
 if __name__ == '__main__':
+    global Webserver_Public_IP
+    Webserver_Public_IP = Get_WebServer_Public_IP()
+
     list_all_self_paths()
 
     from threading import Thread
