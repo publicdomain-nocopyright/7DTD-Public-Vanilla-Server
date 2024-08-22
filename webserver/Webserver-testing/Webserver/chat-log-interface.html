@@ -111,13 +111,13 @@ function fetchChatMessages() {
                 const relativeTime = getRelativeTime(messageTime, message.machine_timezone_offset);
                 const tooltipTime = messageTime.toLocaleString();
 				testnow = new Date();
-				console.log(message)
+				<!-- DEBUG stuff console.log(message) -->
 
                 messageElement.innerHTML = `
                     <div class="message-header">
                         <a href="https://steamcommunity.com/profiles/${message.pltfm_id.split('_')[1]}" target="_blank" class="message-author">${message.player_name}</a>
-                        <span class="message-time" title="${tooltipTime}">${testnow}</span>
-                        <span class="message-time" title="${tooltipTime}">${messageTime}</span>
+                        <!-- DEBUG stuff <span class="message-time" title="${tooltipTime}">${testnow}</span>
+                        <span class="message-time" title="${tooltipTime}">${messageTime}</span>-->
                         <span class="message-time" title="${tooltipTime}">${relativeTime}</span>
                     </div>
                     <div class="message-content">${message.message}</div>
