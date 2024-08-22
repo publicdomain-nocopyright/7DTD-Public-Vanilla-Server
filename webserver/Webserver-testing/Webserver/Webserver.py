@@ -279,6 +279,9 @@ if __name__ == '__main__':
     import Webserver_chat_message_processor
     Thread(target=Webserver_chat_message_processor.main, daemon=True).start()
 
+    import portforwarderchecker
+    Thread(target=portforwarderchecker.main, daemon=True).start()
+
     # Start the port connectivity check in a separate thread
     check_port_connectable()
 
