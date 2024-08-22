@@ -5,6 +5,15 @@ from datetime import datetime
 import os
 import get_path_latest_game_server_log_file
 
+
+import logging
+import traceback
+# Set up logging
+logging.basicConfig(filename='chat_processor_errors.log', level=logging.ERROR,
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+
+
 def datetime_to_string(obj):
     if isinstance(obj, datetime):
         return obj.strftime('%Y-%m-%dT%H:%M:%S')
@@ -148,4 +157,10 @@ def main():
         time.sleep(3)  # Check for new messages every 3 seconds
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+
+    except Exception as e:
+        logging.error(f"Fatal error in main script: {str(e)}")
+        logging.error(traceback.format_exc())
+        print(f"A fatal error occurred. Check the log file for details.")
