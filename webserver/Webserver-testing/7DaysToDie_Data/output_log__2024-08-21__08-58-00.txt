@@ -1,0 +1,719 @@
+Mono path[0] = 'C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/Managed'
+Mono config path = 'C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/MonoBleedingEdge/etc'
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Loading player data from C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/data.unity3d
+Initialize engine version: 2022.3.29f1 (8d510ca76d2b)
+[Subsystems] Discovering subsystems at path C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.399 seconds
+- Finished resetting the current domain, in  0.003 seconds
+ERROR: Shader Hidden/LandClaimBoundary shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Unlit/Transparent Colored shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+UnloadTime: 1.572700 ms
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+ERROR: Shader GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+UnloadTime: 7.430200 ms
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoDecode. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass YCbCr_To_RGB1 in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBAFull in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBASplit_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGB1 in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGBA in shader <not found>
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoComposite. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass Default in shader <not found>
+2024-08-21T08:58:03 0.108 INF Backtrace Initialized
+2024-08-21T08:58:03 0.196 INF Version: V 1.1 (b4) Compatibility Version: V 1.1, Build: WindowsPlayer 64 Bit
+2024-08-21T08:58:03 0.197 INF System information:
+2024-08-21T08:58:03 0.198 INF    OS: Windows 10  (10.0.19045) 64bit
+2024-08-21T08:58:03 0.199 INF    CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz (cores: 4)
+2024-08-21T08:58:03 0.200 INF    RAM: 16276 MB
+2024-08-21T08:58:03 0.201 INF    GPU: Null Device (128 MB)
+2024-08-21T08:58:03 0.212 INF    Graphics API: NULL 1.0 [1.0] (shader level 3.0)
+2024-08-21T08:58:03 0.218 INF Local UTC offset: 3 hours
+2024-08-21T08:58:03 0.285 INF Command line arguments: 7DaysToDie -logfile C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\\7DaysToDie_Data\output_log__2024-08-21__08-58-00.txt -quit -batchmode -nographics -configfile=C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\serverconfig.xml -dedicated -UserDataFolder=C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder
+2024-08-21T08:58:03 0.313 INF Parsing server configfile: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\serverconfig.xml
+2024-08-21T08:58:03 0.488 INF Parsing server configfile successfully completed
+2024-08-21T08:58:03 0.491 INF UserDataFolder: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder
+2024-08-21T08:58:03 0.495 INF [Platform] Init
+2024-08-21T08:58:03 0.628 INF [Platform] Using native platform: Steam
+2024-08-21T08:58:03 0.631 INF [Platform] Using cross platform: EOS
+2024-08-21T08:58:03 0.632 INF [Platform] Using server platform: Steam
+2024-08-21T08:58:03 0.633 INF [Platform] Using server platform: XBL
+2024-08-21T08:58:03 0.633 INF [Platform] Using server platform: PSN
+2024-08-21T08:58:03 0.643 INF Starting PlayerInputManager...
+2024-08-21T08:58:03 0.647 INF InControl (version 1.8.9 build 9376, native module = False, XInput = False)
+2024-08-21T08:58:03 0.654 INF InControl (version 1.8.9 build 9376)
+2024-08-21T08:58:04 1.129 INF UnityInputDeviceManager enabled.
+2024-08-21T08:58:04 1.180 INF [Platform] Initializing Steam
+2024-08-21T08:58:04 1.211 INF [Platform] Initializing EOS
+2024-08-21T08:58:04 1.271 INF [EOS] Initialize: Success
+2024-08-21T08:58:04 1.316 INF [Platform] Initializing XBL
+2024-08-21T08:58:04 1.318 INF [Platform] Initializing PSN
+2024-08-21T08:58:04 1.321 INF [SaveDataUtils] InitStatic Begin
+2024-08-21T08:58:04 1.324 INF [SaveDataUtils] SdPlayerPrefs -> Unity
+2024-08-21T08:58:04 1.325 INF [SaveDataUtils] InitStatic Complete
+2024-08-21T08:58:04 1.353 INF Last played version: V 1.1
+2024-08-21T08:58:04 1.359 INF Starting dedicated server level=Navezgane game name=My Game
+2024-08-21T08:58:04 1.360 INF Maximum allowed players: 16
+2024-08-21T08:58:04 1.360 INF Game mode: GameModeSurvival
+2024-08-21T08:58:04 1.817 INF Localization language from prefs: english
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 5913.
+Total: 15.560300 ms (FindLiveObjects: 0.340800 ms CreateObjectMapping: 0.344500 ms MarkObjects: 14.822100 ms  DeleteObjects: 0.052400 ms)
+
+ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: '7DTD/Cube_UI_Frame' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/Cube_UI_Frame shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/Cube_UI_Frame' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: '7DTD/Cube_UI_Glow' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/Cube_UI_Glow shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/Cube_UI_Glow' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.022200 ms
+2024-08-21T08:58:05 1.964 INF Awake IsFocused: True
+2024-08-21T08:58:05 1.965 INF Awake
+2024-08-21T08:58:05 2.582 INF Started Terminal Window
+ERROR: Shader Occlusion/DepthCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-21T08:58:05 2.636 INF Occlusion: Awake
+2024-08-21T08:58:05 2.642 INF Texture quality is set to 3
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 6147.
+Total: 18.832100 ms (FindLiveObjects: 0.346900 ms CreateObjectMapping: 0.412300 ms MarkObjects: 18.039700 ms  DeleteObjects: 0.032600 ms)
+
+2024-08-21T08:58:05 2.826 INF WinThread started
+ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/Entity Tint Mask' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Entity Tint Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Entity Tint Mask' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+2024-08-21T08:58:06 3.281 INF [MODS] Start loading from: 'C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder/Mods'
+2024-08-21T08:58:06 3.290 INF [MODS]   Trying to load from folder: 'World_GameTime'
+2024-08-21T08:58:06 3.382 INF [MODS]     Loaded Mod: World_GameTime (1.0)
+2024-08-21T08:58:06 3.383 INF [MODS] Start loading from: 'C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/../Mods'
+2024-08-21T08:58:06 3.386 INF [MODS]   Trying to load from folder: '0_TFP_Harmony'
+2024-08-21T08:58:08 5.117 INF [MODS]     Loaded Mod: TFP_Harmony (1.1.0.4)
+2024-08-21T08:58:08 5.118 INF [MODS]   Trying to load from folder: 'disable'
+2024-08-21T08:58:08 5.119 WRN [MODS]     Folder disable does not contain a ModInfo.xml, ignoring
+2024-08-21T08:58:08 5.120 INF [MODS]   Trying to load from folder: 'Double Vehicle Speeds'
+2024-08-21T08:58:08 5.122 INF [MODS]     Loaded Mod: DoubleVehicleSpeeds (1.0)
+2024-08-21T08:58:08 5.123 INF [MODS]   Trying to load from folder: 'JaWoodleKHA20 - MegaCityGen'
+2024-08-21T08:58:08 5.124 ERR [MODS]     JaWoodleKHA20 - MegaCityGen/ModInfo.xml in legacy format. V2 required to load mod
+2024-08-21T08:58:08 5.125 ERR [MODS]     Could not parse JaWoodleKHA20 - MegaCityGen/ModInfo.xml, ignoring
+2024-08-21T08:58:08 5.126 INF [MODS]   Trying to load from folder: 'LHG_InfoPanel_IMG'
+2024-08-21T08:58:08 5.127 INF [MODS]     Loaded Mod: LHG_InfoPanel_IMG (0.0.0.6)
+2024-08-21T08:58:08 5.128 INF [MODS]   Trying to load from folder: 'UI_ESC_1_Menu'
+2024-08-21T08:58:08 5.129 INF [MODS]     Loaded Mod: Add_UI_ESC_Menu_UI (21.0)
+2024-08-21T08:58:08 5.130 INF [MODS] Initializing mod code
+2024-08-21T08:58:08 5.132 INF [MODS]   Initializing mod TFP_Harmony
+2024-08-21T08:58:08 5.160 INF [MODS]     Found ModAPI in TfpHarmony.dll, creating instance
+2024-08-21T08:58:08 5.163 INF [MODS]       [Harmony] Init done
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/MonoBleedingEdge/data-0000022AB8AA7A30.dll
+2024-08-21T08:58:08 5.787 INF [MODS]     Initialized code in mod 'TFP_Harmony' from DLL 'TfpHarmony.dll'
+2024-08-21T08:58:08 5.788 INF [MODS]   Initializing mod World_GameTime
+2024-08-21T08:58:08 5.790 INF [MODS]     Found ModAPI in World_GetCurrentGameTime.dll, creating instance
+Time Polling Modlet initialized. JSON file path: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Mods\World_GameTime\current_game_time.json
+2024-08-21T08:58:08 5.795 INF [MODS]     Initialized code in mod 'World_GameTime' from DLL 'World_GetCurrentGameTime.dll'
+2024-08-21T08:58:08 5.796 INF [MODS] Loading done
+2024-08-21T08:58:08 5.800 INF [MODS] Loading localization from mod: LHG_InfoPanel_IMG
+2024-08-21T08:58:08 5.802 INF [MODS] Loading localization from mod: Add_UI_ESC_Menu_UI
+2024-08-21T08:58:08 5.840 INF Loading permissions file at 'C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves/serveradmin.xml'
+2024-08-21T08:58:09 5.952 INF Loading permissions file done.
+2024-08-21T08:58:09 6.597 INF Reloading serveradmin.xml
+2024-08-21T08:58:09 6.598 INF Loading permissions file at 'C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder\Saves/serveradmin.xml'
+2024-08-21T08:58:09 6.599 INF Permissions file unchanged, skipping reloading
+2024-08-21T08:58:13 10.006 INF Shutdown game from Terminal Window
+WARNING: Shader Unsupported: 'Game Particles/partPyro_fireShader_A' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/partPyro_fireShader_A shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/partPyro_fireShader_A' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_B' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/partPyro_template_lit_B shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_B' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_O' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/bloodShader_O shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_O' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/bloodShader_T shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/bloodShader_U shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_spec_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/bloodShader_spec_T shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/bloodShader_spec_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Particles/Standard Surface shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Autodesk Interactive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Autodesk Interactive' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game/Autodesk XFade' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/Autodesk XFade shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/Autodesk XFade' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: '7DTD/7DTD_Glass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/7DTD_Glass shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Glass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: '7DTD/7DTD_Fire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader 7DTD/7DTD_Fire shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: '7DTD/7DTD_Fire' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy/AlphaSelfIllum shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Particles/Blood_Particle shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/Particles/Alpha Blended Premultiply shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Standard Surface shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Standard Surface' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/gasGenericShader_A' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/gasGenericShader_A shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/gasGenericShader_A' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Particles/Standard Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Particles/Standard Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Particles/Standard Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Specular shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_C' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/partPyro_template_lit_C shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/partPyro_template_lit_C' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Bumped Specular shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/surfaceShader_particleEnhanced' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/surfaceShader_particleEnhanced shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/surfaceShader_particleEnhanced' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Standard (Specular setup)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard (Specular setup) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard (Specular setup)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Alpha Blended shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Particles/Additive (Soft) shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/BasicUV_TA' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/BasicUV_TA shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/BasicUV_TA' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Shader Forge/PaintParticle shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Shader Forge/7DTD_Fire_New shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/shader_gas_unlit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_unlit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Bumped Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Transparent/Cutout/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Transparent/Cutout/Bumped Specular shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Transparent/Cutout/Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Transparent/Cutout/Bumped Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Transparent/Cutout/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/vomitShader_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/vomitShader_T shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/vomitShader_T' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/shader_gas_lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/shader_gas_lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Couldn't create a Convex Mesh from source mesh "Head" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+WARNING: Shader Unsupported: 'Game/ZombieGibRadiation' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game/ZombieGibRadiation shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game/ZombieGibRadiation' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Game Particles/Liquid' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Game Particles/Liquid shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Game Particles/Liquid' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/VertexLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Reflective/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/VertexLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Reflective/Bumped Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/Bumped Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Reflective/Bumped Specular shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Reflective/Bumped Specular' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'stainedGlass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader stainedGlass shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'stainedGlass' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Hidden/Game/ChunkTransparent shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+2024-08-21T08:58:37 34.876 INF Loaded (local): events in 0.02
+2024-08-21T08:58:38 34.911 INF Loaded (local): rwgmixer in 0.03
+2024-08-21T08:58:38 34.972 INF Loaded (local): archetypes in 0.06
+2024-08-21T08:58:38 34.977 INF Loaded (local): loadingscreen in 0.00
+2024-08-21T08:58:38 34.997 INF Added 1335 subtitle data entries and 3 speaker colors
+2024-08-21T08:58:38 34.998 INF Loaded (local): subtitles in 0.01
+2024-08-21T08:58:38 35.002 INF Loaded (local): videos in 0.00
+2024-08-21T08:58:38 35.006 INF WorldStaticData.Init() needed 28.000s
+2024-08-21T08:58:38 35.073 INF Started Telnet on 8081
+2024-08-21T08:58:38 35.095 INF [PartyQuests] Initialized
+2024-08-21T08:58:38 35.097 INF Awake done in 33132 ms
+ERROR: Shader Unlit/Text shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+2024-08-21T08:58:38 35.299 INF Preparing quit
+2024-08-21T08:58:38 35.302 INF Persistent GamePrefs saved
+2024-08-21T08:58:38 35.307 INF Cleanup
+2024-08-21T08:58:38 35.315 INF Closing Terminal Window
+2024-08-21T08:58:38 35.339 INF WinThread ended
+2024-08-21T08:58:38 35.342 INF Ended Terminal Window
+2024-08-21T08:58:38 35.465 ERR [EOS] [LogEOSAnalytics - Error] FinalizeInit did not occur due to Tick happening during shutdown.
+2024-08-21T08:58:40 37.033 INF Terminating threads
+2024-08-21T08:58:40 37.034 INF OnApplicationQuit
+2024-08-21T08:58:40 37.035 INF Terminating threads
+2024-08-21T08:58:40 37.035 INF OnApplicationQuit
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [8.0 KB-16.0 KB]: 2 frames, [16.0 KB-32.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 1 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 8.0 MB
+      Peak Allocated Bytes 7.2 MB
+      Overflow Count 16777
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 124.0 KB
+      Peak Allocated Bytes 121.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 0.5 MB
+      Peak Allocated Bytes 509.8 KB
+      Overflow Count 32
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 7.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 56.0 KB
+      Peak Allocated Bytes 53.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 2
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 56.0 KB
+      Peak Allocated Bytes 53.1 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 40.0 KB
+      Peak Allocated Bytes 39.7 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 3
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 48.0 KB
+      Peak Allocated Bytes 45.5 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 17.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 151.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 32.0 KB
+      Overflow Count 1
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 36.0 KB
+      Peak Allocated Bytes 32.0 KB
+      Overflow Count 1
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 4287
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 250140
+        32B: 13 Subsections = 6656 buckets. Failed count: 37664
+        48B: 49 Subsections = 16725 buckets. Failed count: 26005
+        64B: 30 Subsections = 7680 buckets. Failed count: 32021
+        80B: 151 Subsections = 30924 buckets. Failed count: 21642
+        96B: 8 Subsections = 1365 buckets. Failed count: 15992
+        112B: 2 Subsections = 292 buckets. Failed count: 1379
+        128B: 2 Subsections = 256 buckets. Failed count: 5239
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 4 frames, [32.0 MB-64.0 MB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 40.5 MB
+      Peak Large allocation bytes 22.0 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 3 frames, [32.0 MB-64.0 MB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 37.0 MB
+      Peak Large allocation bytes 32.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 1
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 250140
+        32B: 13 Subsections = 6656 buckets. Failed count: 37664
+        48B: 49 Subsections = 16725 buckets. Failed count: 26005
+        64B: 30 Subsections = 7680 buckets. Failed count: 32021
+        80B: 151 Subsections = 30924 buckets. Failed count: 21642
+        96B: 8 Subsections = 1365 buckets. Failed count: 15992
+        112B: 2 Subsections = 292 buckets. Failed count: 1379
+        128B: 2 Subsections = 256 buckets. Failed count: 5239
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [64.0 KB-128.0 KB]: 5 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 116.6 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 1 frames, [8.0 MB-16.0 MB]: 4 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 11.9 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 470
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 250140
+        32B: 13 Subsections = 6656 buckets. Failed count: 37664
+        48B: 49 Subsections = 16725 buckets. Failed count: 26005
+        64B: 30 Subsections = 7680 buckets. Failed count: 32021
+        80B: 151 Subsections = 30924 buckets. Failed count: 21642
+        96B: 8 Subsections = 1365 buckets. Failed count: 15992
+        112B: 2 Subsections = 292 buckets. Failed count: 1379
+        128B: 2 Subsections = 256 buckets. Failed count: 5239
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [32.0 MB-64.0 MB]: 5 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 8
+      Peak Allocated memory 58.4 MB
+      Peak Large allocation bytes 35.7 MB
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [32.0 MB-64.0 MB]: 4 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 13
+      Peak Allocated memory 60.1 MB
+      Peak Large allocation bytes 34.9 MB
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 250140
+        32B: 13 Subsections = 6656 buckets. Failed count: 37664
+        48B: 49 Subsections = 16725 buckets. Failed count: 26005
+        64B: 30 Subsections = 7680 buckets. Failed count: 32021
+        80B: 151 Subsections = 30924 buckets. Failed count: 21642
+        96B: 8 Subsections = 1365 buckets. Failed count: 15992
+        112B: 2 Subsections = 292 buckets. Failed count: 1379
+        128B: 2 Subsections = 256 buckets. Failed count: 5239
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 4 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 11.9 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 4 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 2
+      Peak Allocated memory 2.7 MB
+      Peak Large allocation bytes 0 B

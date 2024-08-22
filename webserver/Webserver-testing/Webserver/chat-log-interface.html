@@ -108,12 +108,16 @@ function fetchChatMessages() {
                 messageElement.className = 'message';
 
                 const messageTime = new Date(message.timestamp);
-                const relativeTime = getRelativeTime(messageTime);
+                const relativeTime = getRelativeTime(messageTime, message.machine_timezone_offset);
                 const tooltipTime = messageTime.toLocaleString();
+				testnow = new Date();
+				console.log(message)
 
                 messageElement.innerHTML = `
                     <div class="message-header">
                         <a href="https://steamcommunity.com/profiles/${message.pltfm_id.split('_')[1]}" target="_blank" class="message-author">${message.player_name}</a>
+                        <span class="message-time" title="${tooltipTime}">${testnow}</span>
+                        <span class="message-time" title="${tooltipTime}">${messageTime}</span>
                         <span class="message-time" title="${tooltipTime}">${relativeTime}</span>
                     </div>
                     <div class="message-content">${message.message}</div>
@@ -132,18 +136,40 @@ function fetchChatMessages() {
         .catch(error => console.error('Error fetching chat messages:', error));
 }
 
-function getRelativeTime(date) {
-    const now = new Date();
-    const diffMs = now - date;
-    const diffMins = Math.round(diffMs / 60000);
-    const diffHours = Math.floor(diffMins / 60);
+function getRelativeTime(messageTime, timezoneOffset) {
+    // Parse the machine's timezone offset (e.g., "-2:00")
+    const offsetParts = timezoneOffset.split(':');
+    const offsetHours = parseInt(offsetParts[0], 10);
+    const offsetMinutes = parseInt(offsetParts[1], 10) * (offsetHours >= 0 ? 1 : -1);
+    const totalOffsetMinutes = (offsetHours * 60) + offsetMinutes;
 
-    if (diffHours > 0) {
-        return `${diffHours} hour${diffHours > 1 ? 's' : ''} ago`;
+    // Convert the current time and message time into UTC times
+    const now = new Date();
+    const nowUtc = new Date(now.getTime() + (now.getTimezoneOffset() * 60000));
+
+    // Adjust the message timestamp by the timezone offset
+    const adjustedMessageTime = new Date(messageTime.getTime() + (totalOffsetMinutes * 60000));
+
+    // Calculate the difference in milliseconds
+    const diffMs = nowUtc - adjustedMessageTime; // Difference in milliseconds
+    const diffMinutes = Math.floor(diffMs / 60000); // Convert to minutes
+
+    // Return a relative time string
+    if (diffMinutes < 1) {
+        return 'just now';
+    } else if (diffMinutes < 60) {
+        return `${diffMinutes} minutes ago`;
+    } else if (diffMinutes < 1440) { // Less than a day
+        const diffHours = Math.floor(diffMinutes / 60);
+        return `${diffHours} hours ago`;
     } else {
-        return `${diffMins} minute${diffMins !== 1 ? 's' : ''} ago`;
+        const diffDays = Math.floor(diffMinutes / 1440);
+        return `${diffDays} days ago`;
     }
 }
+
+
+
 
 // Fetch messages initially
 fetchChatMessages();

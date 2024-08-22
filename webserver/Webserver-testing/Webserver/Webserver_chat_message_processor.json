@@ -1,13 +1,30 @@
 {
-  "chat_messages": [],
-  "last_processed_position": 188356,
-  "last_processed_file": "C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Webserver-testing\\7DaysToDie_Data\\output_log__2024-08-18__21-50-29.txt",
-  "last_timestamp": null,
+  "chat_messages": [
+    {
+      "machine_timezone_offset": "-3:00",
+      "timestamp": "2024-08-22T10:53:19",
+      "pltfm_id": "Steam_76561198072601792",
+      "player_name": "boqsc",
+      "entity_id": "171",
+      "chat_type": "Global",
+      "message": "testz"
+    }
+  ],
+  "last_processed_position": 104067,
+  "last_processed_file": "C:\\Users\\Windows10\\Documents\\GitHub\\7DTD-Public-Vanilla-Server\\webserver\\Webserver-testing\\7DaysToDie_Data\\output_log__2024-08-22__10-49-28.txt",
+  "last_timestamp": "2024-08-22T10:53:19",
   "analysis": {
-    "total_messages": 0,
-    "unique_players": 0,
-    "most_active_player": "No messages yet",
-    "chat_types": [],
-    "most_common_words": []
+    "total_messages": 1,
+    "unique_players": 1,
+    "most_active_player": "boqsc",
+    "chat_types": [
+      "Global"
+    ],
+    "most_common_words": [
+      [
+        "testz",
+        1
+      ]
+    ]
   }
 }
