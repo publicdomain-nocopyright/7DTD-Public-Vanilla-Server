@@ -3,7 +3,23 @@ import sys; sys.dont_write_bytecode = True
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 
 import Webserver_fix_pythonw_stream_bug
-
+def read_server_log(LOG_FILE_PATH):
+    import html
+    try:
+        with open(LOG_FILE_PATH, 'r', encoding='utf-8') as file:
+            log_content = file.read()
+        
+        # Escape XML content
+        log_content = html.escape(log_content)
+        
+        print(f"Read {len(log_content)} characters from log file")
+        return log_content
+    except FileNotFoundError:
+        print("Log file not found")
+        return "Log file not found."
+    except Exception as e:
+        print(f"Error reading log file: {e}")
+        return f"An error occurred: {e}"
 class RedirectHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
         #html_content = """
@@ -51,31 +67,32 @@ class RedirectHandler(SimpleHTTPRequestHandler):
                 self.send_response(200), self.send_header('Content-type', 'text/plain'), self.end_headers()
                 self.wfile.write(get_self_paths_json(RedirectHandler).encode('utf-8'))
 
+
+
+
+        # In the main handler
         elif self.path == '/server-log':
-            
-            # Assuming Webserver_Get_Latest_Game_Server_Log_File.get_latest_game_server_log_file_name() returns the log file path
             import get_path_latest_game_server_log_file
-            import Webserver_get_latest_game_server_log_file
-            log_file_path = latest_log_file = get_path_latest_game_server_log_file.get_path_latest_game_server_log_file()
-            log_content = Webserver_get_latest_game_server_log_file.read_server_log(log_file_path)
+            log_file_path = get_path_latest_game_server_log_file.get_path_latest_game_server_log_file()
+            log_content = read_server_log(log_file_path)
             
-            # Wrap the log content in <pre> tags
             formatted_log_content = f"""
             <pre id="log">{log_content}</pre>
             <script>
-                //TODO: This needs more work, pass the txt file content size and check at javascript front side if loaded.
-                // if it is fully loaded - scroll to the bottom.
-                window.onload = function() {{
-                    var logContent = document.getElementById('log')
+                window.addEventListener('load', function() {{
+                    var logContent = document.getElementById('log');
+                    console.log("Log content size in browser:", logContent.textContent.length, "characters");
+                    console.log("Last 200 characters:", logContent.textContent.slice(-200));
                     logContent.scrollTop = logContent.scrollHeight;
-                    logContent.scrollIntoView(0, logContent.scrollTop)
-                }};
+                }});
             </script>
             """
             
-            self.send_response(200); self.send_header('Content-type', 'text/html'); self.end_headers()
-            self.wfile.write(bytes(formatted_log_content, "utf8"))
-            
+            self.send_response(200)
+            self.send_header('Content-type', 'text/html')
+            self.send_header('Content-Length', str(len(formatted_log_content)))
+            self.end_headers()
+            self.wfile.write(bytes(formatted_log_content, "utf8"))            
         elif self.path == '/player_status.json':
             self.send_response(200), self.send_header('Content-type', 'application/json'), self.end_headers()
             import os, json
