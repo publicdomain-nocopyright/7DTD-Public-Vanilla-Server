@@ -40,7 +40,7 @@ class RedirectHandler(SimpleHTTPRequestHandler):
             bloodmoon_days = Webserver_findNextHordeNightTime_inside_logs_folder.find_last_bloodmoon_setday()
             Webserver_IP_ADDRESS = Get_WebServer_Public_IP()
             simple_player_status_component_loaded = Webserver_template_engine.render_template('Page_component_simple_player_status.html')
-            chat_log_interface = Webserver_template_engine.render_template('chat-log-interface.html')
+            chat_log_interface = Webserver_template_engine.render_template('chat-log-interface-public-only.html')
 
             self.wfile.write(bytes(Webserver_template_engine.render_template('Page_index.html'), 'utf-8'))
 
