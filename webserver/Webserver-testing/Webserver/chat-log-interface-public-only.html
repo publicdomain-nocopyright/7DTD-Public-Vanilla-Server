@@ -1,0 +1,184 @@
+<!-- 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Log Interface</title>
+-->
+<style>
+    /*
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }*/
+
+    #chat-container {
+        width: 250px;
+        margin: 20px auto;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        overflow: hidden;
+    }
+    #chat-title {
+        background-color: #4a4a4a;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    #chat-log {
+        height: 300px;
+        overflow-y: auto;
+        padding: 10px;
+    }
+    #chat-log::-webkit-scrollbar {
+        width: 8px;
+    }
+    #chat-log::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    #chat-log::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+    }
+    #chat-log::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+    .message {
+        margin-bottom: 10px;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 10px;
+    }
+    .message:last-child {
+        border-bottom: none;
+    }
+    .message-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 5px;
+        font-size: 0.9em;
+    }
+    .message-author {
+        font-weight: bold;
+        color: #4a4a4a;
+        text-decoration: none;
+    }
+    .message-time {
+        color: #888;
+        cursor: help;
+    }
+    .message-content {
+        color: #333;
+        word-wrap: break-word;
+    }
+</style>
+</head>
+<body>
+<div id="chat-container">
+    <div id="chat-title">Global Chat</div>
+    <div id="chat-log"></div>
+</div>
+
+<script>
+let isScrolledToBottom = true;
+const chatLog = document.getElementById('chat-log');
+
+chatLog.addEventListener('scroll', () => {
+    isScrolledToBottom = chatLog.scrollHeight - chatLog.clientHeight <= chatLog.scrollTop + 1;
+});
+
+function fetchChatMessages() {
+    console.log("fetching chat messages");
+    fetch('/Webserver_chat_message_processor.json')
+        .then(response => response.json())
+        .then(data => {
+            const scrollTop = chatLog.scrollTop;
+            const scrollHeight = chatLog.scrollHeight;
+
+            chatLog.innerHTML = ''; // Clear existing messages
+
+            data.chat_messages.forEach(message => {
+                const messageElement = document.createElement('div');
+                messageElement.className = 'message';
+
+                const messageTime = new Date(message.timestamp);
+                const relativeTime = getRelativeTime(messageTime, message.machine_timezone_offset);
+                const tooltipTime = messageTime.toLocaleString();
+				testnow = new Date();
+				<!-- DEBUG stuff console.log(message) -->
+
+                messageElement.innerHTML = `
+                    <div class="message-header">
+                        <a href="https://steamcommunity.com/profiles/${message.pltfm_id.split('_')[1]}" target="_blank" class="message-author">${message.player_name}</a>
+                        <!-- DEBUG stuff <span class="message-time" title="${tooltipTime}">${testnow}</span>
+                        <span class="message-time" title="${tooltipTime}">${messageTime}</span>-->
+                        <span class="message-time" title="${tooltipTime}">${relativeTime}</span>
+                    </div>
+                    <div class="message-content">${message.message}</div>
+                `;
+
+                chatLog.appendChild(messageElement);
+            });
+
+            // Maintain scroll position or scroll to bottom if it was at the bottom before
+            if (isScrolledToBottom) {
+                chatLog.scrollTop = chatLog.scrollHeight;
+            } else {
+                chatLog.scrollTop = scrollTop + (chatLog.scrollHeight - scrollHeight);
+            }
+        })
+        .catch(error => console.error('Error fetching chat messages:', error));
+}
+
+function getRelativeTime(messageTime, timezoneOffset) {
+    // Parse the machine's timezone offset (e.g., "-2:00")
+    const offsetParts = timezoneOffset.split(':');
+    const offsetHours = parseInt(offsetParts[0], 10);
+    const offsetMinutes = parseInt(offsetParts[1], 10) * (offsetHours >= 0 ? 1 : -1);
+    const totalOffsetMinutes = (offsetHours * 60) + offsetMinutes;
+
+    // Convert the current time and message time into UTC times
+    const now = new Date();
+    const nowUtc = new Date(now.getTime() + (now.getTimezoneOffset() * 60000));
+
+    // Adjust the message timestamp by the timezone offset
+    const adjustedMessageTime = new Date(messageTime.getTime() + (totalOffsetMinutes * 60000));
+
+    // Calculate the difference in milliseconds
+    const diffMs = nowUtc - adjustedMessageTime; // Difference in milliseconds
+    const diffMinutes = Math.floor(diffMs / 60000); // Convert to minutes
+
+    // Return a relative time string
+    if (diffMinutes < 1) {
+        return 'just now';
+    } else if (diffMinutes < 60) {
+        return `${diffMinutes} minutes ago`;
+    } else if (diffMinutes < 1440) { // Less than a day
+        const diffHours = Math.floor(diffMinutes / 60);
+        return `${diffHours} hours ago`;
+    } else {
+        const diffDays = Math.floor(diffMinutes / 1440);
+        return `${diffDays} days ago`;
+    }
+}
+
+
+
+
+// Fetch messages initially
+fetchChatMessages();
+
+// Refresh messages every 4 seconds
+setInterval(fetchChatMessages, 4000);
+console.log("fetching chat messages")
+</script>
+<!-- 
+</body>
+</html>
+-->

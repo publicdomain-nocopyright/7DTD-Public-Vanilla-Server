@@ -84,6 +84,7 @@ class RedirectHandler(SimpleHTTPRequestHandler):
                     console.log("Log content size in browser:", logContent.textContent.length, "characters");
                     console.log("Last 200 characters:", logContent.textContent.slice(-200));
                     logContent.scrollTop = logContent.scrollHeight;
+                    logContent.scrollIntoView(0, logContent.scrollTop)
                 }});
             </script>
             """
