@@ -292,12 +292,7 @@ Forces:
       <property name="particleDamaged" value="Particles/p_damaged" />
       <property name="particleBroken" value="Particles/p_broken" />
     </property>
-    <property class="seat0">
-      <property name="pose" value="1" />
-      <property name="position" value="0, 0, 0" />
-      <property name="rotation" value="0, 0, 0" />
-      <property name="exit" value="-.8,0,0 ~ .8,0,0 ~ 0,0,-1.4 ~ 0,0,1.4 ~ 0,1.5,0" />
-    </property>
+    <!--Element removed by: "World_Vehicles_Add_Bicycle_Seat" (XPath: "vehicles/vehicle[@name='vehicleBicycle']/property[@class='seat0']")-->
     <property class="wheel0">
       <property name="tireTransform" value="M/Forks/Wheel0" />
       <property name="torqueScale_motor_brake" value=".15, .5" />
@@ -322,6 +317,18 @@ Forces:
       <property name="class" value="Storage" />
       <property name="mesh" value="M/Storage" />
       <property name="transform" value="basket" />
+    </property>
+    <property class="seat0">
+      <!--Element appended by: "World_Vehicles_Add_Bicycle_Seat"-->
+      <!-- Seat position for seat1 -->
+      <property name="position" value="0, .392, 0" />
+      <!-- First seat position: 0, .292, -.13 -->
+      <!-- Prev seat position: 0, .392, -.63 -->
+      <!-- Untested seat position: 0, .1, -.6 -->
+      <property name="rotation" value="0, 0, 0" />
+      <!-- Pose and exit data -->
+      <property name="pose" value="31" />
+      <property name="exit" value=".8,0,0 ~ -.8,0,0 ~ 0,0,1.4 ~ 0,0,-1.4 ~ 0,-1.5,0" />
     </property>
   </vehicle>
   <vehicle name="vehicleMinibike">

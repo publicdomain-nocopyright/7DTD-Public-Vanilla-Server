@@ -1,0 +1,341 @@
+Mono path[0] = 'C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/Managed'
+Mono config path = 'C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/MonoBleedingEdge/etc'
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Loading player data from C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/data.unity3d
+Initialize engine version: 2022.3.29f1 (8d510ca76d2b)
+[Subsystems] Discovering subsystems at path C:/Program Files (x86)/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.872 seconds
+- Finished resetting the current domain, in  0.003 seconds
+ERROR: Shader Hidden/LandClaimBoundary shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Unlit/Transparent Colored shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+UnloadTime: 1.937500 ms
+ERROR: Shader Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+UnloadTime: 3.962900 ms
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoDecode. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass YCbCr_To_RGB1 in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBAFull in shader <not found>
+Could not find video decode shader pass YCbCrA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBA_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_RGBASplit_To_RGBA in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGB1 in shader <not found>
+Could not find video decode shader pass Flip_NV12_To_RGBA in shader <not found>
+This custom render path shader needs to have at least 1 passes.
+Could not find material Hidden/VideoComposite. Make sure the Video shaders are included in your build, in the Built-in Shader Settings section of the Graphics Settings.
+Could not find video decode shader pass Default in shader <not found>
+2024-08-24T20:38:57 0.109 INF Backtrace Initialized
+2024-08-24T20:38:57 0.173 INF Version: V 1.1 (b4) Compatibility Version: V 1.1, Build: WindowsPlayer 64 Bit
+2024-08-24T20:38:57 0.175 INF System information:
+2024-08-24T20:38:57 0.176 INF    OS: Windows 10  (10.0.19045) 64bit
+2024-08-24T20:38:57 0.178 INF    CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz (cores: 4)
+2024-08-24T20:38:57 0.179 INF    RAM: 16276 MB
+2024-08-24T20:38:57 0.180 INF    GPU: Null Device (128 MB)
+2024-08-24T20:38:57 0.194 INF    Graphics API: NULL 1.0 [1.0] (shader level 3.0)
+2024-08-24T20:38:57 0.199 INF Local UTC offset: 3 hours
+2024-08-24T20:38:57 0.257 INF Command line arguments: 7DaysToDie -logfile C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\\7DaysToDie_Data\output_log__2024-08-24__20-38-53.txt -quit -batchmode -nographics -configfile=C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\serverconfig.xml -dedicated -UserDataFolder=C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder
+2024-08-24T20:38:57 0.263 INF Parsing server configfile: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\serverconfig.xml
+2024-08-24T20:38:57 0.452 INF Parsing server configfile successfully completed
+2024-08-24T20:38:57 0.465 INF UserDataFolder: C:\Users\Windows10\Documents\GitHub\7DTD-Public-Vanilla-Server\webserver\Webserver-testing\UserDataFolder
+2024-08-24T20:38:57 0.471 INF [Platform] Init
+2024-08-24T20:38:58 0.602 INF [Platform] Using native platform: Steam
+2024-08-24T20:38:58 0.606 INF [Platform] Using cross platform: EOS
+2024-08-24T20:38:58 0.608 INF [Platform] Using server platform: Steam
+2024-08-24T20:38:58 0.608 INF [Platform] Using server platform: XBL
+2024-08-24T20:38:58 0.609 INF [Platform] Using server platform: PSN
+2024-08-24T20:38:58 0.622 INF Starting PlayerInputManager...
+2024-08-24T20:38:58 0.626 INF InControl (version 1.8.9 build 9376, native module = False, XInput = False)
+2024-08-24T20:38:58 0.627 ERR [Platform] Error while initializing platform code, shutting down.
+2024-08-24T20:38:58 0.642 EXC Sharing violation on path C:\Users\WINDOW~1\AppData\Local\Temp\The Fun Pimps\7 Days To Die\Player.log
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append) [0x00008] in <467a840a914a47078e4ae9b0b1e8779e>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool)
+  at BacktraceUtils.Backtrace_LogCallbacks (System.String _msg, System.String _trace, UnityEngine.LogType _type) [0x00010] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at Log.SendToLogListeners (System.String _formattedMessage, System.String _trace, UnityEngine.LogType _type, System.DateTime _timestamp, System.Int64 _uptime, System.String _message) [0x00009] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.masterLogStandalone (System.String _txt, UnityEngine.LogType _logType, System.String _trace) [0x0002a] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Log.Out (System.String _txt) [0x00030] in <359871b5684a46e5b10cb0761879c27a>:0 
+  at Platform.PlayerInputManager+<>c.<.ctor>b__0_1 (InControl.LogMessage _message) [0x0001a] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at InControl.Logger.LogInfo (System.String text) [0x00021] in <a758909e88794314b23d6c88cd958d5f>:0 
+  at Platform.PlayerInputManager..ctor () [0x0019b] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at Platform.Steam.Factory.CreateInstances () [0x0011e] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+  at Platform.PlatformManager.Init () [0x000c3] in <bbc47c5bcf804044a0bdebfc8142e831>:0 
+UnityEngine.StackTraceUtility:ExtractStringFromException(Object)
+Log:Exception(Exception)
+Platform.PlatformManager:Init()
+GameEntrypoint:Entrypoint()
+GameEntrypoint:Awake()
+
+2024-08-24T20:38:58 0.643 ERR Failed initializing core systems, shutting down
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 5913.
+Total: 1.847700 ms (FindLiveObjects: 0.425100 ms CreateObjectMapping: 0.414000 ms MarkObjects: 0.949300 ms  DeleteObjects: 0.058800 ms)
+
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0.5 MB-1.0 MB]: 1 frames, [2.0 MB-4.0 MB]: 1 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 4.0 MB
+      Peak Allocated Bytes 2.9 MB
+      Overflow Count 1
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 124.0 KB
+      Peak Allocated Bytes 121.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 129.2 KB
+      Overflow Count 8
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 2
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 3
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 366 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 19
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 205529
+        32B: 13 Subsections = 6656 buckets. Failed count: 25985
+        48B: 49 Subsections = 16725 buckets. Failed count: 9192
+        64B: 30 Subsections = 7680 buckets. Failed count: 2521
+        80B: 151 Subsections = 30924 buckets. Failed count: 16302
+        96B: 8 Subsections = 1365 buckets. Failed count: 79
+        112B: 2 Subsections = 292 buckets. Failed count: 0
+        128B: 2 Subsections = 256 buckets. Failed count: 19
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 2 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 22.8 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 2 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 4.9 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 205529
+        32B: 13 Subsections = 6656 buckets. Failed count: 25985
+        48B: 49 Subsections = 16725 buckets. Failed count: 9192
+        64B: 30 Subsections = 7680 buckets. Failed count: 2521
+        80B: 151 Subsections = 30924 buckets. Failed count: 16302
+        96B: 8 Subsections = 1365 buckets. Failed count: 79
+        112B: 2 Subsections = 292 buckets. Failed count: 0
+        128B: 2 Subsections = 256 buckets. Failed count: 19
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [64.0 KB-128.0 KB]: 2 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 113.0 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 2 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 240 B
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 25
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 205529
+        32B: 13 Subsections = 6656 buckets. Failed count: 25985
+        48B: 49 Subsections = 16725 buckets. Failed count: 9192
+        64B: 30 Subsections = 7680 buckets. Failed count: 2521
+        80B: 151 Subsections = 30924 buckets. Failed count: 16302
+        96B: 8 Subsections = 1365 buckets. Failed count: 79
+        112B: 2 Subsections = 292 buckets. Failed count: 0
+        128B: 2 Subsections = 256 buckets. Failed count: 19
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [32.0 MB-64.0 MB]: 2 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 7
+      Peak Allocated memory 46.7 MB
+      Peak Large allocation bytes 32.3 MB
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [16.0 MB-32.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 22.1 MB
+      Peak Large allocation bytes 21.4 MB
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 1 Subsections = 1024 buckets. Failed count: 205529
+        32B: 13 Subsections = 6656 buckets. Failed count: 25985
+        48B: 49 Subsections = 16725 buckets. Failed count: 9192
+        64B: 30 Subsections = 7680 buckets. Failed count: 2521
+        80B: 151 Subsections = 30924 buckets. Failed count: 16302
+        96B: 8 Subsections = 1365 buckets. Failed count: 79
+        112B: 2 Subsections = 292 buckets. Failed count: 0
+        128B: 2 Subsections = 256 buckets. Failed count: 19
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 2 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 4.1 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 1 frames, [2.0 KB-4.0 KB]: 1 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 3.9 KB
+      Peak Large allocation bytes 0 B

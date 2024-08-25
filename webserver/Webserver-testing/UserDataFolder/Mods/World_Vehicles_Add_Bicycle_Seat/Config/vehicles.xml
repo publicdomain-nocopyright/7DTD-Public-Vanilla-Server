@@ -1,0 +1,19 @@
+
+<configs>
+	<!-- Remove seat0 from the vehicleBicycle -->
+	<remove xpath="vehicles/vehicle[@name='vehicleBicycle']/property[@class='seat0']"/>
+
+	<!-- Add seat1 to the vehicleBicycle -->
+	<append xpath="vehicles/vehicle[@name='vehicleBicycle']">
+		<property class="seat0">
+			<!-- Seat position for seat1 -->
+			<property name="position" value="0, .392, 0"/> <!-- First seat position: 0, .292, -.13 --> <!-- Prev seat position: 0, .392, -.63 --><!-- Untested seat position: 0, .1, -.6 -->
+			<property name="rotation" value="0, 0, 0"/>
+			<!-- Pose and exit data -->
+			<property name="pose" value="31"/>
+			<property name="exit" value=".8,0,0 ~ -.8,0,0 ~ 0,0,1.4 ~ 0,0,-1.4 ~ 0,-1.5,0"/>
+
+			
+		</property>
+	</append>
+</configs>

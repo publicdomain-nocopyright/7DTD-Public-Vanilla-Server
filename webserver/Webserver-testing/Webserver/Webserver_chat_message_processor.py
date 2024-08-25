@@ -151,6 +151,10 @@ def main():
                 'last_timestamp': result['last_timestamp'],
                 'analysis': analysis
             })
+            import Webserver_chat_message_processor_last50messages
+            input_file = data_file
+            output_file = "Webserver_chat_message_processor_last50messages.json"
+            Webserver_chat_message_processor_last50messages.process_chat_messages(input_file, output_file)
         else:
             print("No new lines to process.")
         

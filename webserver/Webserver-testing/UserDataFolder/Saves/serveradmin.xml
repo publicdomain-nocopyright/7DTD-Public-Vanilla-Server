@@ -49,6 +49,8 @@
   <users>
     <!-- <user platform="Steam" userid="76561198021925107" name="Hint on who this user is" permission_level="0" /> -->
     <!-- <group steamID="103582791434672565" name="Steam Universe" permission_level_default="1000" permission_level_mod="0" /> -->
+    <user platform="Steam" userid="76561198036889125" permission_level="0" />
+    <user platform="EOS" userid="00020585a34f4b93bf8c21b3cf8d3150" name="boqsc" permission_level="0" />
   </users>
   <whitelist>
     <!-- ONLY PUT ITEMS IN WHITELIST IF YOU WANT WHITELIST ONLY ENABLED!!! -->
