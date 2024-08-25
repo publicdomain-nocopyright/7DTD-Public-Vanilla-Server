@@ -12,7 +12,17 @@ import traceback
 logging.basicConfig(filename='chat_processor_errors.log', level=logging.ERROR,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
+import sys
+# Global exception handler
+def handle_exception(exc_type, exc_value, exc_traceback):
+    if issubclass(exc_type, KeyboardInterrupt):
+        sys.__excepthook__(exc_type, exc_value, exc_traceback)
+        return
+    # Log the exception
+    logging.error("Uncaught exception", exc_info=(exc_type, exc_value, exc_traceback))
 
+# Set the global exception hook
+sys.excepthook = handle_exception
 
 def datetime_to_string(obj):
     if isinstance(obj, datetime):
