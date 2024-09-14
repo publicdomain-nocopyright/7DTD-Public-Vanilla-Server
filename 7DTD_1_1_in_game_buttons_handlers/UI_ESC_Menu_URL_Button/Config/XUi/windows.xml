@@ -4,7 +4,7 @@
 			<rect pos="0,0" width="250" height="46" depth="5" name="Button10" controller="NewsWindow" sources="https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/7DTD_1_1_in_game_buttons_handlers/Discord.xml">
 				<sprite depth="11"  pos="0,0" name="border" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false" foregroundlayer="true" />	
 				<button depth="10"  pos="0,0" name="btnLink" style="hover,press"  hoverscale="1" defaultcolor="114,137,218,255" hovercolor="85, 105, 179, 255" type="sliced" />
-				<label depth="12" pos="0,-5" style="header.name" height="46" width="250" justify="center" color="[white]" crispness="Never" effect="Outline8" effect_color="0,0,0,255" effect_distance="2,2" text="Discord" font_size="35"/>
+				<label depth="12" pos="0,-6" style="header.name" height="46" width="250" justify="center" color="[white]" crispness="Never" effect="Outline8" effect_color="0,0,0,255" effect_distance="2,2" text="Discord" font_size="35"/>
 			</rect>
 	
 			<rect pos="0,0" width="250" height="46" depth="5" name="Button10" controller="NewsWindow" sources="https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/7DTD_1_1_in_game_buttons_handlers/Discord.xml">
