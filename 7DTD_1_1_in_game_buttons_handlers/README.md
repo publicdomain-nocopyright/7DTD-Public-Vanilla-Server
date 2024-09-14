@@ -9,4 +9,7 @@ https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/7DTD_1_1_i
 				</rect>
 ```
 
-Note: <!--  sources="@modfolder:News.xml"     doesn't work, probably due to internal implementation to parse urls -->
+Note: 
+```
+<!--  sources="@modfolder:News.xml"     doesn't work, probably due to internal implementation to parse urls -->
+```
