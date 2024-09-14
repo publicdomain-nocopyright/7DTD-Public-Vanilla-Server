@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+	<Name value="Add_UI_ESC_Menu_UI" />
+	<Author value="Vanilla Server" />
+	<Description value="A UI modlet for 7 Days To Die. Adds ESC Menu UI modifications." />
+	<DisplayName value="Add_UI_ESC_Menu_UI" />
+	<Website value="https://7daystodie.fandom.com/wiki/Mod_Structure" />
+	<Version value="21.0" />
+</xml>

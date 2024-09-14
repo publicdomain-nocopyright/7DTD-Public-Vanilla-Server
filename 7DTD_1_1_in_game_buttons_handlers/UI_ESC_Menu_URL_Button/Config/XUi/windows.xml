@@ -1,0 +1,65 @@
+<configs>
+	<append xpath="/windows/window[@name='ingameMenu']/grid[@name='buttons']">
+	
+			<rect pos="0,0" width="250" height="46" depth="5" name="Button10" controller="NewsWindow" sources="https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/7DTD_1_1_in_game_buttons_handlers/Discord.xml">
+				<sprite depth="11"  pos="0,0" name="border" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false" foregroundlayer="true" />	
+				<button depth="10"  pos="0,0" name="btnLink" style="hover,press"  hoverscale="1" defaultcolor="114,137,218,255" hovercolor="85, 105, 179, 255" type="sliced" />
+				<label depth="12" pos="0,-5" style="header.name" height="46" width="250" justify="center" color="[white]" crispness="Never" effect="Outline8" effect_color="0,0,0,255" effect_distance="2,2" text="Discord" font_size="35"/>
+			</rect>
+	
+			<rect pos="0,0" width="250" height="46" depth="5" name="Button10" controller="NewsWindow" sources="https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/7DTD_1_1_in_game_buttons_handlers/Discord.xml">
+				<sprite depth="11"  pos="0,0" name="border" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false" foregroundlayer="true" />	
+				<button depth="10"  pos="0,0" name="btnLink" style="hover,press"  hoverscale="1" defaultcolor="114,137,218,255" hovercolor="85, 105, 179, 255" type="sliced" />
+				<label depth="12" pos="0,-5" style="header.name" height="46" width="250" justify="center" color="[white]" crispness="Never" effect="Outline8" effect_color="0,0,0,255" effect_distance="2,2" text="Discord" font_size="40"/>
+			</rect>
+	
+			<rect pos="0,0" width="164" height="32" depth="5" name="Button9" controller="NewsWindow" sources="https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/7DTD_1_1_in_game_buttons_handlers/News.xml">
+				<sprite depth="0" name="backgroundFeatured" sprite="menu_empty" type="sliced" color="[darkGrey]" />
+				<button depth="10" name="btnLink" style="hover,press" sprite="menu_empty" hoverscale="1" defaultcolor="0,0,0,1" hovercolor="100,100,100,100" type="sliced" />
+				<label pos="0,0" style="header.name" height="32" width="164" justify="center" color="[white]" crispness="Never" effect="Outline8" effect_color="0,0,0,255" effect_distance="2,2" text="NewestDis"/>
+			</rect>
+			
+			<rect pos="0,0" width="164" height="32" depth="5" name="Button10" controller="NewsWindow" sources="https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/7DTD_1_1_in_game_buttons_handlers/News.xml">
+				<sprite  disableautobackground="true" depth="0"  on_press="true" on_hover="true" sound_play_on_hover="[default_hover]" name="background" width="100%" height="100%" pos="0,0" color="114,137,218,255" type="sliced" />
+				
+				<!-- sprite="menu_empty"   defaultcolor="[mediumGrey]" -->
+				<button depth="10" name="btnLink" style="hover,press"  hoverscale="1" defaultcolor="0,0,0,1" hovercolor="114,137,218,255" type="sliced" />
+				<label depth="11" pos="0,0" style="header.name" height="32" width="164" justify="center" color="[white]" crispness="Never" effect="Outline8" effect_color="0,0,0,255" effect_distance="2,2" text="NewestDis"/>
+			</rect>
+	
+			
+			
+			<rect pos="0,0" width="164" height="32" depth="5" name="Button10" controller="NewsWindow" sources="https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/7DTD_1_1_in_game_buttons_handlers/News.xml">
+			
+
+				<sprite depth="11"  pos="0,0" name="border" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false" foregroundlayer="true" />	
+			
+				<!-- <sprite  disableautobackground="true" depth="0"  on_press="true" on_hover="true" sound_play_on_hover="[default_hover]" name="background" width="100%" height="100%" pos="0,0" color="114,137,218,255" type="sliced" />-->
+				
+				<!-- sprite="menu_empty"   defaultcolor="[mediumGrey]" -->
+				<button depth="10"  pos="0,0" name="btnLink" style="hover,press"  hoverscale="1" defaultcolor="114,137,218,255" hovercolor="85, 105, 179, 255" type="sliced" />
+				<label depth="12" pos="0,0" style="header.name" height="32" width="164" justify="center" color="[white]" crispness="Never" effect="Outline8" effect_color="0,0,0,255" effect_distance="2,2" text="Discord"/>
+			</rect>
+			
+			
+			<rect pos="0,0" width="164" height="32" depth="5" name="Button10" controller="NewsWindow" sources="https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/7DTD_1_1_in_game_buttons_handlers/News.xml">
+				<sprite depth="11"  pos="0,0" name="border" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false" foregroundlayer="true" />	
+				<button depth="10"  pos="0,0" name="btnLink" style="hover,press"  hoverscale="1" defaultcolor="114,137,218,255" hovercolor="85, 105, 179, 255" type="sliced" />
+				<label depth="12" pos="0,0" style="header.name" width="${width}" height="${height}" justify="center" color="[white]" crispness="Never" effect="Outline8" effect_color="0,0,0,255" effect_distance="2,2" text="Discord"/>
+			</rect>
+			
+			<rect pos="0,0" width="164" height="32" depth="5" name="Button10" controller="NewsWindow" sources="https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/7DTD_1_1_in_game_buttons_handlers/News.xml">
+				<sprite depth="11"  pos="0,0" name="border" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false" foregroundlayer="true" />	
+				<button depth="10"  pos="0,0" name="btnLink" style="hover,press"  hoverscale="1" defaultcolor="114,137,218,255" hovercolor="85, 105, 179, 255" type="sliced" />
+				<label depth="12" pos="0,0" style="header.name"  color="[white]" crispness="Never" effect="Outline8" effect_color="0,0,0,255" effect_distance="2,2" text="Discord"/>
+			</rect>
+	
+	
+		<rect depth="3" width="300" height="300" pos="0,0" default_background_color="[mediumGrey]" >
+			<grid name="ttte" depth="3" rows="3" cols="2"  pos="-8,0" height="32" cell_width="135" cell_height="32" repeat_content="false" arrangement="horizontal"  >
+			
+
+			</grid>
+		</rect>
+	</append>
+</configs>
