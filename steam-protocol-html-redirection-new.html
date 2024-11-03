@@ -12,13 +12,15 @@
           .then(data => {
             if (data.Status === 0 && data.Answer) {
               var ip = data.Answer[0].data;
-              // Redirect using the fetched IP
-              window.location.href = `steam://connect/${ip}:26900`;
+              // Open the redirection in a new popup window
+              var newWindow = window.open(`steam://connect/${ip}:26900`, '_blank', 'width=600,height=400');
 
-              // Attempt to close the window after the redirect
-              setTimeout(() => {
-                window.close();
-              }, 1000); // Delay for a second to allow redirection
+              // Attempt to close the popup window after the redirect
+              if (newWindow) {
+                setTimeout(() => {
+                  newWindow.close();
+                }, 1000); // Delay for a second to allow redirection
+              }
             } else {
               console.error("Failed to resolve IP address for the domain.");
             }
