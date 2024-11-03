@@ -18,16 +18,6 @@
             margin: 0;
         }
 
-        #coordinates {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            color: white;
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 5px;
-            border-radius: 5px;
-        }
-
         img {
             animation: fadeIn 1s ease-in-out forwards;
             display: block;
@@ -50,28 +40,15 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             document.body.innerHTML = `
-                <div id='coordinates'>X: 0, Y: 0</div>
                 <img width="500" height="auto" src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_logo_Vanilla%20Server%20Recreation%20logoxcf.webp?raw=true" alt="Website Logo" />
             `;
 
             const logoImage = document.querySelector('img');
             logoImage.style.opacity = '1';
 
-            let initialX = null;
-            let initialY = null;
-
             setTimeout(() => {
-                document.addEventListener('mousemove', function (event) {
-                    var x = event.clientX;
-                    var y = event.clientY;
-                    document.getElementById('coordinates').textContent = `X: ${x}, Y: ${y}`;
-
-                    if (initialX === null && initialY === null) {
-                        initialX = x;
-                        initialY = y;
-                    } else if (x !== initialX || y !== initialY) {
-                        window.close();
-                    }
+                document.addEventListener('mousemove', function () {
+                    window.close();
                 });
             }, 1000); // Delayed to prevent immediate closure on load
 
