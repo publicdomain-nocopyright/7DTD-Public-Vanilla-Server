@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Relaunch as Popup</title>
+    <style>
+        body {
+            animation: fadeIn 1s ease-in-out forwards;
+            opacity: 0.5;
+            font-family: "Open Sans", Arial, Helvetica, sans-serif;
+            transition: background-color 0.3s ease;
+            background: linear-gradient(to bottom, #a7aba3, #ab9062);
+            background-color: #bbbab1;
+            background-image: url('https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_background_VanillaServerRecreationlogoxcf-ezgif.com-png-to-webp-converter.webp?raw=true');
+            background-attachment: fixed;
+            background-position: center center;
+            background-size: cover;
+            position: relative; /* Required for absolute positioning */
+            height: 100vh; /* Ensures body takes full viewport height */
+            margin: 0; /* Remove default body margin */
+        }
+
+        #coordinates {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: white;
+            font-family: Arial, sans-serif;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        img {
+            animation: fadeIn 1s ease-in-out forwards;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0; /* Set initial opacity for fade-in effect */
+            position: absolute; /* Positioning the image */
+            bottom: 40px; /* Adjusted distance from the bottom */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Adjust for centering */
+            width: 300px; /* Adjusted width for a smaller image */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        img[Attributes Style] {
+            aspect-ratio: auto 594 / 110; /* Aspect ratio for the original size */
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+    <script>
+        function PopupUrl(url, name, width, height) {
+            var top = Math.max(0, (screen.availHeight - height) / 2);
+            var left = Math.max(0, (screen.availWidth - width) / 2);
+            var features = "location=1, status=1, scrollbars=1, width=" + width + ", height=" + height + ", top=" + top + ", left=" + left;
+            window.open(url, name, features);
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            function isRelaunched() {
+                return window.location.search.includes('popup=true');
+            }
+
+            let initialX = null;
+            let initialY = null;
+
+            if (!isRelaunched()) {
+                PopupUrl(window.location.href + '?popup=true', '_blank', 600, 400);
+                window.close();
+            } else {
+                document.body.innerHTML = `
+                    <div id='coordinates'>X: 0, Y: 0</div>
+                    <img width="300" height="auto" src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_logo_Vanilla%20Server%20Recreation%20logoxcf.webp?raw=true" alt="Website Logo" />
+                `;
+
+                // Fade in the image
+                const logoImage = document.querySelector('img');
+                logoImage.style.opacity = '1'; // Set final opacity for fade-in effect
+
+                setTimeout(() => {
+                    document.addEventListener('mousemove', function (event) {
+                        var x = event.clientX;
+                        var y = event.clientY;
+                        document.getElementById('coordinates').textContent = `X: ${x}, Y: ${y}`;
+
+                        if (initialX === null && initialY === null) {
+                            initialX = x;
+                            initialY = y;
+                        } else if (x !== initialX || y !== initialY) {
+                            window.close();
+                        }
+                    });
+                }, 1000);
+
+                var domain = "vanillaserver.eu";
+                window.fetch(`https://dns.google/resolve?name=${domain}&type=A`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.Status === 0 && data.Answer) {
+                            var ip = data.Answer[0].data;
+                            window.location.href = `steam://connect/${ip}:26900`;
+                        } else {
+                            console.error("Failed to resolve IP address for the domain.");
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+            }
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>
