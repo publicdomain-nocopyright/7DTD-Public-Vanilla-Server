@@ -25,11 +25,31 @@
             margin-right: auto;
             opacity: 0;
             position: absolute;
-            top: 55%; /* Lowered a bit from the center */
             left: 50%; /* Center horizontally */
-            transform: translate(-50%, -50%); /* Centering transform */
+            transform: translateX(-50%); /* Centering transform */
             width: 500px; /* Adjusted width */
             height: auto;
+        }
+
+        #loading {
+            top: 40%; /* Position the loading gif higher */
+            width: 100px; /* Adjust as needed */
+        }
+
+        #logo {
+            top: 55%; /* Lowered a bit from the center */
+        }
+
+        #text-message {
+            animation: fadeIn 1s ease-in-out forwards;
+            opacity: 0;
+            position: absolute;
+            top: 50%; /* Positioned below the loader */
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 18px;
+            color: #fff;
+            text-align: center;
         }
 
         @keyframes fadeIn {
@@ -40,10 +60,18 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             document.body.innerHTML = `
-                <img width="500" height="auto" src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_logo_Vanilla%20Server%20Recreation%20logoxcf.webp?raw=true" alt="Website Logo" />
+                <img id="loading" src="https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server//Loading%20progress.gif" alt="Loading Progress" />
+                <div id="text-message">The game server was found, accept to join the server.</div>
+                <img id="logo" src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_logo_Vanilla%20Server%20Recreation%20logoxcf.webp?raw=true" alt="Website Logo" />
             `;
 
-            const logoImage = document.querySelector('img');
+            const loadingImage = document.getElementById('loading');
+            const logoImage = document.getElementById('logo');
+            const textMessage = document.getElementById('text-message');
+
+            // Set opacity after load for a smooth appearance
+            loadingImage.style.opacity = '1';
+            textMessage.style.opacity = '1';
             logoImage.style.opacity = '1';
 
             setTimeout(() => {
