@@ -71,7 +71,7 @@
 
             if (!isRelaunched()) {
                 PopupUrl(window.location.href + '?popup=true', '_blank', 600, 400);
-                //window.close();
+                window.close();
             } else {
                 document.body.innerHTML = `
                     <div id='coordinates'>X: 0, Y: 0</div>
@@ -92,7 +92,7 @@
                             initialX = x;
                             initialY = y;
                         } else if (x !== initialX || y !== initialY) {
-                            //window.close();
+                            window.close();
                         }
                     });
                 }, 1000);
