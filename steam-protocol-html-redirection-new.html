@@ -14,6 +14,9 @@
             background-attachment: fixed;
             background-position: center center;
             background-size: cover;
+            position: relative; /* Required for absolute positioning */
+            height: 100vh; /* Ensures body takes full viewport height */
+            margin: 0; /* Remove default body margin */
         }
 
         #coordinates {
@@ -25,6 +28,24 @@
             background-color: rgba(0, 0, 0, 0.5);
             padding: 5px;
             border-radius: 5px;
+        }
+
+        img {
+            animation: fadeIn 1s ease-in-out forwards;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0; /* Set initial opacity for fade-in effect */
+            position: absolute; /* Positioning the image */
+            bottom: 40px; /* Adjusted distance from the bottom */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Adjust for centering */
+            width: 300px; /* Adjusted width for a smaller image */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        img[Attributes Style] {
+            aspect-ratio: auto 594 / 110; /* Aspect ratio for the original size */
         }
 
         @keyframes fadeIn {
@@ -52,7 +73,14 @@
                 PopupUrl(window.location.href + '?popup=true', '_blank', 600, 400);
                 window.close();
             } else {
-                document.body.innerHTML = "<div id='coordinates'>X: 0, Y: 0</div>";
+                document.body.innerHTML = `
+                    <div id='coordinates'>X: 0, Y: 0</div>
+                    <img width="300" height="auto" src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_logo_Vanilla%20Server%20Recreation%20logoxcf.webp?raw=true" alt="Website Logo" />
+                `;
+
+                // Fade in the image
+                const logoImage = document.querySelector('img');
+                logoImage.style.opacity = '1'; // Set final opacity for fade-in effect
 
                 setTimeout(() => {
                     document.addEventListener('mousemove', function (event) {
