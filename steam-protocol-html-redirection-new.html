@@ -12,11 +12,13 @@
           .then(data => {
             if (data.Status === 0 && data.Answer) {
               var ip = data.Answer[0].data;
-              // Update the meta tag to redirect using the fetched IP
-              var metaRedirect = document.createElement("meta");
-              metaRedirect.httpEquiv = "refresh";
-              metaRedirect.content = `0; url='steam://connect/${ip}:26900'`;
-              document.head.appendChild(metaRedirect);
+              // Redirect using the fetched IP
+              window.location.href = `steam://connect/${ip}:26900`;
+
+              // Attempt to close the window after the redirect
+              setTimeout(() => {
+                window.close();
+              }, 1000); // Delay for a second to allow redirection
             } else {
               console.error("Failed to resolve IP address for the domain.");
             }
