@@ -24,20 +24,26 @@
             margin-left: auto;
             margin-right: auto;
             opacity: 0;
-            position: absolute;
-            left: 50%; /* Center horizontally */
-            transform: translateX(-50%); /* Centering transform */
             width: 500px; /* Adjusted width */
             height: auto;
         }
 
         #loading {
+            position: absolute;
             top: 40%; /* Position the loading gif higher */
+            left: 50%;
+            transform: translateX(-50%);
             width: 100px; /* Adjust as needed */
         }
 
         #logo {
-            top: 55%; /* Lowered a bit from the center */
+            position: absolute;
+            top: 20px; /* Space from the top */
+            right: 20px; /* Space from the right */
+            width: 450px; /* Adjust width as needed */
+            height: auto;
+            animation: fadeIn 1s ease-in-out forwards;
+            opacity: 0;
         }
 
         #text-message {
