@@ -58,6 +58,18 @@
             text-align: center;
         }
 
+        #invitation {
+            position: absolute;
+            top: 30%; /* Position the invitation text above the loading gif */
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: #fff;
+            text-align: center;
+            opacity: 0; /* Start hidden */
+            animation: fadeIn 1s ease-in-out forwards;
+        }
+
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
@@ -66,6 +78,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             document.body.innerHTML = `
+                <div id="invitation">Invitation to join server</div>
                 <img id="loading" src="https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server//Loading%20progress.gif" alt="Loading Progress" />
                 <div id="text-message">The game server was found, accept to join the server.</div>
                 <img id="logo" src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_logo_Vanilla%20Server%20Recreation%20logoxcf.webp?raw=true" alt="Website Logo" />
@@ -74,11 +87,13 @@
             const loadingImage = document.getElementById('loading');
             const logoImage = document.getElementById('logo');
             const textMessage = document.getElementById('text-message');
+            const invitationText = document.getElementById('invitation');
 
             // Set opacity after load for a smooth appearance
             loadingImage.style.opacity = '1';
             textMessage.style.opacity = '1';
             logoImage.style.opacity = '1';
+            invitationText.style.opacity = '1'; // Show invitation text
 
             setTimeout(() => {
                 document.addEventListener('mousemove', function () {
