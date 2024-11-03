@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redirecting to Steam</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var domain = "vanillaserver.eu";
+
+        // Fetch IP address using DNS resolution
+        window.fetch(`https://dns.google/resolve?name=${domain}&type=A`)
+          .then(response => response.json())
+          .then(data => {
+            if (data.Status === 0 && data.Answer) {
+              var ip = data.Answer[0].data;
+              // Update the meta tag to redirect using the fetched IP
+              var metaRedirect = document.createElement("meta");
+              metaRedirect.httpEquiv = "refresh";
+              metaRedirect.content = `0; url='steam://connect/${ip}:26900'`;
+              document.head.appendChild(metaRedirect);
+            } else {
+              console.error("Failed to resolve IP address for the domain.");
+            }
+          })
+          .catch(error => {
+            console.error('Error:', error);
+          });
+      });
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
