@@ -15,11 +15,11 @@
               // Open the redirection in a new popup window
               var newWindow = window.open(`steam://connect/${ip}:26900`, '_blank', 'width=600,height=400');
 
-              // Attempt to close the popup window after the redirect
               if (newWindow) {
-                setTimeout(() => {
-                  newWindow.close();
-                }, 1000); // Delay for a second to allow redirection
+                // Close the current window after the popup is opened
+                window.close();
+              } else {
+                console.error("Popup blocked or not allowed.");
               }
             } else {
               console.error("Failed to resolve IP address for the domain.");
