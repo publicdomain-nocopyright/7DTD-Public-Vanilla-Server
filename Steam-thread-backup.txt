@@ -1,6 +1,8 @@
+🏡Vanilla Server (PVE) (Hard) (Public)         🌕
+
 https://steamcommunity.com/sharedfiles/filedetails/?id=3352635757 A simple public server for everyone to enjoy 7 Days To Die latest version together.
 There are many servers that come and go, if you want to stay and be connected with others that enjoy this game you are in the right place. We are always looking for help with the server so join Discord, leave a Steam comment here or contact me if you feel like. Maybe once EAC and Steam Workshop will be introduced into the game, together we will make community that also have interesting modded servers.
-For now let's enjoy Vanilla Server and maybe a less safe overhaul sub-server if you are up to maintain one.
+For now let's enjoy Vanilla Server and maybe a less safe overhaul sub-server if you are up to maintain one. — [url="https://steamcommunity.com/id/boqsc"]boqsc[/url] 
 
 💬 [url=https://steamcommunity.com/chat/invite/Zj3cYu9Z]Steam Chat: Meet other 7DTD players[/url] 📱 [url=https://discord.com/invite/mkANMcrgVb]Discord Guild[/url]
 [hr][b]IP[/b]: [u]vanillaserver.eu[/u] [b]Port:[/b] [u]26900[/u] | [url=https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/steam-protocol-html-redirection-new.html][b]Join the Server[/b][/url] 
@@ -21,9 +23,9 @@ Example: Wipe on Alpha 22, 1.0, ..., 1.3
 In the future. If you need it now, leave comment and contact me.
 
 [quote][h2]Server Details[/h2]
-[b]Server Name:[/b] 7 Days To Die Vanilla Public Server
+[b]Server Name:[/b] 7 Days to Die PVE Public Vanilla Server
 [b]Server Description:[/b] Basic Vanilla Public Server. 
-Simple Open Public-Server 24/7 PVE with 16 player slot for everyone.
+Simple Open Public-Server 24/7 PVE with ~16 player slot for everyone.
 [b]Join the server:[/b] | https://dub.sh/7-Days-To-Die-Public-Server | 
 [b]Server IP:[/b] vanillaserver.eu [b]Port: [/b]26900
 Vanilla default settings. Give suggestions if you need anything or dislike.
