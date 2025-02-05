@@ -1,8 +1,10 @@
-🏡Vanilla Server (PVE) (Hard) (Public)         🌕
-
 https://steamcommunity.com/sharedfiles/filedetails/?id=3352635757 A simple public server for everyone to enjoy 7 Days To Die latest version together.
 There are many servers that come and go, if you want to stay and be connected with others that enjoy this game you are in the right place. We are always looking for help with the server so join Discord, leave a Steam comment here or contact me if you feel like. Maybe once EAC and Steam Workshop will be introduced into the game, together we will make community that also have interesting modded servers.
 For now let's enjoy Vanilla Server and maybe a less safe overhaul sub-server if you are up to maintain one. — [url="https://steamcommunity.com/id/boqsc"]boqsc[/url] 
+
+[h3]📝Note for new players[/h3]
+[b]Before joining the server[/b] please consider socializing on the Discord Guild.
+Join Discord Guild and say Hi. Be patient and you might find friends to play with.
 
 💬 [url=https://steamcommunity.com/chat/invite/Zj3cYu9Z]Steam Chat: Meet other 7DTD players[/url] 📱 [url=https://discord.com/invite/mkANMcrgVb]Discord Guild[/url]
 [hr][b]IP[/b]: [u]vanillaserver.eu[/u] [b]Port:[/b] [u]26900[/u] | [url=https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/steam-protocol-html-redirection-new.html][b]Join the Server[/b][/url] 
@@ -53,7 +55,6 @@ Server Workshop and Source code.
 
 🛡️ [b]EAC - Easy AntiCheat Enabled.[/b] 
 The server is protected by official anti-cheat software.
-
-[hr]Join the Server | http://vanillaserver.eu/
+https://www.youtube.com/watch?v=jrUDeATVIw4[hr]Join the Server | http://vanillaserver.eu/
 Free Open Source, Open Collective, Public Domain for everyone.[/hr]
 [hr][/hr]
