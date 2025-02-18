@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Relaunch as Popup</title>
+    <style>
+        body {
+            animation: fadeIn 1s ease-in-out forwards;
+            opacity: 0.5;
+            font-family: "Open Sans", Arial, Helvetica, sans-serif;
+            transition: background-color 0.3s ease;
+            background: url('https://i.ytimg.com/vi/THlhh-vjX48/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDoDFB09xiPBxuTi4JFuKuVpah3AQ') no-repeat center center fixed;
+            background-size: cover;
+            position: relative;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #coordinates {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: white;
+            font-family: Arial, sans-serif;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        img {
+            animation: fadeIn 1s ease-in-out forwards;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0;
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 300px;
+            height: auto;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .discord-button {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px 20px;
+            background-color: #5865F2;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .discord-button:hover {
+            background-color: #4752c4;
+        }
+    </style>
+    <script>
+        function PopupUrl(url, name, width, height) {
+            var top = Math.max(0, (screen.availHeight - height) / 2);
+            var left = Math.max(0, (screen.availWidth - width) / 2);
+            var features = "location=1, status=1, scrollbars=1, width=" + width + ", height=" + height + ", top=" + top + ", left=" + left;
+            window.open(url, name, features);
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            function isRelaunched() {
+                return window.location.search.includes('popup=true');
+            }
+
+            let initialX = null;
+            let initialY = null;
+
+            if (!isRelaunched()) {
+                PopupUrl(window.location.href + '?popup=true', '_blank', 600, 400);
+                window.close();
+            } else {
+                document.body.innerHTML = `
+                    <div id='coordinates'>X: 0, Y: 0</div>
+                    <img width="300" height="auto" src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_logo_Vanilla%20Server%20Recreation%20logoxcf.webp?raw=true" alt="Website Logo" />
+                    <a href="https://discord.com/invite/tPBJXU7B6C" class="discord-button" target="_blank">Join Discord</a>
+                `;
+
+                const logoImage = document.querySelector('img');
+                logoImage.style.opacity = '1';
+
+                setTimeout(() => {
+                    document.addEventListener('mousemove', function (event) {
+                        var x = event.clientX;
+                        var y = event.clientY;
+                        document.getElementById('coordinates').textContent = `X: ${x}, Y: ${y}`;
+
+                        if (initialX === null && initialY === null) {
+                            initialX = x;
+                            initialY = y;
+                        } else if (x !== initialX || y !== initialY) {
+                            window.close();
+                        }
+                    });
+                }, 1000);
+
+                var domain = "vanillaserver.eu";
+                window.fetch(`https://dns.google/resolve?name=${domain}&type=A`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.Status === 0 && data.Answer) {
+                            var ip = data.Answer[0].data;
+                            window.location.href = `steam://connect/${ip}:28000`;
+                        } else {
+                            console.error("Failed to resolve IP address for the domain.");
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+            }
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>
