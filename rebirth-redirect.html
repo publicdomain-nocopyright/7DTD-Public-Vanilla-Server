@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Relaunch as Popup</title>
+    <title>Popup Main Page</title>
     <style>
         body {
             animation: fadeIn 1s ease-in-out forwards;
@@ -31,7 +31,7 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            opacity: 0;
+            opacity: 1;
             position: absolute;
             bottom: 40px;
             left: 50%;
@@ -65,64 +65,33 @@
         }
     </style>
     <script>
-        function PopupUrl(url, name, width, height) {
-            var top = Math.max(0, (screen.availHeight - height) / 2);
-            var left = Math.max(0, (screen.availWidth - width) / 2);
-            var features = "location=1, status=1, scrollbars=1, width=" + width + ", height=" + height + ", top=" + top + ", left=" + left;
-            window.open(url, name, features);
-        }
-
         document.addEventListener("DOMContentLoaded", function () {
-            function isRelaunched() {
-                return window.location.search.includes('popup=true');
-            }
+            document.body.innerHTML = `
+                <div id='coordinates'>X: 0, Y: 0</div>
+                <img width="300" height="auto" src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_logo_Vanilla%20Server%20Recreation%20logoxcf.webp?raw=true" alt="Website Logo" />
+                <a href="https://discord.com/invite/tPBJXU7B6C" class="discord-button" target="_blank">Join Discord</a>
+            `;
 
-            let initialX = null;
-            let initialY = null;
+            document.addEventListener('mousemove', function (event) {
+                var x = event.clientX;
+                var y = event.clientY;
+                document.getElementById('coordinates').textContent = `X: ${x}, Y: ${y}`;
+            });
 
-            if (!isRelaunched()) {
-                PopupUrl(window.location.href + '?popup=true', '_blank', 600, 400);
-                window.close();
-            } else {
-                document.body.innerHTML = `
-                    <div id='coordinates'>X: 0, Y: 0</div>
-                    <img width="300" height="auto" src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_logo_Vanilla%20Server%20Recreation%20logoxcf.webp?raw=true" alt="Website Logo" />
-                    <a href="https://discord.com/invite/tPBJXU7B6C" class="discord-button" target="_blank">Join Discord</a>
-                `;
-
-                const logoImage = document.querySelector('img');
-                logoImage.style.opacity = '1';
-
-                setTimeout(() => {
-                    document.addEventListener('mousemove', function (event) {
-                        var x = event.clientX;
-                        var y = event.clientY;
-                        document.getElementById('coordinates').textContent = `X: ${x}, Y: ${y}`;
-
-                        if (initialX === null && initialY === null) {
-                            initialX = x;
-                            initialY = y;
-                        } else if (x !== initialX || y !== initialY) {
-                            window.close();
-                        }
-                    });
-                }, 1000);
-
-                var domain = "vanillaserver.eu";
-                window.fetch(`https://dns.google/resolve?name=${domain}&type=A`)
-                    .then(response => response.json())
-                    .then(data => {
-                        if (data.Status === 0 && data.Answer) {
-                            var ip = data.Answer[0].data;
-                            window.location.href = `steam://connect/${ip}:28000`;
-                        } else {
-                            console.error("Failed to resolve IP address for the domain.");
-                        }
-                    })
-                    .catch(error => {
-                        console.error('Error:', error);
-                    });
-            }
+            var domain = "vanillaserver.eu";
+            window.fetch(`https://dns.google/resolve?name=${domain}&type=A`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.Status === 0 && data.Answer) {
+                        var ip = data.Answer[0].data;
+                        window.location.href = `steam://connect/${ip}:28000`;
+                    } else {
+                        console.error("Failed to resolve IP address for the domain.");
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
         });
     </script>
 </head>
