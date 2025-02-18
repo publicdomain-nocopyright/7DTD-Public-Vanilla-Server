@@ -26,30 +26,18 @@
             border-radius: 5px;
         }
 
-        img {
-            animation: fadeIn 1s ease-in-out forwards;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            opacity: 1;
+        .logo {
             position: absolute;
-            bottom: 40px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 300px;
+            top: 10px;
+            right: 10px;
+            width: 150px;
             height: auto;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
         }
 
         .discord-button {
             position: absolute;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
+            top: 170px;
+            right: 10px;
             padding: 10px 20px;
             background-color: #5865F2;
             color: white;
@@ -63,13 +51,25 @@
         .discord-button:hover {
             background-color: #4752c4;
         }
+
+        .join-text {
+            position: absolute;
+            bottom: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
     </style>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             document.body.innerHTML = `
                 <div id='coordinates'>X: 0, Y: 0</div>
-                <img width="300" height="auto" src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_logo_Vanilla%20Server%20Recreation%20logoxcf.webp?raw=true" alt="Website Logo" />
+                <img class="logo" src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_logo_Vanilla%20Server%20Recreation%20logoxcf.webp?raw=true" alt="Website Logo" />
                 <a href="https://discord.com/invite/tPBJXU7B6C" class="discord-button" target="_blank">Join Discord</a>
+                <div class="join-text">Join our server and start your adventure!</div>
             `;
 
             document.addEventListener('mousemove', function (event) {
