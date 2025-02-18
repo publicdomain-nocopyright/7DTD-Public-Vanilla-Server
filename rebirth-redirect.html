@@ -5,7 +5,7 @@
     <style>
         body {
             animation: fadeIn 1s ease-in-out forwards;
-            opacity: 0.5;
+            opacity: 1;
             font-family: "Open Sans", Arial, Helvetica, sans-serif;
             transition: background-color 0.3s ease;
             background: url('https://i.ytimg.com/vi/THlhh-vjX48/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDoDFB09xiPBxuTi4JFuKuVpah3AQ') no-repeat center center fixed;
@@ -15,41 +15,12 @@
             margin: 0;
         }
 
-        #coordinates {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            color: white;
-            font-family: Arial, sans-serif;
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 5px;
-            border-radius: 5px;
-        }
-
         .logo {
             position: absolute;
             top: 10px;
             right: 10px;
-            width: 200px;
+            width: 250px;
             height: auto;
-        }
-
-        .discord-button {
-            position: absolute;
-            top: 230px;
-            right: 10px;
-            padding: 10px 20px;
-            background-color: #5865F2;
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            font-size: 16px;
-            transition: background-color 0.3s;
-        }
-
-        .discord-button:hover {
-            background-color: #4752c4;
         }
 
         .join-text {
@@ -58,40 +29,45 @@
             left: 50%;
             transform: translate(-50%, -50%);
             color: white;
-            font-size: 24px;
+            font-size: 32px;
             font-weight: bold;
             text-align: center;
+        }
+
+        .button-container {
+            position: absolute;
+            bottom: 15%;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 15px;
+        }
+
+        .button {
+            padding: 12px 24px;
+            background-color: #5865F2;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #4752c4;
         }
     </style>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             document.body.innerHTML = `
-                <div id='coordinates'>X: 0, Y: 0</div>
                 <img class="logo" src="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/blob/main/splashscreen/website_logo_Vanilla%20Server%20Recreation%20logoxcf.webp?raw=true" alt="Website Logo" />
-                <a href="https://discord.com/invite/tPBJXU7B6C" class="discord-button" target="_blank">Join Discord</a>
                 <div class="join-text">Join our server and start your adventure!</div>
+                <div class="button-container">
+                    <a href="steam://connect/your-server-ip:28000" class="button" target="_blank">Join Server</a>
+                    <a href="https://discord.com/invite/tPBJXU7B6C" class="button" target="_blank">Join Discord</a>
+                </div>
             `;
-
-            document.addEventListener('mousemove', function (event) {
-                var x = event.clientX;
-                var y = event.clientY;
-                document.getElementById('coordinates').textContent = `X: ${x}, Y: ${y}`;
-            });
-
-            var domain = "vanillaserver.eu";
-            window.fetch(`https://dns.google/resolve?name=${domain}&type=A`)
-                .then(response => response.json())
-                .then(data => {
-                    if (data.Status === 0 && data.Answer) {
-                        var ip = data.Answer[0].data;
-                        window.location.href = `steam://connect/${ip}:28000`;
-                    } else {
-                        console.error("Failed to resolve IP address for the domain.");
-                    }
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                });
         });
     </script>
 </head>
