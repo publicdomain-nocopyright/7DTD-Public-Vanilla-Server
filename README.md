@@ -89,3 +89,11 @@ https://cyberduck.io/
 
 Main tool for any text files and game source files editing.  
 https://notepad-plus-plus.org/
+
+
+
+---- 2025-06-26
+Removed Quickjoin of https://steamcommunity.com/app/251570/discussions/2/7091547412713963155/
+```
+ | [url="https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server/releases/download/resource-candidates/Connect.to.Vanilla.Server.url"]Download Quickjoin[/url] 🏡
+```
