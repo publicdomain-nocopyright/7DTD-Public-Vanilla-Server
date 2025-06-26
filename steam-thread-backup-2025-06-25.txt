@@ -1,0 +1,65 @@
+https://steamcommunity.com/sharedfiles/filedetails/?id=3491378655[hr][b]IP[/b]: [u]vanillaserver.eu[/u] [b]Port:[/b] [u]26900[/u] | [url=https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/steam-protocol-html-redirection-new.html][b]Play Now[/b][/url]
+Free Open Source, Open Collective, Public Domain for everyone.
+[hr][/hr]
+    📱 [url=https://discord.com/invite/mkANMcrgVb]Discord Guild[/url]   🛡️ [EAC] EasyAntiCheat Enabled  
+
+A simple public server for everyone to enjoy 7 Days To Die latest version together.
+There are many servers that come and go, if you want to stay and be connected with others that enjoy this game you are in the right place. We are always looking for help with the server so join Discord, leave a Steam comment here or contact me if you feel like. Maybe once EAC and Steam Workshop will be introduced into the game, together we will make community that also have interesting modded servers.
+For now let's enjoy Vanilla Server and maybe a less safe overhaul sub-server if you are up to maintain one. — [url="https://steamcommunity.com/id/boqsc"]boqsc[/url] 
+
+[h3]📝Note for new players[/h3]
+[b]Before joining the server[/b] please consider socializing on the Discord Guild.
+Join Discord Guild and say Hi. Be patient and you might find friends to play with.
+
+🌳 [b]Latest Version Server[/b] 
+The game server is always on the latest game version.
+
+🏕️ [b]Basic Vanilla Server. [/b]
+Nearly unchanged server configurations.
+
+🗣️ [b]No Moderators or Administration.[/b]
+There is currently no active administration on the server
+
+🍃 [b]Fresh New Map on new major game releases. [/b]
+Example: Wipe on Alpha 22, 1.0, ..., 1.3
+
+🌍 [b]Downloadable Map, Configs and Modlets.[/b]
+In the future. If you need it now, leave comment and contact me.
+
+[quote][h2]Server Details[/h2]
+[b]Server Name:[/b] 7 Days to Die Public Vanilla Server (PVE)
+[b]Server Description:[/b] Basic Vanilla Public Server. 
+Simple Open Public-Server 24/7 PVE with ~16 player slot for everyone.
+[b]Join the server:[/b] | https://dub.sh/7-Days-To-Die-Public-Server | 
+[b]Server IP:[/b] vanillaserver.eu [b]Port: [/b]26900
+Vanilla default settings. Give suggestions if you need anything or dislike.
+
+[b]Server Hosting Hardware[/b]
+🟦AMD Ryzen 9 9800X3D @ 5.20GHz
+🟦64GB of RAM DDR5 6000MHz (Corsair Titanium)
+🟦T705 Crucial SSD (M.2 NVMe)
+🟦ASUS ROG Crosshair X870E Hero (Motherboard)
+
+Server Hosting Location:
+🟦Italy
+
+Game Server Origins:
+🟦Europe
+[/quote]
+
+📱 [url=https://discord.com/invite/mkANMcrgVb]Discord Guild[/url] 
+Modern chatting platform for the server.
+
+💬 [url=https://steamcommunity.com/chat/invite/Zj3cYu9Z]Steam Chat: Meet other 7DTD players[/url] 
+Legacy chatting platform.
+
+👨‍🔬 [url=https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server]GitHub Repository[/url]
+Server Workshop and Source code.
+
+🛡️ [b]EAC - Easy AntiCheat Enabled.[/b] 
+The server is protected by official anti-cheat software.
+
+https://www.youtube.com/watch?v=jrUDeATVIw4
+[hr]Join the Server | http://vanillaserver.eu/
+Free Open Source, Open Collective, Public Domain for everyone.[/hr]
+[hr][/hr]
