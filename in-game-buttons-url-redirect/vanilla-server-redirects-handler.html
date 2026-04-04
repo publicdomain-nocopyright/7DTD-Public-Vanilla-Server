@@ -3,39 +3,10 @@
   <head>
     <title>Vanilla Server Redirects Handler</title>
     <meta charset="UTF-8" />
-    <style>
-      body {
-        background: #1a1a1a;
-        color: #eee;
-        font-family: monospace;
-        padding: 20px;
-      }
-      .log { margin: 4px 0; }
-      .ok   { color: #4caf50; }
-      .warn { color: #f0a500; }
-      .err  { color: #f44336; }
-      .info { color: #64b5f6; }
-    </style>
   </head>
   <body>
-    <h2>🛠 Redirect Debug</h2>
-    <div id="log"></div>
-
     <script>
-      var logEl = document.getElementById("log");
-
-      function log(msg, type) {
-        var d = document.createElement("div");
-        d.className = "log " + (type || "info");
-        d.textContent = new Date().toISOString().slice(11,23) + "  " + msg;
-        logEl.appendChild(d);
-        console.log(msg);
-      }
-
       var queryString = window.location.search;
-      log("Page loaded");
-      log("Full URL: " + window.location.href);
-      log("Query string: " + (queryString || "(empty)"));
 
       var routes = [
         { key: "?open-collective-donate", url: "steam://openurl_external/https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated/contribute/say-thank-you-70666/checkout?redirect=https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/Open-Collective-Post-Donation-Redirect-Handler.html?callback&tags=7DTD_in-game_Donate_Button" },
@@ -50,32 +21,14 @@
         { key: "?opengetjoininformation", url: "steam://openurl_external/https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/get-join-information.html" },
       ];
 
-      log("Checking " + routes.length + " routes...");
-
-      var matched = false;
       for (var i = 0; i < routes.length; i++) {
-        var hit = queryString.includes(routes[i].key);
-        log("  Route [" + routes[i].key + "] → " + (hit ? "MATCH" : "no match"), hit ? "ok" : "");
-        if (hit && !matched) {
-          matched = true;
-          log("Matched route: " + routes[i].key, "ok");
-          log("Target URL: " + routes[i].url, "ok");
-          log("Setting window.location.href now...", "warn");
+        if (queryString.includes(routes[i].key)) {
           window.location.href = routes[i].url;
-          log("window.location.href set (if you see this, browser did not navigate away)", "warn");
+          break;
         }
       }
 
-      if (!matched) {
-        log("No route matched! Nothing will open.", "err");
-        log("Make sure the query string matches one of the route keys exactly.", "err");
-      }
-
-      log("Scheduling window.close() in 10 seconds (extended for debug)...", "warn");
-      setTimeout(function () {
-        log("Closing window now...", "warn");
-        window.close();
-      }, 10000);
+      setTimeout(function () { window.close(); }, 2000);
     </script>
   </body>
 </html>
