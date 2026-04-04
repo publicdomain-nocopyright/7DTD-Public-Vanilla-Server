@@ -1,96 +1,34 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-  		<title>Vanilla Server Redirects Handler</title>
-  			<meta charset="UTF-8" />
-  			<!-- <meta http-equiv="refresh" content="3; URL=javascript:window.open('http://google.com','_blank');"> -->
-  	</head>
-  	<body>
-      <script>
+<html>
+  <head>
+    <title>Vanilla Server Redirects Handler</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <script>
       var queryString = window.location.search;
-      if (queryString.includes('?')) {
-          console.log("Question mark is present in the URL");
-      } else {
-          console.log("Question mark is not present in the URL");
-      }
 
+      var routes = [
+        { key: "?open-collective-donate", url: "steam://openurl_external/https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated/contribute/say-thank-you-70666/checkout?redirect=https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/Open-Collective-Post-Donation-Redirect-Handler.html?callback&tags=7DTD_in-game_Donate_Button" },
+        { key: "?open-collective",        url: "steam://openurl_external/https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated" },
+        { key: "?discord",                url: "steam://openurl_external/https://discord.com/invite/6ja2aHS2P4" },
+        { key: "?modlets",                url: "steam://openurl_external/https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server?tab=readme-ov-file#7dtd-public-vanilla-server" },
+        { key: "?mapdownload",            url: "steam://openurl_external/https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map/releases" },
+        { key: "?2025mapdownload",        url: "steam://openurl_external/https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Server-PVE/releases" },
+        { key: "?vanillaserverwebsite",   url: "steam://openurl_external/http://vanillaserver.eu/" },
+        { key: "?vanillaserverofficialsteamthread", url: "steam://openurl_external/https://steamcommunity.com/app/251570/discussions/2/7091547412713963155/" },
+        { key: "?vanillaservergithub",    url: "steam://openurl_external/https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server" },
+        { key: "?opengetjoininformation", url: "steam://openurl_external/https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/get-join-information.html" },
+      ];
 
-        
-      if (queryString.includes('?open-collective-donate')) {
-          var closeWindow= window.open("steam://openurl_external/https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated/contribute/say-thank-you-70666/checkout?redirect=https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/splashscreen/Open-Collective-Post-Donation-Redirect-Handler.html?callback&tags=7DTD_in-game_Donate_Button");
-      } else {
-
-        if (queryString.includes('?open-collective')) {
-            var closeWindow= window.open("steam://openurl_external/https://opencollective.com/7-days-to-die-public-server-wi/projects/7-days-to-die-public-dedicated");
-        } else {
-   
+      for (var i = 0; i < routes.length; i++) {
+        if (queryString.includes(routes[i].key)) {
+          window.location.href = routes[i].url;
+          break;
         }
-        
       }
 
-      if (queryString.includes('?discord')) {
-          var closeWindow= window.open("steam://openurl_external/https://discord.com/invite/6ja2aHS2P4");
-      } else {
- 
-      }
-
-      if (queryString.includes('?modlets')) {
-          var closeWindow= window.open("steam://openurl_external/https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server?tab=readme-ov-file#7dtd-public-vanilla-server");
-      } else {
- 
-      }
-
-      if (queryString.includes('?mapdownload')) {
-          var closeWindow= window.open("steam://openurl_external/https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Public-Server-Map/releases");
-      } else {
- 
-      }
-
-      if (queryString.includes('?2025mapdownload')) {
-          var closeWindow= window.open("steam://openurl_external/https://github.com/publicdomain-nocopyright/7DTD-Vanilla-Server-PVE/releases");
-      } else {
- 
-      }
-
-      if (queryString.includes('?vanillaserverwebsite')) {
-          var closeWindow= window.open("steam://openurl_external/http://vanillaserver.eu/");
-      } else {
- 
-      }
-
-      if (queryString.includes('?vanillaserverofficialsteamthread')) {
-          var closeWindow= window.open("steam://openurl_external/https://steamcommunity.com/app/251570/discussions/2/7091547412713963155/");
-      } else {
- 
-      }
-
-      if (queryString.includes('?vanillaservergithub')) {
-          var closeWindow= window.open("steam://openurl_external/https://github.com/publicdomain-nocopyright/7DTD-Public-Vanilla-Server");
-      } else {
- 
-      }
-
-      if (queryString.includes('?opengetjoininformation')) {
-          var closeWindow= window.open("steam://openurl_external/https://publicdomain-nocopyright.github.io/7DTD-Public-Vanilla-Server/get-join-information.html");
-      } else {
- 
-      }
-
-      setTimeout (function closeTab(){
-
-      closeWindow.close();
-
-      },2000);
-
-      setTimeout (function closeTab2(){
-
-      window.close();
-
-      },3000);
-
-      </script>      
-  		<script>
-       // window.close();
-      </script>
-  	</body>
-  </html>
+      setTimeout(function () { window.close(); }, 2000);
+    </script>
+  </body>
+</html>
